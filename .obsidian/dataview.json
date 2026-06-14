@@ -1,0 +1,9 @@
+{
+  "renderMarkdown": false,
+  "warnOnAsyncError": true,
+  "defaultDateFormat": "YYYY-MM-DD",
+  "dateFormat": "MMMM Do, YYYY",
+  "tableIdColName": "ID",
+  "taskCompletionText": "DONE",
+  "warnOnEmptyResult": true
+}
