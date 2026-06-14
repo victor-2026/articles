@@ -1,0 +1,7 @@
+{
+  "folder": "wiki/Templates",
+  "dateFormat": "YYYY-MM-DD",
+  "timeFormat": "HH:mm",
+  "newFileLocation": "current",
+  "templateRegex": ".*"
+}
