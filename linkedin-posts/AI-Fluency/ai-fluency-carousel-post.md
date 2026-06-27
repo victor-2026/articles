@@ -14,4 +14,4 @@ Swipe ☝️
 
 Victor Ematin · AI Quality Engineering Lead · $0 budget
 
-#AIInterview #QAEngineer #AIFluency #TechHiring
+#AIInterview #QAEngineer #AIFluency #HiringTrends
