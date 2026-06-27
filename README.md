@@ -1,34 +1,36 @@
 # Articles
 
-Personal knowledge base with LinkedIn posts and wiki articles.
+LinkedIn post drafts, wiki knowledge base, and content strategy for AI QA Engineering.
 
 ## Structure
 
 ```
 Articles/
-├── linkedin-posts/     # LinkedIn post drafts
-│   └── post-7-role-qa-ai-era.md
-└── wiki/             # Wiki articles
-    └── recent-advances-2026.md
+├── AGENTS.md                 # AI rules & boundaries
+├── README.md
+├── _Тезисы.md                # Content ideas pipeline (human)
+├── raw/                      # Source materials — human only, AI read-only
+├── wiki/                     # AI-organized knowledge: formats, emoji, strategies
+├── linkedin-posts/           # Post drafts organized by project
+│   ├── Buzzhive/             # Buzzhive test automation series
+│   ├── OrangeHRM/            # OrangeHRM demo project series
+│   ├── Webwright/            # Microsoft Webwright experiment series
+│   ├── Old/                  # Archive — immutable by AI
+│   ├── weekly/               # Weekly performance reports
+│   ├── hooks-library.md      # Reusable hooks from top posts
+│   ├── performance-log.csv   # Published post metrics
+│   └── swe-tester-rewrite.md # Rewrite drafts
+├── md2linkedin.py            # Script: .md → LinkedIn format
+└── pbcopy-html.swift         # Script: HTML → system clipboard
 ```
 
-## Content
+## Pipeline
 
-### LinkedIn Posts
-
-- **Post 7** (Draft): Role of QA Engineer in the AI Era
-  - Key thesis: AI won't replace QA, QA with AI will replace QA without AI
-  - Statistics: 54.5% deployed AI, 44.1% disabled due to quality
-  - Risk: Knowledge transfer gap if juniors don't write tests
-
-### Wiki Articles
-
-- **Recent Advances 2026**: autonomous agents, wipe-coding, infrastructure
-  - 8x test growth in 2 days
-  - PBT coverage 44% → 100%
-  - Multi-stack tools added (Python, Go, K6, WireMock)
+```
+raw/ (source)  →  wiki/ (patterns)  +  linkedin-posts/ (drafts)  →  LinkedIn
+```
 
 ---
 
-*Projects: ai-qa-wiki | qa-automation-playwright | Test-Dora-Plus*
-*Pattern: raw → wiki → outputs (Karpathy-style)*
+*Pattern: raw → wiki (Karpathy-style)*
+*See AGENTS.md for AI boundaries and conventions.*
