@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  body { margin: 0; padding: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: white; }
+  .table-container { margin-bottom: 40px; }
+  h2 { color: #1a1a2e; font-size: 18px; margin-bottom: 16px; }
+  table { border-collapse: collapse; width: 100%; max-width: 800px; font-size: 14px; }
+  th, td { border: 1px solid #e0e0e0; padding: 12px 16px; text-align: left; }
+  th { background: #1a1a2e; color: white; font-weight: 600; }
+  tr:nth-child(even) { background: #f8f9fa; }
+  tr:hover { background: #eef2f7; }
+  .pass { color: #007a33; font-weight: 600; }
+  .fail { color: #d32f2f; font-weight: 600; }
+  .lift-zero { color: #e65100; font-weight: 600; }
+  .caption { margin-top: 8px; color: #666; font-size: 13px; }
+  .skill-name { font-weight: 600; color: #1a1a2e; }
+</style>
+</head>
+<body>
+
+<div class="table-container">
+  <h2>Results: 0% Lift Across All 3 Skills</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Skill</th>
+        <th>Without Skill</th>
+        <th>With Skill</th>
+        <th>Lift</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="skill-name">fault-injection</td>
+        <td class="fail">0/3 pass</td>
+        <td class="fail">0/3 pass</td>
+        <td class="lift-zero">0%</td>
+      </tr>
+      <tr>
+        <td class="skill-name">rest-api-qa</td>
+        <td class="pass">3/3 pass</td>
+        <td class="pass">3/3 pass</td>
+        <td class="lift-zero">0%</td>
+      </tr>
+      <tr>
+        <td class="skill-name">bdd-gherkin</td>
+        <td class="pass">3/3 pass</td>
+        <td class="pass">3/3 pass</td>
+        <td class="lift-zero">0%</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="caption">3 runs per condition × 2 conditions × 3 skills = 18 runs total</div>
+</div>
+
+<div class="table-container">
+  <h2>Where Skills *Actually* Help: High-Lift Targets</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>High-Lift Target</th>
+        <th>Why</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="skill-name">Contract testing setup from scratch</td>
+        <td>Novel pattern, not in training</td>
+      </tr>
+      <tr>
+        <td class="skill-name">Mutation testing infrastructure (Stryker/PIT)</td>
+        <td>Complex multi-file setup</td>
+      </tr>
+      <tr>
+        <td class="skill-name">Complex OAuth/OIDC flows</td>
+        <td>Edge cases, token refresh logic</td>
+      </tr>
+      <tr>
+        <td class="skill-name">Financial domain rules (state machines)</td>
+        <td>Domain vocabulary matters</td>
+      </tr>
+      <tr>
+        <td class="skill-name">Chaos engineering orchestration</td>
+        <td>Multi-system coordination</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="caption">Skills shine where the model currently fails without them</div>
+</div>
+
+</body>
+</html>

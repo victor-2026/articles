@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    height: 644px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0f172a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  .safe-zone {
+    width: 720px;  /* center ~60% — survives LinkedIn crop */
+    text-align: center;
+  }
+
+  .badge {
+    display: inline-block;
+    background: #dc2626;
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    padding: 12px 32px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+  }
+
+  h1 {
+    color: white;
+    font-size: 52px;
+    font-weight: 800;
+    margin: 32px 0 12px;
+    line-height: 1.15;
+  }
+
+  .subtitle {
+    color: #94a3b8;
+    font-size: 20px;
+    margin-bottom: 36px;
+    line-height: 1.4;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-bottom: 36px;
+  }
+
+  .stat {
+    text-align: center;
+  }
+
+  .stat-number {
+    color: #38bdf8;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1;
+  }
+
+  .stat-label {
+    color: #64748b;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 6px;
+  }
+
+  .stacks {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .stack {
+    background: #1e293b;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: 1px solid #334155;
+    min-width: 140px;
+  }
+
+  .stack-name {
+    color: #94a3b8;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .stack-tech {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+
+  .result {
+    margin-top: 28px;
+    color: #fbbf24;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+<div class="safe-zone">
+  <div class="badge">0% LIFT</div>
+  <h1>Skills Don't Boost<br>Correctness</h1>
+  <div class="subtitle">Controlled experiment: 3 skills, 36 runs on 2 stacks</div>
+
+  <div class="stats">
+    <div class="stat">
+      <div class="stat-number">36</div>
+      <div class="stat-label">Total Runs</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">3</div>
+      <div class="stat-label">Skills</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">2</div>
+      <div class="stat-label">Projects</div>
+    </div>
+    <div class="stat">
+      <div class="stat-number">0%</div>
+      <div class="stat-label">Lift</div>
+    </div>
+  </div>
+
+  <div class="stacks">
+    <div class="stack">
+      <div class="stack-name">OrangeHRM</div>
+      <div class="stack-tech">PHP + jQuery</div>
+    </div>
+    <div class="stack">
+      <div class="stack-name">Buzzhive</div>
+      <div class="stack-tech">React + Go API</div>
+    </div>
+  </div>
+
+  <div class="result">Identical 0% lift on both stacks</div>
+</div>
+</body>
+</html>

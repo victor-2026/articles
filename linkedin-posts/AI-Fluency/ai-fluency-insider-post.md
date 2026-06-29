@@ -1,8 +1,9 @@
 **Format:** LinkedIn Feed Post (text-only)
 **Series:** AI Fluency
-**Publish:** Wednesday (2 days after carousel)
+**Publish:** Wed Jul 1 (2 days after carousel, Mon Jun 29 9:00)
 **Audience:** Senior QA Engineers, SDETs, Test Managers preparing for AI interviews
 **Angle:** What the official guides don't tell you — insider details from people who sat the interviews
+**Status:** DRAFT — revise Mon-Tue, publish Wed
 
 ---
 

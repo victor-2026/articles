@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  body {
+    margin: 0;
+    padding: 32px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0f172a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+  }
+  .card {
+    background: #1e293b;
+    border-radius: 12px;
+    padding: 36px;
+    border: 1px solid #334155;
+    max-width: 680px;
+    width: 100%;
+  }
+  h2 {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 24px;
+    text-align: center;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th {
+    color: #94a3b8;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 12px 16px;
+    border-bottom: 2px solid #334155;
+  }
+  td {
+    color: #e2e8f0;
+    font-size: 15px;
+    padding: 14px 16px;
+    border-bottom: 1px solid #334155;
+  }
+  tr:last-child td {
+    border-bottom: none;
+  }
+  .target {
+    font-weight: 600;
+    color: #fbbf24;
+  }
+  .reason {
+    color: #94a3b8;
+    font-size: 14px;
+  }
+  .caption {
+    color: #64748b;
+    font-size: 13px;
+    text-align: center;
+    margin-top: 24px;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <h2>Where Skills Actually Help</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>High-Lift Target</th>
+        <th>Why</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="target">Contract testing from scratch</td>
+        <td class="reason">Novel pattern, not in training</td>
+      </tr>
+      <tr>
+        <td class="target">Mutation infra (Stryker/PIT)</td>
+        <td class="reason">Complex multi-file setup</td>
+      </tr>
+      <tr>
+        <td class="target">Complex OAuth/OIDC flows</td>
+        <td class="reason">Edge cases, token refresh logic</td>
+      </tr>
+      <tr>
+        <td class="target">Financial domain rules</td>
+        <td class="reason">Domain vocabulary matters</td>
+      </tr>
+      <tr>
+        <td class="target">Chaos engineering orchestration</td>
+        <td class="reason">Multi-system coordination</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="caption">Skills shine where the model currently fails without them</div>
+</div>
+</body>
+</html>

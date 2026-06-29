@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+  body { margin: 0; padding: 20px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: white; }
+  h2 { color: #1a1a2e; font-size: 20px; margin-bottom: 16px; }
+  .stack-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; max-width: 1000px; }
+  .stack-card { border: 1px solid #e0e0e0; border-radius: 8px; padding: 20px; background: #fafafa; }
+  .stack-card h3 { margin: 0 0 16px; color: #1a1a2e; font-size: 16px; }
+  .stack-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid #eee; }
+  .stack-row:last-child { border-bottom: none; }
+  .stack-label { color: #666; font-size: 13px; }
+  .stack-value { font-weight: 600; color: #1a1a2e; font-size: 13px; }
+  .equal-badge { display: inline-block; background: #e65100; color: white; padding: 4px 12px; border-radius: 4px; font-size: 12px; font-weight: 600; margin-top: 20px; }
+  .verified-badge { display: inline-block; background: #007a33; color: white; padding: 4px 12px; border-radius: 4px; font-size: 12px; font-weight: 600; margin-top: 20px; }
+</style>
+</head>
+<body>
+
+<h2>Stack Comparison: Same Result on Different Architectures</h2>
+
+<div class="stack-grid">
+  <div class="stack-card">
+    <h3>OrangeHRM (Legacy)</h3>
+    <div class="stack-row">
+      <span class="stack-label">Backend</span>
+      <span class="stack-value">PHP (Symfony)</span>
+    </div>
+    <div class="stack-row">
+      <span class="stack-label">Frontend</span>
+      <span class="stack-value">jQuery + Server-side rendering</span>
+    </div>
+    <div class="stack-row">
+      <span class="stack-label">API Style</span>
+      <span class="stack-value">Form-based, session auth</span>
+    </div>
+    <div class="stack-row">
+      <span class="stack-label">Database</span>
+      <span class="stack-value">MySQL</span>
+    </div>
+    <div class="stack-row">
+      <span class="stack-label">Fault-injection result</span>
+      <span class="stack-value pass">null handled gracefully</span>
+    </div>
+    <div class="stack-row">
+      <span class="stack-label">rest-api-qa result</span>
+      <span class="stack-value pass">Form login trivial</span>
+    </div>
+    <div class="stack-row">
+      <span class="stack-label">bdd-gherkin result</span>
+      <span class="stack-value pass">Syntax mastered</span>
+    </div>
+  </div>
+
+  <div class="stack-card">
+    <h3>Buzzhive (Modern)</h3>
+    <div class="stack-row">
+      <span class="stack-label">Backend</span>
+      <span class="stack-value">Go (FastAPI-like)</span>
+    </div>
+    <div class="stack-row">
+      <span class="stack-label">Frontend</span>
+      <span class="stack-value">React + TypeScript</span>
+    </div>
+    <div class="stack-row">
+      <span class="stack-label">API Style</span>
+      <span class="stack-value">REST API, JWT tokens</span>
+    </div>
+    <div class="stack-row">
+      <span class="stack-label">Database</span>
+      <span class="stack-value">PostgreSQL</span>
+    </div>
+    <div class="stack-row">
+      <span class="stack-label">Fault-injection result</span>
+      <span class="stack-value pass">null handled gracefully</span>
+    </div>
+    <div class="stack-row">
+      <span class="stack-label">rest-api-qa result</span>
+      <span class="stack-value pass">JWT, validation, timeouts</span>
+    </div>
+    <div class="stack-row">
+      <span class="stack-label">bdd-gherkin result</span>
+      <span class="stack-value pass">Syntax mastered</span>
+    </div>
+  </div>
+</div>
+
+<div class="equal-badge">Identical 0% lift on both stacks</div>
+<div class="verified-badge">36 runs total: 18 OrangeHRM + 18 Buzzhive</div>
+
+</body>
+</html>

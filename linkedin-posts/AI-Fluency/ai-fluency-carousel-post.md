@@ -5,7 +5,7 @@
 
 ---
 
-I almost pasted my case study into Gemini.
+I almost pasted my take-home into Gemini.
 Then I remembered the 3-minute rule.
 
 The "use AI to solve your take-home" advice? A disservice. It skips the key part: why you trust the output.
