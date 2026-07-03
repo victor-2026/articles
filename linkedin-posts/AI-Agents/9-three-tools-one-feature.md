@@ -78,24 +78,22 @@ Of the 136 variations, only 2 covered the Workspace Notification page. The other
 
 [SCREENSHOT: Comparison table (PNG) — PW Agents vs KISS vs Autonoma across metrics]
 
-## Mutation Testing — Which Tests Actually Catch Bugs?
+## Mutation Testing — Do These Tests Actually Catch Bugs?
 
-I ran 6 real-world fault injections against both generated test suites. Each mutation simulates a plausible production bug — API gone, server crash, state corruption, validation drift, timeout, wrong page.
+I injected 6 real-world fault simulations using Playwright's `page.route()` — the tests run against a mutated backend without touching Docker. Each fault mimics a plausible production bug.
 
-| # | Mutation | PW Agents | KISS |
-|---|----------|:---------:|:----:|
-| 1 | API 404 on PUT /config | 🔴 Caught | 🔴 Caught |
-| 2 | API 500 on POST /registrations | 🔴 Caught | 🔴 Caught |
-| 3 | Toggle state lost on reload | 🔴 Caught | 🔴 Caught |
-| 4 | Validation text "Required" → "Mandatory" | 🔴 Caught | 🔴 Caught |
-| 5 | API 10s delay | 🔴 Caught | 🔴 Caught |
-| 6 | Page heading changed | 🔴 Caught | 🔴 Caught |
+| # | Fault | PW Agents | KISS |
+|---|-------|:---------:|:----:|
+| 1 | API returns 404 on PUT toggle | 🔴 Caught | 🔴 Caught |
+| 2 | API crashes with 500 on POST | 🔴 Caught | 🔴 Caught |
+| 3 | Toggle state reverts after reload (PUT succeeds, GET returns old state) | 🔴 Caught | 🔴 Caught |
+| 4 | Validation text "Required" rewritten to "Mandatory" in API responses | 🔴 Caught | 🔴 Caught |
+| 5 | API response delayed by 10s | 🔴 Caught | 🔴 Caught |
+| 6 | Page heading mutated in HTML | 🔴 Caught | 🔴 Caught |
 
-**Result: 6/6 mutations caught by both tools.** Neither generated suite had a blind spot in these tests. Both correctly fail when the backend breaks, state corrupts, or UI text changes.
+**Both caught 6/6.** Not a single blind spot across any fault type — API failure, state corruption, text drift, or timeout.
 
-(The Autonoma `.md` specs cannot participate in mutation testing — they're natural language descriptions executed by an AI agent runtime, not test code that runs in a standard CI pipeline.)
-
-This isn't surprising for a feature with clear API boundaries and well-defined UI states. The real test would be on pages with dynamic content, async loading, or conditional rendering — where subtle bugs hide.
+(The Autonoma `.md` specs can't participate here: they're natural language executed by an AI agent's vision loop, not test code that runs in a standard CI pipeline.)
 
 ## The Trade-Offs
 
