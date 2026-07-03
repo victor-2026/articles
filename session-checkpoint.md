@@ -1,22 +1,21 @@
-# Session Checkpoint — 2026-06-28
+# Session Checkpoint — 2026-06-30
 
-## Session — Weekly Report W26 + AI Fluency Post Revisions
+## Session — Maestro vs Appium + LinkedIn Analytics
 
-- **Weekly report:** `linkedin-posts/weekly/2026-W26.md` — 4016 imp, 0.07% engagement, 14 followers. Article 7 = 60% of all impressions.
-- **Performance log updated:** rows 38-44 (Article 7: 642→2422, Article 8: 170→224, Article 9: 43→280, weekly aggregate added)
-- **AI Fluency feed post rewritten:** from 6-point list → personal story hook (~280 chars, 1 emoji). Carousel Mon Jun 29, Insider post Wed Jul 1.
-- **Article 9 CTA fixed:** moved from buried-before-references to after Practice section, question + incentive
-- **Ascendion postmortem:** Azure gap analysis — only Ascendion required Microsoft Azure cloud platform (6+ years). All others use Azure DevOps (CI/CD) — transferable from GitHub Actions.
-- **Azure setup plan:** `qa-automation-sandbox/docs/AZURE_SETUP.md` created (cross-project reference)
+- **Новый каталог:** `linkedin-posts/Tools/` — статья + фид-пост + сценарий карусели
+- **Статья:** `maestro-vs-appium-frontrow.md` — полный разбор (35 flows, 8 modules, 0 flaky)
+- **Фид-пост:** `maestro-vs-appium-post.md` — улучшен (цифры в ритме, живой баг из лога)
+- **Карусель:** `maestro-vs-appium-carousel-prompt.md` — 8 слайдов для NotebookLM (код в полутоне)
+- **AI Fluency приостановлен** — carousel 49 imp (в 12x ниже среднего). Аудитория не откликается
+- **План публикации:** Maestro vs Appium 1 июля 9:00, NextDay interview 2 июля (mobile AI apps)
+- **Avito кейс перенесён** на 08.07
+- **Appium код найден:** wdio.ios.conf.ts + login.spec.ts + smoke.spec.ts + helpers.ts — 4 файла реального проекта
+- **Wiki:** `ai-qa-wiki/wiki/maestro-vs-appium-2026.md` — дополнен кейсом FrontRow
+- **90-day analytics:** записаны в `wiki/follower-engagement-analysis-2026.md`
 
-### Pending
-- **Mon Jun 29:** Publish carousel → revise insider post consistency
-- **Wed Jul 1:** Publish insider post → update hooks-library + performance-log
-- Re-publish Article 9 with updated feed post
+# Session Checkpoint — 2026-06-29
 
-## Previous
-
-# Session Checkpoint — 2026-06-24
+## Session — Follower/Engagement 90-day analysis
 
 ## Session — AI Fluency Article (scheduled Jun 25)
 
