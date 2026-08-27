@@ -6,6 +6,8 @@
 | Страница | О чём |
 |----------|-------|
 | [Стратегия пост+карусель в LinkedIn](./Стратегия%20пост+карусель%20в%20LinkedIn.md) | Шаблоны A/B/C, структура карусели, bridge, CTA, checklist |
+| [Правила написания статьи](./article-writing-rules.md) | Data-first, hooks, money paragraph, headline formulas, depth patterns, hooks library |
+| [Публикация и мониторинг](./pre-publish-and-monitoring.md) | Pre-publish audit, review checklist, лимиты платформы, weekly reports, dual-format workflow |
 | [Emojis 🚀 ✨❓](./Emojis%20🚀%20✨❓.md) | Система эмодзи: категории, density rules, bold vs квадраты |
 
 Линки в этом документе ведут туда. Каждая страница раскрывает свою тему — здесь только overview.

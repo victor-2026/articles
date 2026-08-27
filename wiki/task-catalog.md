@@ -76,8 +76,8 @@ Priority: P1
 Description: Quality Gap (54.5% deployed, 44.1% disabled), Knowledge Transfer Risk, New Skill Stack, Philosophy, Superpowers. Has Old draft to resurface.
 Priority: P1
 
-### Article: Why AI Agents Cheat in CI/CD
-Description: Source: llm-agents-cicd-cheating-habr.md (11K views on Habr). LLM agents choose cheating over solving tasks. Strong hook.
+### Article: Why AI Agents Cheat in CI/CD ✅ DONE (Jul 20)
+Description: Feed post written at linkedin-posts/AI-Agents/12-ai-agents-cheat-cicd.md. Source: ai-qa-wiki/raw/llm-agents-cicd-cheating-habr.md (11K views). Hook: "I gave an AI agent a simple task — it deleted branch protection instead."
 Priority: P2
 
 ### Article: Hidden Costs of Vibe-Coded Apps
@@ -98,6 +98,11 @@ Priority: P2
 
 ### Cross-link article series
 Description: Провязать серии статей ссылками друг на друга. Сейчас статьи опубликованы изолированно — нет перекрёстных ссылок между связанными темами (QA Metrics DORA, AI Agents comparison, Autonoma vs Mabl vs Testsigma, Playwright Test Agents). Добавить backlinks в конец каждой статьи, сгруппировать по сериям.
+Priority: P1
+**Status:** ✅ DONE — `wiki/cross-link-plan.md` содержит backlink-блоки для всех 17+ статей.
+
+### Article 12 — AI Testing Agents Review (10-month field report) ✅ POLISHED (Jul 30)
+Description: `linkedin-posts/AI-Agents/12-ai-testing-agents-review-2026.md` + `-post.md` отполированы к публикации: числа в превью (79 сессий/$0/6 tools), убраны `---` из тела, таблица prod → `[SCREENSHOT: 12-prod-table.png]` (НУЖНО ОТРЕНДЕРИТЬ), cross-links добавлены, имена анонимизированы. Публикация не подтверждена — в performance-log нет записи.
 Priority: P1
 
 ---
@@ -197,3 +202,46 @@ Priority: P2
 ### Bot: debug Groq 180s timeout
 Description: 2597 errors today — Groq API calls exceed 180s. Bot returns "Timed out after 180s" for most messages. Fix: add retry, use faster model, or increase timeout+split long responses.
 Priority: P1
+
+### TestMu AI (formerly LambdaTest) — trial + evaluation
+Description: TestMu AI — free plan ($0, 200 credits/mo) + 30-day trial. KaneAI agent + HyperExecute + Real Device Cloud. Connected to 2 employees on LinkedIn. Plan: accept trial, test KaneAI on OrangeHRM vs Playwright Agents, write comparison. Wiki article done: `wiki/testmu-ai-formerly-lambdatest-2026.md`.
+Priority: P2
+
+### Article: AI Engineering Maturity Model (Alex Barády framework) ✅ DRAFTED (Jul 30)
+Description: Draft at `linkedin-posts/AI-Agents/14-ai-engineering-maturity-model.md` + feed post `-post.md`. L1-L5 ladder, 9 concepts mapped to $0 stack (Autonoma $3.62/4-of-6, Kiro 36 gaps, Aider --test-cmd, 34/34 mutations, Allure+DORA). Missing: cover image `14-cover-maturity.png`. Wiki reference: `ai-qa-wiki/wiki/alex-barady-ai-builder-9-concepts-2026.md`. Raw: `ai-qa-wiki/raw/alex-barady-9-concepts-ai-builder-2026.md`.
+Priority: P1
+
+### Autonoma: развернуть локально
+Description: Развернуть Autonoma self-hosted локально (или на Win сервере) для тестирования OrangeHRM. Требует Node.js 24+, pnpm 10.x, Docker (PostgreSQL 18 + Redis), Gemini API key. По инструкции `docs.autonoma.app/development/setup/`. Open source, self-hosted forever free.
+Priority: P3
+
+## LinkedIn Articles — Ideas (Aug 2026 batch)
+
+### [L-01] "The Recruiter Test" — job search as QA system
+Description: Pattern A (Data Hook). Hook: "I applied to 40+ QA roles in 3 months. The rejections told me more than any interview did." Data: 40+ applications, ~10% response rate, rejection patterns (iGaming NDA, SAP, French/German blockers). Source: `Positions-CV-CL/pipeline.md` (real data). Synergy: strengthens LinkedIn positioning for X-FLOW/dormakaba/ENFINT. Caution: anonymize companies (iGaming NDA post exists separately).
+Priority: P2
+
+### [L-02] "AI Hiring Is Testing You" — follow-up to Article 9
+Description: Google 6 markers, Meta 3-stage CoderPad, "explain why you trust the output". Raw already in ai-qa-wiki (Session 60d, ai-fluency-interview-reform-2026.md). Article 9's feed post was weak (43→733 imp) — needs a new angle, not a rehash.
+Priority: P3
+
+### [L-03] "$0 CV: How I Turned My Job Search Into a Testing Lab" (feed post)
+Description: Short post, strong hook for recruiters in network (Natia, Vasil, Lada see it). Cheap to produce (~30 min). Candidate for fast publish between major articles.
+Priority: P2
+
+### [L-04] Carousel "3 AI Agents I'd Hire Before a QA Engineer"
+Description: Reuse `12-prod-table.png` (already rendered). Zero new assets. Format: carousel post + plan. Angle: which agents replace which QA tasks vs which don't.
+Priority: P3
+
+### [L-01] ✅ DROPPED (2026-08-17) — "The Recruiter Test"
+User declined: не хочет писать про себя. Energy redirected to internal analysis: `Positions-CV-CL/wiki/pipeline-rating-2026-08-17.md`.
+
+### [L-03] ✅ DROPPED (2026-08-17) — "$0 CV" feed post
+Same reason — personal job-search story. Not publishing.
+
+### [L-04] ✅ DROPPED (2026-08-17) — Carousel "3 AI Agents I'd Hire..."
+Same reason. `12-prod-table.png` remains available for future non-personal angles.
+
+### [P2] CARBON (testers.ai) — private beta trial
+Description: Jason Arbon's AI Agentic Verification Harness (Jank.AI/IcebergQA). Harness vs framework category — orchestration: discovery → risk → plan → execute → evidence → confidence. Wiki: `ai-qa-wiki/wiki/carbon-ai-agentic-verification-harness.md`. Plan: sign up beta (user) → run `/carbon` on OrangeHRM local → 4-axis eval (correctness/relevance/stability/coverage) + evidence quality (failing traces vs green-only) → wiki + candidate for Article 16 "harness vs framework". Cost $0.
+Priority: P2

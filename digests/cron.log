@@ -1,0 +1,419 @@
+  Fetching 12 sources...
+    tc: 20 items
+    verge: 10 items
+    ars: 3 items
+    antongulin: 1 items
+    ghblog: 4 items
+    arxiv: 279 items
+    lambdatest: 50 items
+    google: 25 items
+    mot: 20 items
+    infowq: 15 items
+    applitools: 2 items
+    hn: 20 items
+  Total: 449 items from 12 sources
+
+💾 Saved: /Users/victor/Projects/Articles/digest-dev/digests/2026-07-08.md
+  Fetching 12 sources...
+  [WARN] verge: [Errno 8] nodename nor servname provided, or not known
+  [WARN] lambdatest: [Errno 8] nodename nor servname provided, or not known
+  [WARN] tc: [Errno 8] nodename nor servname provided, or not known
+  [WARN] mot: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ghblog: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ars: [Errno 8] nodename nor servname provided, or not known
+  [WARN] google: [Errno 8] nodename nor servname provided, or not known
+    verge: 0 items
+  [WARN] antongulin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] applitools: [Errno 8] nodename nor servname provided, or not known
+  [WARN] infowq: [Errno 8] nodename nor servname provided, or not known
+  [WARN] arxiv: [Errno 8] nodename nor servname provided, or not known
+  [WARN] hn: [Errno 8] nodename nor servname provided, or not known
+    lambdatest: 0 items
+    tc: 0 items
+    mot: 0 items
+    ghblog: 0 items
+    ars: 0 items
+    google: 0 items
+    antongulin: 0 items
+    applitools: 0 items
+    infowq: 0 items
+    arxiv: 0 items
+    hn: 0 items
+  Total: 0 items from 12 sources
+  Fetching 13 sources...
+  [WARN] verge: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ars: [Errno 8] nodename nor servname provided, or not known
+  [WARN] arxiv: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ghblog: [Errno 8] nodename nor servname provided, or not known
+  [WARN] applitools: [Errno 8] nodename nor servname provided, or not known
+  [WARN] tc: [Errno 8] nodename nor servname provided, or not known
+  [WARN] mot: [Errno 8] nodename nor servname provided, or not known
+    verge: 0 items
+  [WARN] hn: [Errno 8] nodename nor servname provided, or not known
+  [WARN] infowq: [Errno 8] nodename nor servname provided, or not known
+  [WARN] lambdatest: [Errno 8] nodename nor servname provided, or not known
+    ars: 0 items
+  [WARN] abdullin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] antongulin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] google: [Errno 8] nodename nor servname provided, or not known
+    arxiv: 0 items
+    ghblog: 0 items
+    applitools: 0 items
+    tc: 0 items
+    mot: 0 items
+    hn: 0 items
+    infowq: 0 items
+    lambdatest: 0 items
+    abdullin: 0 items
+    antongulin: 0 items
+    google: 0 items
+  Total: 0 items from 13 sources
+  Fetching 13 sources...
+    arxiv: 0 items
+    tc: 20 items
+    ghblog: 5 items
+    verge: 10 items
+    ars: 1 items
+    antongulin: 1 items
+    abdullin: 0 items
+    lambdatest: 50 items
+    google: 25 items
+    mot: 20 items
+    infowq: 15 items
+    applitools: 0 items
+  [WARN] hn: _ssl.c:983: The handshake operation timed out
+    hn: 0 items
+  Total: 147 items from 13 sources
+
+💾 Saved: /Users/victor/Projects/Articles/digests/2026-07-27.md
+  Fetching 13 sources...
+    tc: 20 items
+    ars: 3 items
+    verge: 10 items
+    ghblog: 7 items
+    abdullin: 0 items
+    antongulin: 1 items
+    lambdatest: 50 items
+    arxiv: 340 items
+    mot: 20 items
+    google: 25 items
+    hn: 20 items
+    infowq: 15 items
+    applitools: 1 items
+  Total: 512 items from 13 sources
+
+💾 Saved: /Users/victor/Projects/Articles/digests/2026-07-29.md
+  Fetching 13 sources...
+    verge: 10 items
+    antongulin: 1 items
+    ars: 3 items
+    tc: 20 items
+    mot: 20 items
+    lambdatest: 50 items
+    hn: 20 items
+    infowq: 15 items
+    ghblog: 6 items
+    abdullin: 0 items
+    applitools: 1 items
+    arxiv: 282 items
+    google: 25 items
+  Total: 453 items from 13 sources
+
+💾 Saved: /Users/victor/Projects/Articles/digests/2026-07-31.md
+  Fetching 13 sources...
+  [WARN] ghblog: [Errno 8] nodename nor servname provided, or not known
+  [WARN] abdullin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] antongulin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] lambdatest: [Errno 8] nodename nor servname provided, or not known
+  [WARN] hn: [Errno 8] nodename nor servname provided, or not known
+  [WARN] google: [Errno 8] nodename nor servname provided, or not known
+  [WARN] mot: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ars: [Errno 8] nodename nor servname provided, or not known
+  [WARN] infowq: [Errno 8] nodename nor servname provided, or not known
+  [WARN] applitools: [Errno 8] nodename nor servname provided, or not known
+    ghblog: 0 items
+    abdullin: 0 items
+  [WARN] arxiv: [Errno 8] nodename nor servname provided, or not known
+    antongulin: 0 items
+  [WARN] verge: [Errno 8] nodename nor servname provided, or not known
+    lambdatest: 0 items
+    hn: 0 items
+    google: 0 items
+    mot: 0 items
+    ars: 0 items
+    infowq: 0 items
+    applitools: 0 items
+    arxiv: 0 items
+    verge: 0 items
+  [WARN] tc: [Errno 8] nodename nor servname provided, or not known
+    tc: 0 items
+  Total: 0 items from 13 sources
+  Fetching 13 sources...
+  [WARN] abdullin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] mot: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ars: [Errno 8] nodename nor servname provided, or not known
+  [WARN] antongulin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] lambdatest: [Errno 8] nodename nor servname provided, or not known
+    abdullin: 0 items
+  [WARN] infowq: [Errno 8] nodename nor servname provided, or not known
+  [WARN] arxiv: [Errno 8] nodename nor servname provided, or not known
+  [WARN] tc: [Errno 8] nodename nor servname provided, or not known
+  [WARN] hn: [Errno 8] nodename nor servname provided, or not known
+    mot: 0 items
+  [WARN] google: [Errno 8] nodename nor servname provided, or not known
+  [WARN] applitools: [Errno 8] nodename nor servname provided, or not known
+    ars: 0 items
+  [WARN] ghblog: [Errno 8] nodename nor servname provided, or not known
+    antongulin: 0 items
+  [WARN] verge: [Errno 8] nodename nor servname provided, or not known
+    lambdatest: 0 items
+    infowq: 0 items
+    arxiv: 0 items
+    tc: 0 items
+    hn: 0 items
+    google: 0 items
+    applitools: 0 items
+    ghblog: 0 items
+    verge: 0 items
+  Total: 0 items from 13 sources
+  Fetching 13 sources...
+  [WARN] google: [Errno 8] nodename nor servname provided, or not known
+    google: 0 items
+  [WARN] tc: [Errno 8] nodename nor servname provided, or not known
+    tc: 0 items
+  [WARN] mot: [Errno 8] nodename nor servname provided, or not known
+    mot: 0 items
+  [WARN] arxiv: [Errno 8] nodename nor servname provided, or not known
+  [WARN] applitools: [Errno 8] nodename nor servname provided, or not known
+  [WARN] infowq: [Errno 8] nodename nor servname provided, or not known
+  [WARN] antongulin: [Errno 8] nodename nor servname provided, or not known
+    arxiv: 0 items
+  [WARN] verge: [Errno 8] nodename nor servname provided, or not known
+  [WARN] hn: [Errno 8] nodename nor servname provided, or not known
+    applitools: 0 items
+    infowq: 0 items
+    antongulin: 0 items
+    verge: 0 items
+    hn: 0 items
+  [WARN] ars: [Errno 8] nodename nor servname provided, or not known
+    ars: 0 items
+  [WARN] lambdatest: [Errno 8] nodename nor servname provided, or not known
+    lambdatest: 0 items
+  [WARN] abdullin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ghblog: [Errno 8] nodename nor servname provided, or not known
+    abdullin: 0 items
+    ghblog: 0 items
+  Total: 0 items from 13 sources
+  Fetching 13 sources...
+    antongulin: 1 items
+    ars: 4 items
+    verge: 10 items
+    tc: 20 items
+    abdullin: 0 items
+    ghblog: 6 items
+    arxiv: 416 items
+    mot: 20 items
+    lambdatest: 22 items
+    infowq: 15 items
+    applitools: 2 items
+    google: 25 items
+  [WARN] hn: _ssl.c:983: The handshake operation timed out
+    hn: 0 items
+  Total: 541 items from 13 sources
+
+💾 Saved: /Users/victor/Projects/Articles/digests/2026-08-05.md
+  Fetching 13 sources...
+    [MANUAL] autonoma: check https://getautonoma.com/blog manually
+    tc: 20 items
+    verge: 10 items
+    ars: 4 items
+    ghblog: 5 items
+    lambdatest: 27 items
+    arxiv: 287 items
+    hn: 20 items
+    mot: 20 items
+    abdullin: 0 items
+    antongulin: 2 items
+    infowq: 15 items
+    applitools: 1 items
+    google: 25 items
+  Total: 436 items from 13 sources
+
+💾 Saved: /Users/victor/Projects/Articles/digests/2026-08-06.md
+  Fetching 13 sources...
+    [MANUAL] autonoma: check https://getautonoma.com/blog manually
+    tc: 20 items
+    verge: 10 items
+    ars: 8 items
+    mot: 20 items
+    hn: 20 items
+    lambdatest: 50 items
+    infowq: 15 items
+    antongulin: 1 items
+    applitools: 0 items
+    ghblog: 8 items
+    abdullin: 0 items
+    arxiv: 268 items
+    google: 25 items
+  Total: 445 items from 13 sources
+
+💾 Saved: /Users/victor/Projects/Articles/digests/2026-08-17.md
+  Fetching 14 sources...
+    [MANUAL] autonoma: check https://getautonoma.com/blog manually
+  [WARN] applitools: [Errno 8] nodename nor servname provided, or not known
+    applitools: 0 items
+  [WARN] ghblog: [Errno 8] nodename nor servname provided, or not known
+    ghblog: 0 items
+  [WARN] mot: [Errno 8] nodename nor servname provided, or not known
+  [WARN] infowq: [Errno 8] nodename nor servname provided, or not known
+    mot: 0 items
+    infowq: 0 items
+  [WARN] hn: [Errno 8] nodename nor servname provided, or not known
+  [WARN] aiinqa: [Errno 8] nodename nor servname provided, or not known
+  [WARN] verge: [Errno 8] nodename nor servname provided, or not known
+    hn: 0 items
+    aiinqa: 0 items
+    verge: 0 items
+  [WARN] tc: [Errno 8] nodename nor servname provided, or not known
+  [WARN] lambdatest: [Errno 8] nodename nor servname provided, or not known
+  [WARN] google: [Errno 8] nodename nor servname provided, or not known
+  [WARN] abdullin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ars: [Errno 8] nodename nor servname provided, or not known
+  [WARN] arxiv: [Errno 8] nodename nor servname provided, or not known
+    tc: 0 items
+  [WARN] antongulin: [Errno 8] nodename nor servname provided, or not known
+    lambdatest: 0 items
+    google: 0 items
+    abdullin: 0 items
+    ars: 0 items
+    arxiv: 0 items
+    antongulin: 0 items
+  Total: 0 items from 14 sources
+  Fetching 14 sources...
+    [MANUAL] autonoma: check https://getautonoma.com/blog manually
+    [MANUAL] shcherbinin: check https://www.linkedin.com/in/pavel-shcherbinin manually
+  [WARN] arxiv: [Errno 8] nodename nor servname provided, or not known
+  [WARN] applitools: [Errno 8] nodename nor servname provided, or not known
+  [WARN] abdullin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] infowq: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ars: [Errno 8] nodename nor servname provided, or not known
+  [WARN] lambdatest: [Errno 8] nodename nor servname provided, or not known
+  [WARN] aiinqa: [Errno 8] nodename nor servname provided, or not known
+  [WARN] mot: [Errno 8] nodename nor servname provided, or not known
+    arxiv: 0 items
+  [WARN] antongulin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] verge: [Errno 8] nodename nor servname provided, or not known
+  [WARN] google: [Errno 8] nodename nor servname provided, or not known
+    applitools: 0 items
+  [WARN] tc: [Errno 8] nodename nor servname provided, or not known
+  [WARN] hn: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ghblog: [Errno 8] nodename nor servname provided, or not known
+    abdullin: 0 items
+    infowq: 0 items
+    ars: 0 items
+    lambdatest: 0 items
+    aiinqa: 0 items
+    mot: 0 items
+    antongulin: 0 items
+    verge: 0 items
+    google: 0 items
+    tc: 0 items
+    hn: 0 items
+    ghblog: 0 items
+  Total: 0 items from 14 sources
+  Fetching 14 sources...
+    [MANUAL] autonoma: check https://getautonoma.com/blog manually
+    [MANUAL] shcherbinin: check https://www.linkedin.com/in/pavel-shcherbinin manually
+  [WARN] aiinqa: [Errno 8] nodename nor servname provided, or not known
+  [WARN] mot: [Errno 8] nodename nor servname provided, or not known
+  [WARN] hn: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ars: [Errno 8] nodename nor servname provided, or not known
+  [WARN] infowq: [Errno 8] nodename nor servname provided, or not known
+  [WARN] google: [Errno 8] nodename nor servname provided, or not known
+  [WARN] applitools: [Errno 8] nodename nor servname provided, or not known
+    aiinqa: 0 items
+  [WARN] ghblog: [Errno 8] nodename nor servname provided, or not known
+  [WARN] verge: [Errno 8] nodename nor servname provided, or not known
+  [WARN] tc: [Errno 8] nodename nor servname provided, or not known
+  [WARN] abdullin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] arxiv: [Errno 8] nodename nor servname provided, or not known
+  [WARN] antongulin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] lambdatest: [Errno 8] nodename nor servname provided, or not known
+    mot: 0 items
+    hn: 0 items
+    ars: 0 items
+    infowq: 0 items
+    google: 0 items
+    applitools: 0 items
+    ghblog: 0 items
+    verge: 0 items
+    tc: 0 items
+    abdullin: 0 items
+    arxiv: 0 items
+    antongulin: 0 items
+    lambdatest: 0 items
+  Total: 0 items from 14 sources
+  Fetching 14 sources...
+    [MANUAL] autonoma: check https://getautonoma.com/blog manually
+    [MANUAL] shcherbinin: check https://www.linkedin.com/in/pavel-shcherbinin manually
+  [WARN] google: [Errno 8] nodename nor servname provided, or not known
+  [WARN] antongulin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] mot: [Errno 8] nodename nor servname provided, or not known
+  [WARN] verge: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ghblog: [Errno 8] nodename nor servname provided, or not known
+  [WARN] aiinqa: [Errno 8] nodename nor servname provided, or not known
+  [WARN] applitools: [Errno 8] nodename nor servname provided, or not known
+  [WARN] tc: [Errno 8] nodename nor servname provided, or not known
+  [WARN] arxiv: [Errno 8] nodename nor servname provided, or not known
+    google: 0 items
+  [WARN] lambdatest: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ars: [Errno 8] nodename nor servname provided, or not known
+  [WARN] abdullin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] hn: [Errno 8] nodename nor servname provided, or not known
+  [WARN] infowq: [Errno 8] nodename nor servname provided, or not known
+    antongulin: 0 items
+    mot: 0 items
+    verge: 0 items
+    ghblog: 0 items
+    aiinqa: 0 items
+    applitools: 0 items
+    tc: 0 items
+    arxiv: 0 items
+    lambdatest: 0 items
+    ars: 0 items
+    abdullin: 0 items
+    hn: 0 items
+    infowq: 0 items
+  Total: 0 items from 14 sources
+  Fetching 14 sources...
+    [MANUAL] autonoma: check https://getautonoma.com/blog manually
+    [MANUAL] shcherbinin: check https://www.linkedin.com/in/pavel-shcherbinin manually
+  [WARN] antongulin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] tc: [Errno 8] nodename nor servname provided, or not known
+  [WARN] infowq: [Errno 8] nodename nor servname provided, or not known
+  [WARN] verge: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ghblog: [Errno 8] nodename nor servname provided, or not known
+  [WARN] google: [Errno 8] nodename nor servname provided, or not known
+  [WARN] lambdatest: [Errno 8] nodename nor servname provided, or not known
+  [WARN] hn: [Errno 8] nodename nor servname provided, or not known
+    antongulin: 0 items
+  [WARN] mot: [Errno 8] nodename nor servname provided, or not known
+  [WARN] abdullin: [Errno 8] nodename nor servname provided, or not known
+  [WARN] aiinqa: [Errno 8] nodename nor servname provided, or not known
+    tc: 0 items
+  [WARN] applitools: [Errno 8] nodename nor servname provided, or not known
+  [WARN] ars: [Errno 8] nodename nor servname provided, or not known
+  [WARN] arxiv: [Errno 8] nodename nor servname provided, or not known
+    infowq: 0 items
+    verge: 0 items
+    ghblog: 0 items
+    google: 0 items
+    lambdatest: 0 items
+    hn: 0 items
+    mot: 0 items
+    abdullin: 0 items
+    aiinqa: 0 items
+    applitools: 0 items
+    ars: 0 items
+    arxiv: 0 items
+  Total: 0 items from 14 sources

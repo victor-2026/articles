@@ -1,0 +1,328 @@
+{
+  "sources": [
+    {
+      "id": "hn",
+      "name": "Hacker News",
+      "url": "https://hnrss.org/frontpage",
+      "weight": 0.9
+    },
+    {
+      "id": "tc",
+      "name": "TechCrunch AI",
+      "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
+      "weight": 0.8
+    },
+    {
+      "id": "ars",
+      "name": "Ars Technica",
+      "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+      "weight": 0.7
+    },
+    {
+      "id": "verge",
+      "name": "The Verge AI",
+      "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+      "weight": 0.7
+    },
+    {
+      "id": "arxiv",
+      "name": "ArXiv cs.AI",
+      "url": "https://export.arxiv.org/rss/cs.AI",
+      "weight": 0.6
+    },
+    {
+      "id": "google",
+      "name": "Google AI Blog",
+      "url": "https://feeds.feedburner.com/blogspot/gJZg",
+      "weight": 0.8
+    },
+    {
+      "id": "applitools",
+      "name": "Applitools Blog",
+      "url": "https://applitools.com/blog/feed/",
+      "weight": 0.8
+    },
+    {
+      "id": "mot",
+      "name": "Ministry of Testing",
+      "url": "https://www.ministryoftesting.com/contents/rss",
+      "weight": 0.8
+    },
+    {
+      "id": "ghblog",
+      "name": "GitHub Blog",
+      "url": "https://github.blog/feed/",
+      "weight": 0.6
+    },
+    {
+      "id": "infowq",
+      "name": "InfoQ",
+      "url": "https://feed.infoq.com/",
+      "weight": 0.6
+    },
+    {
+      "id": "lambdatest",
+      "name": "TestMu AI (LambdaTest)",
+      "url": "https://www.testmuai.com/blog/feed.xml",
+      "weight": 0.7
+    },
+    {
+      "id": "antongulin",
+      "name": "Anton Gulin Blog",
+      "url": "https://www.anton.qa/rss.xml",
+      "weight": 0.9,
+      "boost": 0.5
+    },
+    {
+      "id": "abdullin",
+      "name": "ML Under the Hood",
+      "url": "https://abdullin.substack.com/feed",
+      "weight": 0.9,
+      "boost": 0.5
+    },
+    {
+      "id": "aiinqa",
+      "name": "AI in QA (Butch Mayhew)",
+      "url": "https://aiinqa.com/rss/",
+      "weight": 0.8
+    },
+    {
+      "id": "autonoma",
+      "name": "Autonoma Blog",
+      "url": "https://getautonoma.com/blog",
+      "weight": 0.9,
+      "boost": 0.5,
+      "type": "manual"
+    },
+    {
+      "id": "shcherbinin",
+      "name": "Pavel Shcherbinin (LinkedIn)",
+      "url": "https://www.linkedin.com/in/pavel-shcherbinin",
+      "weight": 0.9,
+      "boost": 0.5,
+      "type": "manual"
+    },
+    {
+      "id": "keithklain",
+      "name": "Keith Klain — Quality Remarks",
+      "url": "https://qualityremarks.com/feed/",
+      "weight": 0.9,
+      "boost": 0.5
+    }
+  ],
+  "keywords": {
+    "core": [
+      "ai testing",
+      "ai qa",
+      "test automation",
+      "playwright",
+      "selenium",
+      "testgen",
+      "test generation",
+      "llm testing",
+      "llm evaluation",
+      "prompt testing",
+      "agent testing",
+      "ai agent",
+      "autonomous testing",
+      "mutation testing",
+      "fault injection",
+      "quality engineering",
+      "qa automation",
+      "pbt",
+      "property based testing",
+      "test orchestration",
+      "test reliability",
+      "flaky test",
+      "visual testing",
+      "visual regression",
+      "applitools",
+      "self-healing",
+      "ai-native testing",
+      "test observability",
+      "e2e testing",
+      "end-to-end testing",
+      "integration testing",
+      "property-based",
+      "property based",
+      "appium",
+      "maestro",
+      "detox"
+    ],
+    "adjacent": [
+      "tests",
+      "testing",
+      "ai tests",
+      "ai in testing",
+      "ai for testing",
+      "machine learning",
+      "deep learning",
+      "neural network",
+      "llm",
+      "large language model",
+      "gpt",
+      "claude",
+      "gemini",
+      "deepseek",
+      "rag",
+      "retrieval augmented generation",
+      "opensource",
+      "open source",
+      "open-source",
+      "devops",
+      "ci/cd",
+      "maturity model",
+      "github actions",
+      "testing framework",
+      "test framework",
+      "test suite",
+      "bdd",
+      "gherkin",
+      "cucumber",
+      "specflow",
+      "orchestration",
+      "agentic",
+      "multi-agent",
+      "code generation",
+      "ai coding",
+      "copilot",
+      "software engineering",
+      "software quality",
+      "continuous testing",
+      "shift left",
+      "quality gate",
+      "observability",
+      "monitoring",
+      "telemetry",
+      "performance testing",
+      "load testing",
+      "k6",
+      "docker",
+      "kubernetes",
+      "container",
+      "pytest",
+      "jest",
+      "vitest",
+      "api testing",
+      "graphql",
+      "rest api",
+      "mobile testing",
+      "appium",
+      "maestro",
+      "accessibility",
+      "a11y",
+      "wcag",
+      "security testing",
+      "penetration testing"
+    ]
+  },
+  "weights": {
+    "core_keyword": 3.0,
+    "adjacent_keyword": 1.0,
+    "person_match": 1.0,
+    "brand_match": 0.3
+  },
+  "people": [
+    {
+      "name": "Alex Barády",
+      "company": "ENDGAME"
+    },
+    {
+      "name": "Butch Mayhew",
+      "company": "DevClarity"
+    },
+    {
+      "name": "Anton Gulin",
+      "company": ""
+    },
+    {
+      "name": "Andrew Knight",
+      "company": ""
+    },
+    {
+      "name": "Dmitry Shyshkin",
+      "company": ""
+    },
+    {
+      "name": "Simon Taggart",
+      "company": "Autonoma"
+    },
+    {
+      "name": "Rinat Abdullin",
+      "company": ""
+    },
+    {
+      "name": "Sergey Pimenov",
+      "company": ""
+    },
+    {
+      "name": "Alexey Proka4",
+      "company": ""
+    },
+    {
+      "name": "Anton Angelov",
+      "company": "Automate The Planet"
+    },
+    {
+      "name": "Pavel Shcherbinin",
+      "company": "Yandex"
+    },
+    {
+      "name": "Angie Jones",
+      "company": "Block"
+    }
+  ],
+  "brands": [
+    "Autonoma",
+    "Playwright",
+    "Puppeteer",
+    "Cypress",
+    "WebdriverIO",
+    "Maestro",
+    "Appium",
+    "Detox",
+    "Allure",
+    "ReportPortal",
+    "Groq",
+    "OpenRouter",
+    "Together AI",
+    "LangChain",
+    "LangFuse",
+    "LangSmith",
+    "Weights & Biases",
+    "MLflow",
+    "Comet",
+    "Postman",
+    "Insomnia",
+    "Bruno",
+    "OpenAI",
+    "Anthropic",
+    "Meta AI",
+    "Google DeepMind",
+    "Microsoft",
+    "Google",
+    "Meta",
+    "Amazon",
+    "Sauce Labs",
+    "BrowserStack",
+    "LambdaTest",
+    "k6",
+    "Grafana",
+    "Datadog",
+    "New Relic",
+    "Docker",
+    "Kubernetes",
+    "GitHub Actions",
+    "Mabl",
+    "Testsigma",
+    "Katalon",
+    "Tricentis"
+  ],
+  "threshold": 1.5,
+  "top_n": 12,
+  "max_age_days": 7,
+  "groq_model": "openai/gpt-oss-120b",
+  "rss_timeout": 15,
+  "max_per_source": 3,
+  "dedup_lookback": 3
+}
