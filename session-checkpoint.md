@@ -1,3 +1,22 @@
+# Session Checkpoint — 2026-08-29 (Session 109)
+
+## Статья 21 «Conway's Law Is a Quality Engineering Problem Too» — ПУБЛИКАЦИЯ ЗАПЛАНИРОВАНА
+- **Дата публикации: 2026-08-31 (Пн) 10:00**
+- Текст финализирован (9.5/10), 2 раунда рецензии пройдено
+- Картинки: `21-cover-conways.png` (hero, есть `<!-- COVER -->` маркер), `21-org-drift.png` (добавлен inline-маркер `<!-- FEED IMAGE -->` в секцию «What organizational drift looks like»)
+- Карусель: `21-carousel.pdf` (9 слайдов)
+- Фид-пост: `21-conways-law-qa-post.md`
+- Bolton-цитату НЕ добавляли (решено не перегружать финализированную статью)
+- Ритм запуска (если держим 48ч): пост-31.08 10:00 → карусель ~02.09 → discussion ~04.09
+
+## Next
+- Опубликовать статью 21 + фид-пост 31.08 в 10:00
+- После публикации: добавить URL в hooks-library.md + performance-log.csv
+- Заполнить реальные URL статей 22/23 при их публикации
+- Article 27 (Guided QA Engineer): скелет готов, дописать тело (ждём CARBON?)
+
+---
+
 # Session Checkpoint — 2026-08-26 (Session 106)
 
 ## Статья 20 «Your Agent Found 5 Bugs. 4 Were Imaginary.» — ОПУБЛИКОВАНА
