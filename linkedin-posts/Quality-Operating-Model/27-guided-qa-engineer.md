@@ -21,3 +21,15 @@ How do you keep QA relevant when an agent writes 80% of the tests? Same way a se
 - **Tie to Article 21 (Conway):** quality ownership delegates the same way - the guided QA engineer delegates execution but keeps the boundary and theevidence.
 - **Risk-based gate table** from the mutation matrix Full template: map survival rate × risk → human gate effort. This is the operational "guided" part.
 - **Counter-argument to pre-empt:** "but the agent also writes the constraints via SKILL.md / context" - answer: the agent encodes your stated intent, it doesn't discover the trade-off you forgot to state. That gap is the job.
+
+## Raw threads to fold in (draft later)
+
+- **QA-as-quality-gatekeeper.** The operational layer is concrete: the risk-based gate table from Mutation Matrix Full (survival rate × risk → human gate effort). This IS the "guided" part - you don't author the tests, you set the gates. The gatekeeper owns the threshold, not the test code. Tie to Megi's pilot (strong gate high-risk / light low-risk) as the worked example.
+- **QA-as-supervisor (recent framing).** The "supervisor" angle: the QA engineer orchestrates multiple AI agents (test-gen, exec, review) the way a supervisor orchestrates a team - assigns, checks, escalates. Distinct from "gatekeeper" (decision authority) vs "supervisor" (orchestration). Pick one as the headline, use the other as supporting.
+- **Karpathy "manifesting" verb.** Karpathy used "manifesting" as a verb - developing manifests/specs for AI agents (the explicit intent the agent executes against). Maps directly to the QA role: the QA engineer "manifests" the quality criteria, the agent "implements" them. Good linguistic hook - "you don't write the test, you manifest the spec." Note: verify exact Karpathy quote/source before publishing.
+
+## Open questions before writing the body
+
+- Headline role word: guided QA engineer / QA-as-gatekeeper / QA-as-supervisor - which leads?
+- Do we need Karpathy source citation, or keep it as a cultural nod?
+- Does this replace or extend Article 24 (Quality Operating Model)?
