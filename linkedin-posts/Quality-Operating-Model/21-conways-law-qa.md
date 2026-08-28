@@ -92,6 +92,8 @@ The broader evolution from a QA function to a quality system is discussed in *QA
 
 Organizational drift rarely arrives as a deliberate decision. Teams and delivery paths evolve incrementally, while the existing quality model remains familiar because it still appears to work.
 
+<!-- FEED IMAGE: 21-org-drift.png — two states: architecture evolved / QA did not (left) vs architecture and QE aligned (right); no fine text -->
+
 The gaps surface at boundaries: during an upgrade, a production incident, an integration failure or a partner release.
 
 Typical signs include:
