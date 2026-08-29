@@ -42,3 +42,4 @@ Verified on the production report (gherkin format): the same strong-decoy page n
 - **Статья 20** [Your Agent Found 5 Bugs. 4 Were Imaginary.](https://www.linkedin.com/pulse/your-agent-found-5-bugs-4-were-imaginary-victor-ematin-zqcte/) - тот же кейс, FP/FN-угол. 26-я = методология, 20-я = результат.
 - Статья 24 (accountability/policy testing): тот же кейс, auditability-угол
 - Wiki: `wiki/qaeverest-pilot-handson-import-confidence-human-gate-2026-08-25.md` + `wiki/ai-qa-tool-evaluation-mutation-matrix.md` (методология B)
+- Wiki: `wiki/zalando-agentic-engineering-snapshot-2026.md` - risk-based PR approval bot = live per-risk-tier gate (33% low-risk auto-approved, -20-40% lead time); vendor independence + open tools (opencode/pi) = open-source harness thesis behind this article.

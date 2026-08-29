@@ -18,7 +18,8 @@ How do you keep QA relevant when an agent writes 80% of the tests? Same way a se
 ## What to develop further
 
 - **Concrete before/after:** a real test-spec written as constraints (Ng-style prompt: "use read-through cache TTL ≤ 5 min") vs the same test hand-authored. Shows the steering skill is new, not gone.
-- **Tie to Article 21 (Conway):** quality ownership delegates the same way - the guided QA engineer delegates execution but keeps the boundary and theevidence.
+  - **Tie to Article 21 (Conway):** quality ownership delegates the same way - the guided QA engineer delegates execution but keeps the boundary and theevidence.
+  - **Tie to Zalando (2026 snapshot):** their risk-based PR approval bot is a live per-risk-tier gate, and the CCN inflection at agent adoption is empirical evidence for the "verify, don't trust" thesis. Wiki: `wiki/zalando-agentic-engineering-snapshot-2026.md`.
 - **Risk-based gate table** from the mutation matrix Full template: map survival rate × risk → human gate effort. This is the operational "guided" part.
 - **Bolton metaphor - "bottles have necks":** the human gate is not a bottleneck to remove, it is the neck that regulates AI output into something observable and manageable. Quote-ready: "This is why wine doesn't come to your table in a bucket." Use as the lead visual/anchor for the QA-as-gatekeeper section.
 - **Counter-argument to pre-empt:** "but the agent also writes the constraints via SKILL.md / context" - answer: the agent encodes your stated intent, it doesn't discover the trade-off you forgot to state. That gap is the job.
@@ -29,6 +30,7 @@ How do you keep QA relevant when an agent writes 80% of the tests? Same way a se
 - **QA-as-supervisor (recent framing).** The "supervisor" angle: the QA engineer orchestrates multiple AI agents (test-gen, exec, review) the way a supervisor orchestrates a team - assigns, checks, escalates. Distinct from "gatekeeper" (decision authority) vs "supervisor" (orchestration). Pick one as the headline, use the other as supporting.
 - **Karpathy "manifesting" verb.** Karpathy used "manifesting" as a verb - developing manifests/specs for AI agents (the explicit intent the agent executes against). Maps directly to the QA role: the QA engineer "manifests" the quality criteria, the agent "implements" them. Good linguistic hook - "you don't write the test, you manifest the spec." Note: verify exact Karpathy quote/source before publishing.
 - **Bach / RST "Testing vs Checking" (Prachi Dahibhate profile, 2026).** Cleanest one-liner for the gatekeeper thread: "The agent performs the checks. The QA engineer performs the testing." Bach's "magic testing box" + "What's not here?" + The James Bach Test (7 questions before trusting an AI report) = the evaluation rubric behind the gate. Directly supports Article 20/26 and the Mutation Matrix verdict column.
+- **Andrew Ng "Loop Engineering" (2026).** Highest-authority proof of the promoted-role thesis: Ng states developers "were acting as the QA function... now make higher-level product decisions." The three loops (agentic coding / engineering / developer-feedback) = the nested verification layers; the human owns the outer loop. Pair with Krivitsky's nested Agentic Factory (Coding→Feature→Impact) as the visual scaffold. Ng's "evals" = the mutation matrix, stated by an AI founder.
 
 ## Open questions before writing the body
 

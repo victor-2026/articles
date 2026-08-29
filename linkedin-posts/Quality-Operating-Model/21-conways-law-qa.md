@@ -5,7 +5,7 @@
 **Feed Image:** 21-org-drift.png (TODO: два состояния - architecture evolved/QA did not vs architecture and QE aligned; без мелкого текста)
 **Hook:** «Продукт становится модульным раньше, чем модель качества. Teams split, APIs multiply, integrations become critical - а QA всё ещё организован как будто один app делала одна команда.»
 **Based on:** professional experience with modular systems, distributed teams and contract testing (Conway's Law + Inverse Conway Maneuver)
-**Wiki:** ai-qa-wiki (TODO: org structure topic)
+**Wiki:** ai-qa-wiki - org structure + boundaries. See `wiki/zalando-agentic-engineering-snapshot-2026.md` for risk-based PR approval as a live per-risk-tier gate, and Identity Broker as the delegation-chain boundary example.
 
 ---
 
@@ -144,7 +144,9 @@ When an agent acts with delegated authority on behalf of a customer or employee,
 - what action was proposed and executed;
 - what evidence was recorded;
 - how the action could be stopped, reversed or escalated;
-- how the delegation chain can be reconstructed.
+  - how the delegation chain can be reconstructed.
+
+Zalando's Identity Broker is a concrete engineering answer to this list: a component that captures delegation chains for on-behalf-of flows, brokers between OAuth2 infrastructures and implements a token vault in the call path between an agent and an MCP server or between agents. See `wiki/zalando-agentic-engineering-snapshot-2026.md`.
 
 ## Where to start
 
