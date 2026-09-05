@@ -19,6 +19,6 @@ For every critical journey, ask: **Who can name the owner of the seam?** If it t
 
 Full article below👇
 
-Victor Ematin · AI Quality Engineering Lead · OpenCode Go
+Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 #QualityEngineering #QAStrategy #ContractTesting #IntegrationTesting #OrgDesign

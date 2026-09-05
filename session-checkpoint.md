@@ -102,3 +102,18 @@
 - **Дайджест 04.09:** сгенерен + TG + блок «Нам полезно» (rogue-агенты→27, Tensor Completion→framework, Klarent→пилот, WeatherNext→коммент-22).
 - **Next:** мутации ствол-2 (операторы вглубь: Delta placeholder/label/class + assertion-kind logging + candidate set под fragility layer), потом Full v2.
 > Checkpoint saved 2026-09-05 01:52 MSK.
+
+## 2026-09-05 13:05 - чекпоинт и пуш 9a7c9b1
+- Коммит+пуш: article 22 final + brandbook v1 + digest guard/routing (13 files, +416/-54). В mult-window окружении: 23-26 и прочее чужое НЕ стейджил; 27 и digest-config частично смешанные (мой rogue-блок + чужой P0-реворк; мой routes + чужой kiro-source) — упомянуто.
+- Не закоммичено (оставлено): digests/*.md (как раньше, в репо не трекаются), 22-pic-cover-v2/v3/v4/v6 (промежуточные генерации ~3MB), .DS_Store/obsidian/логи, чужие правки 23-26 (там же чужой дабл-параграф в 23 — не трогал).
+- Открыто на завтра: мутации ствол-2; Feed Image остался в метадатах 23-27 и старых статей (убрано только 21/22); гард digest-cover openrouter ~$0.19 потрачено.
+> Checkpoint saved 2026-09-05 13:05 MSK.
+
+## 2026-09-06 01:39 - вечерняя сессия: инверсия графика + финалка-22 в ЛИ
+- **Инверсия:** note-анонс убит (мост из 21/95 imp — ложная посылка). Пн 07.09 — статья-22, Чт 11.09 — discussion вдогонку (22-note-0709.md → 22-discussion-1109.md, анонс → PS про Monday's article).
+- **Данные:** W36 агрегат (1241 imp/791, 523→14 затухание, +32 фолловера) в performance-log.csv; воронка 82K→451 views = 0.55% (не 2-3%); медианы по дням 300-500, Пн лучший (508); топы — баттлы.
+- **Статья-22 в ЛИ:** +2 предложения (метрика 99.5%, empowerment), can never be, явный вопрос, split-владение external, The bottom line, серийный блок (3 темы без дат), cover v5 зачищен юзером. Пост сверен (фикс ** → Unicode).
+- **Авторская строка везде:** OpenCode Go → Independent practice (статья+пост+коммент+discussion, скилл, pre-publish ×2, брендбук, gamma-сценарий). Старые посты не трогаем.
+- **Консервы:** Seam Register + Checklist от Perplexity в Seam/ (фиксы N×M, e.g.-имена), роль — лид-магнит к Чт + приложение к 23.
+- **Открыто:** мутации ствол-2 (завтра); Feed Image в 23-27; cron 9:00 дважды не сработал (ручной прогон).
+> Checkpoint saved 2026-09-06 01:39 MSK.

@@ -1,13 +1,13 @@
 # Publication Plan — Article 21 (Conway's Law) + Series Rhythm
 
-## Статья 22 — график запуска (2 публикации в неделю 37)
+## Статья 22 — график запуска (инверсия: сначала статья, потом дискуссия)
 
 | День              | Формат                                       | Тема                                                     | Время (UK)  | Статус |
 | ----------------- | -------------------------------------------- | -------------------------------------------------------- | ----------- | ------ |
-| Пн 08.09          | Note-связка 21→22 + checklist-картинка      | "Who owns a business flow that crosses five teams?"      | 10:00       | готова |
-| Чт 11.09          | Pulse Article 22 + фид-пост + 1-й коммент   | "Who Owns Quality at the Boundaries?"                    | 10:00       | готовы |
+| Пн 07.09          | Pulse Article 22 + фид-пост + 1-й коммент   | "Who Owns Quality at the Boundaries?"                    | 10:00       | готовы |
+| Чт 11.09          | Discussion-пост вдогонку (ex-note) + checklist-картинка | "Who owns a business flow that crosses five teams?" | 10:00       | готов |
 
-Интервал note→статья: 72ч. Карусели-22 нет (cover v5 + pic2 + pic3 закрывают визуал).
+Логика: анонс неопубликованного не работает (мост из 21 с 95 imp — ложная посылка). Дискуссия цепляется за опубликованное. Карусели-22 нет (cover v5 + pic2 + pic3 закрывают визуал).
 
 ## Статья 21 — график запуска (факт, 2-3 публикации/неделю)
 
@@ -54,3 +54,4 @@ impressions, dwell time, saves, senior comments, profile views, article clicks, 
 - [ ] Battle-реприза (старые числа новым хуком, напр. KISS $0.19 vs Autonoma $3.62)
 - [ ] Digest-bridge (новость недели + ссылка на свою статью)
 - [ ] Pilot-апдейт (QAEverest B1 100%, testRigor 3+3 — уже обещан write-up)
+- [ ] Seam Ownership Register (шаблон реестра швов + чек-лист релиз-гейтов, Perplexity-предложение от 05.09 — приложение к 22/23)
