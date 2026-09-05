@@ -52,3 +52,53 @@
 - Через 48ч - карусель 21
 - След. вторник - статья 21
 - Заполнить реальные URL статей 22/23 при их публикации
+
+---
+
+# Session Checkpoint — 2026-08-29 (Session 110)
+
+## Article 27 «Guided QA Engineer» — скелет + анкоры
+- `Quality-Operating-Model/27-guided-qa-engineer.md` — threads: QA-as-gatekeeper, QA-as-supervisor, Karpathy «manifesting», Bolton «bottles have necks», Bach Testing-vs-Checking
+- Cross-links добавлены: Andrew Ng Loop Engineering (developer moves up = promoted role), Krivitsky nested loops (outer loop = human-owned)
+- Ng + Krivitsky + Bolton + Bach = 4 внешних авторитета для тезиса «role promoted, not deleted»
+
+## Article 21 (Conway) — статус
+- Запланирована 31.08 10:00 (из Session 109)
+- Feed image marker `<!-- FEED IMAGE: 21-org-drift.png -->` добавлен
+- Bolton-цитату НЕ добавляли (решено не перегружать)
+
+## Wiki ингесты (см. ai-qa-wiki checkpoint) — питают статьи 21/24/26/27
+- Ng loop engineering, OpenWorker security agents, Krivitsky nested loops
+
+## Next
+- Article 27: дописать тело (после/параллельно CARBON)
+- Article 21: опубликовать 31.08 10:00 (+ hooks-library, performance-log)
+- Article 26 (break the tool): OpenWorker open-source harness = контраст к QAEverest closed
+
+---
+
+# Session Checkpoint — 2026-09-05 01:44 UTC (night of 04.09)
+
+## 22: badge fix + 3 картинки + привязки
+- **22-cover-boundaries.png:** бейдж расширен 190→270px, `DEFECT LIVES ON THE SEAM` виден целиком; бейдж приподнят; скругленные углы боксов восстановлены попиксельно (r=12), зачисток не осталось (проверено попиксельно + zoom ×3).
+- **22-boundary-map.png (fixed):** маркеры дефектов стоят на швах между блоками (Service A/B, Team A/B с `?`, Our system/Vendor API); у каждого слоя своя подпись и свой owner; глиф `→` заменен на `>` (был tofu `☐`); пустого низа нет; вопрос-плашка сохранена.
+- **22-coverage-vs-reality.png (new, 66K):** сплит `28/28 PASSED` зеленая панель vs таймлайн 4 воркеров (звезда-вспышка, `token overwritten`, бейдж `401 x3`) + вердикт `The contract was owned. The timing boundary was not.`
+- **22-ten-second-checklist.png (new, 70K):** 3 вопроса с тегами TECHNICAL/TIMING/EXTERNAL + баннер `>10 seconds — the defect is already scheduled.`
+- **Привязки:** в `22-who-owns-quality-at-boundaries.md` +2 маркера `[SCREENSHOT:]` (сплит после money paragraph, чеклист у CTA); в `22-note-0809.md` feed image → checklist.
+- Палитра везде темная #0d1117 + янтарь вместо красного (по решению юзера).
+
+## Next
+- 08.09 заметка + checklist; 11.09 22 Pulse; 16.09 26 Pulse (после Rupesh).
+
+> Checkpoint saved 2026-09-05 01:44 UTC.
+
+## 2026-09-05 01:52 - 22 финал + брендбук + дайджест + мутации next
+- **22 финалка:** правки по 2 рецензиям (самоповтор кейса убран, UI-тезис починен, Owner-буллиты, 10-Second Test, финал курсивом); хештеги 6→5; пост отполирован (3 слоя 🔹, bold 28/28, CTA Full article below👇); note-0809 (дата Tue 08.09, money paragraph, CTA, хештеги 5); first-comment WeatherNext drafted (22-first-comment.md).
+- **Pulse-правила в скилле:** cover = feed-превью автоматом, отдельного Feed Image нет (метадата, Part 1/2, Workflow); фид-пост делается ПОСЛЕ обложки+статьи, приложить больше ничего нельзя. То же в wiki/pre-publish-and-monitoring.md. Из метадат 21/22 Feed Image убран; 23-27 почистить (найдено 32 матча, исторические 2-20 не трогать).
+- **Cover v5:** image-gen gemini-2.5-flash-image ~$0.19 (v2-v6, опечатки TIMOUT/OWNORSHIP, отказ модели, победа v5); юзер почистил дубль BOUNDARIES в редакторе; прописана в метадату + [COVER:]; :19 снят; инлайны → pic2/pic3.
+- **brandbook.md v1:** палитра, шрифты, 3 формата, bottom-line/battle/footer-правила, 3 школы, пайплайн без VPN, §8 ротация форматов; гепы (фото, единый формат, пруф-линейка).
+- **21 vs брендбук:** переделок нет (~90% compliant); провал-95 — тема без чисел, не визуал.
+- **График:** note Пн 08.09 + статья Чт 11.09 (данные: день недели не решает, медианы 300-500, топы — баттлы); H4 daily отложена; консервы-банк заведен (≥3 готовых).
+- **Дайджест 04.09:** сгенерен + TG + блок «Нам полезно» (rogue-агенты→27, Tensor Completion→framework, Klarent→пилот, WeatherNext→коммент-22).
+- **Next:** мутации ствол-2 (операторы вглубь: Delta placeholder/label/class + assertion-kind logging + candidate set под fragility layer), потом Full v2.
+> Checkpoint saved 2026-09-05 01:52 MSK.

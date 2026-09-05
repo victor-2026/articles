@@ -232,18 +232,17 @@ def groq_summarize(items: list[dict], config: dict, today_str: str) -> str | Non
 
     prompt = f"""Напиши дайджест по AI-Testing за {today_str}. Формат:
 
-🔥 **Заголовок** — суть и значимость для QA (1 предложение, не начинай с "это").
-🔥 **Заголовок** — ...
-🔥 **Заголовок** — ...
-📋 Заголовок — суть (коротко).
-📋 Заголовок — суть.
+🔥 [N] **Заголовок** — суть и значимость для QA (1 предложение, не начинай с "это").
+📋 [N] Заголовок — суть (коротко).
 ...
 
 **Итог:** тренд дня, 1 предложение.
 
-Пример хорошего стиля:
-🔥 **File Upload Testing Without Dependencies** — решение для загрузки файлов в тестах без локальных путей, устраняет главную боль CI-окружений.
-📋 **OfficeCLI** — офисный пакет для ИИ-агентов, открывает новый сценарий автоматизации с документами.
+Правила (строго):
+- [N] = номер новости из списка ниже. Один буллет = одна новость из списка.
+- Буллетов НЕ БОЛЬШЕ, чем новостей в списке. Ничего вне списка: ни заголовков, ни фактов.
+- Пример хорошего стиля:
+🔥 [1] **File Upload Testing Without Dependencies** — решение для загрузки файлов в тестах без локальных путей, устраняет главную боль CI-окружений.
 
 Не используй "это важно, потому что", "это позволяет", "это о том, как". Только суть.
 
@@ -271,6 +270,47 @@ def groq_summarize(items: list[dict], config: dict, today_str: str) -> str | Non
     except Exception as e:
         print(f"  [WARN] Groq API error: {e}", file=sys.stderr)
         return None
+
+
+# ── LLM grounding guard ─────────────────────────────────────────────────────
+
+def ground_summary(llm_text: str | None, n_items: int) -> str | None:
+    """Drop LLM bullets that don't reference a real input item.
+
+    Keeps only 🔥/📋 lines carrying a valid [N] marker (1..n_items),
+    strips the marker, caps bullets at n_items. Non-bullet lines
+    (e.g. Итог) pass through. Returns None if no bullet survived —
+    caller falls back to the honest raw format (real items + links).
+    Silence beats hallucination: fewer but grounded.
+    """
+    if not llm_text:
+        return None
+    kept: list[str] = []
+    tail: list[str] = []
+    seen: set[int] = set()
+    for line in llm_text.splitlines():
+        s = line.strip()
+        if s.startswith(("🔥", "📋")):
+            m = re.match(r"^[🔥📋]\s*\[(\d+)\]\s*(.*)$", s)
+            if not m:
+                continue  # bullet without source ref → hallucination, drop
+            n = int(m.group(1))
+            if not (1 <= n <= n_items) or n in seen:
+                continue
+            seen.add(n)
+            kept.append(re.sub(r"\s{2,}", " ",
+                               s.replace(f"[{n}]", "", 1)).strip())
+        else:
+            tail.append(line)
+    if not kept:
+        print("  [guard] LLM summary had 0 grounded bullets → raw fallback",
+              file=sys.stderr)
+        return None
+    if len(kept) < len([l for l in llm_text.splitlines()
+                        if l.strip().startswith(("🔥", "📋"))]):
+        print(f"  [guard] dropped ungrounded bullets, kept {len(kept)}/{n_items}",
+              file=sys.stderr)
+    return "\n".join(kept + tail)
 
 
 # ── Dedup against recent digests ────────────────────────────────────────────
@@ -315,10 +355,39 @@ def dedup_items(items: list[dict], lookback: int = 3, today_str: str = "") -> tu
     return kept, dropped
 
 
+# ── Routing (не потерять полезное) ──────────────────────────────────────────
+
+def route_item(item: dict, routes: list[dict]) -> list[str]:
+    """Match an item against config routes. Returns list of actions."""
+    text = (item.get("title", "") + " " + item.get("summary", "")).lower()
+    return [r["action"] for r in routes
+            if any(k.lower() in text for k in r.get("match", []))]
+
+
+def format_routing(scored: list[dict], routes: list[dict]) -> list[str]:
+    """Build the «Куда это» checklist. Rule:
+    1. Полезно и ново (нет маршрута) → кандидат в wiki-страницу.
+    2. Полезно для текущих статей/проектов (есть маршрут) → вписать в конец
+       страницы / план обсуждений. Решение за человеком — здесь только напоминалка.
+    """
+    lines = ["### Куда это (не потерять)", ""]
+    for item in scored:
+        actions = route_item(item, routes)
+        title = item.get("title", "?")[:80]
+        if actions:
+            for a in actions:
+                lines.append(f"- [ ] {title} → {a}")
+        else:
+            lines.append(f"- [ ] {title} → 🆕 новое: кандидат в wiki-страницу?")
+    lines.append("")
+    return lines
+
+
 # ── Output ──────────────────────────────────────────────────────────────────
 
 def format_digest(scored: list[dict], llm_text: str | None, total: int,
-                  source_ids: list[str], today_str: str) -> str:
+                  source_ids: list[str], today_str: str,
+                  routes: list[dict] | None = None) -> str:
     """Format the final digest."""
     lines: list[str] = []
     lines.append(f"# Дайджест AI-Testing · {today_str}")
@@ -351,6 +420,9 @@ def format_digest(scored: list[dict], llm_text: str | None, total: int,
     lines.append("")
     source_list = ", ".join(sorted(set(source_ids)))
     lines.append(f"📊 *Всего отобрано: {len(scored)} из {total} · Источники: {source_list}*")
+    if routes:
+        lines.append("")
+        lines.extend(format_routing(scored, routes))
     return "\n".join(lines)
 
 
@@ -626,10 +698,10 @@ def main() -> None:
             top.insert(0, imported)
             scored.insert(0, imported)
 
-    # Groq summary
+    # Groq summary (grounded: bullets must cite input items)
     llm_text = None
     if not args.no_llm and top:
-        llm_text = groq_summarize(top, config, today_str)
+        llm_text = ground_summary(groq_summarize(top, config, today_str), len(top))
 
     # Output
     source_ids = list({it["source"] for it in all_items})
@@ -653,7 +725,8 @@ def main() -> None:
         }
         print(json.dumps(output, ensure_ascii=False, indent=2))
     else:
-        digest = format_digest(top, llm_text, len(all_items), source_ids, today_str)
+        digest = format_digest(top, llm_text, len(all_items), source_ids, today_str,
+                               routes=config.get("routes", []))
         print_digest(digest)
 
     # Save

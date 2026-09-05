@@ -108,6 +108,13 @@
       "url": "https://qualityremarks.com/feed/",
       "weight": 0.9,
       "boost": 0.5
+    },
+    {
+      "id": "kiro",
+      "name": "Kiro Blog",
+      "url": "https://kiro.dev/blog/feed.rss",
+      "weight": 0.9,
+      "boost": 0.5
     }
   ],
   "keywords": {
@@ -320,7 +327,32 @@
   ],
   "threshold": 1.5,
   "top_n": 12,
-  "max_age_days": 7,
+  "routes": [
+    {
+      "match": ["rogue", "sandbox escape", "swarm", "uncontrolled agent", "agent attack"],
+      "action": "Article 27 (guided QA): дописать в блок «Rogue-линия» в конце страницы"
+    },
+    {
+      "match": ["evaluation", "eval", "benchmark", "metric", "tensor completion", "reliability"],
+      "action": "Per-risk-tier framework / Article 26: evals-слой, mutation matrix"
+    },
+    {
+      "match": ["mutation", "fault injection", "survived mutant", "mutation score"],
+      "action": "Mutation Matrix Full v2 / ствол-2 (операторы вглубь)"
+    },
+    {
+      "match": ["vendor", "third-party", "external integration", "contract testing", "platform boundary"],
+      "action": "Article 22 (external boundaries) / note-серия"
+    },
+    {
+      "match": ["playwright", "selenium", "appium", "maestro", "codeless", "test generation", "agentic testing"],
+      "action": "Кандидат в pilot-каталог (паттерн testRigor/QAEverest: сначала разбор глубины)"
+    },
+    {
+      "match": ["conway", "org design", "team topology", "ownership", "quality gate"],
+      "action": "Серия Quality Operating Model (21-27): кросс-ссылка или блок в конец страницы"
+    }
+  ],  "max_age_days": 7,
   "groq_model": "openai/gpt-oss-120b",
   "rss_timeout": 15,
   "max_per_source": 3,

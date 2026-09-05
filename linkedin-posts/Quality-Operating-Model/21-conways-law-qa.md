@@ -2,7 +2,6 @@
 **Series:** Quality Operating Model
 **Subtitle:** Using the Inverse Conway Maneuver to align architecture, teams, quality ownership and business outcomes
 **Cover:** 21-cover-conways.png (TODO: слева one team → one application; справа domains/teams/integrations + один выделенный business flow; overlay «Tests follow boundaries. Accountability follows outcomes.»)
-**Feed Image:** 21-org-drift.png (TODO: два состояния - architecture evolved/QA did not vs architecture and QE aligned; без мелкого текста)
 **Hook:** «Продукт становится модульным раньше, чем модель качества. Teams split, APIs multiply, integrations become critical - а QA всё ещё организован как будто один app делала одна команда.»
 **Based on:** professional experience with modular systems, distributed teams and contract testing (Conway's Law + Inverse Conway Maneuver)
 **Wiki:** ai-qa-wiki - org structure + boundaries. See `wiki/zalando-agentic-engineering-snapshot-2026.md` for risk-based PR approval as a live per-risk-tier gate, and Identity Broker as the delegation-chain boundary example.
@@ -169,8 +168,6 @@ If the map cannot answer **who fixes it, who proves it and who is alerted when i
 The goal is not to centralize all testing. It is to make quality ownership, risks and verification explicit wherever complexity crosses a boundary.
 
 **Where does quality ownership disappear between teams in your organization—and what evidence would make that boundary operationally safe?**
-
----
 
 Victor Ematin · AI Quality Engineering Lead · OpenCode Go
 
