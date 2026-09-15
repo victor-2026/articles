@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 1080px 1350px; margin: 0; }
+  body { background: #0d1117; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color: #e6edf3; }
+  .slide { width: 1080px; height: 1350px; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 90px 80px; page-break-after: always; position: relative; }
+  h1 { font-size: 48px; font-weight: 700; text-align: center; line-height: 1.2; color: #e6edf3; }
+  h2 { font-size: 34px; font-weight: 600; text-align: center; color: #58a6ff; margin-bottom: 40px; }
+  .sub { font-size: 24px; color: #8b949e; text-align: center; margin-top: 24px; }
+  .big { font-size: 72px; font-weight: 700; color: #58a6ff; margin: 36px 0; }
+  .big.green { color: #3fb950; }
+  .big.red { color: #f85149; }
+  ul { list-style: none; font-size: 24px; line-height: 1.8; }
+  li { margin-bottom: 14px; }
+  li b { color: #e6edf3; }
+  li span { color: #e6edf3; }
+  .list { max-width: 900px; }
+  .footer { position: absolute; bottom: 36px; font-size: 19px; color: #8b949e; text-align: center; width: 100%; padding: 0 60px; }
+  .box { display: inline-block; padding: 14px 26px; border-radius: 12px; font-size: 24px; font-weight: 600; border: 2px solid; margin: 0 14px; }
+  .inner { border-color: #3fb950; color: #3fb950; }
+  .middle { border-color: #58a6ff; color: #58a6ff; font-size: 30px; }
+  .outer { border-color: #8b949e; color: #8b949e; }
+  .arrow { font-size: 30px; color: #8b949e; }
+  .bottom-note { position: absolute; bottom: 92px; font-size: 21px; font-style: italic; color: #8b949e; text-align: center; width: 100%; padding: 0 60px; }
+  .num { color: #58a6ff; font-weight: 700; }
+  .bad { color: #f85149; font-weight: 700; }
+  .good { color: #3fb950; font-weight: 700; }
+  .cta { font-size: 30px; font-weight: 700; color: #58a6ff; margin-top: 44px; }
+  .ba { width: 100%; max-width: 880px; }
+  .ba-row { display: flex; flex-direction: column; border-radius: 12px; padding: 22px 30px; margin-bottom: 18px; border: 2px solid; }
+  .ba-before { border-color: #f85149; background: #1a0f12; }
+  .ba-after { border-color: #58a6ff; background: #0f1626; }
+  .ba-label { font-size: 20px; font-weight: 700; margin-bottom: 8px; letter-spacing: 0.5px; }
+  .ba-before .ba-label { color: #f85149; }
+  .ba-after .ba-label { color: #58a6ff; }
+  .ba-text { font-size: 23px; color: #e6edf3; line-height: 1.5; }
+</style>
+</head>
+<body>
+
+<div class="slide">
+  <h1>Agents Write 7x More Code.<br>Releases Grew 20%.</h1>
+  <div class="sub">The AI Productivity Paradox Is a QA Problem</div>
+  <div class="big">7x code <span style="color:#8b949e;">vs</span> <span class="big green">+20% releases</span></div>
+  <div class="footer">Verification layer · middle loop · the gap is verification</div>
+</div>
+
+<div class="slide">
+  <h2>The Feeling of Speed Is Deceiving</h2>
+  <div class="list">
+    <ul>
+      <li><span>82% of engineers spend <b>less time writing code</b> (Annie Vella study, 28 countries)</span></li>
+      <li><span>84% report higher productivity — yet experience got worse: <b>14% -> 27%</b></span></li>
+      <li><span>GitLab: 78% code faster, <b>79% say delivery hasn't sped up</b></span></li>
+      <li><span>METR: felt <span class="good">+20%</span> faster, measured <span class="bad">19% slower</span></span></li>
+    </ul>
+  </div>
+  <div class="big">+20% felt <span style="color:#8b949e; font-size:40px;">vs</span> <span class="big red">-19% measured</span></div>
+  <div class="bottom-note">"We do more and enjoy it less."</div>
+</div>
+
+<div class="slide">
+  <h2>Where the Time Went: the Middle Loop</h2>
+  <div style="margin: 30px 0 44px;">
+    <span class="box inner">INNER LOOP</span>
+    <span class="arrow">→</span>
+    <span class="box middle">MIDDLE LOOP</span>
+    <span class="arrow">→</span>
+    <span class="box outer">OUTER LOOP</span>
+  </div>
+  <div class="list">
+    <ul style="text-align:center;">
+      <li><span>Inner: write · build · run · fix (IDE, TDD)</span></li>
+      <li><b style="color:#58a6ff;">Middle: Direct · Evaluate · Correct</b></li>
+      <li><span>Outer: commit · review · deploy · monitor (DevOps)</span></li>
+    </ul>
+  </div>
+  <div class="bottom-note">Supervising an agent is the new QA territory.</div>
+</div>
+
+<div class="slide">
+  <h2>What Breaks First? The Review Pipeline</h2>
+  <div class="ba">
+    <div class="ba-row ba-before">
+      <div class="ba-label">BEFORE</div>
+      <div class="ba-text">90% of engineers used AI → CEO saw 0 value. Org stuck at Stage 1-2.</div>
+    </div>
+    <div class="ba-row ba-after">
+      <div class="ba-label">AFTER</div>
+      <div class="ba-text">AI-code +69%, PRs <b>21x</b> → human review pipeline <b>broke</b>.</div>
+    </div>
+  </div>
+  <div class="big">21x automated PRs</div>
+  <div class="bottom-note">The fix was a QA design decision: one agent finds, another repairs.</div>
+</div>
+
+<div class="slide">
+  <h2>Where QA Earns Its Keep Now</h2>
+  <div class="list">
+    <ul>
+      <li><span>1. <b>AI reviewer + auto-fix loop</b> — find, repair, then human</span></li>
+      <li><span>2. <b>Regression advice on every PR</b> — checklists from git diff</span></li>
+      <li><span>3. <b>Mutation testing as anti-overfit guardrail</b> — 34/34 caught</span></li>
+      <li><span>4. <b>Comprehension debt control</b> — specs are the new code</span></li>
+    </ul>
+  </div>
+  <div class="bottom-note">Verification scales with PR volume. Trust is measured, not assumed.</div>
+</div>
+
+<div class="slide">
+  <h2>Writing Got Cheap. Verifying Did Not.</h2>
+  <div class="list">
+    <ul>
+      <li><span>Understanding, verifying, shipping, maintaining — all more expensive</span></li>
+      <li><span>AI code is dangerous because it is <b>plausible</b>: compiles, runs, logic error three commits deep</span></li>
+      <li><span>When verification capacity shrinks, risk does not disappear — it becomes <b>less visible</b></span></li>
+    </ul>
+  </div>
+  <div class="sub" style="font-size:28px; margin-top:50px; font-weight:600; color:#e6edf3;">Teams that invest in the verification layer ship.</div>
+  <div class="footer">Generating code became dramatically cheaper. Verifying it did not.</div>
+</div>
+
+<div class="slide">
+  <h1>Which Stage Is Your Team<br>on the 0-5 Scale?</h1>
+  <div class="sub">What breaks first when you hit 4?</div>
+  <div class="cta">Full analysis in the article — link in comments</div>
+  <div class="footer">© Victor Ematin · AI Quality Engineering Lead · OpenCode Go</div>
+</div>
+
+</body>
+</html>

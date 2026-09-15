@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  @page { size: 1080px 1350px; margin: 0; }
+  body { background: #0d1117; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; color: #e6edf3; }
+  .slide { width: 1080px; height: 1350px; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 90px 80px; page-break-after: always; position: relative; }
+  h1 { font-size: 52px; font-weight: 700; text-align: center; line-height: 1.25; color: #e6edf3; }
+  .sub { font-size: 26px; color: #8b949e; text-align: center; margin-top: 26px; }
+  .footer { position: absolute; bottom: 36px; font-size: 19px; color: #8b949e; text-align: center; width: 100%; padding: 0 60px; }
+  .bottom-note { position: absolute; bottom: 92px; font-size: 21px; font-style: italic; color: #8b949e; text-align: center; width: 100%; padding: 0 60px; }
+  h2 { font-size: 38px; font-weight: 700; text-align: center; color: #e6edf3; margin-bottom: 30px; }
+  .big { font-size: 80px; font-weight: 700; text-align: center; margin: 30px 0; }
+  .good { color: #3fb950; }
+  .bad { color: #f85149; }
+  .accent { color: #58a6ff; }
+  .muted { color: #8b949e; }
+  .case { max-width: 860px; font-size: 25px; line-height: 1.6; color: #e6edf3; text-align: center; }
+  .case b { color: #3fb950; }
+  .frac { display: flex; align-items: center; gap: 40px; margin: 40px 0; }
+  .frac-num { font-size: 96px; font-weight: 700; color: #58a6ff; }
+  .frac-meta { font-size: 28px; color: #8b949e; line-height: 1.5; }
+  .frac-meta b { color: #e6edf3; }
+  .frac-meta .good { color: #3fb950; }
+  .frac-meta .bad { color: #f85149; }
+  .bugs { display: flex; gap: 20px; margin-top: 34px; }
+  .bug { width: 76px; height: 76px; border-radius: 14px; display: flex; align-items: center; justify-content: center; font-size: 40px; }
+  .bug.real { background: #12381f; border: 2px solid #3fb950; color: #7ee787; }
+  .bug.ghost { background: #21262d; border: 2px solid #30363d; color: #8b949e; }
+  .quad { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; width: 880px; margin: 36px 0; }
+  .qcell { border-radius: 12px; padding: 28px; border: 2px solid; }
+  .qcell .ql { font-size: 20px; font-weight: 700; margin-bottom: 6px; letter-spacing: 0.5px; }
+  .qcell .qb { font-size: 26px; font-weight: 700; }
+  .qcell .qd { font-size: 20px; margin-top: 4px; }
+  .qcell.tp { border-color: #30363d; background: #161b22; color: #8b949e; }
+  .qcell.tn { border-color: #30363d; background: #161b22; color: #8b949e; }
+  .qcell.fp { border-color: #f85149; background: #1a0f12; }
+  .qcell.fn { border-color: #d29922; background: #1d1710; }
+  .qcell.fp .qb, .qcell.fn .qb { color: #f0f6fc; }
+  .qcell.fp .qd { color: #ffa198; }
+  .qcell.fn .qd { color: #e3b341; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; width: 900px; margin: 30px 0; }
+  .card { border-radius: 12px; padding: 26px; border: 2px solid #30363d; background: #161b22; }
+  .card .ct { font-size: 20px; font-weight: 700; margin-bottom: 10px; }
+  .card .ce { font-size: 17px; color: #8b949e; font-weight: 700; }
+  .card .cm { font-size: 22px; color: #e6edf3; line-height: 1.45; margin-bottom: 12px; }
+  .card .cp { font-size: 19px; color: #58a6ff; }
+  .card.fp .ct { color: #ffa198; }
+  .card.fn .ct { color: #e3b341; }
+  .split { display: flex; width: 900px; margin: 44px 0; }
+  .half { flex: 1; border-radius: 14px; padding: 40px 30px; text-align: center; }
+  .half.red { background: #1a0f12; border: 3px solid #f85149; margin-right: 18px; }
+  .half.green { background: #12381f; border: 3px solid #3fb950; }
+  .half .ht { font-size: 22px; font-weight: 700; margin-bottom: 16px; }
+  .half .hb { font-size: 30px; font-weight: 700; line-height: 1.35; }
+  .half.red .ht { color: #ffa198; }
+  .half.green .ht { color: #7ee787; }
+  .half.red .hb { color: #f0f6fc; }
+  .half.green .hb { color: #f0f6fc; }
+  .half .hd { font-size: 19px; color: #8b949e; margin-top: 14px; }
+  .cta-line { font-size: 30px; font-weight: 700; color: #58a6ff; text-align: center; margin: 20px 0; }
+  .cta-list { font-size: 23px; color: #8b949e; text-align: center; line-height: 1.6; max-width: 800px; }
+  .cta-list b { color: #e6edf3; }
+  .arrow-down { font-size: 48px; color: #58a6ff; margin: 16px 0; }
+  .tagline { font-size: 20px; color: #8b949e; margin-top: 30px; }
+</style>
+</head>
+<body>
+
+<div class="slide">
+  <h1>Your Agent Found 5 Bugs.<br>4 Were Imaginary.</h1>
+  <div class="sub">How to measure trust in an AI testing agent — the results quadrant</div>
+  <div class="bugs">
+    <div class="bug real">🐞</div>
+    <div class="bug ghost">👻</div>
+    <div class="bug ghost">👻</div>
+    <div class="bug ghost">👻</div>
+    <div class="bug ghost">👻</div>
+  </div>
+  <div class="footer">Victor Ematin · AI Quality Engineering Lead</div>
+</div>
+
+<div class="slide">
+  <h2>1 real bug. 4 artifacts.</h2>
+  <div class="case">Our DevAssure O2 run found a real bug — whitespace-only posts could be submitted. Then it produced 4 more findings, all artifacts of its own actions: it injected data, then "discovered" the injection.</div>
+  <div class="frac">
+    <div class="frac-num">1/5</div>
+    <div class="frac-meta">
+      <span class="good">20%</span> confirmation<br>
+      <span class="bad">80%</span> false-discovery
+    </div>
+  </div>
+  <div class="footer">The agent cannot be its own judge</div>
+</div>
+
+<div class="slide">
+  <h2>The 4 cells of agent results</h2>
+  <div class="quad">
+    <div class="qcell tp">
+      <div class="ql">AGENT REPORTED</div>
+      <div class="qb">TP</div>
+      <div class="qd">real bug, correctly reported</div>
+    </div>
+    <div class="qcell fp">
+      <div class="ql">AGENT REPORTED</div>
+      <div class="qb">FP</div>
+      <div class="qd">hallucinated bug</div>
+    </div>
+    <div class="qcell fn">
+      <div class="ql">AGENT SILENT</div>
+      <div class="qb">FN</div>
+      <div class="qd">missed a real bug</div>
+    </div>
+    <div class="qcell tn">
+      <div class="ql">AGENT SILENT</div>
+      <div class="qb">TN</div>
+      <div class="qd">correctly stayed quiet</div>
+    </div>
+  </div>
+  <div class="sub">Demos show TP. The other 3 cells are what demos hide.</div>
+  <div class="footer">FP and FN are the quiet cells you need to measure</div>
+</div>
+
+<div class="slide">
+  <h2>4 failure modes, 4 probes</h2>
+  <div class="grid2">
+    <div class="card fp">
+      <div class="ct">The hallucination · FP</div>
+      <div class="cm">reports a bug that isn't there</div>
+      <div class="cp">🔍 review gate</div>
+    </div>
+    <div class="card fn">
+      <div class="ct">The miss · FN</div>
+      <div class="cm">silent on a real bug</div>
+      <div class="cp">🧬 fault injection · 34/34</div>
+    </div>
+    <div class="card fn">
+      <div class="ct">The healed test · FN</div>
+      <div class="cm">green, but checks a string not behavior</div>
+      <div class="cp">📋 diff every change</div>
+    </div>
+    <div class="card fn">
+      <div class="ct">The blind first-match · FN</div>
+      <div class="cm">picks the first target, ambiguity unseen</div>
+      <div class="cp">🎯 decoy targets</div>
+    </div>
+  </div>
+  <div class="footer">Each failure mode needs its own probe</div>
+</div>
+
+<div class="slide">
+  <div class="split">
+    <div class="half red">
+      <div class="ht">RED BUILD</div>
+      <div class="hb">Forces a decision</div>
+      <div class="hd">clear signal</div>
+    </div>
+    <div class="half green">
+      <div class="ht">GREEN REPORT</div>
+      <div class="hb">From a black box</div>
+      <div class="hd">"no risk detected"</div>
+    </div>
+  </div>
+  <div class="big" style="font-size:44px; margin-top:20px;">A red build forces a decision.<br>A green report from a black box does not.</div>
+  <div class="sub">Test the tool that tests for you — or pair it with an oracle you trust.</div>
+</div>
+
+<div class="slide">
+  <h2>Full breakdown — article in comments</h2>
+  <div class="cta-list">
+    Two experiments (DevAssure O2 + a commercial AI-QA platform decoy),<br>
+    the <b>4 failure modes with probes</b>, and a <b>Monday checklist</b>.
+  </div>
+  <div class="arrow-down">↓</div>
+  <div class="cta-line">Do you track confirmation rate for agent-reported bugs — or just count how many it found?</div>
+  <div class="tagline">#AIAgents #GenAITesting #MutationTesting</div>
+  <div class="footer">Victor Ematin · AI Quality Engineering Lead</div>
+</div>
+
+</body>
+</html>

@@ -1,28 +1,34 @@
 **Format:** LinkedIn Discussion Post
 **Series:** Quality Operating Model
-**Date:** Thu 11.09 10:00 UK
+**Date:** Fri 11.09 10:00 UK
 **Purpose:** Follow-up discussion after Article 22 (published Mon 07.09) - engagement on the 10-second test
 **Cover:** none (regular feed post, not Pulse — no cover, no carousel)
-**Feed Image:** 22-ten-second-checklist.png (1080x1350) — attached to the post, matches the CTA
+**Feed Image:** 22-discussion-Gemini_new.jpeg (1376x768) — Gemini-реген checklist-карточки (Detect Defects нативно, опечаток нет)
 
 ---
 
-Who owns a business flow that crosses five teams?
+**Your architecture changed. Your ownership didn't.**
 
-Monday's article made the case: the architecture changed, ownership didn't. Every component is green. The business flow is broken.
+The argument: the components are green. The business flow is broken.
 
-Here's the question I keep asking on critical journeys:
+Why? Because nobody owns the seam — the contract between two teams, the event that has to arrive on time, the failure mode when the vendor is slow.
 
 **Can you name the owner of the seam in under ten seconds?**
 
-Not the module. The seam - the contract between two teams, the event that has to arrive on time, the failure mode when the vendor is slow.
-
 If the answer takes longer than ten seconds, the defect is already scheduled. It just hasn't shipped yet.
 
-**Pick one critical flow this week. Who can name the owner of the seam? Comment with the flow - I will reply with a one-line invariant.**
+My example: every token refresh under parallel workers must be serialized — the loser retries, never overwrites. One line, checkable, owned.
 
-P.S. The full breakdown with the checklist is in Monday's article.
+Two more from recent reviews:
+— Who owns duplicate charges when the user double-clicks Pay? Every order carries an idempotency key; duplicates are rejected, never re-charged.
+— Who owns the event contract when Team A ships v2? Every event carries a schema version; consumers reject unknown versions loudly, never silently.
+
+**Which seam in your system would fail the 10-second test?**
+
+Drop it below 👇 — I'll pick 3 and dissect them soon.
+
+P.S. Checklist attached. "Who Owns Quality at the Boundaries?" → first comment.
 
 Victor Ematin · AI Quality Engineering Lead · Independent practice
 
-#QualityEngineering #QAStrategy #ConwaysLaw #OrgDesign #IntegrationTesting
+#QualityEngineering #ConwaysLaw #TestAutomation #QAStrategy #IntegrationTesting

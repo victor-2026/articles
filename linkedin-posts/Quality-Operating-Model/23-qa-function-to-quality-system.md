@@ -2,17 +2,26 @@
 **Series:** Quality Operating Model
 **Cover:** 23-cover-quality-system.png (TODO)
 **Feed Image:** 23-gate-to-system.png (TODO)
-**Hook:** «Каждая компания, которая "масштабировала QA", наняла больше тестировщиков в ту же структуру. Это не масштабирование - это раздувание.»
+**Hook:** Every company that scaled QA hired more testers into the same structure. That is not scaling - that is inflating.
+**Hook (RU note):** «Каждая компания, которая "масштабировала QA", наняла больше тестировщиков в ту же структуру. Это не масштабирование - это раздувание.»
 **Based on:** Perplexity discussion (Aug 2026); Wimark transformation (Session 90): 3 manual testers → automation, regression 3 дня → 4 часа, 9 QA users; DORA-проект (4 core метрики, QS веса, error budget)
 **Wiki:** ai-qa-wiki (TODO: quality system topic)
 
 ---
 
-<!-- COVER: 23-cover-quality-system.png — old org chart "QA = final gate" vs new "QA = quality system" -->
+[COVER: 23-cover-quality-system.png — old org chart "QA = final gate" vs new "QA = quality system"]
 
 # The QA Function Is Dead. Long Live the Quality System.
 
 Every company that "scaled QA" hired more testers into the same structure.
+
+**3 days → 4 hours** - that is what a quality system does versus a gate. Our regression went from a three-day queue to a four-hour check when QA stopped shipping test cases and started shipping conditions for quality.
+
+[SCREENSHOT: 23-gate-to-system — 5 pillars diagram: Standards / Test Infra / Evidence / Risk Governance / Independent Challenge]
+
+**3 days → 4 hours** - that is what a quality system does versus a gate. Our regression went from a three-day queue to a four-hour check when QA stopped shipping test cases and started shipping conditions for quality.
+
+[SCREENSHOT: 23-gate-to-system — 5 pillars diagram: Standards / Test Infra / Evidence / Risk Governance / Independent Challenge]
 
 That is not scaling. That is inflating. More people at the same gate produces a longer queue, not better quality - and the moment delivery velocity grows, the gate becomes the bottleneck people route around.
 
@@ -44,8 +53,6 @@ The first is a gate. The second is a system. The gate scales by hiring. The syst
 
 <!-- REMINDER после публикации 21: вставить ссылку на 21 (Conway's Law). Кросс-связь: 20 (Your Agent Found 5 Bugs) https://www.linkedin.com/pulse/your-agent-found-5-bugs-4-were-imaginary-victor-ematin-zqcte/ - quality system = система, которая измеряет не только TP, но и FP/FN агентов -->
 
----
-
-Victor Ematin · AI Quality Engineering Lead · OpenCode Go
+Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 #QualityEngineering #QAStrategy #QualityOps #DORAMetrics #OrgDesign #TestAutomation

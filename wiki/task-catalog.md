@@ -242,6 +242,18 @@ Same reason — personal job-search story. Not publishing.
 ### [L-04] ✅ DROPPED (2026-08-17) — Carousel "3 AI Agents I'd Hire..."
 Same reason. `12-prod-table.png` remains available for future non-personal angles.
 
+### [P3] Digest wiki candidates (Sep 14 digest, 10/131)
+Description: 10 items selected from daily-digest 14.09. Created wiki pages: Rogue AI agents/RubyGems (rogue-line Episode 6), Hugging Face agent collaboration, Thunks AI (MoTaCon 2026). Pending wiki pages: Otis (local AI agent), Meta Astryx (agent-ready React), AI in QA Issue #27 (LLM skills weight), Cloudflare cache transcoding, Continuous performance testing, Apple Siri swap. Action: batch-create wiki pages or consolidate into one digest-candidates page. Priority: P3.
+
+### [P3] Wayne Roseberry "Drawn to Testing" — note
+Description: Test engineer (35+ years), author of "Drawn to Testing" (cartoon-based testing books). Posted Sep 14 about generative AI filling gaps with unstated assumptions — CoPilot resizing unasked slide = Article 26 thesis in miniature ("generative AI makes things up"). Not job target, peer in test engineering community. Relevant to Article 26 (ambiguity detection gap, infinite exclusion list). No action needed — note only.
+Priority: P3
+
 ### [P2] CARBON (testers.ai) — private beta trial
 Description: Jason Arbon's AI Agentic Verification Harness (Jank.AI/IcebergQA). Harness vs framework category — orchestration: discovery → risk → plan → execute → evidence → confidence. Wiki: `ai-qa-wiki/wiki/carbon-ai-agentic-verification-harness.md`. Plan: sign up beta (user) → run `/carbon` on OrangeHRM local → 4-axis eval (correctness/relevance/stability/coverage) + evidence quality (failing traces vs green-only) → wiki + candidate for Article 16 "harness vs framework". Cost $0.
 Priority: P2
+
+### [P2] Jason Arbon "Testing AI" book — external validation
+Description: Jason Arbon (Jank.AI/IcebergQA) published "Testing AI: Engineering Confidence in Non-Deterministic Systems" (testingaibook.com). Rahul Parwal reposted Dario Amodei quote confirming "Testing and Evaluation is one of the most valuable areas." Full chapter map + 194 concept briefs in ai-qa-wiki: `testing-ai-book-index.md`. Ch 11 "The Confidence Engineer" → Article 27; Ch 14 "Frontier Safety" → Amodei wiki. Workshop data "Expert QA vs AI" (14.09) provides empirical comparison — presenting at PNWQC. Action: comment on LinkedIn posts, cite Ch 11 in Article 27 body. Priority: P2.
+
+### [P3]

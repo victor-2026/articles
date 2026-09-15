@@ -117,3 +117,140 @@
 - **Консервы:** Seam Register + Checklist от Perplexity в Seam/ (фиксы N×M, e.g.-имена), роль — лид-магнит к Чт + приложение к 23.
 - **Открыто:** мутации ствол-2 (завтра); Feed Image в 23-27; cron 9:00 дважды не сработал (ручной прогон).
 > Checkpoint saved 2026-09-06 01:39 MSK.
+
+## 2026-09-07 18:05 - TG-бот: каталог моделей Zen обновлен
+- Факт: `deepseek-v4-flash-free` (старый fallback) удален с Zen; `qwen3.6-plus` стал платным; `north-mini-code-free` исчез. Free осталось 7: spark 1.3/1.2, pickle, nemotron ultra/lightning, mimo, ling.
+- `~/bot/bot.py`: таблица MODELS 18 шт (7 free + 11 go), номера + алиасы в одно слово + полные id; FALLBACK и default = spark 1.3 free; защита от мертвых моделей; /models с номерами. Бот перезапущен через launchd (polling 200 OK).
+- Осторожно: импорт bot.py в тестах стартует второй инстанс (409 Conflict) — тестировать только resolve-функции изолированно.
+> Checkpoint saved 2026-09-07 18:05 MSK.
+
+## 2026-09-09 03:55 - ночь 26-й: текст, 3-й кейс, визуалы, карусель, график
+
+**26 текст финал (до кейса-3):** заголовок `How to Evaluate Any AI-QA Vendor in 5 Scenarios`; тело буллетами (Google-правки: `your app`, silent FALSE NEGATIVE вместо FP-ошибки гугла); testRigor M3-провал первым; InfoQ simulation-eval ссылка (дайджест-роут закрыт); серийный блок с Previous-URL на 22. Именность решена: без анонимизации (таблица A/B), оба вендора со шрамами. TODO: п.1 playbook+2 кейса ✅, п.3 после 22 ✅, п.2 карусель при 6-9 слайдах ✅ (7 есть).
+**Фид-тексты ×2:** `26-carousel-post.md` (standalone, article drops Monday) + first-comment (серия+22-URL); Pulse-пост обновлен (компакт-список, буллеты, real wording warnings seen 3/3 confirmed).
+**3-й кейс = Agentiqa (пилот 08.09, каталог Positions-CV-CL/company/pilots/Agentiqa):** baseline 3/3 + M1-M6, 0/6 survived, паттерн «verifies FLOWS not UI» (M3 silence + M4 misattribution); evidence/ 20 логов + 5 скринов (row 43). Решения: (b) notify Ради́ка с дедлайном Вс вечер (молчание = имя), слать ТОЛЬКО секцию; соло-пост убит (SUPERSEDED, ибо advertorial); рамка «независимый аудит по неопубликованной методике» (v0.3 не течет в статью — проверено). DM-текст готов, отправляет юзер.
+**Правила (SKILL + pre-publish checklist):** (1) no `#`/`##` в публикуемом теле (секции = bold-линии, `# Title` в поле заголовка); 26 конвертирована (6 заголовков). (2) Working-notes только ПОД хештегами (`## 🛠 Служебные заметки редактора`), ревьюверы зону игнорят; 26 перестроена. SKILL-дубль DELETE-блоков убран.
+**Визуалы 26:** `26-mutation-matrix.png` (мой HTML-мокап 62K); pic-26-0 cover (Gemini чист); pic-26-1/2 сравнение (реген False Negative нативно; мой PIL-патч удален как стейл); `26-report-after-warning.png` (реал 07.09, Warnings & Observations, seen 3/3 confirmed) + маркер в loop-closed; loop-текст на дословный баннер (старый `WARNING ui-structure|CONFIRMED` выкинут). Карусель Gemini 7 слайдов (S3-патч THE METHOD, S4-редизайн принят, S5 апскейл 431→1080) → `26-carousel-gemini.pdf` 862K; мой `26-carousel.pdf` запасной; `26-carousel-gemini-scenario.md` для будущих сравнений.
+**Discussion-22:** гибрид собран (хук 2-го + мем-строка + пример + CTA pick-3), image → 22-pic3.jpeg, дата Fri 11.09. Luis Cavalheiro ветка: правило «макс 2 ответа автора в ветке, дальше лайки».
+**График (вариант B→утро Ср):** Ср 09.09 10:00 UK карусель-26 → Пт 11.09 discussion-22 → Пн 14.09 статья-26. publication-plan.md обновлен. Шрифт для конвертера: sans (брендбук §2/§4).
+**Открыто на утро:** 1) публикация карусели 10:00 UK; 2) DM Радику; 3) Вс вечер — вставка кейса-3 в 26; 4) aiinqa issue #26 подтянется дайджестом сам.
+> Checkpoint saved 2026-09-09 03:55 MSK.
+
+## 2026-09-09 day - карусель вышла, discussion готов, модели-детектив, дайджест закрыт
+
+**Карусель-26 ВЫШЛА (утро):** https://www.linkedin.com/feed/update/urn:li:ugcPost:7503248261701455872/ — day-0: 64 imp, 49 reached, 38% in / 62% out (сильный внешний старт). Workflow: performance-log строка + 3 хука в hooks-library + статус в плане.
+**Discussion-22 (Пт 11.09):** гибрид финал (0× "Monday", титул 1× в P.S. + 1× в комменте, P.S. "Checklist attached"), +2 примера-инварианта (idempotency, schema version), CTA `soon`. Картинка: Gemini-реген 1376×768, Detect Defects нативно, метадата на нее. Пакет: пост + картинка + first comment.
+**График финал:** Ср карусель ✅ → Пт discussion → Пн 14.09 статья-26. Даты-баги вычищены (11.09=пт, 12.09=сб были).
+**Ради́к:** DM отправлен (notify+deadline Вс вечер), ждем. Кейс-3 в 26 только после.
+**Модели-детектив (окно Рупеш+Мутации):** 10× invalid_request_error = opencode-слаг в OpenRouter-провайдере. Правильно: OpenRouter → `meta/muse-spark-1.3-contributor` (но требует 18+ attest + разрешение на training — contributor-тир учится на промптах!); opencode-сессия → `opencode/...-free` (Zen, без гейтов). `zen/`-префикса не существует нигде. bot.py НЕ трогать (там Zen-неймспейс, корректен). Итог окна: спарк заработал, recalibration-нарратив отозван везде, reply-draft-08 готов. Рупеш≠Амир (два разных человека/папки!). Архив к контроферте: emails/counter-proposal-pack-2026-09-09.zip (490K, 7 файлов: контроферта + v0.3×3 + evidence + 2 exec-отчета 07.09). Холдинг уже был SENT (mv лишний).
+**Дайджест 09.09 (11/11):** wiki/muse-meta-personal-ai-agent-2026.md NEW (Sentinel=supervisor-паттерн, 4 QA-угла); 27: swarm=дубль эп.1, GitLab=Эпизод 4; 26: GitLab PARKED в working notes; остальное распределено (ai-qa-wiki / pilot-кандидаты / skip с причиной).
+**Открыто:** Пт discussion-пост; Вс дедлайн Ради́ка → вставка кейса-3; Пн статья-26.
+> Checkpoint saved 2026-09-09 (day).
+
+## 2026-09-11 ~05:00 - handover из соседнего окна: 2 внешние цитаты для статьи 26 (п.1, обработать агенту)
+
+**Источник:** LifeMichael "Develop with AI Monthly Review" (Aug 15, 2026): https://www.linkedin.com/pulse/develop-ai-monthly-review-lifemichael-rwcif/ — ingested: ai-qa-wiki `raw/lifemichael-develop-with-ai-monthly-review-2026-08.md` + wiki-саммари `wiki/lifemichael-develop-with-ai-monthly-review-2026-08.md` (topics 332). Решение юзера: в черновик 26 НЕ вплетать сейчас, обработать здесь.
+**Цитата А (orchestration):** софтдев сдвигается от одиночных код-агентов к платформам оркестрации (Kiro Crew AWS open-source, Devin): декомпозиция, параллельность, persistent context, validation + human review как фичи. Применение в 26: внешнее подтверждение тезиса "verification layer мейнстримится, вендоры сами признают". Первоисточник: https://lifemichael.com/en/software-development-with-ai-moves-toward-agent-orchestration/
+**Цитата Б (swarm economics):** Cursor, пересборка SQLite роями: лучшая координация = тот же/лучший результат при радикально другой цене. Применение в 26: эмпирика под harness>model. Первоисточник: https://cursor.com/blog/agent-swarm-model-economics
+**Дополнительно (если место):** JetBrains Context (repo-intelligence для агентов) + Claude cyber-evals (3 кейса неавторизованного доступа к реал-системам) — guardrails-угол; XtremeAI conf 24.11 — следить за proceedings; Kiro Crew — кандидат в пилоты (open-source).
+**Уже сделано в соседнем окне:** Desplenter 2026 AI Readiness Report проверен (79/55/42/64 подтверждены из его постов) + sources-блок уже лежит в `26-first-comment.md`. Не дублировать, только А+Б.
+> Handover saved 2026-09-11 ~05:00 MSK (окно "Статьи+Мутации": взять А+Б в статью 26 до пн 14.09).
+
+## 2026-09-11 ~05:10 - routing от юзера агенту окна (прочитать первым)
+
+**Файл-контракт:** `/Users/victor/Projects/Articles/WORKING-NOTES.md`
+```bash
+code /Users/victor/Projects/Articles/WORKING-NOTES.md
+```
+**Контекст:** корневых `/AGENTS.md` и `~/AGENTS.md` нет и не будет — контракт живет в репо Articles (AGENTS.md + WORKING-NOTES.md рядом). Порядок чтения: сначала WORKING-NOTES.md (§4 mutex + §3 токены), потом Articles AGENTS.md при нужде.
+**Честная оговорка:** контракт покрывает файлы Articles. Пилоты/аутрич в Positions-CV-CL живут по своим правилам (pilot-log) — кросс-репная часть контракта (§5 карта) на них ссылается, но не управляет.
+> Relayed 2026-09-11 ~05:10 MSK.
+
+## 2026-09-11 - discussion-22 вышел + контракт обкатывается
+- **Discussion-22 опубликован** (Пт, hybrid-текст, checklist-картинка): day-0 2h = 58 imp / 42 reached / 78% out, 1 reaction, 0 комментов. Первый коммент со ссылкой posted. Performance-log + 2 хука + статус плана ✅.
+- **WORKING-NOTES.md** создан (контракт: размещение, маркер, токены, mutex 30 мин, карта) + п.7 в AGENTS.md. 26-я — эталон (токены ⏳/✅, маркер). Релей соседнему окну отправлен.
+- **26-я ждет:** Вс дедлайн Ради́ка/Адама → вставка/финал кейса-3; 10x + cold-M3 у соседнего окна; Пн 14.09 публикация (пост уже на 3 vendors).
+> Checkpoint saved 2026-09-11.
+
+## 2026-09-11 (eve) - digest 11.09 + правила из ошибок
+- **Digest 11.09 закрыт 12/12:** 27 → Эпизод 5 (Mythos 5 CAPTCHA-ад + PyPI-заливка); Muse wiki +traction (No.2, 83K, Instinct $2.5B) +hands-on (API>UI, location leak, галлюцинации); 26 → Testμ/Ghaib/Klain припаркованы (тело заморожено); остальное skip/transfer с причиной.
+- **26-я дозаполнена заранее:** author line возвращена, Desplenter-статистика вшита в 🔍 (коммент требовал), ссылка на карусель в first comment, пост на 3 vendors + Agentiqa-строка. Аудит зоны чист.
+- **Правила:** gotcha #4 в глобальной памяти (bulk edit ate lines) + WORKING-NOTES.md §7 Edit discipline (exact-match, assert-before-bulk, re-read-after).
+- **10x:** 3/10 PASSED. Cold M3 + learning-клауза ждут Вс/Пн.
+> Checkpoint saved 2026-09-11 (eve).
+
+## 2026-09-11/12 night - cold finding, naming closed, wiki batch
+- **Cold M3: FAIL vs warm 3/3 PASS** — память несет вердикт, не ускоряет. Тело 26-й: M3-строка warm/cold + клауза повторов с caveat; learning-эффект (M3/M6 времена) — кандидат, не утверждение. 0 survived стоит (fail=killed).
+- **Naming Agentiqa CONFIRMED** (pilot-log rows 74–75, спор closed); Sunday-гейт по Радику снят, остался Адам. Radik-message оценено: (a)→уведомление не вопрос, +дедлайн-строка, канал email.
+- **Megi follow-up SENT 11.09** (reply 29.08 был отправлен — stale-pending зачищен в index).
+- **Wiki batch:** muse +traction/hands-on; ai-guardrail-layers-gupta (memory=наш кейс); testkube-evals-as-gates (prompt-мутации, per-tier convergence); spotify-portal (advisory→enforceable). YES Group: в дайджест нет (no RSS + 2/3 мимо), MCP-story припаркована в 25.
+- **WORKING-NOTES.md + §7 + gotcha #4** (bulk-edit discipline); 26-я — эталон токенов; релей соседям отправлен.
+- **10x:** 6/10, 7/10 летит (пачками). **Пн 14.09 статья-26** — осталось: Вс дедлайн Адама, финал-аудит, публикация.
+> Checkpoint saved 2026-09-12 night.
+
+## 2026-09-12 (day) - 26 scheduled Mon 9:00, threads closed
+- **Article 26 в расписании LI на Пн 9:00** (текст + cover + 3 скрина + фид-пост). First comment — вручную в 9:05 Пн (не шедулится). Остаток мне после: performance-log + hooks.
+- **Типографика решена:** EN-статьи/посты — em dash (M5 только для RU); конвертированы пост + тело 26-й (цитата баннера нетронута). Unicode-сага: смешанные стили — источник в буфере/конвертере, не в редакторе; фикс — набирать руками.
+- **Megi:** follow-up + ack SENT, ответ 9:30 PM (дизайн-цепочка 5 стадий, прогонов нет, ждет Пн как бенчмарк). Тред спит до ее ранов.
+- **Bolton:** не комментируем до Пн (холодный коммент растворится; после статьи — предметно).
+- **Digest 12.09:** сгенерирован (3.12 явно; крон уже на 3.12 — ок), разобран 8/8 (wiki traces; парк 26; остальное skip/transfer).
+- **Naming closed:** Agentiqa confirmed (rows 74-75), Adam/Radik молчание=согласие (дедлайн Вс), Rupesh confirmed письменно. OrangePro/Аамир — 0 упоминаний во всем репо, трек изолирован.
+- **Cold M3: FAIL vs warm 3/3** — память несет вердикт; тело отражает (warm/cold). 10x: 6-7/10.
+- **Wiki batch:** muse(+traction/hands-on), guardrails-gupta, testkube-gates, spotify-portal, session-traces. YES Group: не подписываемся (no RSS + мимо), MCP-story в парк 25-й.
+> Checkpoint saved 2026-09-12 (day).
+
+## 2026-09-14 (day) - Article 26 published, quadruple validation, weekly reports
+- **Article 26 published LI Пн 14.09 09:00 UK.** Carousel Sep 9 (513 imp), Pulse article Sep 14 (157 imp day-1). Rupesh CEO first comment confirming method + product fix live.
+- **Comments made:** Martin Miceli article (his article), Estefania Miceli post, Gururaj Hm post. All 3 posted.
+- **Martin Miceli (CTO Parser) direct reply to comment:** "blank scores zero = green report with no ambiguity flag" + "mutation matrix sounds like very interesting empirical validation." "Uncertainty itself is valuable information." CEO publicly validated method.
+- **Quadruple validation thread live:** Estefania (QA lead) + Martin (CTO Parser) + Gururaj (AI Eng Leader) + Rupesh (CEO QAEverest) — 4 industry leaders confirming silent false negative thesis.
+- **Weekly reports generated:** W36 (Aug 25-31, 2,256 imp, Article 21 Conway launch 67%), W37 (Sep 1-7, 681 imp, dead week), W38 (Sep 8-14, 1,442 imp, Article 26 carousel 513 imp). 5 charts + 3 markdown reports in `linkedin-posts/weekly/`.
+- **Digest 13.09:** 6/131 items, broken down (Playwright feed, visual regression, AI agents lying, rogue AI hack). Sep 12 gap confirmed NOT missing (data present).
+- **Analytics verified:** 90-day (164,155 imp, 0 gaps) and 7-day (1,442 imp, 0 gaps) files — complete, no missing dates.
+- **Jason Arbon "Testing AI" book:** Found complete library in `ai-qa-wiki/wiki/testing-ai-book-index.md` (21 chapters, 194 concept briefs). Created wiki page in Articles, then deleted as duplicate. Amodei wiki updated with book reference. Task-catalog updated.
+- **Wiki updates:** `amodei-pace-the-frontier-2026.md` + items 6,7,8 (Rahul Parwal quote, Arbon book, Martin direct endorsement). `task-catalog.md` + P2 entry for Arbon book.
+- **Rupesh recommendation (Draft 2):** ready to send, relationship warm (he just publicly endorsed work). Not sent yet.
+> Checkpoint saved 2026-09-14 (day).
+
+## 2026-09-15 (evening) - VerdictGate: продукт запущен (приватно)
+- **Neiming saga:** MutGate мертв - коллизия PyPI (mutgate v0.1.1, JimGalasyn, активный с 08.09, named mutations as contracts) + mutation-gate (GitHub) + mutago (Go) = вся mut+gate окрестность занята. Перебор по глоссарию (7 стратегий, 15+ кандидатов) -> **verdictgate** (PyPI/npm/GitHub свободны): вердикт = coined term серии + артефакт verdict.md + ниша из концепта; полный выход из mut-окрестности = фича (мы не исполнитель). Plan B: tiergate.
+- **Продукт:** victor-2026/verdictgate (PRIVATE до публикации Article 27). Phase 0-4 done за одну сессию: CLI (verdictgate.py, stdlib, 340 строк), templates (lite/full/methodology + results.csv + requirements.csv + evidence-pack), 4 примера (web-login PASS-with-signals / demo-math clean / payment-critical-fail exit 1 / noop-row exit 2), golden files, selfcheck CI (success 9s: golden diff + exit codes + determinism).
+- **Ключевые решения зафиксированы в концепте** (ai-qa-wiki/outputs/product-concept-mutation-verifier-mvp.md, 9 правок с ассертами): статус ПРИНЯТ, oracle-gate в Why-not-X, B2 = Позиция C (дефолт строгий + vendor profiles в v0.2), override правила репо-сигнала (приватно сейчас, публично после 27-й), все 5 вопросов §12 закрыты.
+- **Hard rules продукта:** детерминизм (no timestamps/random), SCORER_VERSION bump + golden update при любом изменении правил (урок 0.2.34->0.2.40), exit-code contract 0/1/2, zero-tolerance B0/B1 неконфигурируем, no-op refuse-pre-seed на входе.
+- **Phase 5 (запуск) ждет Article 27:** публичность репо + follow-up пост на 26-ю ("method, codified") + DM вендорам (Rupesh/Adam/Radik могут прогнать свой CSV).
+## 2026-09-15 (afternoon/evening) - VerdictGate v0.1.0 shipped + Article 27 edits
+- **VerdictGate:** repo `victor-2026/verdictgate` pushed to GitHub (PRIVATE), CI selfcheck SUCCESS (9s: golden diff + exit 0/1/2 + determinism). 17 files committed. Author line fixed on 5 published articles (OpenCode Go → Independent practice).
+- **Article 27:** rogue-line Episodes 4-5 inserted as one-line ladder in Result section ("swarm → backchannel → 3700 agents → GitLab proxy → Mythos 5 UI-gate"). Author line fixed. Ready for review.
+- **All published articles:** author line normalized to `Victor Ematin · AI Quality Engineering Lead · Independent practice`.
+
+## 2026-09-15 (late) - Article 27 body finalized for Fri 19.09 publication
+- **Headline locked:** "QA Didn't Get Replaced. It Got Promoted." + sub-headline "The Guided QA Engineer: Why AI Promotes the Tester Instead of Replacing Them"
+- **Hook fixed:** "their team writes 80% of the code" (not "an agent")
+- **Problem:** question form — "who steers the quality criteria?"
+- **Implementation:** Megi ProCredit mention removed; added B0 payment/auth example (idempotency, validator mutation)
+- **Result:** rogue-line ladder compressed to 1 sentence (GitLab proxy + German wiki + Mythos 5 UI-gate)
+- **Evidence:** 4 key links in body (Ng, Bolton, Article 26, Zalando); rest moved to first comment draft
+- **Cleaned:** removed all working-notes sections (What to develop further, Raw threads, Open questions, Примечание, Rogue-линия)
+- **Added:** "## Драфт 15.09" section with full 4-section body + visual assets checklist + first comment draft + cross-links
+- **Author line:** confirmed "Independent practice" everywhere
+- **Publication:** Fri 19.09 10:00 UK; carousel decision tomorrow by visual readiness
+
+> Checkpoint saved 2026-09-15 (evening).
+
+## 2026-09-15 (night) - 27 ready (text+visuals), link saga closed, digest done, Luxoft declined
+- **Article 27 FINAL (Variant A):** body ~850 words (worked example: QAEverest sign-off 07/09, 0/4→3/3 relevance-gated, B0 100% x2, 10/10, c3d7) + 3 visuals generated HTML→PNG via Playwright (dark #0d1117+amber, 2x): 27-cover-guided.png (2400×1288), 27-gate-card.png, 27-before-after.png (+HTML sources alongside). Carousel CANCELLED for 19.09 (review: 4 theses ≠ 6-9 slides) → 5-slide derivative later. External review #1 (8→9/10: 4-vs-3 clarified, 90/80 dropped as sourceless, CCN expanded) + visual review accepted; rebuttals verified (Bolton quote verbatim from his 28.08 post; rogue ladder digest-sourced, links in 1st comment). Tech-writer skill pass: 10 fixes applied (lead ≤106ch, B-tier plain line, 5 hashtags, section emojis), blockers left for LI input per user. Open to Fri: gyn5e URL, Megi line in 1st comment, publish click.
+- **Link saga CLOSED:** Article 26 long URL alive (webfetch "not found" was guest-view block, lnkd.in/eRTHUX3K was cache). Gotcha #8 in global memory: verify all external links pre-publish via browser/incognito, long URLs only. Konstantin/Adam/Megi DMs need correct-URL resend.
+- **15-flashback (Wed 16.09) DONE:** post published, dashboard 100/100 screenshot captured, Badri/Divya email sent (audit proposal), Article 15 comment posted. All 4 steps complete.
+- **Digest 15.09 parsed 6/6:** Applitools Validation Gap → wiki + 26-follow-up/VerdictGate; healthcare eval primer → wiki + per-risk-tier; Klain dup (PARKED 11.09); MoT/Cappy-stale/SeqMaestro skipped. Cappy-2024 → stale-date guard fixed in daily-digest.py (year-fallback, tested 5/5).
+- **Slavnov:** methodology question answered (Article 26 link sent).
+- **Rupesh — CLOSED:** commercial engagement declined by Rupesh. Per-risk-tier methodology exchange complete; attestation methodology documented; no commercial deal. Status updated across all trackers.
+- **Luxoft Senior AI Developer (Anna Koroleva, Remote Serbia) DECLINED:** 40% fit (triage taxonomy, CBT, evals) vs hard gaps (Java 3y+, Appium/ADB, Bedrock) + Senior IC vs leadership-only filter. Reply draft ready (decline + keep-warm for Lead roles); tracker logging pending user OK.
+> Checkpoint saved 2026-09-15 (night).
+
+## 2026-09-15 (night) - Article 27 final edits + quotes bank
+- **Body:** senior hook 2nd sentence restored ("their team writes 80% of the code", from skeleton 2fb2255); repetition trimmed (21); units unified to % survival (30); B1 glossed "core flows" (15); Klain moved body→first comment (lean ending: rogue + Zalando + CTA).
+- **Rules set with user:** `###` headers + `[SCREENSHOT:]` markers stay as authoring markup — NOT flagged in reviews (user lays out at LI paste). Feed carries cover ONLY, never extra visuals (standing rule, recorded in post file).
+- **Feed V2 (conflict):** CTA → "Full article below👇", 5 hashtags, visual section removed. V1 moved to `27-guided-qa-engineer-post-week.md` (standalone discussion post, tail rewrite pending).
+- **gyn5e closed:** URL lived in Article 26 notes all along, copied to 27 (97, 122, comment).
+- **Open:** Megi numbers (Review Effort min per tier — check thread; fallback: drop by 19.09) · V1 tail rewrite.
+- **quotes.md created:** quotes bank with source+use rule; first entry Lew (QA reshuffled faster than any SWE part).

@@ -21,5 +21,5 @@ I have seen contract checks across 28 API contracts expose integration regressio
 What does your quality model mirror today: your current architecture, or the organization you had before it evolved?
 
 ---
-Victor Ematin · AI Quality Engineering Lead · OpenCode Go
+Victor Ematin · AI Quality Engineering Lead · Independent practice
 #QualityEngineering #QAStrategy #ConwaysLaw #EngineeringLeadership #SoftwareArchitecture

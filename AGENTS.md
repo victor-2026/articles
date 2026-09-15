@@ -38,6 +38,7 @@ Notion  ──→  kanban/  (sync: bot/notion-sync-kanban.py)
 4. `wiki/Emojis 🚀 ✨❓.md` — emoji conventions
 5. `_Тезисы.md` — content ideas pipeline
 6. `.opencode-memory.md` — global memory
+7. `WORKING-NOTES.md` — multi-window contract (notes placement, locks, owners)
 
 ## Kanban Sync
 
@@ -57,7 +58,7 @@ Notion  ──→  kanban/  (sync: bot/notion-sync-kanban.py)
 ## Post Conventions
 
 - Format: **hook** → body → CTA → **author line** → hashtags
-- Author line: `Victor Ematin · AI Quality Engineering Lead · $0 budget · OpenCode Go` (use both by default if within char limit; skip `$0 budget` only if article clearly uses paid tools or Go for execution)
+- Author line: `Victor Ematin · AI Quality Engineering Lead · OpenCode Go` (no `$0 budget` — recruiters = 12% of profile viewers, reinforces R&D perception; budget numbers stay in article content, hashtag #ZeroBudgetQA stays for practitioner audience)
 - Max 9 emoji per post
 - Author line and hashtags always on separate lines at the bottom
 - `raw/` never modified by AI (read-only source)
@@ -69,6 +70,26 @@ Notion  ──→  kanban/  (sync: bot/notion-sync-kanban.py)
 3. After confirmation, AI updates:
    - `hooks-library.md` — add hook(s) from published post
    - `performance-log.csv` — add row with date, topic, format, metrics (use `?` for unknown)
+
+
+## Subagents & OpenRouter — Free First (Global)
+
+- Pi via `pi-subagents` (scout, researcher, worker, reviewer, oracle, delegate) — global `~/.pi/agent/settings.json`: `defaultProvider: openrouter`, `defaultModel: openrouter/free`, `enabledModels: [openrouter/*:free, openrouter/*, groq/*]`
+- Free limits: 20 RPM, 1000/day (≥$10 lifetime credits, else 50/day) — shared across all `:free`, 429 = hit cap or provider pool busy
+- Rule: try `:free` / `openrouter/free` first, on 429 fallback to paid variant (same slug without `:free`), concurrency 1-2, exponential backoff, Retry-After
+- OpenCode delegates via bash: `pi --provider openrouter --model openrouter/free --print "Use reviewer to review this diff." -- @diff.txt`
+- Интенсивность платного режима: `maxSubagentSpawnsPerRun=3` (было 64), `thinking medium=4096` (было 10240), `compaction 8192/10000` — лимит длительности/интенсивности если не free (0.5$/сессию)
+- Also works headless in CI: `pi --mode json` or via `opencode` bash tool
+
+
+### OpenRouter — Лимит и отчет (платный режим)
+
+- Лимит зафиксирован: **1$/день**, **0.5$/сессию агента** (в дашборде https://openrouter.ai/keys → Edit → Limit 1 / daily, сейчас там 3 — поменяй вручную)
+- Проверка: `~/.pi/agent/scripts/openrouter-guard.sh` (проверяет daily + сессию 0.5$ — ` --check-session 0.5`) (выводит `daily / 2.0`, остаток; пишет в `~/.pi/agent/openrouter-guard.log`)
+- Уведомление оперативное: при ≥0.75$ (75%) — macOS notification `Glass`, при ≤0.1$ остатка — `Sosumi` + лог
+- Отчетик по завершении платной работы: `~/.pi/agent/scripts/openrouter-guard.sh --report` → `~/Backups/ai-qa-wiki/openrouter-report-YYYY-MM-DD.md` + notification `Pop`
+- LaunchAgent: `com.openrouter.guard` каждые 10 мин (`StartInterval 600`) + при загрузке
+- Перед платной сессией: `openrouter-guard.sh` (проверка), после: `openrouter-guard.sh --report` (отчет)
 
 ## Communication — Full File Paths (MANDATORY)
 

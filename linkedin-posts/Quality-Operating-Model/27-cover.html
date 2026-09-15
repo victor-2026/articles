@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:1200px; height:644px; background:#0d1117; color:#e6edf3;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    display:flex; overflow:hidden; }
+  .left { width:640px; padding:64px 20px 64px 64px; display:flex; flex-direction:column; justify-content:center; }
+  .kicker { color:#f0b429; font-size:22px; font-weight:700; letter-spacing:3px; margin-bottom:18px; }
+  h1 { font-size:64px; line-height:1.08; font-weight:800; margin-bottom:20px; }
+  h1 .amber { color:#f0b429; }
+  .sub { font-size:26px; color:#8b949e; line-height:1.4; }
+  .right { width:560px; padding:48px 64px 48px 20px; display:flex; flex-direction:column; justify-content:center; gap:18px; }
+  .panel { border:1px solid #30363d; border-radius:14px; padding:22px 26px; background:#161b22; }
+  .panel .tag { font-size:18px; font-weight:700; letter-spacing:2px; margin-bottom:8px; }
+  .panel .desc { font-size:21px; color:#8b949e; }
+  .risk { border-left:6px solid #f0b429; } .risk .tag { color:#f0b429; }
+  .oracle { border-left:6px solid #58a6ff; } .oracle .tag { color:#58a6ff; }
+  .sign { border-left:6px solid #3fb950; } .sign .tag { color:#3fb950; }
+  .warn { border:1px dashed #f85149; border-radius:14px; padding:16px 26px; font-size:21px; color:#f85149; background:rgba(248,81,73,.06); }
+  .warn b { color:#e6edf3; }
+</style></head>
+<body>
+  <div class="left">
+    <div class="kicker">THE GUIDED QA ENGINEER</div>
+    <h1>QA Didn't Get <span class="amber">Replaced.</span> It Got <span class="amber">Promoted.</span></h1>
+    <div class="sub">Humans give the why.<br>Agents give the how.</div>
+  </div>
+  <div class="right">
+    <div class="panel risk"><div class="tag">RISK</div><div class="desc">You define what must be proven per tier</div></div>
+    <div class="panel oracle"><div class="tag">ORACLE</div><div class="desc">You break the suite on purpose — mutation check</div></div>
+    <div class="panel sign"><div class="tag">SIGN-OFF</div><div class="desc">You sign the release, not the confidence score</div></div>
+    <div class="warn">Green report <b>≠</b> safe release</div>
+  </div>
+</body></html>

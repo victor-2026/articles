@@ -31,6 +31,6 @@ Where does quality ownership disappear between teams in your organization?
 
 Full article + carousel: link in comments 👇
 
-Victor Ematin · AI Quality Engineering Lead · OpenCode Go
+Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 #QualityEngineering #QAStrategy #ConwaysLaw #EngineeringLeadership #SoftwareArchitecture

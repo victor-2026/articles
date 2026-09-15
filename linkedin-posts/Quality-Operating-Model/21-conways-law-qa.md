@@ -169,6 +169,6 @@ The goal is not to centralize all testing. It is to make quality ownership, risk
 
 **Where does quality ownership disappear between teams in your organization—and what evidence would make that boundary operationally safe?**
 
-Victor Ematin · AI Quality Engineering Lead · OpenCode Go
+Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 #QualityEngineering #QAStrategy #ConwaysLaw #EngineeringLeadership #SoftwareArchitecture

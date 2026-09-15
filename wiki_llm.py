@@ -11,7 +11,7 @@ Usage:
 
 Models (cost per 1M tokens):
   openai/gpt-oss-120b     $0.15/$0.60 — cheap, good for drafts (DEFAULT)
-  llama-3.3-70b-versatile $0.59/$0.79 — best quality
+  openai/gpt-oss-120b — replacement (llama-3.3 decommissioned Aug 2026) — best quality
   openai/gpt-oss-20b      $0.075/$0.30 — fastest, cheapest
 """
 

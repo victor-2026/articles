@@ -14,7 +14,7 @@ KISS Sorcar vs Autonoma — same project, two completely different outputs
 
 KISS Sorcar (Berkeley, Terminal Bench 2.0 #1) wrote a working Playwright POM + test in 16 steps. 1 module. Executable. $0.
 
-Autonoma (YC W22) ran a 7-step pipeline: discovered 13 modules, verified 6 database entities, generated 28 test specs plus 5 cross-module journeys. All in ~10 minutes. ~$0.02 in tokens.
+[Autonoma](https://www.getautonoma.com) ran a 7-step pipeline: discovered 13 modules, verified 6 database entities, generated 28 test specs plus 5 cross-module journeys. All in ~10 minutes. ~$0.02 in tokens.
 
 They're not competitors. One writes code. The other covers the entire app.
 

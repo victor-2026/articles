@@ -65,6 +65,16 @@ def _is_recent(published_str: str, max_days: int) -> bool:
             return delta.days <= max_days
         except ValueError:
             continue
+    # Fallback (stale-date guard, 2026-09-15: Cappy 2024 slipped through):
+    # unparseable date with an explicit old year (e.g. "March 2024") is stale.
+    m = re.search(r"\b(19|20)\d{2}\b", published_str or "")
+    if m:
+        try:
+            age_days = (date.today().year - int(m.group(0))) * 365
+            if age_days > max_days:
+                return False
+        except ValueError:
+            pass
     return True  # if can't parse, keep it
 
 

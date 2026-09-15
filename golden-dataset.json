@@ -1,0 +1,168 @@
+[
+  {
+    "title": "Automating Applitools Usage Data Retrieval for ServiceNow Integration",
+    "link": "https://app14743.cloudwayssites.com/blog/automating-applitools-usage-data-retrieval-for-servicenow-integration/",
+    "source": "applitools",
+    "relevant": true,
+    "note": "top scored"
+  },
+  {
+    "title": "Managing Baseline Branches Using CI/CD Pipelines",
+    "link": "https://app14743.cloudwayssites.com/blog/managing-baseline-branches-using-ci-cd-pipelines/",
+    "source": "applitools",
+    "relevant": true,
+    "note": "top scored"
+  },
+  {
+    "title": "File Upload Testing Without the Broken Dependencies or Manual Workarounds",
+    "link": "https://app14743.cloudwayssites.com/blog/automate-file-upload-testing/",
+    "source": "applitools",
+    "relevant": true,
+    "note": "top scored"
+  },
+  {
+    "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
+    "link": "https://github.com/iOfficeAI/OfficeCLI",
+    "source": "hn",
+    "relevant": true,
+    "note": "top scored"
+  },
+  {
+    "title": "n8n Automation Testing and AI Testing Guide for 2026",
+    "link": "https://www.testmuai.com/blog/n8n-automation-testing/",
+    "source": "lambdatest",
+    "relevant": true,
+    "note": "top scored"
+  },
+  {
+    "title": "Automation is the way forward for enterprises that are serious about customer experience",
+    "link": "https://www.testmuai.com/blog/automation-is-the-way-forward-for-enterprises/",
+    "source": "lambdatest",
+    "relevant": false,
+    "note": "Generic marketing, not relevant"
+  },
+  {
+    "title": "Mark Zuckerberg tells staff that AI agents haven’t progressed as quickly as he’d hoped",
+    "link": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/",
+    "source": "tc",
+    "relevant": true,
+    "note": "top scored"
+  },
+  {
+    "title": "How to Migrate from Selenium to Playwright Without Rebuilding Your Debt",
+    "link": "https://app14743.cloudwayssites.com/blog/how-to-migrate-from-selenium-to-playwright-without-rebuilding-your-debt/",
+    "source": "applitools",
+    "relevant": true,
+    "note": "top scored"
+  },
+  {
+    "title": "Leading with AI at PwC",
+    "link": "https://www.ministryoftesting.com/media-sessions/leading-with-ai-at-pwc",
+    "source": "mot",
+    "relevant": true,
+    "note": "top scored"
+  },
+  {
+    "title": "AMA Answer: How do the teams responsibilities in a bakery, align with a quality engineering team?",
+    "link": "https://www.ministryoftesting.com/moments/ama-answer-how-do-the-teams-responsibilities-in-a-bakery-align-with-a-quality-engineering-team",
+    "source": "mot",
+    "relevant": false,
+    "note": "Metaphor, not actionable"
+  },
+  {
+    "title": "Why your CI pipeline is slow and how to fix it",
+    "link": "",
+    "source": "infowq",
+    "relevant": false,
+    "note": "Generic DevOps",
+    "summary": "Discussion of common causes of slow CI pipelines and how to optimize them for faster feedback"
+  },
+  {
+    "title": "The future of microservices architecture in 2026",
+    "link": "",
+    "source": "infowq",
+    "relevant": false,
+    "note": "Architecture, not testing",
+    "summary": "Analysis of microservices architecture trends for 2026 and beyond"
+  },
+  {
+    "title": "React 19 new features for frontend developers",
+    "link": "",
+    "source": "tc",
+    "relevant": false,
+    "note": "Frontend, not testing",
+    "summary": "Overview of new features in React 19 including server components and improved hydration"
+  },
+  {
+    "title": "New Python release performance improvements",
+    "link": "",
+    "source": "ars",
+    "relevant": false,
+    "note": "Language, not testing",
+    "summary": "Performance improvements and new features in the latest Python release"
+  },
+  {
+    "title": "How our startup raised Series B funding",
+    "link": "",
+    "source": "tc",
+    "relevant": false,
+    "note": "Business, not testing",
+    "summary": "How a tech startup successfully raised Series B funding from venture capitalists"
+  },
+  {
+    "title": "Playwright component testing guide for React apps",
+    "link": "",
+    "source": "mot",
+    "relevant": true,
+    "note": "Core testing topic",
+    "summary": "Guide to using Playwright for component testing in React applications with practical examples"
+  },
+  {
+    "title": "Claude AI improves test generation accuracy by 40%",
+    "link": "",
+    "source": "hn",
+    "relevant": true,
+    "note": "AI testing",
+    "summary": "Claude AI model shows 40% improvement in automated test generation accuracy compared to previous methods"
+  },
+  {
+    "title": "Open source property-based testing library for Python",
+    "link": "",
+    "source": "hn",
+    "relevant": true,
+    "note": "PBT core topic",
+    "summary": "New open source Python library for property-based testing with advanced features"
+  },
+  {
+    "title": "Appium vs Maestro comparison for mobile automation",
+    "link": "",
+    "source": "mot",
+    "relevant": true,
+    "note": "Mobile testing tools",
+    "summary": "Detailed comparison of Appium and Maestro frameworks for mobile test automation"
+  },
+  {
+    "title": "GitHub Actions reduces Playwright parallel execution time",
+    "link": "",
+    "source": "ghblog",
+    "relevant": true,
+    "note": "CI/CD for testing",
+    "summary": "GitHub Actions introduces new features for parallel Playwright test execution with reduced time"
+  },
+  {
+    "title": "Amazon launches new data center region in UAE",
+    "link": "",
+    "source": "tc",
+    "relevant": false,
+    "note": "Infrastructure, not testing",
+    "summary": "Amazon Web Services launches new data center infrastructure in United Arab Emirates"
+  },
+  {
+    "title": "Introducing the next generation of leaders in tech",
+    "link": "",
+    "source": "mot",
+    "relevant": false,
+    "note": "People, not testing",
+    "summary": "Profiles of emerging technology leaders and their impact on the industry"
+  }
+]

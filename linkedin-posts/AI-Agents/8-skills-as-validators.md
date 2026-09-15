@@ -1,5 +1,15 @@
 # Article 8: Skills Are Not npm Packages — They're Validators in the Evidence Layer
 
+**Format:** Pulse Article
+**Series:** AI-Agents (Article 8)
+**Cover:** `8-cover-3layer.png` — 3-Layer Architecture (Orchestration / Execution / Evidence)
+**Feed Image:** `8-cover-3layer.png`
+**Screenshots:**
+  - Pipeline shift: `8-pipeline-shift.png`
+  - Self-healing loop: `8-self-healing-loop.png`
+
+---
+
 ## Hook
 
 **"Skills are not npm packages. They're not generators. They're validators in the Evidence layer."**
@@ -24,7 +34,7 @@ Part 1 showed 36 runs across 2 projects: 0% lift. The experiment failed because 
 
 | Layer | Skills Role | Why |
 |-------|-------------|-----|
-| **Orchestration** | ❌ No | Risk assessment, strategy — human judgment |
+| **Orchestration** | ⚠️ Partial | Human defines Risk Boundaries (business priorities, compliance). AI Orchestrator translates risks into test plan and chooses validators/generators. |
 | **Execution** | ⚠️ Partial | Can generate tests, but not the gate itself |
 | **Evidence** | ✅ **YES** | Skills = **validators** in the Evidence layer |
 
@@ -62,6 +72,19 @@ Metric: False positive rate / mutation score / evidence quality
 | **Review** | Human can explain failure mode | Skill provides failure mode analysis |
 
 **Skills as validators** check these gates automatically. They don't generate tests — they validate that generated tests *pass the gates*.
+
+---
+
+## Validation Stratification: Not All Validators Run on Every Commit
+
+Running mutation testing (hundreds of mutated runs) and deep trace analysis on every PR is expensive and slow (5 min → 40+ min). The solution: **shift risk by layer**.
+
+| Validator Type | When | Examples | Cost |
+|----------------|------|----------|------|
+| **Lightweight** | Every PR (< 2 min) | Syntax check, state/data isolation, trace existence, basic assertions | ~$0 |
+| **Heavyweight** | Nightly / Staging (40+ min) | Mutation score, deep log analysis, video review, failure mode interpretation | ~$5-20/run |
+
+**Fast checks block PRs. Deep checks run nightly.** This keeps CI feedback under 5 minutes while still catching subtle regressions.
 
 ---
 
@@ -111,22 +134,47 @@ Metric: False positive rate / mutation score / evidence quality
 - **Mutation score** (not lines of code) — Autonoma confirms: AI-generated suites average 20-40% mutation score vs 60-80% human-written. Green means consistency, not correctness.[[1]](#ref1)
 - **False negative detection** (not pass rate)
 - **Evidence completeness** (traces, screenshots, logs per test)
+- **Validator reliability** — use deterministic checkers (AST parser, Playwright trace parser) for structural checks. LLM only for interpreting complex unstructured logs, calibrated on a golden dataset.
 
 ---
 
 ## The Architecture Shift
+
+[SCREENSHOT: 8-pipeline-shift.png — OLD vs NEW pipeline comparison]
 
 ```
 OLD:  Human → Skill (generator) → Test → CI → Deploy
       ↑                                ↑
    Generator                          Gate
 
-NEW:  Human → Generator → Test → CI → Skill (validator) → Evidence → Deploy
-                                      ↑              ↑
-                                  Validator      Evidence Layer
+NEW:  Human → Generator → Test → CI → Skill (validator) ──(PASS)──> Deploy
+                ▲                           │
+                └────── Auto-fix Loop ──────┴──(FAIL + Evidence)
 ```
 
 **Skills move from left of CI to right of CI.**
+
+---
+
+## The Self-Healing Loop
+
+[SCREENSHOT: 8-self-healing-loop.png — Validator → Auto-fix Loop → Validator cycle]
+
+A validator that only reports `FAIL` is just a reporter. Real value comes when the loop closes:
+
+```
+Validator (FAIL) → Context + Evidence + Failure Mode
+    → Generator (auto-fix using failure context)
+        → CI (re-run) → Validator (PASS)
+```
+
+**Guardrails:**
+- **Flakiness check first.** Before triggering auto-fix, the Validator retries in a clean environment. Auto-fix triggers **only when the failure mode is deterministic** — not a network timeout or flaky selector.
+- **Risk Scope preservation.** The Validator checks not just that the test passes, but that the original assertion density and coverage boundary are preserved after the fix — preventing the Generator from "fixing" tests by weakening assertions or removing checks. (Full Mutation Score is validated on the nightly heavyweight gate, not on PR.)
+
+**Without this loop, validator is a reporter. With loop, it's a quality controller.** The validator provides the *why* (failure mode, evidence), the generator provides the *fix*, and the validator confirms it — all without human intervention for fixable failures.
+
+For failures the generator can't fix (architectural issues, ambiguous requirements), the loop escalates to human with full evidence attached.
 
 ---
 
@@ -137,7 +185,9 @@ NEW:  Human → Generator → Test → CI → Skill (validator) → Evidence →
 | **Building skills** | Design as validators, not generators. Input = test + evidence. Output = gate pass/fail + failure mode. |
 | **Using skills** | Run skills *after* CI, not before. Skills = quality gates, not test generators. |
 | **Measuring skills** | Track false positive rate, mutation score, evidence completeness. Not test count. |
-| **Designing agents** | Agent = Orchestrator + Generator + Validator. Three roles, not one. |
+| **Designing agents** | Agent = Orchestrator + Generator + Validator. Generator without Validator produces garbage. Validator without Generator only confirms failure. Real power is in the loop. |
+
+**Terminology note:** Skills are atomic tools (validators or generators). Agents are the systems that compose them into closed feedback loops.
 
 ---
 
@@ -158,6 +208,10 @@ If your skills output `gate: PASS/FAIL + failure_mode` → they're validators (E
 2. **Redesign as validators**: Input = test + evidence, Output = gate result
 3. **Add evidence checks**: Traces, screenshots, mutation score, failure mode
 4. **Measure differently**: False positive rate > test count
+
+---
+
+**How many skills in your library are currently acting as generators versus validators? Let's discuss in the comments.**
 
 ---
 

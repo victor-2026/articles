@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:960px; height:425px; background:#0d1117; color:#e6edf3;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    padding:36px 44px; }
+  h2 { font-size:30px; font-weight:800; margin-bottom:6px; }
+  h2 span { color:#f0b429; }
+  .sub { font-size:19px; color:#8b949e; margin-bottom:22px; }
+  table { width:100%; border-collapse:collapse; font-size:22px; }
+  th { text-align:left; font-size:17px; letter-spacing:2px; color:#8b949e; padding:8px 12px; border-bottom:1px solid #30363d; }
+  td { padding:11px 12px; border-bottom:1px solid #21262d; }
+  tr:last-child td { border-bottom:none; }
+  .tier { font-weight:800; color:#f0b429; width:70px; }
+  .gate { text-align:right; font-weight:700; }
+  .g0 { color:#f85149; } .g1 { color:#f0883e; } .g2 { color:#e3b341; } .g3 { color:#3fb950; }
+  .ex { color:#8b949e; font-size:20px; }
+</style></head>
+<body>
+  <h2>Risk-based gate <span>— survival rate × risk → human effort</span></h2>
+  <div class="sub">The suite must prove it can catch a break — per tier, not per confidence score.</div>
+  <table>
+    <tr><th>TIER</th><th>EXAMPLE</th><th style="text-align:right">RELEASE GATE</th></tr>
+    <tr><td class="tier">B0</td><td>Auth, payment</td><td class="gate g0">0 surviving mutants</td></tr>
+    <tr><td class="tier">B1</td><td>Core flows</td><td class="gate g1">0% survival</td></tr>
+    <tr><td class="tier">B2</td><td>Secondary workflows</td><td class="gate g2">≤5% survival</td></tr>
+    <tr><td class="tier">B3</td><td>Cosmetic / UI</td><td class="gate g3">Trend only</td></tr>
+  </table>
+</body></html>

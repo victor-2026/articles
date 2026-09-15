@@ -1,0 +1,1 @@
+Part of the Quality Operating Model series. Previously: who owns quality at the boundaries (https://www.linkedin.com/pulse/who-owns-quality-boundaries-victor-ematin-obdce/). Full method with numbers - article on Monday.

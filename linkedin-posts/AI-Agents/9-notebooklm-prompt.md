@@ -15,13 +15,13 @@
 
 | Metric | Playwright Agents | KISS/Sorcar | Autonoma |
 |--------|:-:|:-:|:-:|
-| Tests generated | 8 | 8 | 95 |
+| Tests generated | 8 | 8 | 136 (40 unique) |
 | Coverage | 1 page | 1 page | 14 modules |
 | Format | `.spec.ts` | `.spec.ts` + POM | `.md` specs |
 | Execution | Standard runner | Standard runner | AI agent + vision runtime |
 | Auto-fixes | 2 | 0 | 28 → re-gen |
 | POM created | No | Yes (187 lines) | No |
-| Setup time | 10 min | 15 min | 3+ hours |
+| Setup time | 10 min | 15 min | 3.5 hours |
 
 Цвета строк: PW = зелёный `#45ba4b`, KISS = синий `#2d7ff9`, Autonoma = оранжевый `#f97316`
 Без emoji, без подвала, текст строго английский
@@ -32,7 +32,7 @@
 
 - **Слева:** Playwright маска (зелёная #45ba4b) + подпись "10 min • 8 tests"
 - **Центр:** "KISS" текст (синий #2d7ff9, bold sans-serif) + подпись "15 min • 8 tests + POM"
-- **Справа:** Autonoma буква "A" (фиолетовый #8b5cf6) + подпись "3+ hrs • 95 specs"
+- **Справа:** Autonoma буква "A" (фиолетовый #8b5cf6) + подпись "3.5 hrs • 136 specs"
 
 Фон тёмный #1a1a2e или белый #ffffff (выбрать что лучше смотрится)
 
@@ -59,7 +59,7 @@ Prompt 1: "Create POM + 4 tests"
 Explore pages → KB → Entity audit (32 models)
   → Scenarios (68 records) → Factory setup (18)
   → Test generation → Review (28/43 fail → re-gen)
-  → **Output: 95 `.md` specs**
+  → **Output: 40 `.md` specs**
 
 **Нижняя строка (вывод):**
 - PW / KISS: "Test code — runs anywhere (playwright test)"
@@ -79,12 +79,12 @@ $ autonoma run
 ◐ Auditing entities... 32 models found
 ◐ Designing scenarios... 68 records written
 ◐ Wiring factories... 18/18 verified
-◐ Generating tests... 95 specs written
+◐ Generating tests... 40 specs written (136 variations)
 ◐ Reviewing specs... 43/43 checked
   ✓ 15 passed
   ✗ 28 failed → sending back to generator
 
-▸ 25 nodes tested, 95 tests written, 0 in queue
+▸ 25 nodes tested, 40 specs written (136 variations), 0 in queue
 ▸ Pipeline: 3h 12m elapsed, still running
 ```
 

@@ -53,4 +53,32 @@ Extracted from published posts for reuse in future content.
 | "The same model evaluating the same skill is like a student grading their own homework — and getting an A every time" | Article 8 — Skills Are Not npm Packages (Jun 24) | AI self-evaluation, paradox hooks |
 | "Nemotron writes the mutation test. Nemotron says it passed. Nemotron gives itself 9/10" | Article 8 — Skills Are Not npm Packages (Jun 24) | Confident garbage, LLM overconfidence |
 | "Skills are not npm packages — they're behavior blueprints with context, self-evaluation, and executable validation" | Article 8 — Skills Are Not npm Packages (Jun 24) | Thesis statements, architectural narratives |
+| "Everyone tests ML models in Python. I used Go. Here's what I found — including a NaN bug in the first 30 lines." | Article 11 — ML testing in Go (Jul 9) | Go vs Python, ML testing hooks |
+| "377 lines of Go code, 11 test functions across 4 testing levels. And a NaN bug caught by the very first invariant." | Article 11 — ML testing in Go (Jul 9) | Numbers hooks, unexpected framework |
+| "One invariant. One bug. Zero production incidents." | Article 11 — ML testing in Go (Jul 9) | Minimalist impact, invariance narrative |
+| "10 tools. 79 sessions. $0 budget. 6 still run in production today (5 at $0)." | Article 12 — AI Testing Agents (Aug 14) | Numbers hooks, survival narrative |
+| "82,520 impressions on one post wasn't the goal. Here's what actually ships to production." | Article 12 — AI Testing Agents (Aug 14) | Perspective shift, credibility hook |
 
+| "Your Agent Found 5 Bugs. 4 Were Imaginary." | Article 20 — Quadrant (Aug 26) | False confidence, counting hooks |
+| "1 of 5 findings survived review: 20% confirmation rate, 80% false-discovery rate." | Article 20 — Quadrant (Aug 26) | Metrics hooks, precision framing |
+| "A red build forces a decision. A green report from a black box does not." | Article 20 — Quadrant (Aug 26) | Punchline, green vs red contrast |
+| "1 real bug, 4 artifacts — the agent can't be its own judge." | Article 20 — Quadrant (Aug 26) | Counting + limitation hooks |
+| "Green is the default output. The question is whether your probes can make it non-green." | Article 20 — Quadrant (Aug 26) | Reframing, probe mindset |
+| "The architecture changed. Ownership didn't." | Article 21 — Conway (Aug 31) | Organizational drift, problem hook |
+| "Every component is green. The business flow is broken." | Article 21 — Conway (Aug 31) | Paradox, system-level failure |
+| "Who owns a business flow that crosses five teams?" | Article 21 — Conway (Aug 31) | Question hook, boundary accountability |
+| "Federated quality ownership: teams own what they build, central QE provides standards." | Article 21 — Conway (Aug 31) | Solution framing, operating model |
+| "Tests follow boundaries. Accountability follows outcomes." | Article 21 — Conway (Aug 31) | Mantra, visual-slide hook |
+
+| "The most expensive defect you ever shipped lived on a boundary." | Article 22 — Boundaries (Sep 07) | Superlative + location hook |
+| "In one suite, 28/28 contract tests passed — yet a timing seam between 4 parallel workers shipped a 401." | Article 22 — Boundaries (Sep 07) | Money paragraph, green-vs-broken contrast |
+| "If the answer takes longer than ten seconds, the defect is already scheduled." | Article 22 — Boundaries (Sep 07) | 10-second test, actionable metric hook |
+| "Quality at the boundary is the difference between a platform and a pile of modules." | Article 22 — Boundaries (Sep 07) | Closing quote, repostable refrain |
+| "Shared responsibility means no responsibility." | Article 22 — Boundaries (Sep 07) | Provocation, ownership framing |
+
+| "A tool that fails red costs you an hour. A tool that lies green costs you the release." | Carousel 26 — Vendor matrix (Sep 09) | Contrast quote, quotable refrain |
+| "Green stayed green — it stopped being silent." | Carousel 26 — Vendor matrix (Sep 09) | Loop-closed payoff, optimistic turn |
+| "When every row is green, green means nothing." | Carousel 26 — Vendor matrix (Sep 09) | Matrix punchline, slide hook |
+
+| "Your architecture changed. Your ownership didn't." | Discussion 22 (Sep 11) | Provocation hook, 6-word contrast |
+| "Every order carries an idempotency key; duplicates are rejected, never re-charged." | Discussion 22 (Sep 11) | One-line invariant example, template demo |

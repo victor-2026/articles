@@ -84,3 +84,217 @@
 **Target audience:** Инженеры по тестовой автоматизации, аналитики QA и специалисты по стоимости облака.  
 **Why it would perform well:** Конкретный чек‑лист + сравнение популярных инструментов (с упоминанием «модульного покрытия», расходов токенов) привлекает тех, кто уже выбирает инструменты, и стимулирует обсуждение опыта, повышая охват за счёт репостов коллег.
 
+/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[2026-07-06T09:00:04.890473] ideas |  | ok | 
+🤖 Model: openai/gpt-oss-120b
+
+## 💡 Post Ideas
+
+**Идея 1**  
+**Заголовок:** AI‑тестирование: почему 44 % компаний отключают его после первого месяца?  
+**Хук:** «Более 44 % организаций выключают AI‑инструменты для тестирования, потому что они «ломают» качество – а вы знаете, в чём их главная ошибка?»  
+**Целевая аудитория:** QA‑инженеры, тим‑лиды и руководители отделов качества, которые уже пробовали (или планируют) внедрять генеративный AI.  
+**Почему будет работать:** Статистика сразу привлекает внимание, а вопрос‑проблема обещает практические выводы (что именно «ломает» AI, как избежать отключения и превратить риск в конкурентное преимущество). Такой контент генерирует комментарии и репосты от профессионалов, ищущих реальные кейсы.
+
+---
+
+**Идея 2**  
+**Заголовок:** 4 новых «суперспособности» QA‑инженера в эпоху GenAI  
+**Хук:** «AI уже генерирует тесты, но только те, кто владеет Prompt Engineering, Risk‑Based Prioritization, AI Supervision и Test Architecture, действительно выигрывают.»  
+**Целевая аудитория:** Средний‑ и старший уровень QA‑специалистов, а также инженеров‑автоматизаторов, желающих расширить свой набор навыков.  
+**Почему будет работать:** Конкретный список навыков легко воспринимается, позволяет читателям сразу оценить «пробелы» в своей экспертизе и планировать развитие. Формат «списка» часто сохраняется в ленте и получает лайки/комментарии от тех, кто уже внедряет AI.
+
+---
+
+**Идея 3**  
+**Заголовок:** Как построить «AI‑Ready» тестовую архитектуру за 30 дней  
+**Хук:** «Я создал масштабируемую архитектуру, позволяющую команде QA генерировать, проверять и поддерживать AI‑тесты без потери качества – и делюсь пошаговым планом.»  
+**Целевая аудитория:** Тим‑лиды QA, DevOps‑инженеры и архитекты тестовых систем, ищущие практические руководства.  
+**Почему будет работать:** Практический план с чётким временным ограничением (30 дней) обещает быстрый результат, что повышает кликабельность. Поддержка конкретных инструментов и примеров из реального проекта повышает доверие и стимулирует обсуждения.
+
+---
+
+**Идея 4**  
+**Заголовок:** Культура инженерного риска: почему AI‑тесты требуют нового подхода к приоритезации  
+**Хук:** «AI может написать тысячу тестов за минуту, но без культуры риск‑ориентированной приоритезации они превращаются в шум, а не в защиту продукта.»  
+**Целевая аудитория:** Руководители инженерных команд, CTO и менеджеры по качеству, которые формируют процессы и ценности в организации.  
+**Почему будет работать:** Связывает технологию с человеческим фактором и культурой, что часто вызывает живую дискуссию. Тема риска и приоритезации резонирует с текущими вызовами масштабных проектов и повышает вовлечённость руководителей.
+
+---
+
+**Идея 5**  
+**Заголовок:** AI vs. ручное ревью: как сочетать оба подхода без двойных затрат  
+**Хук:** «Мы попробовали полностью автоматизировать проверку кода AI, но только добавив обязательный «человеческий» слой получили 22 % рост обнаружения дефектов.»  
+**Целевая аудитория:** Разработчики, QA‑инженеры и менеджеры по качеству, интересующиеся балансом автоматизации и человеческого контроля.  
+**Почему будет работать:** Приводит конкретный процент улучшения, что делает кейс измеримым и убедительным. Тема «гибридного» подхода актуальна для компаний, которые уже инвестировали в AI, но боятся потерять контроль. Такой пост стимулирует обмен опытом и запросы на детали реализации.
+
+/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[2026-07-27T09:02:56.959312] ideas |  | ok | 
+🤖 Model: openai/gpt-oss-120b
+
+## 💡 Post Ideas
+
+**5 идей для постов в LinkedIn (русский)**  
+
+| № | Заголовок | Hook (1 предложение) | Целевая аудитория | Почему пост зайдёт |
+|---|-----------|----------------------|-------------------|--------------------|
+| 1 | **«Autonomous QA Agents — ваш новый коллега‑тестировщик»** | «В 2026 году агент Atto из Testsigma уже сам пишет и поддерживает E2E‑тесты, пока вы занимаетесь стратегией продукта». | QA‑инженеры, руководители тестовых команд, CTO | Тема «само‑исцеляющихся» тестов — горячий тренд, а конкретный пример (Atto) даёт материал для обсуждения внедрения и ROI. |
+| 2 | **«Self‑healing тесты: как сократить падения CI на 80 %»** | «Мой последний проект с Mabl показал, что автоматическое обновление сломанных селекторов спасло 12 часов ручного рефакторинга каждую неделю». | DevOps‑специалисты, инженеры по CI/CD, QA‑лиды | Чёткая цифра (‑80 %) привлекает внимание, а реальный кейс демонстрирует экономию времени → повышает готовность делиться опытом. |
+| 3 | **«Human‑in‑the‑Loop в CoTester 2.0: когда AI‑агент требует вашего одобрения»** | «Без guard‑rails даже самый умный агент может «сломать» бизнес‑логику – поэтому CoTester 2.0 ставит человека в центр контроля». | Руководители безопасности, корпоративные QA‑команды | Тема баланса AI / человек актуальна для крупных компаний, а упоминание безопасности повышает доверие и готовность к комментариям. |
+| 4 | **«Генеративный QA для LLM‑чат‑ботов: проверяем, что пишет искусственный интеллект»** | «Virtuoso умеет не только писать тесты, но и проверять ответы собственных LLM‑моделей – первый шаг к «тест‑первому‑AI».» | Инженеры AI/ML, продукт‑менеджеры чат‑ботов, QA‑специалисты | Тестирование ИИ‑сервисов — ниша, где мало контента; практический пример привлечёт экспертов и вызовет обсуждение новых методик. |
+| 5 | **«Культура инженерного уровня‑AI: 3 привычки, которые делают ваш QA‑отдел «непробиваемым»»** | «Если ваш тест‑проект не использует Prompt Engineering, Risk‑Based Prioritization и AI‑Supervision, вы уже отстаёте от конкурентов». | Технические лидеры, руководители QA, HR‑специалисты в IT | Список из трёх конкретных практик легко запоминается, а формула «непробиваемый» вызывает эмоцию и стимулирует репосты/комментарии. |
+
+**Как использовать идеи:**  
+1. Начинайте каждый пост с hook‑фразы, затем раскрывайте детали (реальные цифры, скриншоты, короткие видео).  
+2. Добавляйте короткий CTA («Поделитесь, как вы внедряете self‑healing в своей CI», «Ставьте лайк, если уже используете Human‑in‑the‑Loop»).  
+3. Завершайте подписью с вашим именем, ролью и ссылкой на профиль/блог.  
+
+Эти темы основаны на текущих трендах 2026 года, содержат конкретные инструменты и измеримые выгоды – именно то, что заставляет LinkedIn‑аудиторию останавливать ленту и комментировать.
+
+/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+🤖 Model: openai/gpt-oss-120b
+Traceback (most recent call last):
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='api.groq.com', port=443): Failed to resolve 'api.groq.com' ([Errno 8] nodename nor servname provided, or not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/requests/adapters.py", line 644, in send
+    resp = conn.urlopen(
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.groq.com', port=443): Max retries exceeded with url: /openai/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.groq.com', port=443): Failed to resolve 'api.groq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/victor/Projects/Articles/wiki_llm.py", line 226, in <module>
+    main()
+  File "/Users/victor/Projects/Articles/wiki_llm.py", line 192, in main
+    ideas = ask_llm(prompt, temperature=0.8, model=model)
+  File "/Users/victor/Projects/Articles/wiki_llm.py", line 64, in ask_llm
+    resp = requests.post(GROQ_API_URL, headers=headers, json=data, timeout=60)
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/victor/Library/Python/3.9/lib/python/site-packages/requests/adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.groq.com', port=443): Max retries exceeded with url: /openai/v1/chat/completions (Caused by NameResolutionError("HTTPSConnection(host='api.groq.com', port=443): Failed to resolve 'api.groq.com' ([Errno 8] nodename nor servname provided, or not known)"))
+/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[2026-08-17T09:00:38.724952] ideas |  | ok | 
+🤖 Model: openai/gpt-oss-120b
+
+## 💡 Post Ideas
+
+**1.**  
+**Title:** «Автономные QA‑агенты 2026 г.: от генерации тестов к самовосстановлению кода»  
+**Hook:** «В этом году автономные агенты уже пишут E2E‑тесты на естественном языке и автоматически чинят сломанные селекторы — и это уже не фантастика, а реальность».  
+**Target audience:** QA‑инженеры, лидеры тестовых команд и архитекторы CI/CD, интересующиеся практическим внедрением AI‑инструментов.  
+**Why it would perform well:** Тема «самовосстанавливающихся тестов» сейчас в топе поисков; цифры о росте использования AI в тестировании (54 % компаний) вызывают интерес, а конкретные примеры (Testsigma Atto, Mabl) дают практическую ценность и вызывают обсуждение.
+
+---
+
+**2.**  
+**Title:** «Human‑in‑the‑Loop vs. полностью автономный тестер: где провести границу?»  
+**Hook:** «CoTester 2.0 показывает, что даже в 2026 году без надзора человека нельзя гарантировать безопасность бизнес‑логики».  
+**Target audience:** Руководители QA, специалисты по безопасности и DevSecOps, которые решают, насколько доверять AI в критических проектах.  
+**Why it would perform well:** Дискуссия о балансе автоматизации и контроля всегда генерирует комментарии; добавление реального кейса с CoTester 2.0 и цифр о рисках повышает вовлечённость.
+
+---
+
+**3.**  
+**Title:** «Как превратить требования в готовый набор тестов за 5 минут с Virtuoso»  
+**Hook:** «Загружаете ТЗ — Virtuoso читает его, генерирует цепочку тестов и сразу проверяет ответы вашего собственного LLM‑бота».  
+**Target audience:** Продукт‑менеджеры, бизнес‑аналитики и QA‑инженеры, работающие с быстрым выпуском фич.  
+**Why it would perform well:** Практический «сквозной» пример экономии времени (5 минут) привлекает внимание к новому инструменту и стимулирует репосты среди команд, стремящихся к ускоренному релизу.
+
+---
+
+**4.**  
+**Title:** «Prompt‑инжиниринг для QA: 3 шаблона, которые удвоили покрытие тестов в нашем проекте»  
+**Hook:** «Один правильно сформулированный запрос к агенту Atto сэкономил нам 200 часов ручного тестирования за месяц».  
+**Target audience:** Тестировщики, разработчики и технические лидеры, уже использующие AI‑ассистенты, но ищущие способы повысить их эффективность.  
+**Why it would perform well:** Конкретные шаблоны и измеримый результат (200 часов) делают пост практичным; тема «prompt engineering» сейчас в тренде, а цифры усиливают доверие и вызывают вопросы в комментариях.
+
+---
+
+**5.**  
+**Title:** «Культура инженерии в эпоху AI‑тестирования: 5 правил для команд, которые хотят оставаться конкурентоспособными»  
+**Hook:** «Если ваша команда не обучает инженеров работать с AI‑агентами, вы уже отстаёте от конкурентов».  
+**Target audience:** Технические руководители, HR‑специалисты и менторы, формирующие стратегии развития инженерных команд.  
+**Why it would perform well:** Позиционирование как «мягкий» контент (культура, развитие) привлекает более широкую аудиторию; конкретные правила (обучение, метрики, «guardrails», кросс‑функциональность, менторство) дают читателям чек‑лист, стимулируя лайки и сохранения.
+
+/Users/victor/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[2026-08-31T09:01:54.811989] ideas |  | ok | 
+🤖 Model: openai/gpt-oss-120b
+
+## 💡 Post Ideas
+
+**1. Тема:** «Автономные QA‑агенты: как Atto из Testsigma уже сегодня заменяет 80 % ручных скриптов»  
+**Hook:** «Ваша команда тратит недели на обновление сломавшихся селекторов — а Atto делает это за секунды».  
+**Целевая аудитория:** QA‑инженеры + технические лидеры, которые уже используют (или планируют) E2E‑автоматизацию.  
+**Почему будет резонировать:** 2026‑й год — первая волна полностью автономных агентов, и реальные цифры (сокращение ручной работы на 80 %) вызывают «вау‑эффект», подкреплённый кейсом из Testsigma, который уже широко известен в сообществе.
+
+---
+
+**2. Тема:** «Self‑healing тесты: 3 практических паттерна, которые спасли наш релиз от регрессии»  
+**Hook:** «Когда UI‑компоненты меняются, ваш набор тестов не падает — он сам восстанавливается».  
+**Целевая аудитория:** QA‑автоматизаторы и DevOps‑инженеры, отвечающие за стабильность пайплайна CI/CD.  
+**Почему будет резонировать:** Самовосстановление тестов — горячая тема, но часто обсуждается лишь в теории. Приведя конкретные паттерны (динамические локаторы, fallback‑ассерты, AI‑проверка визуальных отклонений) и измерив влияние (сокращение времени отката релиза на 30 %), пост даст сразу применимый «инструмент» для ежедневной работы.
+
+---
+
+**3. Тема:** «Human‑in‑the‑Loop vs. Full‑Autonomy: когда всё‑равно нужен QA‑человек»  
+**Hook:** «Самый продвинутый агент CoTester 2.0 всё равно просит «одобрить» 12 % критических сценариев».  
+**Целевая аудитория:** Руководители QA‑отделов, менеджеры по продукту и архитекторы тестовых платформ.  
+**Почему будет резонировать:** В 2026‑м году многие боятся полностью полагаться на AI. Показав реальные метрики (процент ручных проверок, типы рисков, которые AI пока не способен оценить), пост развеет миф о полной автоматизации и даст практический фреймворк выбора стратегии.
+
+---
+
+**4. Тема:** «Как построить культуру «Prompt‑Driven Testing» в команде из 10 человек»  
+**Hook:** «Если ваш тест‑скрипт начинается с «Write a test that verifies …», вы уже в будущей QA‑команде».  
+**Целевая аудитория:** QA‑лиды, инженеры по тестированию, а также разработчики, интересующиеся AI‑инструментами.  
+**Почему будет резонировать:** Prompt‑инжиниринг — новый «язык» QA, но многие не знают, как его внедрять. Конкретный план из 5 шагов (обучение, шаблоны, ревью, метрики, «prompt‑retrospective») и пример повышения покрытие на 25 % за месяц делает пост практичным и легко адаптируемым.
+
+---
+
+**5. Тема:** «Тестируем ИИ‑сервисы: почему Virtuoso‑бот стал нашим «зеркалом» для проверки LLM‑чат‑ботов»  
+**Hook:** «Когда ваш чат‑бот начал «галлюцинировать», Virtuoso сразу сгенерировал 200 контрольных диалогов».  
+**Целевая аудитория:** Инженеры, работающие с LLM, ML‑ops и QA‑специалисты, отвечающие за качество AI‑продуктов.  
+**Почему будет резонировать:** Тестирование генеративных моделей — острая боль 2026‑го года. Пример из реального проекта (сокращение количества «галлюцинаций» на 40 % после внедрения Virtuoso) покажет, что существуют готовые инструменты, а не только «домашние» скрипты, тем самым привлекая внимание как QA, так и ML‑команд.
+

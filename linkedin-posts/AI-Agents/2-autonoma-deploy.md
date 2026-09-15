@@ -22,7 +22,7 @@ tags: []
 
 [COVER: Autonoma adapter selection — 15 backend options, PHP (Laravel) selected, but OrangeHRM uses Symfony]
 
-Autonoma (YC W22, codebase-first AI testing) ran through 7 pipeline steps in 10 minutes: discovered 13 modules, mapped 14 sub-features, proposed seed data for 6 database entities. Then I hit a wall.
+[Autonoma](https://www.getautonoma.com) (codebase-first AI testing) ran through 7 pipeline steps in 10 minutes: discovered 13 modules, mapped 14 sub-features, proposed seed data for 6 database entities. Then I hit a wall.
 
 The Environment Factory SDK offered 15 adapters — including PHP (Laravel). My app runs on PHP/Symfony, not Laravel. Different ecosystem. I chose TypeScript + Node instead: the test suite is already in TypeScript, Playwright fixtures use the same language, and OrangeHRM's REST API needs nothing more than `fetch`. Pragmatic, not perfect.
 

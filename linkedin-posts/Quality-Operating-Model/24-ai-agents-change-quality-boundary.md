@@ -1,3 +1,17 @@
+**Format:** Pulse Article
+**Series:** Quality Operating Model
+**Cover:** [COVER: 24-cover-agents-boundary.png — agent crossing org boundaries, accountability chain highlighted]
+**Feed Image:** [SCREENSHOT: 24-agent-policy — authorization / traceability / auditability triad]
+**Hook:** An agent can cross more boundaries in one session than a human tester in a week - and amplify a mistake at the same speed. Who is accountable for the outcome it produced?
+
+---
+
+AI agents are a new kind of boundary-crosser - and the org chart does not know how to hold them accountable.
+
+**2.20% → 3.19% visual diff but 0% risk** - our QAEverest decoy pilot shipped two identical login forms and still reported green. The boundary had no owner.
+
+[SCREENSHOT: 24-decoy-diff — two identical sign-in forms, visual diff 2.20% → 3.19%, no ambiguity flag]
+
 AI agents are a new kind of boundary-crosser - and the org chart does not know how to hold them accountable.
 
 ## Skeleton
@@ -29,3 +43,7 @@ The QAEverest decoy pilot is a live case for point 2 (policy testing) that does 
 - **Статья 19** (Who verifies the black box?) - эхо-камера, verification outside the loop (мост уже в Body п.3)
 - **Статья 21** (Conway's Law) - п.4 Body (Conway для агентов) ссылается на обратный манёвр
 - **Wiki:** [AI QA Tool Evaluation: Mutation Matrix](wiki/ai-qa-tool-evaluation-mutation-matrix.md) - метод оценки платформ, включая policy testing
+
+Victor Ematin · AI Quality Engineering Lead · Independent practice
+
+#QualityEngineering #QAStrategy #AIAgents #TestAutomation #QualityOps

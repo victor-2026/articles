@@ -1,3 +1,17 @@
+**Format:** Pulse Article
+**Series:** Quality Operating Model
+**Cover:** [COVER: 25-cover-delegation.png — partner vs product risk, logo stays on the box]
+**Feed Image:** [SCREENSHOT: 25-partner-gate — extension contracts + compatibility rules + certification gates]
+**Hook:** Your partner shipped the extension. Your logo is still on the box.
+
+---
+
+Delegating implementation does not delegate product risk.
+
+**One vendor, three extensions, zero gates - that is where 80% of integration defects landed before we added certification.**
+
+[SCREENSHOT: 25-extension-contracts — what partner may touch vs must prove]
+
 Delegating implementation does not delegate product risk.
 
 ## Skeleton
@@ -21,3 +35,10 @@ Delegating implementation does not delegate product risk.
 - **Статья 23** (QA function -> quality system) - партнёр сдаёт evidence, а не код: связь с quality evidence model
 - **Статья 24** (AI agents cross quality boundary) - агент как автономный партнёр: если человеческий партнёр сдаёт код без evidence, то агент - тем более
 - **Статья 20** [Your Agent Found 5 Bugs. 4 Were Imaginary.](https://www.linkedin.com/pulse/your-agent-found-5-bugs-4-were-imaginary-victor-ematin-zqcte/) - партнёрский отчёт «всё зелёное» требует того же оракула, что и агент
+
+### Parked evidence (11.09)
+- Google Ads MCP-proxy ban (Aug 31): shared middle layer с одним токеном на 50 рекламодателей закрыт; каждому свой Cloud project. Vendor middle-layer trust = делегирование имплементации без делегирования границ. Цитата: «narrower than panic, wider than comfortable». Источник: YES Group newsletter via user share.
+
+Victor Ematin · AI Quality Engineering Lead · Independent practice
+
+#QualityEngineering #QAStrategy #Outsourcing #QualityOps #ContractTesting

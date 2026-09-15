@@ -22,7 +22,7 @@ tags: []
 
 [COVER: KISS Sorcar vs Autonoma — comparison table]
 
-Yesterday I tested two AI agents on the same OrangeHRM project. KISS Sorcar (Berkeley, Terminal Bench 2.0 leader at 62.2%) generated a working Playwright POM + test in 16 steps. Autonoma (YC W22, codebase-first testing platform) ran a 7-step pipeline: discovered 13 modules, verified 6 database entities, and generated 28 test specs plus 5 cross-module journeys.
+Yesterday I tested two AI agents on the same OrangeHRM project. KISS Sorcar (Berkeley, Terminal Bench 2.0 leader at 62.2%) generated a working Playwright POM + test in 16 steps. [Autonoma](https://www.getautonoma.com) (codebase-first testing platform) ran a 7-step pipeline: discovered 13 modules, verified 6 database entities, and generated 28 test specs plus 5 cross-module journeys.
 
 28 specs across 13 modules in 10 minutes — $0.02. One working test in 16 steps — $0.01. Same OrangeHRM project, two different categories. They're not competitors. They're two halves of a workflow.
 

@@ -74,6 +74,8 @@ LinkedIn Pulse переформатирует нумерованные спис�
 ### 3.3 Pre-Publication Manual Checklist (в LinkedIn UI)
 
 - [ ] **Numbered lists** — все номера корректны
+- [ ] **No Markdown headers** — в теле нет `#`/`##` (не рендерятся в Pulse); секции = bold lead lines, `# Title` только в поле заголовка
+- [ ] **Working notes below hashtags** — черновики/варианты/TODO только под `## 🛠 Служебные заметки редактора`, копипаст заканчивается на хештегах
 - [ ] **Tables** — заменены скриншотом (PNG/PDF)
 - [ ] **No Cyrillic** — пост только на английском
 - [ ] **Encoding** — нет битых символов, кавычки «» → "", тире — → -

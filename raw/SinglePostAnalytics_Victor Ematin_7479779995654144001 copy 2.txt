@@ -1,0 +1,67 @@
+Single Post Analytics — Article 7 Feed Post (3 AI Test Tools)
+URL: https://www.linkedin.com/posts/victor-ematin_testautomation-playwright-aiagents-ugcPost-7479679946467176448-BCOI
+Date: 2026-07-06 9:15 AM
+
+=== Core ===
+Impressions:        82,520
+Members reached:   67,699
+Article views:        451
+Profile viewers:     103
+Followers gained:     87
+
+=== Engagement ===
+Social engagements: 114
+  Reactions:        42
+  Comments:          8
+  Reposts:           2
+  Saves:            56
+  Sends (DM):        6
+Link engagements:     0
+Premium button:       0
+
+Save/Reaction ratio: 1.33 (more saves than likes — reference material)
+Engagement rate: 0.17% (114 / 67,699 reached)
+
+=== Demographics ===
+Top Locations:
+  Greater Bengaluru Area:   21%
+  Pune/Pimpri-Chinchwad:     8%
+  Greater Hyderabad Area:    7%
+  Greater Chennai Area:      6%
+  Greater Delhi Area:        4%
+  Mumbai Metropolitan:       3%
+  Greater Ahmedabad Area:    3%
+  India (general):           2%
+
+Seniority:
+  Senior:   51%
+  Entry:    24%
+  Manager:   9%
+  Director:  3%
+
+Industry:
+  IT Services & Consulting:  55%
+  Software Development:      24%
+  Financial Services:         2%
+  Telecommunications:         2%
+
+Top Companies:
+  Infosys:    3%
+  Cognizant:  2%
+
+Company Size:
+  10,001+ employees:  35%
+  1,001-5,000:       16%
+  51-200:            12%
+  201-500:            7%
+  501-1,000:          6%
+  11-50:              6%
+  5,001-10,000:       4%
+
+=== Key Insights ===
+1. India dominates audience (55-60%+) — QA automation demand is highest there
+2. Save/Reaction ratio >1 — content treated as reference material, not just scroll-by
+3. 87 followers from single post — 10x+ typical performance
+4. 51% Senior + 9% Manager + 3% Director = strong decision-maker reach
+5. 35% from 10,000+ employee companies — enterprise QA audience
+6. 0 link engagements — either no link or link not compelling (check post content)

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:960px; height:540px; background:#0d1117; color:#e6edf3;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    padding:36px 44px; }
+  h2 { font-size:30px; font-weight:800; margin-bottom:22px; }
+  h2 span { color:#f0b429; }
+  .cols { display:flex; gap:24px; }
+  .card { flex:1; border-radius:14px; padding:28px 30px; }
+  .before { background:rgba(248,81,73,.08); border:1px solid #f85149; }
+  .after { background:rgba(63,185,80,.08); border:1px solid #3fb950; }
+  .lbl { font-size:18px; font-weight:800; letter-spacing:3px; margin-bottom:14px; }
+  .before .lbl { color:#f85149; } .after .lbl { color:#3fb950; }
+  .big { font-size:52px; font-weight:800; line-height:1.1; margin-bottom:6px; }
+  .row { font-size:22px; color:#8b949e; margin-top:8px; }
+  .row b { color:#e6edf3; }
+  .cap { margin-top:22px; font-size:19px; color:#8b949e; line-height:1.45; }
+  .cap b { color:#f0b429; }
+</style></head>
+<body>
+  <h2>QAEverest pilot <span>— the same suite, before and after the fix</span></h2>
+  <div class="cols">
+    <div class="card before">
+      <div class="lbl">BEFORE FIX</div>
+      <div class="big">0/4</div>
+      <div class="row"><b>mutants caught</b> at B1</div>
+      <div class="row">Green suite · <b>100%</b> tool confidence</div>
+      <div class="row">Every seeded break <b>missed</b></div>
+    </div>
+    <div class="card after">
+      <div class="lbl">AFTER FIX</div>
+      <div class="big">3/3</div>
+      <div class="row"><b>relevant mutants caught</b> · 0% survival</div>
+      <div class="row">Relevance-gated rerun · B0 held <b>100%</b> ×2</div>
+    </div>
+  </div>
+  <div class="cap">Post-fix set = <b>3 relevant mutants</b> after the relevance gate filtered the original 4. Different denominators, same verdict: green means nothing until something breaks on purpose.</div>
+</body></html>

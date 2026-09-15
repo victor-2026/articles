@@ -17,7 +17,7 @@ The most expensive defect you ever shipped lived on a boundary.
 
 Between two teams. Between two systems. Between a vendor and your product. Between the platform and the customer-specific implementation.
 
-Nobody disputes the module is owned. The seam between modules is where ownership goes quiet.
+Nobody disputes the module is owned. The seam between modules is where ownership goes quiet. [Conway's law](https://www.linkedin.com/pulse/conways-law-quality-engineering-problem-too-victor-ematin-0g5xe) predicted exactly this drift.
 
 ## Why boundaries break
 
@@ -30,7 +30,7 @@ As usual, no one tracks the end-to-end metric - say, order success rate dropping
 ## The three boundary layers
 
 **1. Technical boundaries.**
-Contracts, events, schemas, and version compatibility. In my modular suite, a contract suite (**28/28 passing, 94% API coverage**) caught 3 integration drifts in one week. The UI suite (120+ tests) caught 0, because it tested the surface, not the underlying seam.
+Contracts, events, schemas, and version compatibility. In my modular suite, a contract suite (**28/28 passing, 94% API coverage**) caught 3 integration drifts in one week. The UI suite (120+ tests) caught 0, because it tested the surface, not the underlying seam - the same [false-green report](https://www.linkedin.com/pulse/your-agent-found-5-bugs-4-were-imaginary-victor-ematin-zqcte/) I dissected before.
 * **Owner:** a specific contract/integration owner per seam, not "the API team in general."
 
 **2. Organizational boundaries.**
@@ -54,8 +54,6 @@ Who owns the seams in your system - and can someone name them in ten seconds?
 *Part of the Quality Operating Model series. Coming next: mutation checks as the independent oracle (how to break the testing tool on purpose), vendor gates that hold (delegating code without delegating risk), and the QA function redesigned as a quality system.*
 
 [SCREENSHOT: 22-pic3.jpeg — 10-second checklist saveable card (schema drift / token timing / vendor failure)]
-
-<!-- REMINDER после публикации 21: вставить ссылку на 21 (Conway's Law, обратный манёвр). Кросс-связь: 20 (Your Agent Found 5 Bugs) https://www.linkedin.com/pulse/your-agent-found-5-bugs-4-were-imaginary-victor-ematin-zqcte/ - границы важны потому, что ложный зелёный отчёт маскирует ответственность -->
 
 Victor Ematin · AI Quality Engineering Lead · Independent practice
 
