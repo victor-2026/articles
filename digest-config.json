@@ -116,13 +116,20 @@
    "weight": 0.9,
    "boost": 0.5
   },
-  {
-   "id": "testkube",
-   "name": "Testkube Blog",
-   "url": "https://testkube.io/blog/rss.xml",
-   "weight": 0.8
-  }
- ],
+   {
+    "id": "testkube",
+    "name": "Testkube Blog",
+    "url": "https://testkube.io/blog/rss.xml",
+    "weight": 0.8
+   },
+   {
+    "id": "addyosmani",
+    "name": "Addy Osmani (Elevate)",
+    "url": "https://addyo.substack.com/feed",
+    "weight": 0.9,
+    "boost": 0.5
+   }
+  ],
  "keywords": {
   "core": [
    "ai testing",
@@ -280,11 +287,15 @@
    "name": "Pavel Shcherbinin",
    "company": "Yandex"
   },
-  {
-   "name": "Angie Jones",
-   "company": "Block"
-  }
- ],
+   {
+    "name": "Angie Jones",
+    "company": "Block"
+   },
+   {
+    "name": "Addy Osmani",
+    "company": "Anthropic"
+   }
+  ],
  "brands": [
   "Autonoma",
   "Playwright",

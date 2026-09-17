@@ -277,3 +277,15 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - New standing rules (tech-writer SKILL 13/14 + emphasis budget): no "Article N", no periods in headlines, feed bold first+last only, body emphasis budget.
 - 28 draft (launch, Tue 23.09): H1 undecided (#1 vs #2), body trimmed, quotes.md bank started.
 - Open: H1 call, Megi numbers, repo public Fri, cover confirm, hashtags line.
+
+## 2026-09-17 (evening) - Article 27 LI ready, Boris Cherny, digest 16-17, push
+- **Article 27 published to LinkedIn draft** — ready for Fri 19.09 09:00 publication. All blockers resolved (gyn5e URL, Megi line dropped).
+- **Boris Cherny transcript saved:** Claude Code practical tips (Anthropic). Key: CLAUDE.md = AGENTS.md pattern; "give it self-check tools" = Article 27 thesis; tiered bash permissions = B0-B3 gates; SDK = Unix utility; 80% Anthropic staff use daily; "IDEs may disappear by end of year."
+- **Digest 16.09:** 3/12 already processed (Playwright, TestMu×2). Rest skip.
+- **Digest 17.09:** 2 strong saved:
+  - Keith Klain "Death by a Thousand Prompts" — "5 No's", Amodei critique, "more tests ≠ better testing"
+  - Michaela Greiler SCOPE model — "agent tests signal safety where there is none", code review exploitation/surrender
+- **Quotes bank:** 18 total (+3 today: Klain ×2, Greiler ×1).
+- **wiki-topics.json:** 357 → 366 (+9 today).
+- **Raw files today:** 6 (Tornhill, TestMu×2, Bach-Jensen, Boris Cherny, Klain, Greiler, ContextQA = 8 total).
+- **Push:** Articles repo committed + pushed. Session checkpoint updated.
