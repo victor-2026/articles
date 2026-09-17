@@ -253,4 +253,19 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - **Feed V2 (conflict):** CTA → "Full article below👇", 5 hashtags, visual section removed. V1 moved to `27-guided-qa-engineer-post-week.md` (standalone discussion post, tail rewrite pending).
 - **gyn5e closed:** URL lived in Article 26 notes all along, copied to 27 (97, 122, comment).
 - **Open:** Megi numbers (Review Effort min per tier — check thread; fallback: drop by 19.09) · V1 tail rewrite.
+
+## 2026-09-17 (day) - Wiki building + digest + quotes bank + ContextQA + Adam Tornhill
+- **ContextQA assessed:** LinkedIn 1 month, ~30 posts. AI Agent Testing Platform (enterprise, no-code, self-healing, Agentic Quality Tour). NOT for pilots (proprietary SaaS, no mutation testing, marketing-heavy). Saved to raw as market reference. Tatyana Arbouzova connection noted.
+- **BeeCommerce blog checked:** e-commerce focused (headless, Magento, Shopify). 1 article already saved (12 agents, 5 layers). Rest = domain-specific, NOT for digest. Skip.
+- **Adam Tornhill article saved:** "Practices I Abandoned with Agents" — after 25 years TDD, abandoned for agentic coding. E2e tests = human/agent boundary. Code for machine consumption. Double-entry bookkeeping (don't let AI change tests). Tooling enforces what you don't inspect. Strong connection to Article 27 + Tornhill's own CodeScene work.
+- **Digest 16.09 parsed:** 12 items from 429 sources. 3 saved to raw:
+  - TestMu AI: LLM Eval vs E2E Agent Testing (eval≠gate, Green/Yellow/Red)
+  - TestMu AI: Finance AI Agent Compliance (FINRA, attestation pattern)
+  - Anton Gulin: Save clues from failed Playwright test (retain-on-failure, evidence chain)
+- **Bach vs Jensen debate:** "Safety is an engineering problem" (Jensen, Dreamforce) vs "Market forces do NOT optimize for safety" (Bach). Saved to raw as debate framing for Article 27.
+- **Quotes bank:** 15 quotes in `quotes.md`. 13 added today across 5 sections: Displacement (1), Evals vs Tests (3), Agent Coding (4), AI Safety (3), Independence/Attestation (4). Key: "The author can't be the examiner" (Pettersson), "Harness configuration is a file" (Bansal/Bansal), "$5 PR = how much verification?" (Pettersson).
+- **QA.tech researched:** Daniel Mauno Pettersson, CEO. Stockholm, $4.3M funding, 10-20 employees. Autonomous QA agents. Two key insights: (1) author≠examiner, (2) verification ratio depends on what PR touches.
+- **wiki-topics.json:** 357 → 363 (+6: Tornhill, TestMu×2, Anton Gulin, Bach-Jensen, ContextQA).
+- **Article 27 status:** body+visuals ready. Blocked on: gyn5e URL (in file now), Megi numbers (if available by Fri). Publication Fri 19.09 10:00 UK.
+- **Next:** Megi numbers check, Article 27 publish, follow-ups (Radik, Adam).
 - **quotes.md created:** quotes bank with source+use rule; first entry Lew (QA reshuffled faster than any SWE part).
