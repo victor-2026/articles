@@ -16,7 +16,7 @@ How do you keep QA relevant when an agent writes 80% of the tests? Same way a se
 
 ### ❓ Problem
 
-Agentic coding created the "guided full-stack engineer" — someone who steers AI with fundamentals instead of writing every line (Andrew Ng, AI Engineering Skills Map). QA got the same upgrade: agents now write the test code, but who steers the quality criteria? Teams ship green suites that never proved they can catch a break.
+Agentic coding created the "guided full-stack engineer" — someone who steers AI with fundamentals instead of writing every line ([Andrew Ng, AI Engineering Skills Map](https://www.deeplearning.ai/the-batch/the-ai-engineering-skills-map)). QA got the same upgrade: agents now write the test code, but who steers the quality criteria? Teams ship green suites that never proved they can catch a break.
 
 Before the fix, our QAEverest pilot showed 0/4 mutants caught at B1 — a fully green suite that missed every seeded break. This is the silent false negative at scale: **the tool sees everything, questions nothing, and stamps the miss as green.**
 
@@ -24,7 +24,7 @@ Before the fix, our QAEverest pilot showed 0/4 mutants caught at B1 — a fully 
 
 The role didn't shrink — it promoted. Ng's split is "humans give the why, agents give the how." For QA that means you supply what "good" means, where the risk lives, and whether the suite catches anything — the agent supplies the assertions. Testing is still on Ng's fundamentals list (Security & Reliability: test strategy, shift-left, AI-driven scanning) — agents assist, they don't absolve.
 
-As Michael Bolton puts it: **"bottles have necks"** — the human gate is not a bottleneck to remove, it's the neck that regulates AI output into something observable. The guided QA engineer owns that neck.
+As Michael Bolton puts it: **["bottles have necks"](https://www.linkedin.com/posts/michael-bolton-08847_some-musings-on-things-drifting-over-the-activity-7499142012621864960-3Rae)** — the human gate is not a bottleneck to remove, it's the neck that regulates AI output into something observable. The guided QA engineer owns that neck.
 
 The guided QA engineer owns three things the agent cannot infer:
 1. **Risk-based gates** — survival rate × risk tier → human gate effort (B0: 0% survival, B1: 0% survival, B2: ≤5% survival, B3: trend only)
@@ -32,6 +32,8 @@ The guided QA engineer owns three things the agent cannot infer:
 3. **Human sign-off** — the Assessor comment on signals, the Reviewer of record, the Engineering owner
 
 In plain terms: B0 is auth and payment (zero tolerance), B1 is core flows, B2 ships with ≤5% survival, B3 cosmetic is trend-only.
+
+[SCREENSHOT: risk-based gate table - survival rate × risk → effort, B0/B1/B2/B3 example]
 
 ### 🛠 Implementation
 
@@ -64,15 +66,15 @@ Cost discipline matters too: full-matrix runs are nightly-grade. Per-PR the gate
 
 That is the guided QA engineer in one release: the agent executed, the matrix verified, the human signed.
 
-[SCREENSHOT: risk-based gate table - survival rate × risk → effort, B0/B1/B2/B3 example]
+[SCREENSHOT: before-after 0/4 vs 3/3 — same suite, relevance-gated rerun, denominators captioned]
 
 ### ✅ Result
 
-"Verify what the agent generated" (Ng) + survival-rate check (Article 20/26): a green suite is an unverified claim until you break something on purpose. The guided QA engineer turns a green report into a trusted release — execution down, judgment up.
+"Verify what the agent generated" (Ng) + [survival-rate check](https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-5-scenarios-victor-ematin-lqdhe/): a green suite is an unverified claim until you break something on purpose. The guided QA engineer turns a green report into a trusted release — execution down, judgment up.
 
 The same security pattern repeats: swarm agents escaped via trusted proxies (GitLab), backchannels (German wiki), and evaluator UI-gates (Anthropic Mythos 5) — unverified agent output = unverified release.
 
-Zalando's risk-based PR bot (33% low-risk auto-approved; cyclomatic complexity inflected upward the moment agents entered the codebase) is a live per-risk-tier gate — vendor-independent, open tools.
+[Zalando's risk-based PR bot](https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html) (33% low-risk auto-approved; cyclomatic complexity inflected upward the moment agents entered the codebase) is a live per-risk-tier gate — vendor-independent, open tools.
 
 The agent writes the test. You write the reason it should fail. Which skill does your QA hire req list as core today?
 
@@ -96,7 +98,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 - Andrew Ng AI Engineering Skills Map: https://x.com/AndrewYNg/status/2088302050706686198 (The Batch #366 / Part 2: Software Engineering Fundamentals; Batch write-up: https://www.deeplearning.ai/the-batch/the-ai-engineering-skills-map). Eval-driven development (главный trait): https://www.linkedin.com/pulse/ai-engineering-skills-map-building-deploying-applications-andrew-ng-gyn5e
 - Michael Bolton — "bottles have necks" (VERIFIED 15.09, verbatim from his own post 28.08.2026): https://www.linkedin.com/posts/michael-bolton-08847_some-musings-on-things-drifting-over-the-activity-7499142012621864960-3Rae — "bottles have necks to regulate output to something observable and manageable". General page: https://developsense.com/about-michael-bolton
-- Article 26 (break the testing tool, QAEverest pilot B1 100% 3/3): https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-in-5-scenarios-victor-ematin-lqdhe/
+- Article 26 (break the testing tool, QAEverest pilot B1 100% 3/3): https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-5-scenarios-victor-ematin-lqdhe/
 - Zalando Agentic Engineering snapshot (risk-based PR bot 33% auto-approve, CCN inflection): https://engineering.zalando.com/posts/2026/08/agentic-engineering-at-zalando-a-snapshot.html
 - Keith Klain "Confidently Incorrect" (140k transcripts, checks ≠ testing): https://qualityremarks.com/confidently-incorrect-2/
 

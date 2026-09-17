@@ -269,3 +269,11 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - **Article 27 status:** body+visuals ready. Blocked on: gyn5e URL (in file now), Megi numbers (if available by Fri). Publication Fri 19.09 10:00 UK.
 - **Next:** Megi numbers check, Article 27 publish, follow-ups (Radik, Adam).
 - **quotes.md created:** quotes bank with source+use rule; first entry Lew (QA reshuffled faster than any SWE part).
+
+## 2026-09-17 — Article 27 pre-publish + rules + 28 draft
+- 27: inline links on first mentions (Bolton/Ng/26/Zalando; 20 skipped — no URL), 2 screenshot markers spread (gate table → Solution, before-after → Implementation end), all 3 visuals verified by eye.
+- Link fix: 26-slag lost `-in` (404) → corrected in 4 files (15, performance-log, 27, 28), verified 200.
+- Feed V2: caps reverted (a11y), H1 rule noted (27 grandfathered — cover baked).
+- New standing rules (tech-writer SKILL 13/14 + emphasis budget): no "Article N", no periods in headlines, feed bold first+last only, body emphasis budget.
+- 28 draft (launch, Tue 23.09): H1 undecided (#1 vs #2), body trimmed, quotes.md bank started.
+- Open: H1 call, Megi numbers, repo public Fri, cover confirm, hashtags line.

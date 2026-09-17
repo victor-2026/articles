@@ -27,7 +27,7 @@ Behavior-preserving refactor-only PR on the same composer area (no logic change)
 
 ## Full Methodology
 
-We've formalised a **mutation matrix methodology** ([Article 26](https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-in-5-scenarios-victor-ematin-lqdhe/) — testing AI-QA tools by injecting known defects and checking if they're caught). The same framework applies to any AI-QA vendor: M1-M6 scenarios (locator drift, weak/strong decoy, product regression, clean-PR, reliability probe).
+We've formalised a **[mutation matrix methodology](https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-5-scenarios-victor-ematin-lqdhe/)** — testing AI-QA tools by injecting known defects and checking if they're caught. The same framework applies to any AI-QA vendor: M1-M6 scenarios (locator drift, weak/strong decoy, product regression, clean-PR, reliability probe).
 
 ---
 
@@ -58,7 +58,7 @@ Human review gate still recommended for production gating — but the FP blocker
 
 Full Methodology
 
-We've formalised a mutation matrix methodology https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-in-5-scenarios-victor-ematin-lqdhe/ — testing AI-QA tools by injecting known defects and checking if they're caught. The same framework applies to any AI-QA vendor: M1-M6 scenarios (locator drift, weak/strong decoy, product regression, clean-PR, reliability probe).
+We've formalised a mutation matrix methodology https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-5-scenarios-victor-ematin-lqdhe/ — testing AI-QA tools by injecting known defects and checking if they're caught. The same framework applies to any AI-QA vendor: M1-M6 scenarios (locator drift, weak/strong decoy, product regression, clean-PR, reliability probe).
 
 Victor Ematin · AI Quality Engineering Lead · Independent practice
 
