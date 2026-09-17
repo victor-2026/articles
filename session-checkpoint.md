@@ -316,3 +316,12 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 **Quotes bank:** 18 → 27 (+9 today).
 **wiki-topics.json:** 366 → 375 (+9).
 **Repos pushed:** ai-qa-wiki `4f0a00a` → `1bc025f`, Articles `c777b85` → `d47dad4`.
+
+## 2026-09-17/18 — Oleg letter pivot + Virto recon + 26/27/28 publishing flow
+- Radik corrected: IS in published 26 (Worked example 3, Agentiqa 0/6); saw text pre-publish, no approval, set limits. My SUPERSEDED memory was stale — checked file, owned error.
+- Strategy pivot: hiring lane stalled (month silence) → letter gets formal NO + pivot to Oleg substance (verify Radik pilots + attest Virto packs). Split letters: Larisa closure, Oleg proposal. 26 URL fixed (dropped -in, 404→200, 4 files).
+- Oleg draft written (peer, price-principle, 30-min ask). Aamir resume parked post-27.
+- Virto recon: vc-mcp-testing-module mapped (CSV suites + CI twins + P0 042/078/039/044/049) + local glossary found (was interview prep). No deploy before Oleg signal.
+- 27 publishing Fri: cover+2 visuals verified, feed V2 (no caps), hashtags kept, no-numbers rule (skill 13), no-periods rule (skill 14), emphasis budget.
+- 28 draft: H1 locked #1-colon, Perplexity 7/10 review applied (5 fixes), Pettersson selected, test-editing failure mode to wiki.
+- Videos: V1 terminal (35s, Daniel, user-approved) + 26 Ken Burns (33s, fit-within rule) pipelines proven.

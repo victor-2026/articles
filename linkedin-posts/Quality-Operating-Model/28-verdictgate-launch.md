@@ -12,11 +12,13 @@
 
 The last piece asked you to break the testing tool on purpose. We did — to ours first. Then we fixed every break, measured the rest, and shipped the method as code. It is called VerdictGate, and as of today it is open source.
 
+VerdictGate is a static Python script with zero dependencies: it takes the CSV from your mutation run and returns a deterministic verdict per risk tier, plus an evidence pack for audit. One exit code tells CI whether to ship.
+
 Three independent reviews, **zero P0 findings**. A correctness-and-gaming audit, an adversarial red-team, and an interaction-effects pass — three different models, three different lenses. Every bypass they found is either fixed in code or documented as a human-owned trust boundary. The flip points below are measured, not asserted.
 
 ### ❓ Problem
 
-A vendor's green report is self-graded homework. Our QAEverest pilot showed the shape: 100% confidence, 0% risk, every seeded break missed. The tool saw everything, questioned nothing, and stamped the miss as green.
+A vendor's green report is self-graded homework. In one pilot with a vendor tool, the report showed the shape: 100% confidence, 0% risk, every seeded break missed. The tool saw everything, questioned nothing, and stamped the miss as green.
 
 Then we found the same shape in our own backyard. Twelve route mocks in our 49-test mutation suite never matched anything — `*` doesn't cross `/`, so the mutants never applied and the tests passed on real data, green and meaningless. Nobody verified the harness. That is the moment a green suite stops being evidence and becomes a story.
 
@@ -24,11 +26,11 @@ Then we found the same shape in our own backyard. Twelve route mocks in our 49-t
 
 A verdict layer, not another executor. VerdictGate never generates or runs mutants — vendors run, you record, it judges: per risk tier, ship or no-ship, with the evidence pack to prove it. Static (Python stdlib, zero dependencies), deterministic (same CSV → byte-identical verdict), per-tier never blended (B0/B1 zero-tolerance, B2 band, B3 trend-only).
 
-What it refuses is as important as what it computes: no-op mutants rejected at input, unassessed equivalents rejected, bare observed flags rejected, tier mismatches against requirements rejected. A verdict you cannot game by re-labeling is the whole point.
+What it refuses is as important as what it computes: no-op mutants rejected at input, unassessed equivalents rejected, bare observed flags rejected, tier mismatches against requirements rejected. As Daniel Mauno Pettersson puts it: the author can't be the examiner — the oracle must live outside the implementation it judges. A verdict you cannot game by re-labeling is the whole point.
 
 ### 🛠 Implementation
 
-How it was built is the trust story. Three reviews across two weeks: a gaming audit found 20+ issues (all closed or bounded), an adversarial pass found tier laundering and decision-theater (one fixed by a requirements guard, one documented), an interaction pass confirmed the controls compose without defeating each other. Zero P0 in the final round.
+How it was built is the trust story. Three reviews across two weeks: a gaming audit found 20+ issues (all closed or bounded), an adversarial pass found tier laundering (re-labeling a critical mutant as low-risk to dodge the strict gate — fixed by a requirements guard) and decision-theater (marking survivors "dismissed" with no rationale — flagged for sign-off), an interaction pass confirmed the controls compose without defeating each other. Zero P0 in the final round.
 
 Then measurement replaced opinion. We swept relabeled mutants through the gates and found every proposed percentage threshold missed the real flip points (**5–17.6%**) — so zero-tolerance tiers got presence signals instead of percentages, and the B2 band got its numbers from a live 20-row boundary run (**5.0% PASS, 10.0% FAIL**, exact edge). A 17-row live roster closed the loop: genuine stale-feed survivor failed B1, mass signals fired, exclusions stayed visible.
 
@@ -37,6 +39,20 @@ Then measurement replaced opinion. We swept relabeled mutants through the gates 
 ### ✅ Result
 
 The break-the-tool method, codified: break something on purpose, record it honestly, let the gate decide. Try it in 30 seconds on the included failing example — exit 1, with the exact row to fix first. Then run it on your suite. If your green survives, it is evidence. If it doesn't, you just saved a release.
+
+What the 30 seconds look like — a results file with three columns that matter (mutant, tier, what the suite did), one command, one verdict:
+
+```
+M1,Payment submits successfully,B0,pass
+M2,Payment rejects invalid card,B0,fail
+$ python3 verdictgate.py results.csv
+B0 FAIL · B1 PASS · exit 1
+1. B0 · M1 · Payment submits successfully — SURVIVED, decision: NO RECORDED DECISION
+```
+
+In CI it is one step with three exit codes (0 pass, 1 gate failed, 2 bad input), and the evidence pack — verdict, machine-readable twin, raw CSV, sign-off table — attaches to the release record next to your defect escape rate. The gate doesn't replace your metrics; it decides whether they were earned.
+
+[REPO: insert link on publication — repo opens with this article]
 
 The agent writes the test. The vendor writes the report. You write the verdict — now with a calculator.
 
@@ -52,9 +68,9 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 *Все ниже — рабочие материалы. Копипаст в LinkedIn заканчивается на хештегах.*
 
-### Headlines (locked: article #2, feed #1, discussion #3)
+### Headlines (locked 17.09: H1 #1 with colon per no-periods rule, feed #1 hook variant, discussion #3)
 1. Feed post: "Your Vendor's Green Report Is a Claim. Here's the Calculator That Checks It."
-2. Article (this file): "We Tried to Cheat Our Own Test-Gate. Three Reviewers Watched." — WAIT, mismatch: title above uses #1. DECISION NEEDED: title = #2 ("We Tried to Cheat...") or keep #1? Draft written with #1 as H1. User picked all three; assignment was mine. Confirm before publish.
+2. Article (this file): H1 #1 as written above.
 3. Discussion follow-up: "Stop Trusting Test Scores. Start Verdicting Them."
 
 ### Evidence (ссылки для инлайна — прогнать по готче #8)
@@ -64,8 +80,12 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - Amodei embedded evaluators · Osmani 80%/25x · Bach metamorphic (1 max in comment)
 
 ### Open (к публикации 23.09)
-- H1 decision (see above)
 - Cover (new vs gate-card reuse) + feed image
 - Feed post text (hook #1, CTA "Full article below")
 - First comment (repo link + method links + 1 external max)
 - Repo MUST be public before this goes live (gating item)
+
+### 🛠 Служебные — обсудить (цитаты из quotes.md)
+
+- [x] **Pettersson** — SELECTED 17.09, вставлен в Solution (independent oracle). TODO publish: URL поста в quotes.md отсутствует (только описание источника) — либо добыть ссылку для first comment, либо оставить имя без ссылки.
+- [ ] Greiler / Klain — PARKED (перегруз секции отклонен).

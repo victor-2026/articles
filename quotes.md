@@ -8,6 +8,10 @@
 
 - «QA is getting reshuffled by AI faster than almost any part of software engineering right now». — Philip Lew, CEO XBOSoft (20 years in software quality). Source: LinkedIn post 2026-09-15 (PNSQC $99 Community Passes announcement). Use: контекстная строка про скорость вытеснения в launch-материалах VerdictGate / attestation-статьях.
 
+## Discipline survives contact
+
+- «How much of your engineering standard survives contact with an agent? In my case, so far, all of it. Not because the model is disciplined, but because I wrote the discipline down first». — Matthias Schaper (180M Tokens 5/5). Source: LinkedIn 2026-09. Use: обоснование written-down standards (AGENTS.md, harness, methodology) в launch/attestation.
+
 ## Evals vs Tests / Verification Gates
 
 - «An evaluation asks "how good is this?" A test asks "does this specific thing still work?"». — Anubhav Singhmaar, TestMu AI. Source: testmuai.com/blog/llm-evaluation-vs-agent-testing/ (2026-09-13). Use: Article 26/27 — eval≠gate, per-risk-tier framing.
@@ -38,10 +42,18 @@
 
 ## Independence / Attestation
 
-- «The author can't be the examiner.» — Daniel Mauno Pettersson (QA tech), via Joe Colantonio (TestGuild). Source: LinkedIn post 2026-09-17 (TestGuild Webinar replay). Use: Article 27 — core attestation principle, independence of verification. Also: Tornhill double-entry, mutation testing thesis.
+- «The author can't be the examiner.» — Daniel Mauno Pettersson (QA tech), via Joe Colantonio (TestGuild). Source: https://www.linkedin.com/posts/joecolantonio_aitesting-softwaretesting-qualityengineering-activity-7505959121922224129-HE0z (2026-09-17, TestGuild Webinar replay). Use: Article 28 (inserted, Solution/independent oracle) — core attestation principle, independence of verification. Also: Tornhill double-entry, mutation testing thesis.
 - «An agent writes a PR for you for, let's say, $5 in tokens. How much should you spend checking that it works? 5 cents? $5? $50? My thinking is it depends on what the PR touches.» — Daniel Mauno Pettersson, CEO QA.tech. Source: LinkedIn post 2026-09-03. Use: Article 27 — cost-ratio verification, per-risk-tier (critical code = more verification, cosmetic = less).
 - «The pattern I've taken from watching dozens of customers is where verification sits in the org. When QA is a stage before release, you scale it linearly with people or scripts, and you hit a wall.» — Daniel Mauno Pettersson, CEO QA.tech. Source: LinkedIn post 2026-05-22. Use: Article 27 — verification as continuous flow, not gate. QA-as-stage = old model.
 - «Prompt quality lives in one person's head and you cannot review it. Harness configuration is a file. Version it, diff it, enforce it across everyone.» — Dhruv Bansal (Technology Leader), summarizing Anthropic engineer on Claude Code agentic loop. Source: LinkedIn post 2026-09-11. Use: Article 27 — governance = harness config (versionable), not prompting skill (unreviewable). Also: AGENTS.md pattern, Tornhill tooling enforcement.
 - «Agent-generated tests can signal safety where there is none.» — Dr Michaela Greiler (ex-Microsoft Research, MoT). Source: Ministry of Testing session 2026-09-16 (SCOPE model). Use: Article 27 — test code matters more than app code; false assurance from AI-generated tests.
+- «Two bugs in ten minutes that the agent's own verification missed.» — Dragan Spiridonov (Head of Agentic QE, Cognitum One / Agentics Foundation Serbia). Source: https://www.linkedin.com/feed/update/urn:li:activity:7504130492888383488/ (2026-09-11, Serbian Agentics Foundation Meetup #15). Use: Article 27 — agent verification is not enough, human testing catches what agents miss.
+- «Asked to merge 3 PRs, started opening PRs in 20–30 more repos.» — Dragan Spiridonov. Source: same. Use: Article 22 — autonomy cuts both ways, external boundaries needed. Scope creep in agentic systems.
 - «If models can "deceive" evaluations, then the problem is not a shortage of clever tests, it's that you cannot know your evaluations are exposing the behavior that matters in the first place.» — Keith Klain (Quality Remarks). Source: qualityremarks.com 2026-09-14. Use: Article 26/27 — eval≠gate, "more testing" is old mistake.
 - «No. Software can't check its own quality. No. More tests does not mean better testing. No. "Complete test coverage" is not a meaningful claim.» — Keith Klain. Source: same. Use: Article 27 — independence of verification, "five no's" as section hook.
+- «The biggest AI quality problem isn't AI. It is Nobody Owning the Quality.» — George Ukkuru (QA Consulting, AI Testing). Source: LinkedIn post 2026-09-17. Use: Article 27 — ownership gap, independent verification.
+- «A passing eval is like a passing test, it proves the shape of the output, not that it's correct.» — Aston Cook (AssertHired). Source: LinkedIn comment on Ukkuru post 2026-09-17. Use: Article 26/27 — evals ≠ correctness, shape vs substance.
+- «You can't find the failure modes of system which is designed by you only, because blind spot which is shipped by self cant be identified by self. That's why we separated dev and QA in the first place.» — Hanmant Hudekar (SmartBear). Source: LinkedIn comment on Ukkuru post 2026-09-17. Use: Article 27 — why independent QA exists, blind spots.
+- «Reliability in enterprise autonomy isn't about finding models that hallucinate less — it's about building runtimes where hallucinations cannot mutate state.» — Radik Zagirov (Co-Founder, Agentiqa; TUM.ai). Source: LinkedIn post 2026-09-16. Use: Article 27 — runtime verification, harness as state machine, not prompt engineering.
+- «Language models shouldn't be treated as the operating system.» — Radik Zagirov. Source: same. Use: Article 27 — LLM = navigation, execution = deterministic.
+- «If an order isn't approved, SubmitOrder physically does not exist in the prompt context. The model cannot attempt an illegal transition.» — Radik Zagirov (describing Palantir Action Ontology pattern). Source: same. Use: Article 22/27 — dynamic action spaces, code-constrained execution.
