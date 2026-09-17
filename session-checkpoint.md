@@ -289,3 +289,30 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - **wiki-topics.json:** 357 → 366 (+9 today).
 - **Raw files today:** 6 (Tornhill, TestMu×2, Bach-Jensen, Boris Cherny, Klain, Greiler, ContextQA = 8 total).
 - **Push:** Articles repo committed + pushed. Session checkpoint updated.
+
+## 2026-09-17 (late) - Jason Arbon book comment + outreach
+- **Jason Arbon post commented:** "How AI Tests Software" free book draft (first 100 readers). Comment sent: referenced "Testing AI" as key research source, expressed interest in eval vs behavioral testing boundary. URL: https://www.linkedin.com/feed/update/urn:li:activity:7482931369593946112/
+- **Arbon already tracked** in task-catalog as P2 (Testing AI book, Chapter 11 = Article 27). This comment = Prong C engagement + free book access.
+
+## 2026-09-17 (night) - Agentics Foundation Serbia wiki + Radik Action Ontology + Ukkuru quotes
+
+**Agentics Foundation Serbia YouTube — full catalog:**
+- RSS feed `UCp0JEOqglATIewFo17HSJpg` parsed — 14 videos (#1-#15, #3 missing)
+- `wiki/agentics-foundation-serbia-youtube-2025-2026.md` — 14 meetup summaries, cross-links, 10 key quotes
+- Dragan Spiridonov: Head of Agentic QE, Cognitum One; Agentics Foundation Secretary & Ambassador for Serbia
+- Key for articles: "Two bugs in 10 min agent missed" (#15), "Agents say done ≠ works" (#11), "Autonomy scope creep 20-30 repos" (#15)
+- **Digest config** updated: YouTube RSS + Dragan Spiridonov added to tracked sources + brands (AQE Fleet, Nagual-QE, RuFlo, Vibium, Agentics Foundation)
+
+**Radik Zagirov (Agentiqa) — Action Ontology Runtimes:**
+- Raw: `raw/radik-zagirov-action-ontology-runtimes-2026.md`
+- Wiki: `wiki/action-ontology-runtimes-agent-execution-2026.md` — 3 architectural shifts
+- Key: "hallucinations cannot mutate state" = our harness-as-state-machine; "SubmitOrder physically doesn't exist if not approved" = dynamic action spaces
+- Cross-links: Articles 22/27, Greiler SCOPE, Tornhill tooling, Bansal harness config
+- Quotes +3: "LM ≠ OS", "hallucinations cannot mutate state", "dynamic action spaces"
+
+**George Ukkuru — Nobody Owning the Quality:**
+- Quotes +3: Ukkuru "nobody owns", Cook "eval = shape not correctness", Hudekar "blind spot — why separated dev/QA"
+
+**Quotes bank:** 18 → 27 (+9 today).
+**wiki-topics.json:** 366 → 375 (+9).
+**Repos pushed:** ai-qa-wiki `4f0a00a` → `1bc025f`, Articles `c777b85` → `d47dad4`.
