@@ -24,3 +24,7 @@ asciinema rec (scripted run on examples/payment-critical-fail) → PIL frames 19
 - Approve script wording (above) → render.
 - End-card URL needs PUBLIC repo (gating: Fri 19.09).
 - Optional V2 later: faceless explainer in the style of the C# series (script + stock/code visuals) — bigger lift, post-launch.
+
+## RU dub v1 (rendered, pending tune — NOT now)
+- File: /tmp/vg-video/verdictgate-launch-v1-ru.mp4 (35s, Milena). Verdict: ok with tweaks.
+- TODO later: word-level script polish + slightly slower pace (longer holds).
