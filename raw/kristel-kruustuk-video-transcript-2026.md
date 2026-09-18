@@ -43,7 +43,7 @@ And now we can either wait for the Frontier Labs to figure this out and hope it 
 | # | Quote | Speaker |
 |---|-------|---------|
 | 1 | "The least talented engineers were allocated to QA. In AI, it'll end up being the most talented." | Chamath (via Kristel) |
-| 2 | "Improvement engineering is really the skill that translates toy apps and vibe coding into something that's very practical and real." | Kristel Kruustuk |
+| 2 | "Improvement engineering is really the skill that translates toy apps and vibe coding into something that's very practical and real." | Chamath Palihapitiya (via Kristel) |
 | 3 | "AI doesn't crash, it doesn't throw an error. They just answer confidently every time — whether it's right or wrong." | Kristel Kruustuk |
 | 4 | "If the failure doesn't look like a failure, the old way of testing software doesn't catch it anymore." | Kristel Kruustuk |
 | 5 | "His first proposal wasn't 'hey, let's pause.' It was 'hey, we need more testing.'" | Kristel on Amodei |
@@ -62,4 +62,4 @@ And now we can either wait for the Frontier Labs to figure this out and hope it 
 - **Article 27** — Nadella "third-party testers" = direct citation
 - **Article 27** — "AI doesn't crash, it answers confidently" = silent false negative framing
 - **Article 26** — "move fast and break things doesn't apply anymore" = vendor evaluation urgency
-- **Chamath quote** — "improvement engineering" = new term for AI-era QA, usable in future articles
+- **Chamath quote** — "improvement engineering" = new term for AI-era QA (coined by Chamath, used by Kristel), usable in future articles
