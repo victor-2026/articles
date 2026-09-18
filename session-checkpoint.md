@@ -325,3 +325,12 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - 27 publishing Fri: cover+2 visuals verified, feed V2 (no caps), hashtags kept, no-numbers rule (skill 13), no-periods rule (skill 14), emphasis budget.
 - 28 draft: H1 locked #1-colon, Perplexity 7/10 review applied (5 fixes), Pettersson selected, test-editing failure mode to wiki.
 - Videos: V1 terminal (35s, Daniel, user-approved) + 26 Ken Burns (33s, fit-within rule) pipelines proven.
+
+## 2026-09-18 (Fri) — Article 27 published, repo public, Oleg letter ready
+- 27 live 9:00 (Pulse qa-didnt-get-replaced-got-promoted + lnkd.in + activity URN). 30 articles in profile.
+- Repo PUBLIC (gh edit, README 200). AGENTS.md status updated.
+- 26 URL fixed (-in dropped, 404→200, 4 files). 28 draft: Perplexity 7/10 applied, Pettersson in, H1 undecided→#1-colon, video V1 EN+RU rendered.
+- Rules added (tech-writer 13/14 + emphasis budget): no Article N, no headline periods, feed bold first+last, body budget.
+- Larisa+Oleg letter FINAL (split decided, then joint To: both; hire-closure + pilot + benefits + 2 links; send Fri).
+- 1.0 exit criteria public (README). Investment ledger split (product 427m + methodology 60+h).
+- Open next: letter send (user) · 26 comment w/ repo link · Megi · Tue 23.09 launch (28 + video + feed) · Perplexity R2 when free · Oct 17 recheck.
