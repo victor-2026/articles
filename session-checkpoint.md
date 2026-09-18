@@ -334,7 +334,8 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - Larisa+Oleg letter FINAL (split decided, then joint To: both; hire-closure + pilot + benefits + 2 links; send Fri). **SENT.**
 - 1.0 exit criteria public (README). Investment ledger split (product 427m + methodology 60+h).
 - Kanban sync Notion → local: тема закрыта (Notion dropped).
-- Open next: 28 launch Tue 23.09 · Radik follow-up ~20.09 · Megi reply · Perplexity R2 when free · Oct 17 recheck.
+- Perplexity R2: DONE (conditional pass, findings → 0.2.1, triage in `reviews/perplexity-round2-triage-2026-09-17.md`). 0.2.2 (requirements guard) covered by Kimi (clean). Perplexity не трогаем.
+- Open next: 28 launch Tue 23.09 · Radik follow-up ~20.09 · Megi reply · Oct 17 recheck.
 
 ## 2026-09-19 (Sat) — VerdictGate comments + Kristel transcript + Matt Graham + quotes
 
@@ -362,6 +363,7 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - Oleg letter — **SENT**
 - Megi — request sent, awaiting reply
 - Kanban sync Notion → local — **closed** (Notion dropped)
+- Perplexity R2 — **DONE** (conditional pass, 0.2.1, Kimi 0.2.2 clean). Perplexity не трогаем.
 
 **Performance log:** Article 26 feed URL fixed (broken → correct). Pushed `78f4cdd`.
 
