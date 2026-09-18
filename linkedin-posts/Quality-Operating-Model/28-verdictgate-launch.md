@@ -76,7 +76,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 ### Evidence (ссылки для инлайна — прогнать по готче #8)
 - Repo: https://github.com/victor-2026/verdictgate (PRIVATE until Article 27 publication 19.09 — VERIFY PUBLIC before publishing this article!)
 - Article 26: https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-5-scenarios-victor-ematin-lqdhe/
-- Article 27: URL after 19.09 publication
+- Article 27: https://www.linkedin.com/pulse/qa-didnt-get-replaced-got-promoted-victor-ematin-9jzse (published 18.09)
 - Amodei embedded evaluators · Osmani 80%/25x · Bach metamorphic (1 max in comment)
 
 ### Open (к публикации 23.09)
