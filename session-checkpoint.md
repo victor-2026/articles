@@ -331,9 +331,10 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - Repo PUBLIC (gh edit, README 200). AGENTS.md status updated.
 - 26 URL fixed (-in dropped, 404→200, 4 files). 28 draft: Perplexity 7/10 applied, Pettersson in, H1 undecided→#1-colon, video V1 EN+RU rendered.
 - Rules added (tech-writer 13/14 + emphasis budget): no Article N, no headline periods, feed bold first+last, body budget.
-- Larisa+Oleg letter FINAL (split decided, then joint To: both; hire-closure + pilot + benefits + 2 links; send Fri).
+- Larisa+Oleg letter FINAL (split decided, then joint To: both; hire-closure + pilot + benefits + 2 links; send Fri). **SENT.**
 - 1.0 exit criteria public (README). Investment ledger split (product 427m + methodology 60+h).
-- Open next: letter send (user) · 26 comment w/ repo link · Megi · Tue 23.09 launch (28 + video + feed) · Perplexity R2 when free · Oct 17 recheck.
+- Kanban sync Notion → local: тема закрыта (Notion dropped).
+- Open next: 28 launch Tue 23.09 · Radik follow-up ~20.09 · Megi reply · Perplexity R2 when free · Oct 17 recheck.
 
 ## 2026-09-19 (Sat) — VerdictGate comments + Kristel transcript + Matt Graham + quotes
 
@@ -356,6 +357,11 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 **Aston Cook (AssertHired) + Leonardo Lanni (QA Roots):**
 - Aston Cook comment reply drafted (mutation testing = measuring the gap)
 - Leonardo Lanni connection accepted + reply drafted (AI evaluation peer exchange)
+
+**Status updates (user-confirmed):**
+- Oleg letter — **SENT**
+- Megi — request sent, awaiting reply
+- Kanban sync Notion → local — **closed** (Notion dropped)
 
 **Performance log:** Article 26 feed URL fixed (broken → correct). Pushed `78f4cdd`.
 
