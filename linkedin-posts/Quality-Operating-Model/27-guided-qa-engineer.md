@@ -125,3 +125,6 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - Zalando engineering blog
 - Michael Bolton DevelopSense
 - Keith Klain Quality Remarks
+
+### Replies tracker (rule: max 2 answers per thread)
+- Aston Cook (AssertHired): supportive restate (100%/0% + green proves assertions, mutation measures gap). URL: https://www.linkedin.com/feed/update/urn:li:activity:7506593382740344832/?dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287506745018188115968%2Curn%3Ali%3AugcPost%3A7506301989249540096%29 — reply draft pending user send (1/2 used after send).
