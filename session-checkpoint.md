@@ -334,3 +334,30 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - Larisa+Oleg letter FINAL (split decided, then joint To: both; hire-closure + pilot + benefits + 2 links; send Fri).
 - 1.0 exit criteria public (README). Investment ledger split (product 427m + methodology 60+h).
 - Open next: letter send (user) · 26 comment w/ repo link · Megi · Tue 23.09 launch (28 + video + feed) · Perplexity R2 when free · Oct 17 recheck.
+
+## 2026-09-19 (Sat) — VerdictGate comments + Kristel transcript + Matt Graham + quotes
+
+**VerdictGate comments (organic, zero-budget):**
+- Article 20 ✅ — "The mutation matrix from this article now has a CLI" → https://github.com/victor-2026/verdictgate (feed: urn:li:ugcPost:7498171172069511169)
+- Article 26 ✅ — "The method above is now code" (posted by user this morning, confirmed). Feed URL fixed: broken `urn:li:activity-...` → correct `urn:li:ugcPost:7504628732557459456/`
+- Article 27 — postponed (user decision)
+- LinkedIn boost: Article 26 eligible (feed post), Articles 13/12 (carousels) NOT boostable (document type). User = zero-budget, no boost.
+
+**Kristel Kruustuk (Testlio founder):**
+- Post + video transcript saved: `raw/kristel-kruustuk-video-transcript-2026.md` + `raw/kristel-kruustuk-ceos-testing-matters-2026.md`
+- Quotes +7: Chamath "improvement engineering" (via Kristel), Amodei "independent testers", Nadella "third-party testers", Kristel "gap nobody's measuring", "silent failure", "improvement engineering", "test it like it matters"
+- Key insight: Chamath coined "improvement engineering" — Kristel's video confirms
+
+**Matt Graham (CEO RapidDev, 53K followers):**
+- Comment posted on "last few 9s" post (UNBOUND conference): mutation testing = measuring last 9s in QA
+- Post URL: https://www.linkedin.com/posts/matt-graham-nocode_training-the-next-generation-of-ai-models-activity-7497652207232913408-Vpa4
+- Quotes +5: "last 9s brutally hard", "output cheap judgment expensive", "data problem nobody talks about", "automate 80% = shrink headcount", "high bar ≠ difficult"
+
+**Aston Cook (AssertHired) + Leonardo Lanni (QA Roots):**
+- Aston Cook comment reply drafted (mutation testing = measuring the gap)
+- Leonardo Lanni connection accepted + reply drafted (AI evaluation peer exchange)
+
+**Performance log:** Article 26 feed URL fixed (broken → correct). Pushed `78f4cdd`.
+
+**Quotes bank:** 27 → 34 (+7 Kristel +5 Matt Graham -1 overlap = net +11). Total: 34 quotes, 7 sections.
+**Repos pushed:** Articles `5234337`, ai-qa-wiki `158e817`.
