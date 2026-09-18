@@ -67,3 +67,11 @@
 - «AI doesn't crash, it doesn't throw an error. They just answer confidently every time — whether it's right or wrong. So if the failure doesn't look like a failure, the old way of testing software doesn't catch it anymore.» — Kristel Kruustuk. Source: video transcript (same post). Use: Article 27 — silent failure, why traditional QA breaks.
 - «Improvement engineering is really the skill that translates toy apps and vibe coding into something that's very practical and real.» — Chamath Palihapitiya (via Kristel Kruustuk video). Source: same. Use: Article 27/28 — AI-era QA as "improvement engineering", not entry-level.
 - «Test it like it matters, because it does.» — Kristel Kruustuk. Source: same. Use: CTA closing line.
+
+## Matt Graham (CEO RapidDev, 53K followers)
+
+- «Going from 99% to 99.9999999999% is where you spend billions, wait years, and deal with people saying the whole thing is stupid. But that last fraction is the difference between a cool demo people share online to a tool a business can actually trust.» — Matt Graham (CEO, RapidDev). Source: LinkedIn post 2026-09 (UNBOUND conference). Use: Article 27/28 — mutation testing measures the last 9s, not the first 99.
+- «Output is cheap. Judgment is expensive.» — Matt Graham. Source: LinkedIn post 2026-09. Use: Article 27 — QA judgment is the expensive part, AI generates output.
+- «AI agents have a data problem nobody talks about. You can't train an agent to run your business when nobody has recorded how your business actually runs.» — Matt Graham. Source: LinkedIn post 2026-09 (319 likes, 428 comments). Use: Article 27 — training data gap, verification evidence as the missing dataset.
+- «When you automate 80% of the grunt work, you don't keep the same headcount. You shrink it.» — Matt Graham. Source: LinkedIn post 2026-09. Use: Article 27 — AI doesn't replace, it restructures.
+- «Most people mistake a high bar for being difficult.» — Matt Graham. Source: LinkedIn post 2026-09. Use: Article 26/27 — quality gates ≠ being difficult.
