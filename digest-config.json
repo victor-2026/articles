@@ -135,6 +135,12 @@
      "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp0JEOqglATIewFo17HSJpg",
      "weight": 0.9,
      "boost": 0.5
+    },
+    {
+     "id": "browserstack",
+     "name": "BrowserStack Blog",
+     "url": "https://www.browserstack.com/blog/feed/",
+     "weight": 0.7
     }
    ],
  "keywords": {
