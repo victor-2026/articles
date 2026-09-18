@@ -57,3 +57,10 @@
 - «Reliability in enterprise autonomy isn't about finding models that hallucinate less — it's about building runtimes where hallucinations cannot mutate state.» — Radik Zagirov (Co-Founder, Agentiqa; TUM.ai). Source: LinkedIn post 2026-09-16. Use: Article 27 — runtime verification, harness as state machine, not prompt engineering.
 - «Language models shouldn't be treated as the operating system.» — Radik Zagirov. Source: same. Use: Article 27 — LLM = navigation, execution = deterministic.
 - «If an order isn't approved, SubmitOrder physically does not exist in the prompt context. The model cannot attempt an illegal transition.» — Radik Zagirov (describing Palantir Action Ontology pattern). Source: same. Use: Article 22/27 — dynamic action spaces, code-constrained execution.
+
+## CEOs Saying Testing Matters (Kristel Kruustuk compilation)
+
+- «The industry used to dump its worst engineers into QA. In AI, that job becomes the most important one in the building.» — Chamath Palihapitiya (May 2025). Source: LinkedIn post by Kristel Kruustuk 2026-09-17. Use: Article 27 — QA reshuffled, most important job.
+- «His first concrete ask wasn't a pause, it was independent testers checking the work before release.» — Kristel Kruustuk on Dario Amodei (Anthropic CEO, 2026). Source: same. Use: Article 27 — independent verification, not delay.
+- «He loves the idea of third-party testers and we should take all the time we want to test things.» — Kristel Kruustuk on Satya Nadella (Microsoft CEO, 2026). Source: same. Use: Article 27 — third-party validation.
+- «If the people building the foundation think they need more testing, then how many companies are shipping AI features on top of these models with none at all?» — Kristel Kruustuk (Founder, Testlio). Source: same. Use: Article 27 — the gap nobody's measuring.
