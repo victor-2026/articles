@@ -93,7 +93,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 ### Open (к публикации 23.09)
 - Cover: DECIDED 19.09 (new verdict-screenshot per spec) — shoot pending (user)
-- Feed post text: DRAFTED 19.09 → `28-verdictgate-launch-post.md`
+- Feed post text: DRAFTED 19.09 → `28-verdictgate-launch-post.md` · REVISED per Perplexity click-review (goal: article; bullet block, walkthrough bridge, 5 tags) ✅
 - First comment: DRAFTED 19.09 → `28-first-comment.md`
 - ~~Repo MUST be public before this goes live (gating item)~~ ✅ PUBLIC
 - Gotcha #8: string-check 19.09 ✅ (26/27 URLs = performance-log, repo live via gh, no lnkd.in in body) — browser/incognito check pending (user)
@@ -133,4 +133,5 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - **T5 value-hook + final block (replaces L55 repo line):** `Want to know whether your "green" mutation report is evidence or just a story? Run the 30-second check on your own CSV. VerdictGate returns a deterministic ship/no-ship verdict per risk tier and an evidence pack you can attach to your release record.` + `Start here: [github.com/victor-2026/verdictgate](https://github.com/victor-2026/verdictgate)`
 - **T6 CSV note (append to L43 line):** `Minimal snippet — full 14-column schema in the repo.`
 - **T7 first comment addon (optional):** 3–5 line run snippet + repo repeat (comment already has both links; snippet only if wanted).
+- **T8 alt CTA (Perplexity action-variant, staged):** `Want the 30-second check for your own CSV? Full method + repo link in the article👇` + article URL (use instead of walkthrough bridge if tone needs more push).
 - ~~**⚠️ CONFLICT A (needs decision):** click-max asks to delink lede 26/27 to plain text; R2#6 lede links applied 19.09. Keep links (series) or delink (clicks)?~~ RESOLVED 19.09: series wins ✅
