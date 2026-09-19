@@ -356,7 +356,7 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - Quotes +5: "last 9s brutally hard", "output cheap judgment expensive", "data problem nobody talks about", "automate 80% = shrink headcount", "high bar ≠ difficult"
 
 **Aston Cook (AssertHired) + Leonardo Lanni (QA Roots):**
-- Aston Cook comment reply drafted (mutation testing = measuring the gap)
+- Aston Cook comment reply — **SENT ✅** (11h ago, "confidence scales with suite size, evidence doesn't")
 - Leonardo Lanni connection accepted + reply drafted (AI evaluation peer exchange)
 
 **Status updates (user-confirmed):**
