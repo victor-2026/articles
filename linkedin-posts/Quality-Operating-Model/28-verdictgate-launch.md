@@ -74,7 +74,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 3. Discussion follow-up: "Stop Trusting Test Scores. Start Verdicting Them."
 
 ### Evidence (ссылки для инлайна — прогнать по готче #8)
-- Repo: https://github.com/victor-2026/verdictgate (PRIVATE until Article 27 publication 19.09 — VERIFY PUBLIC before publishing this article!)
+- Repo: https://github.com/victor-2026/verdictgate (PUBLIC ✅)
 - Article 26: https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-5-scenarios-victor-ematin-lqdhe/
 - Article 27: https://www.linkedin.com/pulse/qa-didnt-get-replaced-got-promoted-victor-ematin-9jzse (published 18.09)
 - Amodei embedded evaluators · Osmani 80%/25x · Bach metamorphic (1 max in comment)
@@ -83,7 +83,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - Cover (new vs gate-card reuse) + feed image
 - Feed post text (hook #1, CTA "Full article below")
 - First comment (repo link + method links + 1 external max)
-- Repo MUST be public before this goes live (gating item)
+- ~~Repo MUST be public before this goes live (gating item)~~ ✅ PUBLIC
 
 ### 🛠 Служебные — обсудить (цитаты из quotes.md)
 
