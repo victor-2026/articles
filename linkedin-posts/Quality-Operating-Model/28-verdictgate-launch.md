@@ -107,3 +107,14 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 - **P0 #2 Pettersson split (L29)** — old: `As Daniel Mauno Pettersson puts it: the author can't be the examiner — the oracle must live outside the implementation it judges.` → new: `As Daniel Mauno Pettersson puts it: "the author can't be the examiner." That is why the oracle must live outside the implementation it judges.`
 - **P1 #5 exit code (L15)** — old: `One exit code tells CI whether to ship.` → new: `An exit code tells CI whether to ship.`
+
+### ⏳ Pending Perplexity texts (click-max round, apply on user go)
+
+- **T1 promise line (after H1, before lede):** `If your mutation report is 100% green and you can't name one mutant that actually failed, this calculator is for you.`
+- **T2 onboarding paragraph (after Problem, DRAFT):** `A mutation suite seeds known defects into your code — each mutant is expected to fail. A pass where a fail was expected means your test cannot catch that break. Risk tiers (B0–B3) set how strict the gate is: zero tolerance at the top, bands below. VerdictGate reads that recording and returns ship or no-ship per tier.`
+- **T3 human detail for 12-mocks (Problem, NEEDS USER FACTS):** 1–2 sentences — who found it, when, team reaction. Cannot draft without facts.
+- **T4 early CTA (after lede):** `Want the calculator? It's open source here: [github.com/victor-2026/verdictgate](https://github.com/victor-2026/verdictgate)`
+- **T5 value-hook + final block (replaces L55 repo line):** `Want to know whether your "green" mutation report is evidence or just a story? Run the 30-second check on your own CSV. VerdictGate returns a deterministic ship/no-ship verdict per risk tier and an evidence pack you can attach to your release record.` + `Start here: [github.com/victor-2026/verdictgate](https://github.com/victor-2026/verdictgate)`
+- **T6 CSV note (append to L43 line):** `Minimal snippet — full 14-column schema in the repo.`
+- **T7 first comment addon (optional):** 3–5 line run snippet + repo repeat (comment already has both links; snippet only if wanted).
+- **⚠️ CONFLICT A (needs decision):** click-max asks to delink lede 26/27 to plain text; R2#6 lede links applied 19.09. Keep links (series) or delink (clicks)?
