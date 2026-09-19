@@ -1,6 +1,6 @@
 # VerdictGate launch video V1 — 60-90s narrated terminal demo
 
-Status: SCRIPT (awaiting approve) → render after. Voice: Daniel (en_GB). Style: dark #0d1117 + amber (article palette). Format: 1920×1080 mp4 (LinkedIn native video).
+Status: V1 RENDERED (verify content vs script below) → deployment: SEPARATE TRIAL POST, decoupled from 23.09 launch 19.09 (LI axiom: article feed = cover only). Voice: Daniel (en_GB). Style: dark #0d1117 + amber (article palette). Format: 1920×1080 mp4 (LinkedIn native video).
 
 ## Narration (~150 words, ~60s)
 

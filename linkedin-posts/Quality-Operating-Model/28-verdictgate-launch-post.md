@@ -13,7 +13,6 @@ Thresholds measured, not asserted.
 
 The agent writes the test. The vendor writes the report. You write the verdict — now with a calculator.
 
-🎬 60-second demo in the video above.
 Full walkthrough + open-source repo link in the article👇
 [ARTICLE URL — insert on publication]
 
