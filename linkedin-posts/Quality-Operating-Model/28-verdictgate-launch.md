@@ -90,6 +90,14 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - ~~Repo MUST be public before this goes live (gating item)~~ ✅ PUBLIC
 - Gotcha #8: string-check 19.09 ✅ (26/27 URLs = performance-log, repo live via gh, no lnkd.in in body) — browser/incognito check pending (user)
 
+### Cover shoot spec (DECIDED 19.09 — new, not gate-card reuse)
+
+- Base: run `examples/payment-critical-fail` in terminal, dark theme #0d1117 + amber (series palette)
+- Frame: verdict table + "Fix first" block with M1 (same example as body — recognition)
+- Overlay top: article H1; bottom strip: `v0.2.2 · static · zero dependencies`
+- Format: 1920×1080 (cover doubles as feed preview)
+- Rejected alternative: reuse 27 gate-card (visual repeat for 27 readers)
+
 ### 🛠 Служебные — обсудить (цитаты из quotes.md)
 
 - [x] **Pettersson** — SELECTED 17.09, вставлен в Solution (independent oracle). URL найден в quotes.md:45 (TestGuild webinar replay) — использовать в first comment. ✅ DONE 19.09.
