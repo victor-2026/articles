@@ -8,11 +8,15 @@
 
 # Your Vendor's Green Report Is a Claim: Here's the Calculator That Checks It
 
+If your mutation report is 100% green and you can't name one mutant that actually failed, this calculator is for you.
+
 *Follow-up on [break the tool](https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-5-scenarios-victor-ematin-lqdhe/) and [the guided engineer](https://www.linkedin.com/pulse/qa-didnt-get-replaced-got-promoted-victor-ematin-9jzse/).*
+
+Want the calculator? It's open source here: [github.com/victor-2026/verdictgate](https://github.com/victor-2026/verdictgate)
 
 The last piece asked you to break the testing tool on purpose. We did — to ours first. Then we fixed every break, measured the rest, and shipped the method as code. It is called VerdictGate, and as of today it is open source.
 
-VerdictGate is a static Python script with zero dependencies: it takes the CSV from your mutation run (a strict, documented schema — garbage in is exit 2, not a verdict) and returns a deterministic verdict per risk tier, plus an evidence pack for audit. One exit code tells CI whether to ship.
+VerdictGate is a static Python script with zero dependencies: it takes the CSV from your mutation run (a strict, documented schema — garbage in is exit 2, not a verdict) and returns a deterministic verdict per risk tier, plus an evidence pack for audit. An exit code tells CI whether to ship.
 
 Three independent reviews, **zero P0 left open**. A correctness-and-gaming audit, an adversarial red-team, and an interaction-effects pass — three different models, three different lenses. Every bypass they found is either fixed in code or documented as a human-owned trust boundary. The flip points below are measured, not asserted.
 
@@ -22,11 +26,13 @@ A vendor's green report is self-graded homework. In one pilot with a vendor tool
 
 Then we found the same shape in our own backyard. Twelve route mocks in our 49-test mutation suite never matched anything — `*` doesn't cross `/`, so the mutants never applied and the tests passed on real data, green and meaningless. Nobody verified the harness. That is the moment a green suite stops being evidence and becomes a story.
 
+A mutation suite seeds known defects into your code — each mutant is expected to fail. A pass where a fail was expected means your test cannot catch that break. Risk tiers (B0–B3) set how strict the gate is: zero tolerance at the top, bands below. VerdictGate reads that recording and returns ship or no-ship per tier.
+
 ### 🧭 Solution
 
 A verdict layer, not another executor. VerdictGate never generates or runs mutants — vendors run, you record, it judges: per risk tier, ship or no-ship, with the evidence pack to prove it. Static (Python stdlib, zero dependencies), deterministic (same CSV → byte-identical verdict), per-tier never blended (B0/B1 zero-tolerance, B2 band, B3 trend-only).
 
-What it refuses is as important as what it computes: no-op mutants rejected at input, unassessed equivalents rejected, bare observed flags rejected, tier mismatches against requirements rejected. As Daniel Mauno Pettersson puts it: the author can't be the examiner — the oracle must live outside the implementation it judges. A verdict you cannot game by re-labeling is the whole point.
+What it refuses is as important as what it computes: no-op mutants rejected at input, unassessed equivalents rejected, bare observed flags rejected, tier mismatches against requirements rejected. As Daniel Mauno Pettersson puts it: "the author can't be the examiner." That is why the oracle must live outside the implementation it judges. A verdict you cannot game by re-labeling is the whole point.
 
 ### 🛠 Implementation
 
@@ -40,7 +46,7 @@ Then measurement replaced opinion. We swept relabeled mutants through the gates 
 
 The break-the-tool method, codified: break something on purpose, record it honestly, let the gate decide. Try it in 30 seconds on the included failing example — exit 1, with the exact row to fix first. Then run it on your suite. If your green survives, it is evidence. If it doesn't, you just saved a release.
 
-What the 30 seconds look like — a results file with six required columns, one command, one verdict:
+What the 30 seconds look like — a results file with six required columns, one command, one verdict. Minimal snippet — full 14-column schema in the repo:
 
 ```
 mutation_id,behavior,operator,risk_tier,expected,suite_result
@@ -53,7 +59,9 @@ B0 FAIL · B1 PASS · B2 NOT EXERCISED · B3 NOT EXERCISED - FAIL (exit 1)
 
 In CI it is one step with three exit codes (0 pass, 1 gate failed, 2 bad input), and the evidence pack — verdict, machine-readable twin, raw CSV, sign-off table — attaches to the release record next to your defect escape rate. The gate doesn't replace your metrics; it decides whether they were earned.
 
-The repo is open source (MIT) — [VerdictGate on GitHub](https://github.com/victor-2026/verdictgate). The failing example above runs in 30 seconds.
+Want to know whether your "green" mutation report is evidence or just a story? Run the 30-second check on your own CSV. VerdictGate returns a deterministic ship/no-ship verdict per risk tier and an evidence pack you can attach to your release record.
+
+Start here: [github.com/victor-2026/verdictgate](https://github.com/victor-2026/verdictgate)
 
 Methodology became a calculator; the calculator produces an evidence pack.
 
@@ -103,10 +111,17 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - [x] **Pettersson** — SELECTED 17.09, вставлен в Solution (independent oracle). URL найден в quotes.md:45 (TestGuild webinar replay) — использовать в first comment. ✅ DONE 19.09.
 - [ ] Greiler / Klain — PARKED (перегруз секции отклонен).
 
+### ✅ Applied 19.09 (R3 + Perplexity click-max)
+
+- R3 P0 #2 Pettersson split ✅ · R3 P1 #5 exit code ✅
+- T1 promise line ✅ · T2 onboarding ✅ · T4 early CTA ✅ · T5 final click-block ✅ · T6 CSV note ✅
+- Conflict A RESOLVED 19.09: series wins, lede links stay ✅
+- Open: T3 (needs user facts) · T7 (optional snippet, skipped)
+
 ### ⏳ Pending review texts (R3, apply on user go)
 
-- **P0 #2 Pettersson split (L29)** — old: `As Daniel Mauno Pettersson puts it: the author can't be the examiner — the oracle must live outside the implementation it judges.` → new: `As Daniel Mauno Pettersson puts it: "the author can't be the examiner." That is why the oracle must live outside the implementation it judges.`
-- **P1 #5 exit code (L15)** — old: `One exit code tells CI whether to ship.` → new: `An exit code tells CI whether to ship.`
+- ~~**P0 #2 Pettersson split (L29)** — old: `As Daniel Mauno Pettersson puts it: the author can't be the examiner — the oracle must live outside the implementation it judges.` → new: `As Daniel Mauno Pettersson puts it: "the author can't be the examiner." That is why the oracle must live outside the implementation it judges.`~~ ✅ APPLIED 19.09
+- ~~**P1 #5 exit code (L15)** — old: `One exit code tells CI whether to ship.` → new: `An exit code tells CI whether to ship.`~~ ✅ APPLIED 19.09
 
 ### ⏳ Pending Perplexity texts (click-max round, apply on user go)
 
@@ -117,4 +132,4 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - **T5 value-hook + final block (replaces L55 repo line):** `Want to know whether your "green" mutation report is evidence or just a story? Run the 30-second check on your own CSV. VerdictGate returns a deterministic ship/no-ship verdict per risk tier and an evidence pack you can attach to your release record.` + `Start here: [github.com/victor-2026/verdictgate](https://github.com/victor-2026/verdictgate)`
 - **T6 CSV note (append to L43 line):** `Minimal snippet — full 14-column schema in the repo.`
 - **T7 first comment addon (optional):** 3–5 line run snippet + repo repeat (comment already has both links; snippet only if wanted).
-- **⚠️ CONFLICT A (needs decision):** click-max asks to delink lede 26/27 to plain text; R2#6 lede links applied 19.09. Keep links (series) or delink (clicks)?
+- ~~**⚠️ CONFLICT A (needs decision):** click-max asks to delink lede 26/27 to plain text; R2#6 lede links applied 19.09. Keep links (series) or delink (clicks)?~~ RESOLVED 19.09: series wins ✅
