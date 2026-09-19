@@ -135,4 +135,6 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - **T6 CSV note (append to L43 line):** `Minimal snippet — full 14-column schema in the repo.`
 - **T7 first comment addon (optional):** 3–5 line run snippet + repo repeat (comment already has both links; snippet only if wanted).
 - **T8 alt CTA (Perplexity action-variant, staged):** `Want the 30-second check for your own CSV? Full method + repo link in the article👇` + article URL (use instead of walkthrough bridge if tone needs more push).
+- **T9 Gemini lede hybrid (staged, keeps Conflict A):** `In our last pieces, we asked you to [break the tool](26-link) and meet [the guided engineer](27-link). Today, we're shipping the solution we built after breaking our own.` (smooth prose + links kept)
+- **Gemini score 19.09:** 9.5/10 (hook 9, structure 10, depth 10, CTA 9.5). Rest is praise; mobile-indent check = publish-time QA.
 - ~~**⚠️ CONFLICT A (needs decision):** click-max asks to delink lede 26/27 to plain text; R2#6 lede links applied 19.09. Keep links (series) or delink (clicks)?~~ RESOLVED 19.09: series wins ✅
