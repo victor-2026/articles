@@ -94,3 +94,8 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 - [x] **Pettersson** — SELECTED 17.09, вставлен в Solution (independent oracle). URL найден в quotes.md:45 (TestGuild webinar replay) — использовать в first comment. ✅ DONE 19.09.
 - [ ] Greiler / Klain — PARKED (перегруз секции отклонен).
+
+### ⏳ Pending review texts (R3, apply on user go)
+
+- **P0 #2 Pettersson split (L29)** — old: `As Daniel Mauno Pettersson puts it: the author can't be the examiner — the oracle must live outside the implementation it judges.` → new: `As Daniel Mauno Pettersson puts it: "the author can't be the examiner." That is why the oracle must live outside the implementation it judges.`
+- **P1 #5 exit code (L15)** — old: `One exit code tells CI whether to ship.` → new: `An exit code tells CI whether to ship.`
