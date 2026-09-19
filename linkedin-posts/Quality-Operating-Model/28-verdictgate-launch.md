@@ -40,7 +40,7 @@ How it was built is the trust story. Three reviews across two weeks: a gaming au
 
 Then measurement replaced opinion. We swept relabeled mutants through the gates and found every proposed percentage threshold missed the real flip points (**5–17.6%**) — so zero-tolerance tiers got presence signals instead of percentages, and the B2 band got its numbers from a live 20-row boundary run (**5.0% PASS, 10.0% FAIL**, exact edge). A 17-row live roster closed the loop: genuine stale-feed survivor failed B1, mass signals fired, exclusions stayed visible.
 
-**427 minutes** of build and review. **60+ hours** of field pilots behind the methodology. The ledger is public, in the repo.
+**427 measured minutes** on the hardening + review cycle. **60+ hours** of field pilots behind the methodology. The ledger is public, in the repo.
 
 ### ✅ Result
 
@@ -116,6 +116,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - R3 P0 #2 Pettersson split ✅ · R3 P1 #5 exit code ✅
 - T1 promise line ✅ · T2 onboarding ✅ · T4 early CTA ✅ · T5 final click-block ✅ · T6 CSV note ✅
 - Conflict A RESOLVED 19.09: series wins, lede links stay ✅
+- Scope clarified 19.09: "427 measured minutes on the hardening + review cycle" ✅
 - Open: T3 (needs user facts) · T7 (optional snippet, skipped)
 
 ### ⏳ Pending review texts (R3, apply on user go)
