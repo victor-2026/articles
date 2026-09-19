@@ -369,3 +369,34 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Quotes bank:** 27 → 34 (+7 Kristel +5 Matt Graham -1 overlap = net +11). Total: 34 quotes, 7 sections.
 **Repos pushed:** Articles `5234337`, ai-qa-wiki `158e817`.
+
+## 2026-09-19 eve — Kanaris reply SENT
+- Paul Kanaris (QACE) pushback on 27 (QA owning AI-validation). Reply SENT: examiner≠author, tiers = release owner states bar, relevance gate = customer-needs layer stays QA. Thread: 1 reply used of 2.
+
+## 2026-09-19 eve — Jan Moehlmann (stealth/YC/vex.sc→Composal) DRAFT, NOT SENT
+- Discovery-miner (growth operator, ex-GM 11x.ai). No call offered. Draft locked (correction + one-liner + repo link): "our verdict was red (0/4), their dashboard green... green measured absence of red, not presence of detection." DRAFT SENT (final wording: "their dashboard was green, but our verdict was red (0/4 detected, unverified)... absence of red, not presence of detection... deciding what the sensor suite *should* capture"). No call offered.
+
+## 2026-09-19 eve — W4 handover verified (28 batch 2735483)
+- P0 5/5 closed (repo+MIT, cover spec, real CSV block, gotcha #8, 6th hashtag). P1 decided (lede, bridge, feed file, Pettersson kept). 0 placeholders/TBD in article. Verified by main.
+- OWNER backlog: cover shoot · browser link check · approve R3 P0 #2 (Pettersson split) + P1 #5 (exit code).
+
+## 2026-09-19 night — 28 review cascade closed (R1/R2/R3/Perplexity/Gemini) + outreach warmth
+
+**Article 28 (W4, commits → `da3130b`):**
+- R1 top-3 applied (repo inline, zero-P0-left-open, strict-schema entry cost) + R3 P0 #2 (Pettersson verbatim split) + P1 #5 (exit code) — all staged then applied on user go
+- R3 P1 #6 slug claim REFUTED (reviewer wrong; no-"in" slug = fixed 404→200)
+- Real CSV block byte-exact from `payment-critical-fail` run (exit 1); reviewer 5-col snippet refuted (missing operator → exit 2)
+- Perplexity click-max: T1/T2/T4/T5/T6 applied, T8 staged; Conflict A resolved = SERIES (lede links stay)
+- Feed: click-revision (goal article, 5 tags) → video line removed (LI axiom: feed = cover only) → URL line removed by user (cover-click mechanics + Gemini 10/10)
+- Video V1 decoupled to separate trial post (plan file updated)
+- T9 Gemini lede hybrid APPLIED; 427 scope clarified ("measured minutes on hardening + review cycle")
+- Scores: Perplexity 9.5/8.5/8 → article; Gemini 9.5/10 article, 10/10 feed
+- Open to 23.09: T3 (user facts) · cover shoot · browser link check · mobile-indent QA
+
+**Outreach:**
+- Leonardo Lanni: user sent mutation-matrix + VerdictGate link; Leonardo WARM (RMT compatibility check) — reply drafted (per-tier gates vs RMT thresholds, call/async)
+- Jason Arbon DM (free book): user SENT reply (eval vs behavioral boundary, mutation verification offer)
+- Matt Graham comment SENT ("last few 9s" → mutation measures last 9s in QA)
+
+**Quotes bank:** 34 total (7 sections). No new adds this block.
+**Articles repo:** `84a0dc4` → `da3130b` (8 commits this session).
