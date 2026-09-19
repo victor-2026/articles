@@ -12,9 +12,9 @@
 
 The last piece asked you to break the testing tool on purpose. We did — to ours first. Then we fixed every break, measured the rest, and shipped the method as code. It is called VerdictGate, and as of today it is open source.
 
-VerdictGate is a static Python script with zero dependencies: it takes the CSV from your mutation run and returns a deterministic verdict per risk tier, plus an evidence pack for audit. One exit code tells CI whether to ship.
+VerdictGate is a static Python script with zero dependencies: it takes the CSV from your mutation run (a strict, documented schema — garbage in is exit 2, not a verdict) and returns a deterministic verdict per risk tier, plus an evidence pack for audit. One exit code tells CI whether to ship.
 
-Three independent reviews, **zero P0 findings**. A correctness-and-gaming audit, an adversarial red-team, and an interaction-effects pass — three different models, three different lenses. Every bypass they found is either fixed in code or documented as a human-owned trust boundary. The flip points below are measured, not asserted.
+Three independent reviews, **zero P0 left open**. A correctness-and-gaming audit, an adversarial red-team, and an interaction-effects pass — three different models, three different lenses. Every bypass they found is either fixed in code or documented as a human-owned trust boundary. The flip points below are measured, not asserted.
 
 ### ❓ Problem
 
@@ -52,7 +52,7 @@ B0 FAIL · B1 PASS · exit 1
 
 In CI it is one step with three exit codes (0 pass, 1 gate failed, 2 bad input), and the evidence pack — verdict, machine-readable twin, raw CSV, sign-off table — attaches to the release record next to your defect escape rate. The gate doesn't replace your metrics; it decides whether they were earned.
 
-[REPO: insert link on publication — repo opens with this article]
+The repo is open source — [VerdictGate on GitHub](https://github.com/victor-2026/verdictgate). The failing example above runs in 30 seconds.
 
 The agent writes the test. The vendor writes the report. You write the verdict — now with a calculator.
 
@@ -87,5 +87,5 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 ### 🛠 Служебные — обсудить (цитаты из quotes.md)
 
-- [x] **Pettersson** — SELECTED 17.09, вставлен в Solution (independent oracle). TODO publish: URL поста в quotes.md отсутствует (только описание источника) — либо добыть ссылку для first comment, либо оставить имя без ссылки.
+- [x] **Pettersson** — SELECTED 17.09, вставлен в Solution (independent oracle). URL найден в quotes.md:45 (TestGuild webinar replay) — использовать в first comment. ✅ DONE 19.09.
 - [ ] Greiler / Klain — PARKED (перегруз секции отклонен).
