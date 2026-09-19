@@ -93,7 +93,8 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 ### Open (к публикации 23.09)
 - Cover: DECIDED 19.09 (new verdict-screenshot per spec) — shoot pending (user)
-- Feed post text: DRAFTED 19.09 → `28-verdictgate-launch-post.md` · REVISED per Perplexity click-review (goal: article; bullet block, walkthrough bridge, 5 tags) · video line REMOVED 19.09 (LI axiom: feed = article cover only) ✅
+- Feed post text: DRAFTED 19.09 → `28-verdictgate-launch-post.md` · REVISED per Perplexity click-review (goal: article; bullet block, walkthrough bridge, 5 tags) · video line REMOVED 19.09 (LI axiom: feed = article cover only) · URL line REMOVED by user 19.09 (Gemini tip + series convention: article opens via cover click, no external link in body) ✅
+- Gemini feed score 19.09: 10/10 (structure 10, value 10, CTA 9.5)
 - Video V1: separate TRIAL post, NOT in 23.09 push (decoupled 19.09) — see `28-video-plan.md`
 - First comment: DRAFTED 19.09 → `28-first-comment.md`
 - ~~Repo MUST be public before this goes live (gating item)~~ ✅ PUBLIC
