@@ -10,7 +10,7 @@
 
 If your mutation report is 100% green and you can't name one mutant that actually failed, this calculator is for you.
 
-*Follow-up on [break the tool](https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-5-scenarios-victor-ematin-lqdhe/) and [the guided engineer](https://www.linkedin.com/pulse/qa-didnt-get-replaced-got-promoted-victor-ematin-9jzse/).*
+*In our last pieces, we asked you to [break the tool](https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-5-scenarios-victor-ematin-lqdhe/) and meet [the guided engineer](https://www.linkedin.com/pulse/qa-didnt-get-replaced-got-promoted-victor-ematin-9jzse/). Today, we're shipping the solution we built after breaking our own.*
 
 Want the calculator? It's open source here: [github.com/victor-2026/verdictgate](https://github.com/victor-2026/verdictgate)
 
@@ -136,6 +136,6 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - **T6 CSV note (append to L43 line):** `Minimal snippet — full 14-column schema in the repo.`
 - **T7 first comment addon (optional):** 3–5 line run snippet + repo repeat (comment already has both links; snippet only if wanted).
 - **T8 alt CTA (Perplexity action-variant, staged):** `Want the 30-second check for your own CSV? Full method + repo link in the article👇` + article URL (use instead of walkthrough bridge if tone needs more push).
-- **T9 Gemini lede hybrid (staged, keeps Conflict A):** `In our last pieces, we asked you to [break the tool](26-link) and meet [the guided engineer](27-link). Today, we're shipping the solution we built after breaking our own.` (smooth prose + links kept)
+- ~~**T9 Gemini lede hybrid (staged, keeps Conflict A):** `In our last pieces, we asked you to [break the tool](26-link) and meet [the guided engineer](27-link). Today, we're shipping the solution we built after breaking our own.` (smooth prose + links kept)~~ ✅ APPLIED 19.09
 - **Gemini score 19.09:** 9.5/10 (hook 9, structure 10, depth 10, CTA 9.5). Rest is praise; mobile-indent check = publish-time QA.
 - ~~**⚠️ CONFLICT A (needs decision):** click-max asks to delink lede 26/27 to plain text; R2#6 lede links applied 19.09. Keep links (series) or delink (clicks)?~~ RESOLVED 19.09: series wins ✅
