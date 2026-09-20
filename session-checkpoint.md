@@ -397,6 +397,7 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - Leonardo Lanni: user sent mutation-matrix + VerdictGate link; Leonardo WARM (RMT compatibility check) — reply drafted (per-tier gates vs RMT thresholds, call/async)
 - Jason Arbon DM (free book): user SENT reply (eval vs behavioral boundary, mutation verification offer)
 - Matt Graham comment SENT ("last few 9s" → mutation measures last 9s in QA)
+- Rupesh DM SENT 19.09 (VerdictGate launch peer ping, no ask) — awaiting reply; commercial stays CLOSED
 
 **Quotes bank:** 34 total (7 sections). No new adds this block.
 **Articles repo:** `84a0dc4` → `da3130b` (8 commits this session).
