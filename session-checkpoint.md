@@ -401,3 +401,8 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Quotes bank:** 34 total (7 sections). No new adds this block.
 **Articles repo:** `84a0dc4` → `da3130b` (8 commits this session).
+
+## 2026-09-19 night — Rupesh DM sent
+- Checkpoint review: status CLOSED (commercial), warm (public method validation + fix live), Phase-5 plan = vendor CSV outreach
+- 28 helps track: peer door (no commercial pressure), "made it better" parallel, launch as ping reason; vendor stays anonymous in body
+- DM SENT + logged (`f3635f9`). Awaiting reply.
