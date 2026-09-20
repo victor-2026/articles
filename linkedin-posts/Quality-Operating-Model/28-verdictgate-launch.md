@@ -26,6 +26,8 @@ A vendor's green report is self-graded homework. In one pilot with a vendor tool
 
 Then we found the same shape in our own backyard. Twelve route mocks in our 49-test mutation suite never matched anything — `*` doesn't cross `/`, so the mutants never applied and the tests passed on real data, green and meaningless. Nobody verified the harness. That is the moment a green suite stops being evidence and becomes a story.
 
+Concrete case: our typical mock pattern `**/api/posts*` could never match `/api/posts/feed` — Twelve mocks in the existing suite were certifying nothing, flagged as debt. A planned probe proved it: `**/api/posts**` intercepts, the old pattern matches zero.
+
 A mutation suite seeds known defects into your code — each mutant is expected to fail. A pass where a fail was expected means your test cannot catch that break. Risk tiers (B0–B3) set how strict the gate is: zero tolerance at the top, bands below. VerdictGate reads that recording and returns ship or no-ship per tier.
 
 ### 🧭 Solution
@@ -134,7 +136,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 - **T1 promise line (after H1, before lede):** `If your mutation report is 100% green and you can't name one mutant that actually failed, this calculator is for you.`
 - **T2 onboarding paragraph (after Problem, DRAFT):** `A mutation suite seeds known defects into your code — each mutant is expected to fail. A pass where a fail was expected means your test cannot catch that break. Risk tiers (B0–B3) set how strict the gate is: zero tolerance at the top, bands below. VerdictGate reads that recording and returns ship or no-ship per tier.`
-- **T3 human detail for 12-mocks (Problem, NEEDS USER FACTS):** 1–2 sentences — who found it, when, team reaction. Cannot draft without facts.
+- ~~**T3 human detail for 12-mocks (Problem, NEEDS USER FACTS):** 1–2 sentences — who found it, when, team reaction. Cannot draft without facts.~~ ✅ APPLIED 19.09 (concrete pattern + probe proof, no generalities; finder = own probe discipline Phase 2b 16.09, not paid review)
 - **T4 early CTA (after lede):** `Want the calculator? It's open source here: [github.com/victor-2026/verdictgate](https://github.com/victor-2026/verdictgate)`
 - **T5 value-hook + final block (replaces L55 repo line):** `Want to know whether your "green" mutation report is evidence or just a story? Run the 30-second check on your own CSV. VerdictGate returns a deterministic ship/no-ship verdict per risk tier and an evidence pack you can attach to your release record.` + `Start here: [github.com/victor-2026/verdictgate](https://github.com/victor-2026/verdictgate)`
 - **T6 CSV note (append to L43 line):** `Minimal snippet — full 14-column schema in the repo.`
