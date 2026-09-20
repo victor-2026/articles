@@ -92,7 +92,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - INVESTMENT.md (proof of work, for first comment): https://github.com/victor-2026/verdictgate/blob/main/INVESTMENT.md
 
 ### Open (к публикации 23.09)
-- Cover: DECIDED 19.09 (new verdict-screenshot per spec) — shoot pending (user)
+- Cover: DECIDED 19.09 (new verdict-screenshot per spec) — SHOT 19.09 ✅ (`28-cover.html` → `28-cover.png`, 1920×1080, HTML→PNG via Playwright)
 - Feed post text: DRAFTED 19.09 → `28-verdictgate-launch-post.md` · REVISED per Perplexity click-review (goal: article; bullet block, walkthrough bridge, 5 tags) · video line REMOVED 19.09 (LI axiom: feed = article cover only) · URL line REMOVED by user 19.09 (Gemini tip + series convention: article opens via cover click, no external link in body) ✅
 - Gemini feed score 19.09: 10/10 (structure 10, value 10, CTA 9.5)
 - Video V1: separate TRIAL post, NOT in 23.09 push (decoupled 19.09) — see `28-video-plan.md`
