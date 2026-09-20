@@ -408,3 +408,20 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - Checkpoint review: status CLOSED (commercial), warm (public method validation + fix live), Phase-5 plan = vendor CSV outreach
 - 28 helps track: peer door (no commercial pressure), "made it better" parallel, launch as ping reason; vendor stays anonymous in body
 - DM SENT + logged (`f3635f9`). Awaiting reply.
+
+## 2026-09-21 (Sun→Mon night) — 28 locked & scheduled + W38 analytics + session close
+
+**Article 28 — DONE, scheduled Tue Sep 22 09:00 (`1a6a1e9`):**
+- Cover shot by W4 (`15e183f`): `28-cover.html` → `28-cover.png` 1920×1080, real verdict output, HTML-source discipline
+- Bridge B applied (`424b3e0`): micro-offer CTA wins over series-voice variant
+- T3 finalized with literal `**/api/posts*` (unpaired survives LI bold; fallback `5c8da6f` if eaten)
+- Publish-prep battle log: LI eats paired `**` as bold, collapses pasted code lines (fix: paste per-line), unicode-bold glyphs rejected (native B only), lede links strip on paste (re-add manually), `&#39;` in scheduler UI (eyeball title post-publish)
+- Pre-publish checklist Tue: cover upload → share feed text → first comment (repo) → mobile-indent check → browser link check
+
+**W38 analytics (`56f1480`):** 1673 imp / 954 reached / 25 eng; 27 feed 800/13 top; 26 feed 493/6; followers 1654 (+35). Canonical `/posts/` URL knowledge → wiki (`07f0c60`).
+
+**27 second wave:** Shahid reply SENT; Sophia mini-case scheduled today 21.09 (user posts).
+
+**Outreach awaiting:** Rupesh (DM sent) · Radik (follow-up overdue since ~20.09) · Megi · Leonardo RMT reply (drafted) · Jason (book) · Aamir.
+
+**Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
