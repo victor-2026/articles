@@ -75,3 +75,14 @@
 - «AI agents have a data problem nobody talks about. You can't train an agent to run your business when nobody has recorded how your business actually runs.» — Matt Graham. Source: LinkedIn post 2026-09 (319 likes, 428 comments). Use: Article 27 — training data gap, verification evidence as the missing dataset.
 - «When you automate 80% of the grunt work, you don't keep the same headcount. You shrink it.» — Matt Graham. Source: LinkedIn post 2026-09. Use: Article 27 — AI doesn't replace, it restructures.
 - «Most people mistake a high bar for being difficult.» — Matt Graham. Source: LinkedIn post 2026-09. Use: Article 26/27 — quality gates ≠ being difficult.
+
+## AI Gatekeeping (TestMu Sophia — private eval 2026-09-20, anonymized)
+
+- «Your expertise in AI-era QA methodology and test automation leadership would be useful for owning product surfaces, though you'll need to gain product management experience.» — TestMu Sophia (AI career advisor), ranked a non-QA role "closest match" while admitting the gap. Source: private eval session (tool: testmuai.com/career). Use: sequel "AI recruitment screens nothing" — ranking admits irrelevance, recommends anyway.
+- «Humans make the final call.» — TestMu Sophia boilerplate; the human never sees candidates the bot filters in. Source: same. Use: Article 26/27 — unverifiable human-review claims in AI gatekeeping.
+
+## Rupesh Kabra (CEO QAEverest) - vendor email quotes
+
+- «An evidence pack that can say something different tomorrow about a run that cannot change isn't evidence.» - Rupesh Kabra (CEO, QAEverest). Source: private email 2026-09-20 17:13 (stamping change notification; private channel - public use requires consent). Use: Articles 26/28 series - frozen-bar principle; potential first-comment line for VerdictGate if consent given. Independent convergence with VerdictGate Hard Rules (SCORER_VERSION stamp, byte-identical output).
+- «Identical thresholds under different scoring rules are not the same bar, and an audit trail that can't tell them apart isn't one.» - Rupesh Kabra. Source: same email. Use: same - version stamping principle.
+- «A partial stamp reads back as nothing rather than being completed from today's defaults - that substitution is precisely what this exists to prevent.» - Rupesh Kabra. Source: same email. Use: anti-fallback discipline parallel (our NOOP pre-seed refusal).

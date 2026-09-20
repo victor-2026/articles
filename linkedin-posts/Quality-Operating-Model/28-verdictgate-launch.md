@@ -126,6 +126,10 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - ~~**P0 #2 Pettersson split (L29)** — old: `As Daniel Mauno Pettersson puts it: the author can't be the examiner — the oracle must live outside the implementation it judges.` → new: `As Daniel Mauno Pettersson puts it: "the author can't be the examiner." That is why the oracle must live outside the implementation it judges.`~~ ✅ APPLIED 19.09
 - ~~**P1 #5 exit code (L15)** — old: `One exit code tells CI whether to ship.` → new: `An exit code tells CI whether to ship.`~~ ✅ APPLIED 19.09
 
+### PARKED — sequel backlog (freeze protocol, 19.09)
+
+- **TestMu Sophia (AI gatekeeping live case, 2026-09-20, PRIVATE):** TestMu AI career advisor given explicit constraints (QA leadership, EU remote, no relocation) returned 5 non-matching roles (AI PM + 4 Sales, Noida) twice, ranked AI PM "closest match" while admitting the PM-experience gap. No honest decline, no abstention — machine confirms whatever input. Source: `/Users/victor/Private/Positions-CV-CL/company/pilots/TestMu/sophia-career-advisor-eval-2026-09-20.md` (PRIVATE — public use anonymized only). Candidate: follow-up post or sequel "AI recruitment screens nothing". Cross-links: Klain Confidently Incorrect, Applitools Probabilistic Validation Gap. NOT for 28 body (frozen).
+
 ### ⏳ Pending Perplexity texts (click-max round, apply on user go)
 
 - **T1 promise line (after H1, before lede):** `If your mutation report is 100% green and you can't name one mutant that actually failed, this calculator is for you.`
