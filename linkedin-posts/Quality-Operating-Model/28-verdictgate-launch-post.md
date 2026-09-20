@@ -13,7 +13,7 @@ Thresholds measured, not asserted.
 
 The agent writes the test. The vendor writes the report. You write the verdict — now with a calculator.
 
-Full walkthrough + open-source repo link in the article below👇
+Want the 30-second check for your own CSV? Full method + repo link in the article below👇
 
 **When did your green suite last survive a break-on-purpose check?**
 
