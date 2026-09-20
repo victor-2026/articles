@@ -26,7 +26,7 @@ A vendor's green report is self-graded homework. In one pilot with a vendor tool
 
 Then we found the same shape in our own backyard. Twelve route mocks in our 49-test mutation suite never matched anything — `*` doesn't cross `/`, so the mutants never applied and the tests passed on real data, green and meaningless. Nobody verified the harness. That is the moment a green suite stops being evidence and becomes a story.
 
-Concrete case: our typical mock pattern `**/api/posts*` could never match `/api/posts/feed` — Twelve mocks in the existing suite were certifying nothing, flagged as debt. A planned probe proved it: `**/api/posts**` intercepts, the old pattern matches zero.
+Concrete case: our typical mock glob could never match the real feed route — a lone star stops at every slash. Twelve mocks in the existing suite were certifying nothing, flagged as debt. A planned probe proved it: the double-star glob intercepts the feed, the old pattern matches zero.
 
 A mutation suite seeds known defects into your code — each mutant is expected to fail. A pass where a fail was expected means your test cannot catch that break. Risk tiers (B0–B3) set how strict the gate is: zero tolerance at the top, bands below. VerdictGate reads that recording and returns ship or no-ship per tier.
 
