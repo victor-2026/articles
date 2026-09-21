@@ -64,6 +64,13 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - Article 19 (echo chamber) + Article 21 (Conway): ссылки при сборке
 - Wiki mutation matrix: методология B
 
+### QA-is-dead (JDAQA x Testkube, 17.09) — ammo для accountability-угла
+- Источник: `ai-qa-wiki/raw/qa-is-dead-orchestrating-quality-2026.md` (442 стр., OCR 21.09) + wiki-статья `wiki/qa-is-dead-orchestrating-quality-2026.md`.
+- **Цитата для тезиса 24 (own the risk):** «Own the risk — Accepting accountability for the release. Someone signs their name. AI cannot.» — slide 07, вошла в цитатник (quotes.md, секция QA is Dead).
+- **Цитата-мост (face the unknown → 24 decoy/unknown edge):** «AI runs the known path; humans imagine the one nobody wrote down.» — slide 07.
+- **Концепт-таблица:** Human Footprint (Product/Engineering/Validation, slides 16-18) — «AI does surface area, human owns truth» = визуальная поддержка AI-vs-human ownership-границы; двенадцать строк Validation (test strategy, the oracle, release go/no-go, quality governance) — готовый противовес "agent crossed boundary" в 24.
+- **Вставка:** не в тело (24-я self-contained), а в first comment при публикации как внешняя авторизация тезиса (cite JDAQA x Testkube). Проверить URL/доступность ручк-ссылки по gotcha #8 перед использованием.
+
 ### Open
 - Cover + feed image: TODO (спеки в шапке файла)
 - Decoy-diff screenshot: TODO (two identical forms, 2.20% → 3.19%, no flag)

@@ -39,6 +39,12 @@ Delegating implementation does not delegate product risk.
 ### Parked evidence (11.09)
 - Google Ads MCP-proxy ban (Aug 31): shared middle layer с одним токеном на 50 рекламодателей закрыт; каждому свой Cloud project. Vendor middle-layer trust = делегирование имплементации без делегирования границ. Цитата: «narrower than panic, wider than comfortable». Источник: YES Group newsletter via user share.
 
+### QA-is-dead (JDAQA x Testkube, 17.09) — ammo для "passing review ≠ working product"
+- Источник: `ai-qa-wiki/raw/qa-is-dead-orchestrating-quality-2026.md` (442 стр., OCR 21.09) + wiki-статья `wiki/qa-is-dead-orchestrating-quality-2026.md`. Вошла в цитатник: quotes.md, секция QA is Dead.
+- **Цитата под тезис 25 (partner/dev дает артефакт, не proof):** «Reviewing the code is not testing the software. ... A passing review is not a working product.» — slide 19. Прямой аргумент: extension/dev/партнёр сдаёт "acceptable code" ≠ "correct software".
+- **Вторая линия (слайд 20 mining формула):** «Size to AI-engineering output, not developer headcount» — если у партнёра scalability-аргумент (пришлём больше инженеров), отвечать формулой 120 PRs/week × 30-45 min ÷ 25 hrs = 2-4 QEs embedded.
+- **Вставка:** в first comment при публикации (внешняя авторизация) — cite JDAQA x Testkube; либо 1 фраза в тело, если редактор удалит из-за лимита — нет, тело 25 заморожено, только first comment/perxlink. URL-проверка по gotcha #8.
+
 Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 #QualityEngineering #QAStrategy #Outsourcing #QualityOps #ContractTesting
