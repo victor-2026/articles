@@ -18,6 +18,8 @@ We imported 5 Playwright tests into an AI-QA platform and injected a second iden
 
 Decompose that green run and you get an uncomfortable split. **Authorization worked**: the agent did only what the tests allowed — no forbidden action, no scope escape. **Auditability failed**: the report is indistinguishable from an honest one. Not forged, just blind — and blindness leaves no trace.
 
+Same style, same submit type, same label — identical by every attribute a matcher should care about. Which principle picked the first form over the second? The exported report doesn't say. That silence is the finding: we judge the tool as a black box, by its observable report — and even a target log would only be traceability, not an ambiguity flag.
+
 This is the mirror image of our DevAssure O2 run, where the agent caught a real bug and then hallucinated four more findings from its own injections. Same blind spot, both directions: the agent cannot tell the difference between discovering evidence and manufacturing it. A testing tool with no ambiguity signal is a boundary-crosser you cannot audit — it crosses from "checked" to "claimed" without leaving a mark.
 
 ### 🧭 Solution
