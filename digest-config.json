@@ -141,6 +141,14 @@
      "name": "BrowserStack Blog",
      "url": "https://www.browserstack.com/blog/feed/",
      "weight": 0.7
+    },
+    {
+     "id": "archestra",
+     "name": "Archestra Blog (AI agents/MCP security, Jev)",
+     "url": "https://archestra.ai/blog",
+     "weight": 0.8,
+     "boost": 0.5,
+     "type": "manual"
     }
    ],
  "keywords": {
