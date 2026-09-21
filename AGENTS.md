@@ -72,6 +72,17 @@ Notion  ──→  kanban/  (sync: bot/notion-sync-kanban.py)
    - `performance-log.csv` — add row with date, topic, format, metrics (use `?` for unknown)
 
 
+## Quotes Bank (`quotes.md`) — ОБЯЗАТЕЛЬНОЕ
+
+- **Когда:** при КАЖДОЙ сессии, где юзер показывает посты/статьи/материалы (LinkedIn-посты, деки, подкасты, чужие статьи) — агент обязан отобрать сильные цитаты и занести в `quotes.md`.
+- **Что:** формулировки, которые можно процитировать в будущих статьях (автор, метафора, тезис, цифра-контраст). Подбирать по принципу «одна строка смысла на цитату».
+- **Формат (из header quotes.md, соблюдать всегда):** только с URL первоисточника + пометкой предлагаемого использования. Не свалка: абзац → до 1-2 сильных строк.
+- **Секции:** добавлять/поддерживать тематические секции (`## Evals vs Tests`, `## AI Safety`, `## Independence / Attestation` и т.п.) — новые источники идут в существующую секцию или создают новую.
+- **Покрытие для этого правила:** любые материалы, которые юзер сегодня дал (прямо в сообщении, репостом, ссылкой, PDF, профилем) — включая, но не ограничиваясь: LinkedIn-посты, презентации/деки, книги, статьи, комментарии, репосты.
+- **Исключение:** конфиденциальная переписка (например, email от вендора) — заносить только с пометкой «private channel - public use requires consent».
+- **Завершение:** в конце сессии упомянуть в session-checkpoint: сколько цитат добавлено и в какие секции.
+
+
 ## Subagents & OpenRouter — Free First (Global)
 
 - Pi via `pi-subagents` (scout, researcher, worker, reviewer, oracle, delegate) — global `~/.pi/agent/settings.json`: `defaultProvider: openrouter`, `defaultModel: openrouter/free`, `enabledModels: [openrouter/*:free, openrouter/*, groq/*]`
