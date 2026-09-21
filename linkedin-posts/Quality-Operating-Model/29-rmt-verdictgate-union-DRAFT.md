@@ -1,7 +1,9 @@
 **Format:** JOINT Pulse Article (Victor × Leonardo Lanni) — INCOMING DRAFT, NOT voiced, NOT reviewed
 **Series:** Quality Operating Model (candidate 29/30)
 **Source:** W1/W2 window handover, 2026-09-21/22. Verbatim below.
-**Status:** PARKED for W4 triage. Do NOT publish. Leonardo review pending (his side).
+**Status:** VARIANT C (Cross-post) DECIDED 2026-09-22. Leonardo writes RMT half (sensitivity, evidence contract, risk-on-behaviour); Victor writes policy half (gates, evidence pack, thresholds). Shared comparative framework + table. Both channels, both bylines, same-day cross-post.
+**Deadlines:** draft Fri → Leonardo review Mon → publish Wed.
+**W4 scope:** policy half + shared table + voice pass on join. RMT half = Leonardo's text (quote, don't rewrite).
 **Collisions:** 28 launches Tue Sep 22 09:00 — independent stream, no body changes from this draft.
 
 ---
