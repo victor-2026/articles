@@ -106,6 +106,16 @@ Leonardo Lanni (QA Roots, RMT) / Victor Ematin (VerdictGate) — links TBD.
 6. RMT evidence-contract spec: quoted or paraphrased? (provenance rule: cite, don't copy).
 7. Timing vs 28 launch (Tue 09:00): independent streams, but two launches in one week compete. Recommend 29 slot ≥7 days after 28.
 
+## W4 DRAFTED BLOCK (not approved, 2026-09-22) — Tier decision matrix
+
+| Case | Who assigns tier | When | Artifact | Verdict owner |
+|------|-----------------|------|----------|---------------|
+| Own suite (VerdictGate solo) | QA engineer (author) | pre-seed | requirements.csv risk levels | author + reviewer sign-off |
+| Vendor eval (26-style) | evaluator | at matrix design | 5-scenario matrix tiers | evaluator |
+| Joint RMT pilot | Leonardo proposes P-tier per verification point → Victor maps P→B | pre-seed relevance filter | Evidence Contract (behaviour + tier) | Mutation Review Board (joint) |
+
+Default mapping 1:1 (P0→B0 … P3→B3); disputes → board. Tiers are set BEFORE the run — otherwise the gate is gameable (tier laundering, own adversarial finding).
+
 ## 🛠 Служебные заметки редактора (не публиковать)
 
 <!-- REVIEWERS: IGNORE BELOW THIS LINE -->
