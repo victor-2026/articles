@@ -1,49 +1,73 @@
 **Format:** Pulse Article
 **Series:** Quality Operating Model
-**Cover:** [COVER: 24-cover-agents-boundary.png — agent crossing org boundaries, accountability chain highlighted]
-**Feed Image:** [SCREENSHOT: 24-agent-policy — authorization / traceability / auditability triad]
-**Hook:** An agent can cross more boundaries in one session than a human tester in a week - and amplify a mistake at the same speed. Who is accountable for the outcome it produced?
+**Cover:** TODO (24-cover-agents-boundary.png — agent crossing org boundaries, accountability chain highlighted)
+**Feed Image:** TODO (24-agent-policy.png — authorization / traceability / auditability triad)
+**Hook:** An agent can cross more boundaries in one session than a human tester in a week — and amplify a mistake at the same speed. Who is accountable for the outcome it produced?
 
 ---
 
-AI agents are a new kind of boundary-crosser - and the org chart does not know how to hold them accountable.
+# Agents Cross Boundaries at Machine Speed: Accountability Still Moves at Human Speed
 
-**2.20% → 3.19% visual diff but 0% risk** - our QAEverest decoy pilot shipped two identical login forms and still reported green. The boundary had no owner.
+*Same decoy as before, new question: not whether the tool fails, but who answers for what it did.*
 
-[SCREENSHOT: 24-decoy-diff — two identical sign-in forms, visual diff 2.20% → 3.19%, no ambiguity flag]
+If your mutation report is 100% green and nobody can name who is accountable for each green line, you have automation without ownership.
 
-AI agents are a new kind of boundary-crosser - and the org chart does not know how to hold them accountable.
+We imported 5 Playwright tests into an AI-QA platform and injected a second identical sign-in form — same style, same submit, same label. Three runs came back **5/5 green, 0% business risk, Low severity**. The step "Verify the Sign in button is visible" passed every time. The visual diff grew from 2.20% to 3.19% and was never flagged as ambiguity. The tool silently picked the first matching target and reported success.
 
-## Skeleton
+### ❓ Problem
 
-- **Hook:** «An agent can cross more boundaries in one session than a human tester in a week - and amplify a mistake at the same speed. Who is accountable for the outcome it produced?»
-- **Body:**
-  1. Agents как новый client (MCP/UCP, agent-driven flows) - не UI-пользователь, не API-клиент, а автономный исполнитель
-  2. Quality boundary для агентов: authorization (что агент может сделать), traceability (что он сделал), policy testing (можно ли заставить сделать запрещённое), auditability (отчёт, который нельзя подделать)
-  3. Эхо-камера (мост к статье 19): same generator writes code + tests + review - verification must be outside the loop (mutation testing, contract tests, golden datasets)
-  4. Conway для агентов: структура агентов повторяет оргструктуру - если ownership размыт у людей, у агентов он будет размыт ещё сильнее
-- **Evidence:** DevAssure O2 (agent caught real bug + 5 false findings - same blind spot both directions); 34/34 mutation; **QAEverest decoy pilot (Aug 26): 3 green runs 5/5 + 0% business risk with two identical sign-in forms on the page - duplicate-target ambiguity not detected, visual diff 2.20%->3.19% seen but not classified**
-- **CTA:** «Does your QA org have a policy for what an agent is allowed to do in production - or is the boundary still "whatever the agent asks for"?»
+Decompose that green run and you get an uncomfortable split. **Authorization worked**: the agent did only what the tests allowed — no forbidden action, no scope escape. **Auditability failed**: the report is indistinguishable from an honest one. Not forged, just blind — and blindness leaves no trace.
 
-## Fresh angle (Aug 26): policy testing = negative testing for the tool itself
+This is the mirror image of our DevAssure O2 run, where the agent caught a real bug and then hallucinated four more findings from its own injections. Same blind spot, both directions: the agent cannot tell the difference between discovering evidence and manufacturing it. A testing tool with no ambiguity signal is a boundary-crosser you cannot audit — it crosses from "checked" to "claimed" without leaving a mark.
 
-The QAEverest decoy pilot is a live case for point 2 (policy testing) that does NOT reuse the DevAssure O2 story:
+### 🧭 Solution
 
-- Imported 5 Playwright tests, injected a second identical sign-in form (same style, same `type="submit"`, same label). All three exported reports came back **5/5 green, 0% business risk, Low severity**. The step "Verify the Sign in button is visible" passed; visual diff grew 2.20%->3.19% but was never flagged as ambiguity.
-- **Why this belongs in the accountability article:** a tool that silently picks the first matching target is a boundary-crosser you cannot audit. Authorization works (agent only did what tests allowed) - but **auditability fails**: the green report is undetectable as a lie without an independent oracle. This is the "отчёт, который нельзя подделать" requirement violated from the other side - not forged, just blind.
-- **Actionable rule (answers TODO 2):** "agent policy testing" is real and concrete - run the agent against decoy/mutant/duplicate targets and require an ambiguity flag (stop, confidence drop, or suggestion). If the tool ships a green report instead, policy fails. This is negative testing applied to the testing tool itself.
+An agent quality boundary has four parts, and most teams only built the first:
 
-## TODO questions to user
-1. ~~ОК ли повторить DevAssure O2 кейс (уже был в статье 19) или нужен свежий угол?~~ ✅ Решено: свежий угол = QAEverest decoy pilot (добавлен выше)
-2. ~~Вводить ли термин "agent policy testing" как новый вид тестирования?~~ ✅ Обосновано: negative testing для самого инструмента (decoy/mutant/duplicate -> required ambiguity flag)
-3. Карусель для этой статьи или текст?
+- **Authorization** — what the agent is allowed to do (roles, scopes, environments).
+- **Traceability** — what the agent actually did (step log, target log, decision log).
+- **Policy testing** — can you make it do the forbidden, and does it stop? Run the agent against decoy, mutant and duplicate targets and require an ambiguity flag: a stop, a confidence drop, or a suggestion. If the tool ships a green report instead, the policy fails. This is negative testing applied to the testing tool itself.
+- **Auditability** — a report a third party can verify. "3 relevant mutants caught, 0 survived" is falsifiable. "100% confidence, 0% risk" is marketing copy: it tells you nothing to check.
 
-## Cross-links (прописать при публикации)
-- **Статья 20** [Your Agent Found 5 Bugs. 4 Were Imaginary.](https://www.linkedin.com/pulse/your-agent-found-5-bugs-4-were-imaginary-victor-ematin-zqcte/) - тот же QAEverest decoy кейс с угла FP/FN-квадранта и 4 failure modes. 24-я берёт его с угла accountability/auditability.
-- **Статья 19** (Who verifies the black box?) - эхо-камера, verification outside the loop (мост уже в Body п.3)
-- **Статья 21** (Conway's Law) - п.4 Body (Conway для агентов) ссылается на обратный манёвр
-- **Wiki:** [AI QA Tool Evaluation: Mutation Matrix](wiki/ai-qa-tool-evaluation-mutation-matrix.md) - метод оценки платформ, включая policy testing
+### 🛠 Implementation
+
+Start with one imported suite and one injected duplicate — the way we did. Demand the flag before you demand the coverage. Then close the echo chamber: when the same generator writes the code, the tests and the review, verification must live outside the loop (mutation checks, contract tests, golden datasets). And remember Conway's revenge: agent structure mirrors org structure. If ownership is blurry among humans, it will be blurrier among agents — every unnamed boundary becomes an unaudited one.
+
+Our oracle stayed outside the whole time: 34 deliberately seeded faults, all caught, zero survivors on the reference backend. The decoy case never touched the quadrant math — it tested the boundary, not the score.
+
+### ✅ Result
+
+We reported the gap instead of writing the tool off — and the vendor shipped a passive observation layer: ambiguous matches get flagged even when all steps pass. Breaking the tool on purpose made it harder to fool. Accountability, it turns out, is a feature you can request.
+
+The checklist for your org is four questions: is there a written policy for what an agent may do in production? Is every agent action traceable to a target? Do you run decoys that must trigger an ambiguity flag? Can an outsider verify your green report? If any answer is no, the boundary is still "whatever the agent asks for" — and the bill for that arrives as an incident, not a warning.
+
+Does your QA org have a policy for what an agent is allowed to do in production — or is the boundary still "whatever the agent asks for"?
 
 Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 #QualityEngineering #QAStrategy #AIAgents #TestAutomation #QualityOps
+
+## 🛠 Служебные заметки редактора (не публиковать)
+
+<!-- REVIEWERS: IGNORE BELOW THIS LINE -->
+
+*Все ниже — рабочие материалы. Копипаст в LinkedIn заканчивается на хештегах.*
+
+### Angle lock (24 = accountability, NOT quadrant/method)
+- Статья 20 = FP/FN-квадрант того же кейса; Статья 26 = методология + loop-closed; 24-я = accountability/auditability. Дублирования нет: 20 спрашивает "что случилось", 26 — "как ломать", 24 — "кто отвечает".
+- QAEverest naming: покрыт fair-notice трейлом 26-й (naming OK). Новых клеймов о вендоре нет — только факты Aug-26 пилота + loop-closed из 26-й.
+
+### Evidence (ссылки для инлайна — прогнать по готче #8)
+- Article 20 (квадрант): https://www.linkedin.com/pulse/your-agent-found-5-bugs-4-were-imaginary-victor-ematin-zqcte/
+- Article 26 (метод + loop-closed): https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-5-scenarios-victor-ematin-lqdhe/
+- Article 28 (verdict): Pulse URL on publication (scheduled Tue Sep 22 09:00)
+- Article 19 (echo chamber) + Article 21 (Conway): ссылки при сборке
+- Wiki mutation matrix: методология B
+
+### Open
+- Cover + feed image: TODO (спеки в шапке файла)
+- Decoy-diff screenshot: TODO (two identical forms, 2.20% → 3.19%, no flag)
+- Feed post text: TODO (hook из шапки, CTA)
+- First comment: TODO (repo? нет — 24-я не про VerdictGate; method links 20/26 + 1 external max)
+- Inline cross-links 19/20/21/26: вставить при сборке + gotcha #8
+- Reviews: R1 (человек) → publish; Perplexity/Gemini опционально (тело уже в голосе серии)
