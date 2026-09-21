@@ -1,7 +1,7 @@
 **Format:** Pulse Article
 **Series:** Quality Operating Model
-**Cover:** TODO (24-cover-agents-boundary.png — agent crossing org boundaries, accountability chain highlighted)
-**Feed Image:** TODO (24-agent-policy.png — authorization / traceability / auditability triad)
+**Cover:** 24-cover-agents-boundary.png ✅ (1920×1080, HTML source alongside)
+**Feed Image:** 24-agent-policy.png ✅ (triad, 1920×1080, HTML source alongside)
 **Hook:** An agent can cross more boundaries in one session than a human tester in a week — and amplify a mistake at the same speed. Who is accountable for the outcome it produced?
 
 ---
@@ -72,8 +72,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - **Вставка:** не в тело (24-я self-contained), а в first comment при публикации как внешняя авторизация тезиса (cite JDAQA x Testkube). Проверить URL/доступность ручк-ссылки по gotcha #8 перед использованием.
 
 ### Open
-- Cover + feed image: TODO (спеки в шапке файла)
-- Decoy-diff screenshot: TODO (two identical forms, 2.20% → 3.19%, no flag)
+- Visuals SHOT 21.09 ✅ (cover + feed triad + 24-decoy-diff mock, all 1920×1080, HTML sources alongside)
 - Feed post text: TODO (hook из шапки, CTA)
 - First comment: TODO (repo? нет — 24-я не про VerdictGate; method links 20/26 + 1 external max)
 - Inline cross-links 19/20/21/26: вставить при сборке + gotcha #8

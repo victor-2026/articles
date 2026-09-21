@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:1920px; height:1080px; background:#0d1117; color:#e6edf3;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    display:flex; flex-direction:column; justify-content:center; gap:40px;
+    padding:80px 110px; overflow:hidden; }
+  h2 { font-size:56px; font-weight:800; }
+  h2 span { color:#f85149; }
+  .forms { display:flex; gap:40px; }
+  .form { flex:1; background:#ffffff; border-radius:16px; padding:48px 56px; color:#111; }
+  .form .fl { font-size:26px; color:#555; margin-bottom:10px; }
+  .form .fi { border:2px solid #ccc; border-radius:10px; height:64px; margin-bottom:28px; }
+  .form .fb { background:#0d6efd; border-radius:10px; height:68px; color:#fff;
+    font-size:30px; font-weight:700; display:flex; align-items:center; justify-content:center; }
+  .badge { align-self:center; background:#161b22; border:1px solid #30363d; border-radius:14px;
+    padding:24px 40px; font-size:30px; text-align:center; }
+  .badge b { color:#f0b429; }
+  .stamp { align-self:center; border:3px dashed #f85149; border-radius:14px;
+    padding:20px 48px; font-size:32px; font-weight:800; color:#f85149;
+    background:rgba(248,81,73,.06); }
+</style></head>
+<body>
+  <h2>Two identical sign-in forms. <span>One verdict: green.</span></h2>
+  <div class="forms">
+    <div class="form"><div class="fl">Username</div><div class="fi"></div><div class="fl">Password</div><div class="fi"></div><div class="fb">Sign in</div></div>
+    <div class="form"><div class="fl">Username</div><div class="fi"></div><div class="fl">Password</div><div class="fi"></div><div class="fb">Sign in</div></div>
+  </div>
+  <div class="badge">visual diff <b>2.20% → 3.19%</b> · report <b>5/5 green, 0% risk</b></div>
+  <div class="stamp">✗ NO AMBIGUITY FLAG</div>
+</body></html>

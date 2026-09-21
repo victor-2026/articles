@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:1920px; height:1080px; background:#0d1117; color:#e6edf3;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    display:flex; flex-direction:column; justify-content:center; gap:56px;
+    padding:90px 110px; overflow:hidden; }
+  .kicker { color:#f0b429; font-size:30px; font-weight:700; letter-spacing:5px; }
+  h1 { font-size:76px; line-height:1.12; font-weight:800; }
+  h1 .amber { color:#f0b429; }
+  .chain { display:flex; align-items:stretch; gap:0; }
+  .gate { flex:1; background:#161b22; border:1px solid #30363d; border-radius:16px;
+    padding:34px 30px; text-align:center; }
+  .gate .tag { font-size:24px; font-weight:800; letter-spacing:3px; margin-bottom:12px; }
+  .gate .desc { font-size:26px; color:#8b949e; line-height:1.4; }
+  .gate .verdict { font-size:30px; font-weight:800; margin-top:14px; }
+  .g-ok { border-top:6px solid #3fb950; } .g-ok .tag { color:#3fb950; }
+  .g-mid { border-top:6px solid #f0b429; } .g-mid .tag { color:#f0b429; }
+  .g-bad { border-top:6px solid #f85149; } .g-bad .tag { color:#f85149; }
+  .arrow { align-self:center; font-size:44px; color:#8b949e; padding:0 18px; }
+  .strip { text-align:center; font-size:27px; color:#8b949e; }
+  .strip b { color:#f0b429; }
+</style></head>
+<body>
+  <div>
+    <div class="kicker">QUALITY OPERATING MODEL · 24</div>
+    <h1>Agents Cross Boundaries at Machine Speed.<br><span class="amber">Accountability Still Moves at Human Speed.</span></h1>
+  </div>
+  <div class="chain">
+    <div class="gate g-ok"><div class="tag">AUTHORIZATION</div><div class="desc">did only allowed steps</div><div class="verdict" style="color:#3fb950">✓ HELD</div></div>
+    <div class="arrow">→</div>
+    <div class="gate g-ok"><div class="tag">TRACEABILITY</div><div class="desc">every step logged</div><div class="verdict" style="color:#3fb950">✓ HELD</div></div>
+    <div class="arrow">→</div>
+    <div class="gate g-mid"><div class="tag">POLICY TEST</div><div class="desc">decoy demands a flag</div><div class="verdict" style="color:#f0b429">? SILENT</div></div>
+    <div class="arrow">→</div>
+    <div class="gate g-bad"><div class="tag">AUDITABILITY</div><div class="desc">report vs reality</div><div class="verdict" style="color:#f85149">✗ NO OWNER</div></div>
+  </div>
+  <div class="strip">An agent crosses more boundaries in one session <b>than a tester in a week</b></div>
+</body></html>
