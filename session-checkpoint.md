@@ -422,7 +422,7 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **27 second wave:** Shahid reply SENT; Sophia mini-case scheduled today 21.09 (user posts).
 
-**Outreach awaiting:** Rupesh (letter RECEIVED 21.09 — read & reply next) · Radik (follow-up overdue since ~20.09) · Megi · Jason (book received, post comment done) · Aamir.
+**Outreach awaiting:** Rupesh (letter in → REPLIED 21.09, awaiting his dev continuation) · Radik (follow-up overdue since ~20.09) · Megi · Jason (book received, post comment done) · Aamir.
 **Closed threads:** Leonardo (chat exchange done).
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
