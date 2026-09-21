@@ -425,3 +425,13 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 **Outreach awaiting:** Rupesh (DM sent) · Radik (follow-up overdue since ~20.09) · Megi · Leonardo RMT reply (drafted) · Jason (book) · Aamir.
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
+
+## 2026-09-21 01:57 — BrowserStack handover → window 5 COMPLETED (ai-qa-wiki 84e4a67)
+- Handover (77ef3bd) "finish + commit BrowserStack wiki, owner window 5" — DONE. Registry fixed (BrowserStack desc + missing Applitools entry appended), topics 350→352, pushed.
+- Sophia mini-case scheduling update: postponed to Tue (user posts after Article 28 launch) — was marked "today 21.09", now moved.
+
+## 2026-09-21 11:47 - Digest 21.09 parsed, 2 saved to wiki (ai-qa-wiki 037bc6f)
+- 5 items from 289. Kept: SWE-Proof (25-50% test-passing patches admit counterexamples - hard data for Article 27) + Runtime Authorization (agent resource control).
+- Skip: POM Ruby (classic, no AI depth), healthcare evals (low). AI-in-QA #27 (Claude context) kept as candidate.
+- Digest checklist marked: SWE-Proof and Runtime Auth = wiki done. Digest's "Куда это" block updated.
+- No changes to Articles repo itself (digest file edited in-place, AI-edit allowed).
