@@ -86,3 +86,22 @@
 - «An evidence pack that can say something different tomorrow about a run that cannot change isn't evidence.» - Rupesh Kabra (CEO, QAEverest). Source: private email 2026-09-20 17:13 (stamping change notification; private channel - public use requires consent). Use: Articles 26/28 series - frozen-bar principle; potential first-comment line for VerdictGate if consent given. Independent convergence with VerdictGate Hard Rules (SCORER_VERSION stamp, byte-identical output).
 - «Identical thresholds under different scoring rules are not the same bar, and an audit trail that can't tell them apart isn't one.» - Rupesh Kabra. Source: same email. Use: same - version stamping principle.
 - «A partial stamp reads back as nothing rather than being completed from today's defaults - that substitution is precisely what this exists to prevent.» - Rupesh Kabra. Source: same email. Use: anti-fallback discipline parallel (our NOOP pre-seed refusal).
+
+## QA is Dead / Four things AI can't own (Jay Aigner JDAQA x Ole Lensmar Testkube, deck 2026-09-17)
+
+- «Quality is the four things AI can't own. ... Automate around them all you want. You cannot automate them away.» - Jay Aigner (CEO JDAQA) / Ole Lensmar (CTO Testkube). Source: QA is Dead deck, slide 07 (raw/qa-is-dead-orchestrating-quality-2026.md, ai-qa-wiki). Use: Article 26/27 - the four non-automatable decisions (define correct, determine truth, own the risk, face the unknown) as the gate/attestation framing; independent convergence with per-risk-tier.
+- «Code became "free." Validation didn't.» - Jay Aigner / Ole Lensmar. Source: same deck, slide 09. Use: Article 26/27 - the cost of trust moves from building to validating; QA share 20%->35%->45% (Capgemini/Sonar/LinearB grounded).
+- «The cost didn't leave. It's moving to validation. ... With no agentic QA to absorb it, the cost of trust moves from building the software to validating it.» - Jay Aigner / Ole Lensmar. Source: same deck, slide 10-12. Use: Article 27 - validation becomes the primary cost center; business case for VerdictGate.
+- «Quality debt is on pace to consume 110 days - nearly a third of your engineering year, gone before a single feature ships.» - Jay Aigner / Ole Lensmar. Source: same deck, slide 13. Use: Article 27 - quantitative hook (110/365 days), cost framing for gates.
+- «Reviewing the code is not testing the software. ... A passing review is not a working product.» - Jay Aigner / Ole Lensmar. Source: same deck, slide 19. Use: Article 26/27 - code review vs validation distinction; "is the code acceptable" ≠ "is the software correct"; strong developers ≠ validation answer.
+- «AI runs the known path; humans imagine the one nobody wrote down.» - Jay Aigner / Ole Lensmar (slide 07, "Face the unknown"). Source: same deck. Use: Article 27 - explores/adversarial = human domain, matches mutation-matrix gap coverage.
+- «Size to AI-engineering output, not developer headcount.» - Jay Aigner / Ole Lensmar. Source: same deck, slide 20 (120 PRs/wk x 30-45min / 25hrs = 2-4 QEs). Use: Article 27/28 - evidence-based QA sizing formula, practical prescriptive.
+
+## Jev / Judgment-as-a-service (Ruben Hassid, 2026-09-21)
+
+- «If you set it up correctly, you will have the AI engineer's setup for 2028.» - Ruben Hassid (newsletter "Master AI before it masters you"). Source: LinkedIn post 2026-09-21 (typesafe.ai Jev setup, newsletter https://lnkd.in/ePyG-QKM). Use: Article 28 / Jev wiki cross-link - Jev as internet-moment signal; hype-discount applies.
+- «It's hard to spend more [than $5].» - Ruben Hassid on Jev free credit. Source: same post. Use: Jev wiki - 20-200x cheaper positioning, judgment primitives (choice/score/bool + calibrated confidence) vs LLM tokens.
+
+## Agent reliability / accountability (Tobia Lang, via Irueruoghene repost)
+
+- «The real hurdle is not just building adaptive agents, but ensuring they can function reliably in real-world scenarios. Without structured evaluation and rollback mechanisms, we risk letting these agents operate in a chaotic environment where mistakes can spiral out of control.» - Tobia Lang (Full Stack Engineer, AI Interfaces). Source: LinkedIn repost via Irueruoghene Ogriki (2026-09-21). Use: Article 27 - eval + rollback = accountability framework, agent reliability not capability; supports VerdictGate/vendor-opinion lean. Note: author is individual engineer, 3rd-party quote - use with attribution or paraphrase.
