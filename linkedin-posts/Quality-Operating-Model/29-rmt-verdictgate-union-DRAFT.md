@@ -55,11 +55,11 @@ RMT (sensitivity)  →  Evidence Contract (behaviour + tier + killed/survived)  
 
 ### 4. The Three-Layer Architecture (300 words)
 
-| Layer | Question | Tool | Output |
-|-------|----------|------|--------|
-| **1. Sensitivity** | "Can the test detect a broken assertion?" | **RMT** | Killed/Survived per assertion + risk tier |
-| **2. Evidence** | "What exactly survived?" | Evidence Contract | `behaviour + tier + killed/survived + decision` |
-| **3. Policy** | "Is this green acceptable?" | VerdictGate | B0/B1 zero-tolerance, B2 band, B3 trend |
+| Layer | Question | Tool | Output | Failure mode (if this layer fails) |
+|-------|----------|------|--------|-------------------------------------|
+| **1. Sensitivity** | "Can the test detect a broken assertion?" | **RMT** | Killed/Survived per assertion + risk tier | dead assertions pass silently — green means nothing |
+| **2. Evidence** | "What exactly survived?" | Evidence Contract | `behaviour + tier + killed/survived + decision` | survivors unverifiable — nothing to gate on |
+| **3. Policy** | "Is this green acceptable?" | VerdictGate | B0/B1 zero-tolerance, B2 band, B3 trend | untrusted green ships — nobody stops the release |
 
 **Pipeline:** Code Change → RMT (mutate assertions) → Run Tests → Evidence Contract → VerdictGate → PASS/FAIL + Evidence Pack
 **Design (roadmap, NOT fact — W2 22.09):** RMT output is designed to feed VerdictGate as first-class input. Joint RMT×VerdictGate pilot on 122 behaviors planned post-Leonardo review. Provenance tagged for diagnostics.
@@ -78,23 +78,26 @@ RMT (sensitivity)  →  Evidence Contract (behaviour + tier + killed/survived)  
 **Risk-Steering Mutation Depth:** B0/B1 full operator set; B2/B3 sampled subset.
 **Pre-seed Relevance Filter:** drop verification points outside the change boundary.
 
-### 5b. Verified runs (122-claim REMOVED per W2 22.09)
+### 6. Verified runs (sidebar on voicing: move after Three-Layer table)
 - QAEverest 7-mut pilot (CSV, exit codes, verdict packs — verified)
 - DevAssure 15-answer (FP 4→0, re-check passed — verified)
 - Rupesh stamping change (email, spec update — verified)
 - Roadmap: joint RMT×VerdictGate pilot on 122 behaviors planned post-Leonardo review.
 
-### 6. The "Outside the Product" Checklist (150 words)
+### 7. The "Outside the Product" Checklist (150 words)
 Mutation Backlog / Engineer / Tier assignment / Review Board / Attestation template / Dispute resolution / Lifecycle / Metrics — checkboxes.
 
-### 7. Call to Action / Closing (150 words)
+### 8. Call to Action / Closing (150 words)
+Staged actionable close (W3): "This week: run RMT on one PR. Next week: feed results to VerdictGate. Share the evidence pack."
 > The mutation is not the test. The mutant is the question. The survivor is the answer. The gate is the judgment.
 > RMT makes sure your assertions can die. VerdictGate decides if the survivors matter.
 
-**Try it:** RMT [Leonardo's repo/link TBD] · VerdictGate: repo link + 30s example.
+**Try it:** RMT [INSERT: leonardo-rmt-repo — real URL from Leonardo; do NOT use `github.com/leonardo-lanni/reverse-mutation-testing` (W3 guess, UNVERIFIED)] · VerdictGate: `git clone https://github.com/victor-2026/verdictgate && python3 verdictgate.py results.csv` — verdict in 30 seconds.
 
-### 8. Author Bios (50 words each)
-Leonardo Lanni (QA Roots, RMT) / Victor Ematin (VerdictGate) — links TBD.
+### 9. Author Bios (50 words each, W3 credentials REJECTED where false — see triage)
+Leonardo Lanni (QA Roots, RMT) / Victor Ematin (VerdictGate) — full bios + links TBD (Leonardo confirms his own facts).
+⛔ W3 suggested Victor bio "ex-EPAM/SoftServe" — FALSE, REJECTED. Never use (cf. global memory gotcha #1: fabricated EPAM entry).
+Cross-post mechanics (W3): Leonardo posts 09:00 CEST, Victor reposts 09:30 with "Building on Leonardo's RMT…" + link. Confirm with Leonardo.
 
 ---
 
@@ -220,6 +223,18 @@ Every vendor profile ships with `"provisional": true`.
 We don't hide this. The flag means: "Semantics locked, live verification pending." After a cross-check run + W2 verification → `provisional: false`.
 
 ---
+
+## W3 review applied 22.09 (structural; voice items staged)
+
+- Renumber applied: 5 Mechanics, 6 Verified runs (sidebar after Three-Layer table on voicing), 7 Checklist, 8 CTA (+ staged actionable close), 9 Bios.
+- Three-Layer table: Failure-mode column ADDED.
+- INSERT markers: RMT repo = real URL from Leonardo only (W3-guessed github URL banned).
+- Hook staged (concrete pain, W3): "Your CI says 92% killed. A payment mutation survived. You shipped anyway. That night, payment failed."
+- Mechanics reframe staged: "Who does what when the gate fails?" (actionable, not corporate).
+- Leonardo ask staged: 1 vivid RMT example from a real PR (his text).
+- Length (1500-2000 vs 800-1000): DECISION OPEN — split two-parter vs 40% cut.
+- Title: W3 prefers option 1; option 3 more clickable — DECISION OPEN (user).
+- Appendix A labeled: Policy Half = Victor's voice only; RMT half = Leonardo's text quoted verbatim per provenance.
 
 ## 🛠 Служебные заметки редактора (не публиковать)
 
