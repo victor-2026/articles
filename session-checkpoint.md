@@ -454,3 +454,9 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - STARWEST 20-25.09.2026 (TechWell, Applitools sponsor). Filip Hric (Qodo) main stage: "AI-written software reliable." Jason Arbon pitched his talk as career opportunity.
 - Filip Hric NOT yet in trackers - candidate for outreach/tracking (Qodo = agentic coding vendor, relevant to Article 29/30). New quotes: quotes.md → "Career / Disruption (Jason + Filip, STARWEST)" - 3 quotes.
 - Radar overlap: STARWEST running NOW while Article 28 just launched (imp 49 day-0). Potential comment on Jason's STARWEST post = Prong C (Jason warm, awaiting feedback draft).
+
+## 2026-09-22 15:00 - Qodo Source Triage (Company First) [blog + quotes + digest]
+- Qodo (ex-Codium, PR-Agent→Qodo Merge, Qodo Gen) full triage: 5 high-relevance articles read + ingested → ai-qa-wiki raw+qodo-*-2026 pages + catalog `qodo-blog-catalog-all-publications-2024-2026.md` (395 posts, ~37 HIGH). Key evidence for series: generator-vs-grader (Gartner "Don't Use AI Coding Agents..." June 2026 names Qodo in Code Review Agent), Claude Code self-review suppressed a TOCTOU bug behind 80-threshold ("one silent threshold away"), Faros 2026 numbers (incidents/PR +242%, time in review +441%, bugs/dev +54%, mature-org min advantage gone).
+- quotes.md → new section "Independent verification layer / generator vs grader (Qodo)" — 16 quotes (empirical author-examiner cases, governance-as-infra, review as responsibility boundary, spec-is-code Clinton Herget Snyk, autonomy→verification Dedy Kredo).
+- digest-config.json → +source `qodo` (feed https://www.qodo.ai/feed/ weight 0.9, Cloudflare → browser user_agent per-source support added to daily-digest.py). Merged duplicate `archestra` entries (was 2, same id).
+- Next: Software Map article (Qodo 2.5, feed 22.09 "Risk, Mapped Across Every Repo") → wiki candidate for Article 29 (risk-tiering across repos).

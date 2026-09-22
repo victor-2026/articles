@@ -86,14 +86,6 @@
    "url": "https://aiinqa.com/rss/",
    "weight": 0.8
   },
-{
-   "id": "archestra",
-   "name": "Archestra Blog",
-   "url": "https://archestra.ai/blog",
-   "weight": 0.9,
-   "boost": 0.5,
-   "type": "manual"
-  },
   {
    "id": "flowscout-alternateqa",
    "name": "FlowScout / Alternate QA (Igor Akymenko, LinkedIn + GitHub)",
@@ -124,41 +116,50 @@
    "weight": 0.9,
    "boost": 0.5
   },
-   {
-    "id": "testkube",
-    "name": "Testkube Blog",
-    "url": "https://testkube.io/blog/rss.xml",
-    "weight": 0.8
-   },
-    {
-     "id": "addyosmani",
-     "name": "Addy Osmani (Elevate)",
-     "url": "https://addyo.substack.com/feed",
-     "weight": 0.9,
-     "boost": 0.5
-    },
-    {
-     "id": "agenticsserbia",
-     "name": "Agentics Foundation Serbia (YouTube)",
-     "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp0JEOqglATIewFo17HSJpg",
-     "weight": 0.9,
-     "boost": 0.5
-    },
-    {
-     "id": "browserstack",
-     "name": "BrowserStack Blog",
-     "url": "https://www.browserstack.com/blog/feed/",
-     "weight": 0.7
-    },
-    {
-     "id": "archestra",
-     "name": "Archestra Blog (AI agents/MCP security, Jev)",
-     "url": "https://archestra.ai/blog",
-     "weight": 0.8,
-     "boost": 0.5,
-     "type": "manual"
-    }
-   ],
+  {
+   "id": "testkube",
+   "name": "Testkube Blog",
+   "url": "https://testkube.io/blog/rss.xml",
+   "weight": 0.8
+  },
+  {
+   "id": "addyosmani",
+   "name": "Addy Osmani (Elevate)",
+   "url": "https://addyo.substack.com/feed",
+   "weight": 0.9,
+   "boost": 0.5
+  },
+  {
+   "id": "agenticsserbia",
+   "name": "Agentics Foundation Serbia (YouTube)",
+   "url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCp0JEOqglATIewFo17HSJpg",
+   "weight": 0.9,
+   "boost": 0.5
+  },
+  {
+   "id": "browserstack",
+   "name": "BrowserStack Blog",
+   "url": "https://www.browserstack.com/blog/feed/",
+   "weight": 0.7
+  },
+  {
+   "id": "archestra",
+   "name": "Archestra Blog (AI agents/MCP security, Jev)",
+   "url": "https://archestra.ai/blog",
+   "weight": 0.9,
+   "boost": 0.5,
+   "type": "manual"
+  },
+  {
+   "id": "qodo",
+   "name": "Qodo Blog — governance/verification (ex-Codium, PR-Agent)",
+   "url": "https://www.qodo.ai/feed/",
+   "weight": 0.9,
+   "boost": 0.5,
+   "note": "RSS throttled by Cloudflare - fetch with browser User-Agent; fallback post-sitemap.xml",
+   "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36"
+  }
+ ],
  "keywords": {
   "core": [
    "ai testing",
@@ -316,19 +317,19 @@
    "name": "Pavel Shcherbinin",
    "company": "Yandex"
   },
-   {
-    "name": "Angie Jones",
-    "company": "Block"
-   },
-    {
-     "name": "Addy Osmani",
-     "company": "Anthropic"
-    },
-    {
-     "name": "Dragan Spiridonov",
-     "company": "Cognitum One"
-    }
-   ],
+  {
+   "name": "Angie Jones",
+   "company": "Block"
+  },
+  {
+   "name": "Addy Osmani",
+   "company": "Anthropic"
+  },
+  {
+   "name": "Dragan Spiridonov",
+   "company": "Cognitum One"
+  }
+ ],
  "brands": [
   "Autonoma",
   "Playwright",
@@ -373,13 +374,13 @@
   "Mabl",
   "Testsigma",
   "Katalon",
-   "Tricentis",
-   "Agentic QE Fleet",
-   "Nagual-QE",
-   "RuFlo",
-   "Vibium",
-   "Agentics Foundation"
-  ],
+  "Tricentis",
+  "Agentic QE Fleet",
+  "Nagual-QE",
+  "RuFlo",
+  "Vibium",
+  "Agentics Foundation"
+ ],
  "threshold": 1.5,
  "top_n": 12,
  "routes": [

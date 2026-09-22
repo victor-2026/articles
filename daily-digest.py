@@ -103,8 +103,9 @@ def fetch_feed(source: dict) -> list[dict]:
     items: list[dict] = []
     max_age = source.get("max_age_days", 7)
     try:
+        ua = source.get("user_agent", "daily-digest/1.0")
         resp = httpx.get(source["url"], timeout=source.get("timeout", 15),
-                         follow_redirects=True, headers={"User-Agent": "daily-digest/1.0"})
+                         follow_redirects=True, headers={"User-Agent": ua})
         resp.raise_for_status()
         feed = feedparser.parse(resp.text)
         raw_entries = feed.entries
