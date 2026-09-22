@@ -167,3 +167,10 @@ LinkedIn-лента показывает первые ~150 символов ст
 | «taught me more than 1000 passing tests on a project I already know» | 1-orangehrm-phase1 | Learning/contrast |
 
 *Обновлено: 2026-08-20*
+
+## 16. Install-Path Honesty (gotcha 2026-09-22)
+
+Не заявляй install-путь, которого нет: `pip install X` требует опубликованного пакета, не намерения. CTA — только на существующие пути (repo-clone + команда из README, проверенная прогоном). Roadmap-обещания — в backlog, не в CTA.
+- ❌ `pip install verdictgate` (static script, пакета нет)
+- ✅ `git clone … && python3 verdictgate.py results.csv` + «PyPI planned post-v1.0» в roadmap
+- Кейс: RMT×VerdictGate draft, поймано W4-триажем до публикации.

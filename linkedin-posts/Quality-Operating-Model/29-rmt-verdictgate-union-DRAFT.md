@@ -98,7 +98,7 @@ Leonardo Lanni (QA Roots, RMT) / Victor Ematin (VerdictGate) — links TBD.
 ## W4 TRIAJE (added on filing, 2026-09-22)
 
 **P0 — factual/structural, must resolve before voicing:**
-1. **pip install is FALSE.** Draft says `pip install verdictgate → python -m verdictgate`. Repo reality: static script, `python3 verdictgate.py results.csv`, zero dependencies, NOT on pip. Fix to repo + 30s example (same as 28).
+1. ~~**pip install is FALSE.** Draft says `pip install verdictgate → python -m verdictgate`. Repo reality: static script, `python3 verdictgate.py results.csv`, zero dependencies, NOT on pip. Fix to repo + 30s example (same as 28).~~ ✅ RESOLVED 22.09 (W2 decision: variant (a) — clone + python3, truth embedded in policy half; PyPI → backlog post-v1.0; gotcha filed as wiki rule 16)
 2. **Duplicate section numbers:** two "5" (Mechanics + Case Study) and two "7" (CTA + Bios). Renumber on voicing.
 3. **Placeholders:** RMT repo/link TBD, author links TBD, Truth of "first-class input" claim (RMT→VerdictGate integration) UNVERIFIED — has the pipeline actually run end-to-end, or is it architecture on paper? Do not publish as fact until proven (own medicine: break it first).
 4. **Length:** 1500-2000 words vs series 800-1000. Either split (two-parter) or cut on voicing.
