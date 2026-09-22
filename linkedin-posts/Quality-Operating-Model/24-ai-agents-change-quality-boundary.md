@@ -33,7 +33,7 @@ An agent quality boundary has four parts, and most teams only built the first:
 
 ### 🛠 Implementation
 
-Start with one imported suite and one injected duplicate — the way we did. Demand the flag before you demand the coverage. Then close the echo chamber: when the same generator writes the code, the tests and the review, verification must live outside the loop (mutation checks, contract tests, golden datasets). And remember Conway's revenge: agent structure mirrors org structure. If ownership is blurry among humans, it will be blurrier among agents — every unnamed boundary becomes an unaudited one.
+Start with one imported suite and one injected duplicate — a form, a button, or an API endpoint, the way we did. Demand the flag before you demand the coverage. Then close the echo chamber: when the same generator writes the code, the tests and the review, verification must live outside the loop (mutation checks, contract tests, golden datasets). Regulated readers will recognize the shape: model-risk management (SR 11-7-style) demands the same independence for any model whose output moves money or access. And remember Conway's revenge: agent structure mirrors org structure. If ownership is blurry among humans, it will be blurrier among agents — every unnamed boundary becomes an unaudited one.
 
 Our oracle stayed outside the whole time: 34 deliberately seeded faults, all caught, zero survivors on the reference backend. The decoy case never touched the quadrant math — it tested the boundary, not the score.
 
