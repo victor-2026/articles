@@ -481,6 +481,7 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - Jason's STARWEST post found (01.09, activity-7500452550865801216-9GpJ): "meeting Filip may be worth the entire conference fee by itself", "career opportunity", reshare of Filip's "most important presentation of my career" + bit.ly/4zwtsmp discount.
 - Both Jason (Testing with the Coding Agent, Thu 24.09 1:30pm, "should the system that wrote the bug also decide whether the software is ready to ship?", New AI Testing Pyramid) and Filip (keynote Tester 2.0, Wed 23.09 10:00 + Thu 24.09 08:30, Cursor/Claude Code tutorials) converge on generation-vs-validation separation = Victor's attestation lane. Quotes: URL added to Career/Disruption section.
 - Prong C comment DRAFTED (mutation-based proof number, attestation-as-evidence, AI Testing Pyramid preview question).
+- **2026-09-22 23:55 — CANCELLED by user (HOLD):** no comment/DM to Jason (or Filip) now — user wary while both are busy at STARWEST (23-24.09). Draft kept, revisit after 25.09 if signal. Also Filip Hric connect/comment CANCELLED (Positions index updated).
 
 ## 2026-09-22 23:59 - Radar quotes batch (evening)
 - quotes.md updates (all committed + pushed):
