@@ -20,7 +20,7 @@ Decompose that green run and you get an uncomfortable split. **Authorization wor
 
 Same style, same submit type, same label — identical by every attribute a matcher should care about. Which principle picked the first form over the second? The exported report doesn't say. That silence is the finding: we judge the tool as a black box, by its observable report — and even a target log would only be traceability, not an ambiguity flag.
 
-This is the mirror image of our DevAssure O2 run, where the agent caught a real bug and then hallucinated four more findings from its own injections. Same blind spot, both directions: the agent cannot tell the difference between discovering evidence and manufacturing it. A testing tool with no ambiguity signal is a boundary-crosser you cannot audit — it crosses from "checked" to "claimed" without leaving a mark.
+This is the mirror image of [an earlier agent run](https://www.linkedin.com/pulse/your-agent-found-5-bugs-4-were-imaginary-victor-ematin-zqcte/), where the agent caught a real bug and then hallucinated four more findings from its own injections. Same blind spot, both directions: the agent cannot tell the difference between discovering evidence and manufacturing it. A testing tool with no ambiguity signal is a boundary-crosser you cannot audit — it crosses from "checked" to "claimed" without leaving a mark.
 
 ### 🧭 Solution
 
