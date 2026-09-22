@@ -40,6 +40,7 @@
 ## Market Signals / Vendor Landscape
 
 - «95% accuracy sounds impressive. But is it enough to put an AI agent in production?» — ContextQA (poll). Source: LinkedIn post (2026-09). Use: Article 27 — market validates per-risk-tier framing.
+- «The list of tests your team never had time to write just got shorter. ... Describe the test you need, in plain language. Testkube generates it in your framework, Playwright, k6, Selenium ... pushes it as a pull request. ... Your cluster, your data, your repository.» — Testkube (Ole Lensmar, CTO). Source: LinkedIn post 2026-09-22 + hubs.li/Q04y1M4K0 (Ole Lensmar write-up, «by customers' most-requested: help us create more tests»). Use: Article 26/27 — vendor generator-side claim to contrast with our verification side; "AI creates tests" ≠ "verified tests"; quote «describing a test in plain language» directly answers our "fast-for-whom" (creation is now cheap; the gate is correctness, not generation).
 
 ## Independence / Attestation
 
@@ -139,6 +140,14 @@ Source: LinkedIn posts 2026-09 (Jason Arbon on Filip Hric; Filip Hric STARWEST m
 - «AI is disrupting software testing—and careers. That's not hype. It's happening now.» - Jason Arbon (Jank.AI / IcebergQA). Use: Article 28/29 - disruption-as-career-opportunity framing; matches VerdictGate/attestation positioning (we are the emerging role).
 - «This is a career opportunity, not just another conference session.» - Jason Arbon (on attending Filip Hric's talk). Use: Article 29/30 - STARWEST/career pivot angle; learning from practitioners beats vendor-slide-network.
 - «I help developers make AI-written software reliable.» - Filip Hric (Qodo). Use: tagline benchmark for Victor's own positioning; Qodo = agentic coding vendor, reliable-AI-code = our verification thesis in one sentence.
+
+## AI-QA Tooling / Career market (Codemify live + BitGN, 2026-09-22)
+
+Source: Sergii Khromchenko (CEO & Founder @ Codemify | QA AI Automation) LinkedIn post 2026-09-22: free 2h live Sep 26 10:00 PT with Oles Tsaruk — Claude Code writes Playwright tests live (incl. its failures), CLAUDE.md, MCP for QA, AI+Jira, demo→CI/CD, "which skills are losing value." Rinat Abdullin (Founder @ BitGN | Verifying agents) talk at KanDDDinsky: "When DDD met AI" — DDD applied to three enterprise projects with LLM; URL: https://lnkd.in/dd2VvYBa.
+
+- «Claude Code can now open a browser, go through checkout, and write a working Playwright test on its own. BUT: The better you know how to use AI, the more you're worth on the market.» - Sergii Khromchenko (Codemify). Use: Article 29/30 - the live-demo "where it gets things wrong, and it gets things wrong often" = our mutation-matrix verification terrain; "know how to use AI = worth" = skill-market justification for Victor's 101-beginner wiki stack (RAG/MCP/FastAPI/DB design).
+- «We'll also talk honestly about the market: which skills are losing value, which are gaining, and whether it still makes sense to start with automation from scratch in 2026.» - Sergii Khromchenko. Use: Article 29 - skills-market pivot language; aligns with our displacement/reshuffle thesis (discipline survives contact).
+- «[DDD helped] in three different enterprise projects with LLM under the hood.» - Rinat Abdullin (BitGN, "Verifying agents"). Use: Article 29/30 - enterprise LLM + domain modeling = reality; BitGN tagline "Verifying agents" = our attestation lane (independent verification of agents).
 
 ## Deterministic vs Probabilistic / Visual AI (Applitools webinars, 2026-09)
 
