@@ -33,13 +33,13 @@ An agent quality boundary has four parts, and most teams only built the first:
 
 ### 🛠 Implementation
 
-Start with one imported suite and one injected duplicate — a form, a button, or an API endpoint, the way we did. Demand the flag before you demand the coverage. Then close the echo chamber: when the same generator writes the code, the tests and the review, verification must live outside the loop (mutation checks, contract tests, golden datasets). Regulated readers will recognize the shape: model-risk management (SR 11-7-style) demands the same independence for any model whose output moves money or access. And remember Conway's revenge: agent structure mirrors org structure. If ownership is blurry among humans, it will be blurrier among agents — every unnamed boundary becomes an unaudited one.
+Start with one imported suite and one injected duplicate — a form, a button, or an API endpoint, the way we did. Demand the flag before you demand the coverage. Then close the echo chamber (Article 19 — URL TBD, add on assembly): when the same generator writes the code, the tests and the review, verification must live outside the loop (mutation checks, contract tests, golden datasets). Regulated readers will recognize the shape: model-risk management (SR 11-7-style) demands the same independence for any model whose output moves money or access. And remember [Conway's revenge](https://www.linkedin.com/pulse/conways-law-quality-engineering-problem-too-victor-ematin-0g5xe): agent structure mirrors org structure. If ownership is blurry among humans, it will be blurrier among agents — every unnamed boundary becomes an unaudited one.
 
 Our oracle stayed outside the whole time: 34 deliberately seeded faults, all caught, zero survivors on the reference backend. The decoy case never touched the quadrant math — it tested the boundary, not the score.
 
 ### ✅ Result
 
-We reported the gap instead of writing the tool off — and the vendor shipped a passive observation layer: ambiguous matches get flagged even when all steps pass. Breaking the tool on purpose made it harder to fool. Accountability, it turns out, is a feature you can request.
+We [reported the gap](https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-5-scenarios-victor-ematin-lqdhe/) instead of writing the tool off — and the vendor shipped a passive observation layer: ambiguous matches get flagged even when all steps pass. Breaking the tool on purpose made it harder to fool. Accountability, it turns out, is a feature you can request.
 
 The checklist for your org is four questions: is there a written policy for what an agent may do in production? Is every agent action traceable to a target? Do you run decoys that must trigger an ambiguity flag? Can an outsider verify your green report? If any answer is no, the boundary is still "whatever the agent asks for" — and the bill for that arrives as an incident, not a warning.
 
@@ -63,7 +63,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - Article 20 (квадрант): https://www.linkedin.com/pulse/your-agent-found-5-bugs-4-were-imaginary-victor-ematin-zqcte/
 - Article 26 (метод + loop-closed): https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-5-scenarios-victor-ematin-lqdhe/
 - Article 28 (verdict): Pulse URL on publication (scheduled Tue Sep 22 09:00)
-- Article 19 (echo chamber) + Article 21 (Conway): ссылки при сборке
+- Article 19 (echo chamber): Pulse URL unknown — TODO before publish. Article 21 (Conway): INSERTED ✅. Article 28 (verdict): PUBLISHED 22.09 `your-vendors-green-report-claim-heres-calculator-checks-victor-ematin-gml4f`.
 - Wiki mutation matrix: методология B
 
 ### QA-is-dead (JDAQA x Testkube, 17.09) — ammo для accountability-угла
@@ -75,7 +75,8 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 ### Open
 - Visuals SHOT 21.09 ✅ (cover + feed triad + 24-decoy-diff mock, all 1920×1080, HTML sources alongside)
-- Feed post text: TODO (hook из шапки, CTA)
-- First comment: TODO (repo? нет — 24-я не про VerdictGate; method links 20/26 + 1 external max)
-- Inline cross-links 19/20/21/26: вставить при сборке + gotcha #8
-- Reviews: R1 (человек) → publish; Perplexity/Gemini опционально (тело уже в голосе серии)
+- Feed post text: DRAFTED → `24-ai-agents-change-quality-boundary-post.md`
+- First comment: DRAFTED → `24-first-comment.md` (20/26/21 + 1 external TestMu Signs Off)
+- Inline links: 20 ✅ (earlier run) · 21 ✅ (Conway) · 26 ✅ (reported gap) · 19 ⏳ TODO (Pulse URL unknown — find before publish)
+- Gotcha #8: string-check 22.09 ✅ (20/21/26 = known-good strings, no lnkd.in in body) — browser check pending (user)
+- Reviews: R1 done (user) + Perplexity R1 applied; Gemini skipped (diminishing returns)
