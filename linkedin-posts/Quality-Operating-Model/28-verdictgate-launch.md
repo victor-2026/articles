@@ -94,7 +94,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - INVESTMENT.md (proof of work, for first comment): https://github.com/victor-2026/verdictgate/blob/main/INVESTMENT.md
 
 ### Open (к публикации 23.09)
-- ⏰ SCHEDULED: Pulse Tue Sep 22 09:00 (feed + cover → share → first comment on publish)
+- ✅ PUBLISHED Mon Sep 22 (early, was scheduled Tue 09:00): Pulse `your-vendors-green-report-claim-heres-calculator-checks-victor-ematin-gml4f` + feed `urn:li:ugcPost:7507573088721567744` + first comment SENT. Day-0: 49 imp, 2 eng.
 - Cover: DECIDED 19.09 (new verdict-screenshot per spec) — SHOT 19.09 ✅ (`28-cover.html` → `28-cover.png`, 1920×1080, HTML→PNG via Playwright)
 - Feed post text: DRAFTED 19.09 → `28-verdictgate-launch-post.md` · REVISED per Perplexity click-review (goal: article; bullet block, walkthrough bridge, 5 tags) · video line REMOVED 19.09 (LI axiom: feed = article cover only) · URL line REMOVED by user 19.09 (Gemini tip + series convention: article opens via cover click, no external link in body) ✅
 - Gemini feed score 19.09: 10/10 (structure 10, value 10, CTA 9.5)

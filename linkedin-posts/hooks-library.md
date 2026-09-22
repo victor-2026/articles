@@ -82,3 +82,11 @@ Extracted from published posts for reuse in future content.
 
 | "Your architecture changed. Your ownership didn't." | Discussion 22 (Sep 11) | Provocation hook, 6-word contrast |
 | "Every order carries an idempotency key; duplicates are rejected, never re-charged." | Discussion 22 (Sep 11) | One-line invariant example, template demo |
+
+| "A green test suite can still be completely untrustworthy." | Article 27 — Guided QA (Sep 17) | Lead hook, CTA setup |
+| "Test generation is not test strategy." | Article 27 — Guided QA (Sep 17) | Distinction hook, core thesis |
+| "The agent writes the test. You write the reason it should fail." | Article 27 — Guided QA (Sep 17) | Closing line, repostable refrain |
+
+| "Your vendor's green report is a claim. Here's the calculator that checks it." | Article 28 — VerdictGate launch (Sep 22) | Lead hook, claim-vs-evidence framing |
+| "The agent writes the test. The vendor writes the report. You write the verdict — now with a calculator." | Article 28 — VerdictGate launch (Sep 22) | Closing triad, repostable refrain |
+| "A verdict you cannot game by re-labeling is the whole point." | Article 28 — VerdictGate launch (Sep 22) | Anti-gaming punchline |
