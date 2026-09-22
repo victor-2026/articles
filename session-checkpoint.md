@@ -476,3 +476,8 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - Article 28: PUBLISHED morning + first comment ok (user confirmed) — commit `59e5f1b`. Day-0 49 imp / 35 reached.
 - Qodo feed → Software Map article ingested → ai-qa-wiki `79fdf1f`; candidate для Article 29 (risk-tiering across repos, blast radius, contract seams).
 - Next: Wed dynamics 28 → 29 variant C (draft Fri) → 24 visuals done, body next.
+
+## 2026-09-22 17:10 - Jason STARWEST post: Prong C comment drafted + URL sourced
+- Jason's STARWEST post found (01.09, activity-7500452550865801216-9GpJ): "meeting Filip may be worth the entire conference fee by itself", "career opportunity", reshare of Filip's "most important presentation of my career" + bit.ly/4zwtsmp discount.
+- Both Jason (Testing with the Coding Agent, Thu 24.09 1:30pm, "should the system that wrote the bug also decide whether the software is ready to ship?", New AI Testing Pyramid) and Filip (keynote Tester 2.0, Wed 23.09 10:00 + Thu 24.09 08:30, Cursor/Claude Code tutorials) converge on generation-vs-validation separation = Victor's attestation lane. Quotes: URL added to Career/Disruption section.
+- Prong C comment DRAFTED (mutation-based proof number, attestation-as-evidence, AI Testing Pyramid preview question).

@@ -133,7 +133,7 @@
 
 ## Career / Disruption (Jason Arbon + Filip Hric, STARWEST 2026)
 
-Source: LinkedIn posts 2026-09 (Jason Arbon on Filip Hric; Filip Hric STARWEST main-stage promo). Context: STARWEST 20-25.09.2026 (TechWell) - Jason pitches meeting Filip as career ROI; Filip: "most important presentation of my career."
+Source: LinkedIn posts 2026-09 (Jason Arbon on Filip Hric; Filip Hric STARWEST main-stage promo). Context: STARWEST 20-25.09.2026 (TechWell) - Jason pitches meeting Filip as career ROI; Filip: "most important presentation of my career." Jason post URL: https://www.linkedin.com/posts/jasonarbon_starwest-activity-7500452550865801216-9GpJ (01.09.2026). Both Jason ("Testing with the Coding Agent", Thu 24.09, "should the system that wrote the bug also decide whether the software is ready to ship?") and Filip (keynote "Tester 2.0", Wed 23.09 10:00 + Thu 24.09 08:30) converge on generation-vs-validation separation = Victor's attestation lane.
 
 - «AI is disrupting software testing—and careers. That's not hype. It's happening now.» - Jason Arbon (Jank.AI / IcebergQA). Use: Article 28/29 - disruption-as-career-opportunity framing; matches VerdictGate/attestation positioning (we are the emerging role).
 - «This is a career opportunity, not just another conference session.» - Jason Arbon (on attending Filip Hric's talk). Use: Article 29/30 - STARWEST/career pivot angle; learning from practitioners beats vendor-slide-network.
