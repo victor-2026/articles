@@ -86,10 +86,18 @@
    "url": "https://aiinqa.com/rss/",
    "weight": 0.8
   },
+{
+   "id": "archestra",
+   "name": "Archestra Blog",
+   "url": "https://archestra.ai/blog",
+   "weight": 0.9,
+   "boost": 0.5,
+   "type": "manual"
+  },
   {
-   "id": "autonoma",
-   "name": "Autonoma Blog",
-   "url": "https://getautonoma.com/blog",
+   "id": "flowscout-alternateqa",
+   "name": "FlowScout / Alternate QA (Igor Akymenko, LinkedIn + GitHub)",
+   "url": "https://github.com/igorakymenko-create/FlowScout",
    "weight": 0.9,
    "boost": 0.5,
    "type": "manual"
