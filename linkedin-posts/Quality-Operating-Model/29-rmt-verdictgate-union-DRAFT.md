@@ -62,7 +62,7 @@ RMT (sensitivity)  →  Evidence Contract (behaviour + tier + killed/survived)  
 | **3. Policy** | "Is this green acceptable?" | VerdictGate | B0/B1 zero-tolerance, B2 band, B3 trend |
 
 **Pipeline:** Code Change → RMT (mutate assertions) → Run Tests → Evidence Contract → VerdictGate → PASS/FAIL + Evidence Pack
-**Key claim (VERIFY):** RMT output feeds VerdictGate as first-class input. Provenance tagged for diagnostics.
+**Design (roadmap, NOT fact — W2 22.09):** RMT output is designed to feed VerdictGate as first-class input. Joint RMT×VerdictGate pilot on 122 behaviors planned post-Leonardo review. Provenance tagged for diagnostics.
 
 ### 5. The "Outside the Product" Mechanics (250 words)
 
@@ -78,8 +78,11 @@ RMT (sensitivity)  →  Evidence Contract (behaviour + tier + killed/survived)  
 **Risk-Steering Mutation Depth:** B0/B1 full operator set; B2/B3 sampled subset.
 **Pre-seed Relevance Filter:** drop verification points outside the change boundary.
 
-### 5b. Case Study: OrangeHRM 122 Behaviors (200 words)
-Autonoma/KISS/Kiro mapped 122 behaviors; RMT mutates assertions; VerdictGate gates per tier. Key finding: functional failures caught, structural fragility missed (B2 5/5 survived); re-test after fix 100/100, 0 FP.
+### 5b. Verified runs (122-claim REMOVED per W2 22.09)
+- QAEverest 7-mut pilot (CSV, exit codes, verdict packs — verified)
+- DevAssure 15-answer (FP 4→0, re-check passed — verified)
+- Rupesh stamping change (email, spec update — verified)
+- Roadmap: joint RMT×VerdictGate pilot on 122 behaviors planned post-Leonardo review.
 
 ### 6. The "Outside the Product" Checklist (150 words)
 Mutation Backlog / Engineer / Tier assignment / Review Board / Attestation template / Dispute resolution / Lifecycle / Metrics — checkboxes.
@@ -100,7 +103,7 @@ Leonardo Lanni (QA Roots, RMT) / Victor Ematin (VerdictGate) — links TBD.
 **P0 — factual/structural, must resolve before voicing:**
 1. ~~**pip install is FALSE.** Draft says `pip install verdictgate → python -m verdictgate`. Repo reality: static script, `python3 verdictgate.py results.csv`, zero dependencies, NOT on pip. Fix to repo + 30s example (same as 28).~~ ✅ RESOLVED 22.09 (W2 decision: variant (a) — clone + python3, truth embedded in policy half; PyPI → backlog post-v1.0; gotcha filed as wiki rule 16)
 2. **Duplicate section numbers:** two "5" (Mechanics + Case Study) and two "7" (CTA + Bios). Renumber on voicing.
-3. **Placeholders:** RMT repo/link TBD, author links TBD, Truth of "first-class input" claim (RMT→VerdictGate integration) UNVERIFIED — has the pipeline actually run end-to-end, or is it architecture on paper? Do not publish as fact until proven (own medicine: break it first).
+3. ~~**Placeholders:** RMT repo/link TBD, author links TBD, Truth of "first-class input" claim (RMT→VerdictGate integration) UNVERIFIED — has the pipeline actually run end-to-end, or is it architecture on paper? Do not publish as fact until proven (own medicine: break it first).~~ ✅ RESOLVED 22.09 (W2: 122-claim removed, verified-only list + roadmap item)
 4. **Length:** 1500-2000 words vs series 800-1000. Either split (two-parter) or cut on voicing.
 
 **P1 — decisions for W1/user:**
