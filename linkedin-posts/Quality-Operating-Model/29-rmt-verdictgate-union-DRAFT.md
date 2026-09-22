@@ -121,6 +121,106 @@ Leonardo Lanni (QA Roots, RMT) / Victor Ematin (VerdictGate) — links TBD.
 
 Default mapping 1:1 (P0→B0 … P3→B3); disputes → board. Tiers are set BEFORE the run — otherwise the gate is gameable (tier laundering, own adversarial finding).
 
+## Appendix A: Policy Half (W2 source, verbatim 22.09 — cleaned of opencode dup-loop, RTF→TXT)
+
+# Policy Half: VerdictGate — The Verdict Layer
+
+*The mutation is not the test. The mutant is the question. The survivor is the answer. The gate is the judgment.*
+
+---
+
+## The Verdict Layer: Policy on Green
+
+RMT tells you **whether the check can die**. VerdictGate tells you **whether the green means go**.
+
+Traditional mutation testing gives you a kill rate. A single number. "87% killed — good job." But a 13% survival rate means something radically different if the survivors are in payment processing vs. the "Thank you" banner.
+
+VerdictGate adds the **policy layer** on top of mutation evidence:
+
+| Tier | Scope | Gate Rule | Signal Threshold |
+|------|-------|-----------|------------------|
+| **B0 Critical** | Payment, auth, credentials, data integrity | **Zero tolerance** — 0 survivors | Score < 90% → mandatory signed comment |
+| **B1 High** | Core journeys, primary CRUD, search | **Zero tolerance** — 0 survivors | Score < 80% → mandatory signed comment |
+| **B2 Medium** | Secondary flows, edge cases | **Band** — ≤5% survivors (N≥20) or max 1 (N<20) | Score < 90% → mandatory signed comment |
+| **B3 Low** | Cosmetic, copy, layout | Trend-only vs rolling 3-run baseline | — |
+
+**No global percentage.** No "87% killed = good." Each tier has its own gate, its own signal budget, its own escalation path.
+
+---
+
+## The Evidence Contract: Mutation → Verdict
+
+RMT (or traditional MT, or any mutation source) produces rows. VerdictGate consumes them.
+
+| mutation_id | behavior | operator | risk_tier | expected | suite_result | observed | decision |
+|-------------|----------|----------|-----------|----------|--------------|----------|----------|
+| M1 | Payment submits | element_remove | B0 | Y | pass | | |
+| M2 | Login rejects wrong pwd | validation_removed | B0 | Y | fail | | |
+| M3 | Login button visible | element_remove | B1 | Y | fail | | |
+
+**The contract is simple:** each row = one seeded defect + observed outcome. No hidden state. No hidden logic. Same CSV → same verdict, byte-identical, forever.
+
+---
+
+## The Gate Is Not the Score
+
+A common mistake: "mutation score 87% = pass."
+
+VerdictGate separates **signal** from **gate**:
+
+| Signal | Gate |
+|--------|------|
+| Mutation score (per tier) | Hard gate (B0/B1 zero-tolerance, B2 band, B3 trend) |
+| Observed-only rate | Signal only (budget: B0 10%, B1 20%) |
+| Mass-equivalent rate | Signal only (B2: >5% = review) |
+| Mass-observed rate | Signal only (B2: >10% = review) |
+| Missing decisions (B2 survivors) | Hard gate (fail) |
+
+**Signals inform. Gates decide.** A low score triggers a mandatory signed Assessor comment — not an auto-fail. A human decides, with evidence.
+
+---
+
+## The Evidence Pack: Audit-Ready by Default
+
+Every verdict emits three artifacts:
+
+1. **`results.verdict.md`** — human-readable evidence pack with per-tier tables, signals, fix-first list, sign-off table (Reviewer / Independent Assessor / Engineering Owner)
+2. **`results.verdict.json`** — machine-readable, version-stamped, byte-identical reproducible
+3. **Raw CSV + run logs** — lineage, not belief
+
+> *Anyone with the same CSV + same scorer version + same CLI flags gets the same verdict, byte-identical, forever.*
+
+No hidden state. No "trust me." Reproducible verdicts.
+
+---
+
+## The Mapping Limit: Profile ≠ Engine
+
+Here's the honest limitation: **VerdictGate profiles encode numbers, not gate shapes.**
+
+QAEverest's B2 gate = `survived <= 1 AND score >= 60` (AND of cap + floor, absolute cap at ANY N).
+VerdictGate B2 = band ≤5% at N≥20, small-N floor max 1 at N<20.
+
+| Aspect | QAEverest | VerdictGate |
+|--------|-----------|-------------|
+| B2 Cap | Absolute (max 1 at ANY N) | Band 5% at N≥20, small-N floor |
+| B2 Score | ≥60% floor | ≥90% signal target |
+| Decision logic | AND (cap AND floor) | Band + small-N floor |
+
+**The profile carries THEIR numbers. Our engine applies OUR gate shape.** Cross-check validates numbers (90/80/60), not gate shape. Divergence documented in `MAPPING LIMIT`.
+
+---
+
+## The Honesty Rule: Provisional Until Cross-Checked
+
+Every vendor profile ships with `"provisional": true`.
+
+> *Vendor numbers are THEIR claim until cross-checked on a live run.*
+
+We don't hide this. The flag means: "Semantics locked, live verification pending." After a cross-check run + W2 verification → `provisional: false`.
+
+---
+
 ## 🛠 Служебные заметки редактора (не публиковать)
 
 <!-- REVIEWERS: IGNORE BELOW THIS LINE -->
