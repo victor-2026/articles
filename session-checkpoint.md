@@ -427,6 +427,15 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## 2026-09-22 — 29 joint track (RMT × VerdictGate, variant C)
+
+- Draft filed verbatim (`bd575f7`) + W4 triage: pip-falsehood, 122-claim, dup numbering, length, placeholders
+- Tier-decision matrix drafted (`e1fda74`): who/when per case, P→B 1:1, tiers-before-run rule
+- Variant C DECIDED (`18add45`): cross-post, split halves, draft Fri → Leo review Mon → publish Wed
+- W2 decisions applied: pip→clone+python3, gotcha wiki rule 16 (`ff0f968`); 122-claim removed, verified-only + roadmap (`3dd7b89`)
+- Policy-half rescued: opencode dup-loop (2808 lines, ~30 repeats) cut to 110 (`policy-half-broken.rtf` + .bak); clean text embedded as 29 Appendix A (`1577fa1`)
+- Open: RMT half from Leonardo → voice merge → reviews → Wed publish
+
 ## 2026-09-22 — Article 28 PUBLISHED (early, was Tue 09:00)
 - Pulse `.../your-vendors-green-report-claim-heres-calculator-checks-victor-ematin-gml4f/` + feed `urn:li:ugcPost:7507573088721567744` + first comment SENT (repo + INVESTMENT + 26/27 + Pettersson)
 - Day-0 (~4h): 49 imp (59% in / 41% out), 35 reached, 2 eng, 2 article views
