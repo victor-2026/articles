@@ -481,3 +481,14 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - Jason's STARWEST post found (01.09, activity-7500452550865801216-9GpJ): "meeting Filip may be worth the entire conference fee by itself", "career opportunity", reshare of Filip's "most important presentation of my career" + bit.ly/4zwtsmp discount.
 - Both Jason (Testing with the Coding Agent, Thu 24.09 1:30pm, "should the system that wrote the bug also decide whether the software is ready to ship?", New AI Testing Pyramid) and Filip (keynote Tester 2.0, Wed 23.09 10:00 + Thu 24.09 08:30, Cursor/Claude Code tutorials) converge on generation-vs-validation separation = Victor's attestation lane. Quotes: URL added to Career/Disruption section.
 - Prong C comment DRAFTED (mutation-based proof number, attestation-as-evidence, AI Testing Pyramid preview question).
+
+## 2026-09-22 23:59 - Radar quotes batch (evening)
+- quotes.md updates (all committed + pushed):
+  - Testkube AI Test Creation (Ole Lensmar CTO, 22.09) → Market Signals: generator-side claim, "fast-for-whom" contrast (creation cheap, gate = correctness)
+  - Codemify live (Sergii Khromchenko + Oles Tsaruk, free live Sep 26 10:00 PT): "gets things wrong often" = mutation terrain; market skills losing/gaining value
+  - Rinat Abdullin (BitGN, "Verifying agents", KanDDDinsky "When DDD met AI"): DDD × 3 enterprise LLM projects; attestation lane
+  - Filip Hric (Qodo) API docs post 22.09: "docs don't always match what the API actually does... same gaps, just automated" → Evals vs Tests
+  - Glushonkov Vadim qa-cube (MIT plugin, 4-role): honest degradation + evidence→automation = spec-vs-reality thesis; pilot candidate + contact index in Positions
+- Commits: eaddbeb (Filip quote), 0c96dab (Testkube/Codemify/Rinat + Glushonkov), checkpoint 17:10 already had Jason STARWEST.
+- Next: Article 29 variant C draft Friday (Software Map = risk heat map material); STARWEST window Wed/Thu (Jason comment + Filip connect + Maslow's Hammer).
+
