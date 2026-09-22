@@ -449,3 +449,8 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - **Applitools: AI Testing Is a Coin Flip. We Fixed That.** — 15.10 11:00 ET (Tim Hinds / Andrew Male). Flaky AI tests, deterministic control.
 - Quotes added: quotes.md → new section "Deterministic vs Probabilistic / Visual AI (Applitools)" — 3 quotes (token waste, Eyes MCP "see what it builds", coin-flip flakiness).
 - Both = candidate material for Article 29/30 + Prong C comments. Timeline conflict note: 23.09 (BrowserStack) is Article 28 launch day — watch recording instead if overlap.
+
+## 2026-09-22 — STARWEST / Filip Hric / Jason Arbon [radar + quotes]
+- STARWEST 20-25.09.2026 (TechWell, Applitools sponsor). Filip Hric (Qodo) main stage: "AI-written software reliable." Jason Arbon pitched his talk as career opportunity.
+- Filip Hric NOT yet in trackers - candidate for outreach/tracking (Qodo = agentic coding vendor, relevant to Article 29/30). New quotes: quotes.md → "Career / Disruption (Jason + Filip, STARWEST)" - 3 quotes.
+- Radar overlap: STARWEST running NOW while Article 28 just launched (imp 49 day-0). Potential comment on Jason's STARWEST post = Prong C (Jason warm, awaiting feedback draft).

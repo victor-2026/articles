@@ -131,6 +131,14 @@
 
 - «The real hurdle is not just building adaptive agents, but ensuring they can function reliably in real-world scenarios. Without structured evaluation and rollback mechanisms, we risk letting these agents operate in a chaotic environment where mistakes can spiral out of control.» - Tobia Lang (Full Stack Engineer, AI Interfaces). Source: LinkedIn repost via Irueruoghene Ogriki (2026-09-21). Use: Article 27 - eval + rollback = accountability framework, agent reliability not capability; supports VerdictGate/vendor-opinion lean. Note: author is individual engineer, 3rd-party quote - use with attribution or paraphrase.
 
+## Career / Disruption (Jason Arbon + Filip Hric, STARWEST 2026)
+
+Source: LinkedIn posts 2026-09 (Jason Arbon on Filip Hric; Filip Hric STARWEST main-stage promo). Context: STARWEST 20-25.09.2026 (TechWell) - Jason pitches meeting Filip as career ROI; Filip: "most important presentation of my career."
+
+- «AI is disrupting software testing—and careers. That's not hype. It's happening now.» - Jason Arbon (Jank.AI / IcebergQA). Use: Article 28/29 - disruption-as-career-opportunity framing; matches VerdictGate/attestation positioning (we are the emerging role).
+- «This is a career opportunity, not just another conference session.» - Jason Arbon (on attending Filip Hric's talk). Use: Article 29/30 - STARWEST/career pivot angle; learning from practitioners beats vendor-slide-network.
+- «I help developers make AI-written software reliable.» - Filip Hric (Qodo). Use: tagline benchmark for Victor's own positioning; Qodo = agentic coding vendor, reliable-AI-code = our verification thesis in one sentence.
+
 ## Deterministic vs Probabilistic / Visual AI (Applitools webinars, 2026-09)
 
 Source: https://applitools.com/upcoming-events/ (New Deterministic Agentic Workflow with Applitools Visual AI MCP Server, Adam Carmi, 24.09.2026; AI Testing Is a Coin Flip. We Fixed That., 15.10.2026).
