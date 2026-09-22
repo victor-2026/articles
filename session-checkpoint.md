@@ -431,6 +431,7 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - Pulse `.../your-vendors-green-report-claim-heres-calculator-checks-victor-ematin-gml4f/` + feed `urn:li:ugcPost:7507573088721567744` + first comment SENT (repo + INVESTMENT + 26/27 + Pettersson)
 - Day-0 (~4h): 49 imp (59% in / 41% out), 35 reached, 2 eng, 2 article views
 - Records: hooks +3, perf-log rows, 28 status PUBLISHED (`d0b072d`)
+- **User confirm 2026-09-22: PUBLISHED ok + first comment ok — all good.**
 - Next: watch Wed dynamics → 29 variant C (draft Fri) → 24 visuals done, body next
 
 ## 2026-09-21 01:57 — BrowserStack handover → window 5 COMPLETED (ai-qa-wiki 84e4a67)
