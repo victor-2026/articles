@@ -470,3 +470,9 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - quotes.md → new section "Independent verification layer / generator vs grader (Qodo)" — 16 quotes (empirical author-examiner cases, governance-as-infra, review as responsibility boundary, spec-is-code Clinton Herget Snyk, autonomy→verification Dedy Kredo).
 - digest-config.json → +source `qodo` (feed https://www.qodo.ai/feed/ weight 0.9, Cloudflare → browser user_agent per-source support added to daily-digest.py). Merged duplicate `archestra` entries (was 2, same id).
 - Next: Software Map article (Qodo 2.5, feed 22.09 "Risk, Mapped Across Every Repo") → wiki candidate for Article 29 (risk-tiering across repos).
+
+## 2026-09-22 16:13 - CHECKPOINT (session close)
+- Session: Qodo Source Triage (Software Map) + Article 28 confirm + Filip Hric + BSI closure.
+- Article 28: PUBLISHED morning + first comment ok (user confirmed) — commit `59e5f1b`. Day-0 49 imp / 35 reached.
+- Qodo feed → Software Map article ingested → ai-qa-wiki `79fdf1f`; candidate для Article 29 (risk-tiering across repos, blast radius, contract seams).
+- Next: Wed dynamics 28 → 29 variant C (draft Fri) → 24 visuals done, body next.
