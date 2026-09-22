@@ -442,3 +442,10 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - Skip: POM Ruby (classic, no AI depth), healthcare evals (low). AI-in-QA #27 (Claude context) kept as candidate.
 - Digest checklist marked: SWE-Proof and Runtime Auth = wiki done. Digest's "Куда это" block updated.
 - No changes to Articles repo itself (digest file edited in-place, AI-edit allowed).
+
+## 2026-09-22 — Webinars to watch (Applitools + BrowserStack) [cal]
+- **BrowserStack AI x QA Leadership Summit** — 23.09 (3h, 20K QA leaders). Keynote: "AI ROI & Productivity Illusion" (Prajakt Deshpande, Atlassian) = our Article 27 thesis; case study Amazon QA waste; EPAM agentic workshop. Register via BrowserStack email invite.
+- **Applitools: New Deterministic Agentic Workflow with Visual AI MCP Server** — 24.09 11:00-12:00 ET (17:00-18:00 Serbia), Adam Carmi CTO Applitools. Reg: https://applitools.com/resources/webinars/visual-ai-testing-agents/
+- **Applitools: AI Testing Is a Coin Flip. We Fixed That.** — 15.10 11:00 ET (Tim Hinds / Andrew Male). Flaky AI tests, deterministic control.
+- Quotes added: quotes.md → new section "Deterministic vs Probabilistic / Visual AI (Applitools)" — 3 quotes (token waste, Eyes MCP "see what it builds", coin-flip flakiness).
+- Both = candidate material for Article 29/30 + Prong C comments. Timeline conflict note: 23.09 (BrowserStack) is Article 28 launch day — watch recording instead if overlap.

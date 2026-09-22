@@ -131,6 +131,14 @@
 
 - «The real hurdle is not just building adaptive agents, but ensuring they can function reliably in real-world scenarios. Without structured evaluation and rollback mechanisms, we risk letting these agents operate in a chaotic environment where mistakes can spiral out of control.» - Tobia Lang (Full Stack Engineer, AI Interfaces). Source: LinkedIn repost via Irueruoghene Ogriki (2026-09-21). Use: Article 27 - eval + rollback = accountability framework, agent reliability not capability; supports VerdictGate/vendor-opinion lean. Note: author is individual engineer, 3rd-party quote - use with attribution or paraphrase.
 
+## Deterministic vs Probabilistic / Visual AI (Applitools webinars, 2026-09)
+
+Source: https://applitools.com/upcoming-events/ (New Deterministic Agentic Workflow with Applitools Visual AI MCP Server, Adam Carmi, 24.09.2026; AI Testing Is a Coin Flip. We Fixed That., 15.10.2026).
+
+- «Testing AI-generated code using standard LLMs burns through tokens fast. Prompting models to inspect UIs repeatedly drains your budget without guaranteeing layout accuracy.» - Applitools promo. Use: Article 29/30 - token waste of VLM-as-visual-checker; why deterministic visual verification beats re-prompting a vision model (our mutation matrix evidence framing).
+- «Applitools Eyes MCP connects deterministic Visual AI right into your agent's chat or terminal so that your AI can actually see what it builds.» - Adam Carmi, Co-Founder & CTO, Applitools. Use: Article 27/29 - visual grounding inside the agent loop; "see what it builds" vs our "verify what the agent claims" - deterministic oracle as anti-hallucination layer.
+- «Many AI testing tools promise 'magic,' but end up creating flaky tests that pass one day and fail the next.» - Applitools promo (Oct 15 webinar, Tim Hinds / Andrew Male). Use: Article 30 - flakiness of AI-generated tests; deterministic control / self-healing as differentiator.
+
 ## AI fear is hype / engineering-not-pause (Andrew Ng, Andrew's Letter, The Batch #371, 2026-09-18)
 
 Source: https://www.deeplearning.ai/the-batch/issue-371 (ng's letter), https://lnkd.in/e7u2G_5b. Context: Ng pushes back on 2-week orchestrated fear campaign (OpenAI swarm hack on Hugging Face, PR hype). Counter-narrative for our series: fear ≠ reasoned risk management; fix bugs & monitor, don't pause.
