@@ -17,6 +17,7 @@
 - «An evaluation asks "how good is this?" A test asks "does this specific thing still work?"». — Anubhav Singhmaar, TestMu AI. Source: testmuai.com/blog/llm-evaluation-vs-agent-testing/ (2026-09-13). Use: Article 26/27 — eval≠gate, per-risk-tier framing.
 - «Can an agent pass an eval and still be broken? Routinely. The most common version is an agent that produces a well-formed, accurate-sounding answer while calling the wrong tool or no tool at all.» — TestMu AI. Source: same. Use: Article 26 — silent false negative case.
 - «A score of 0.87 does not tell a build server anything, because nobody wrote down which side of 0.87 is shippable.» — TestMu AI. Source: same. Use: Article 27 — why "confidence" ≠ "evidence".
+- «When you use AI to test an API, how do you know it's testing the right thing? API docs don't always match what the API actually does. Generating tests from those docs can leave you with the same gaps, just automated.» — Filip Hric (Qodo). Source: LinkedIn post 2026-09-22 (lnkd.in/eBrBrp_3, Dave Westerveld API Testing with AI series on Tricentis ShiftSync). Use: Article 29/30 — docs-as-source ≠ ground truth; AI-generated tests inherit doc-reality drift; supports our "verification against behavior, not specs" angle.
 
 ## Agent Coding / Human-Machine Boundary
 
