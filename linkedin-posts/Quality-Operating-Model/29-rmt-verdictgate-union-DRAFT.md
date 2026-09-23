@@ -115,7 +115,6 @@ Cross-post mechanics (W3): Leonardo posts 09:00 CEST, Victor reposts 09:30 with 
 7. Timing vs 28 launch (Tue 09:00): independent streams, but two launches in one week compete. Recommend 29 slot ≥7 days after 28.
 
 ## W4 DRAFTED BLOCK (not approved, 2026-09-22) — Tier decision matrix
-
 | Case | Who assigns tier | When | Artifact | Verdict owner |
 |------|-----------------|------|----------|---------------|
 | Own suite (VerdictGate solo) | QA engineer (author) | pre-seed | requirements.csv risk levels | author + reviewer sign-off |
@@ -123,6 +122,10 @@ Cross-post mechanics (W3): Leonardo posts 09:00 CEST, Victor reposts 09:30 with 
 | Joint RMT pilot | Leonardo proposes P-tier per verification point → Victor maps P→B | pre-seed relevance filter | Evidence Contract (behaviour + tier) | Mutation Review Board (joint) |
 
 Default mapping 1:1 (P0→B0 … P3→B3); disputes → board. Tiers are set BEFORE the run — otherwise the gate is gameable (tier laundering, own adversarial finding).
+
+## Routed in (W5 handover 23.09, no ingest)
+
+- **JevBench** (Show HN reproducible benchmark for typed decision models, 23.09 digest): external reference candidate — cheap decision-benchmarking vs our mutation approach. NO wiki file (JEV covered ×7, page 5MB, no transcript). Slot: 29 (measurement economics) or 26-follow-up comment. Verdict: routing enough, W5 recommendation accepted.
 
 ## Appendix A: Policy Half (W2 source, verbatim 22.09 — cleaned of opencode dup-loop, RTF→TXT)
 
