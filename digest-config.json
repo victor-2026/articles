@@ -158,6 +158,12 @@
    "boost": 0.5,
    "note": "RSS throttled by Cloudflare - fetch with browser User-Agent; fallback post-sitemap.xml",
    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36"
+  },
+  {
+   "id": "satisfice",
+   "name": "Satisfice — James Bach (RST)",
+   "url": "https://www.satisfice.com/feed/",
+   "weight": 0.8
   }
  ],
  "keywords": {
