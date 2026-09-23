@@ -427,6 +427,15 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## 2026-09-22 — 24 assembled (body+visuals+feed+comment), 19-URL hunt failed
+
+- Body 690w: accountability angle, 4-part boundary, vendor-neutral (DevAssure→linked 20), sameness-guards paragraph, SR 11-7 + beyond-UI micro-inserts, Solution labeled Checklist
+- Visuals ×3 shot (cover chain, triad feed, decoy before-after ×4 iterations: anti-hunt → self-narrating → report-not-verdict/green-in-green → before-after split)
+- Feed post + first comment (JDAQA in, TestMu out); Perplexity feed 9/10 applied (but-contrast, policy rule, checklist benefit; metrics-hint rejected as asserted)
+- Rule-13 enforced (no Article N in body); 19-URL hunt FAILED (no record anywhere — likely unpublished); body links = 20/21/26 only, verified
+- R1 (user) + Perplexity done; Gemini skipped. Open: browser-check, publish slot
+- 27 threads: Shahid ×2 SENT, Sophia SENT 21.09; Shahid = Prong B candidate
+
 ## 2026-09-22 — 29 joint track (RMT × VerdictGate, variant C)
 
 - Draft filed verbatim (`bd575f7`) + W4 triage: pip-falsehood, 122-claim, dup numbering, length, placeholders
