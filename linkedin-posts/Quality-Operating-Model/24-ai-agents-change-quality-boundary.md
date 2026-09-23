@@ -63,7 +63,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - Article 20 (квадрант): https://www.linkedin.com/pulse/your-agent-found-5-bugs-4-were-imaginary-victor-ematin-zqcte/
 - Article 26 (метод + loop-closed): https://www.linkedin.com/pulse/how-evaluate-any-ai-qa-vendor-5-scenarios-victor-ematin-lqdhe/
 - Article 28 (verdict): Pulse URL on publication (scheduled Tue Sep 22 09:00)
-- Article 19 (echo chamber): Pulse URL unknown — TODO before publish. Article 21 (Conway): INSERTED ✅. Article 28 (verdict): PUBLISHED 22.09 `your-vendors-green-report-claim-heres-calculator-checks-victor-ematin-gml4f`.
+- Article 19 (echo chamber): NEVER PUBLISHED — dropped 23.09, no link exists. Article 21 (Conway): INSERTED ✅. Article 28 (verdict): PUBLISHED 22.09 `your-vendors-green-report-claim-heres-calculator-checks-victor-ematin-gml4f`.
 - Wiki mutation matrix: методология B
 
 ### QA-is-dead (JDAQA x Testkube, 17.09) — ammo для accountability-угла
@@ -77,6 +77,6 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - Visuals SHOT 21.09 ✅ (cover + feed triad + 24-decoy-diff mock, all 1920×1080, HTML sources alongside)
 - Feed post text: DRAFTED → `24-ai-agents-change-quality-boundary-post.md`
 - First comment: DRAFTED → `24-first-comment.md` (20/26/21 + 1 external TestMu Signs Off)
-- Inline links: 20 ✅ (earlier run) · 21 ✅ (Conway) · 26 ✅ (reported gap) · 19 ⏳ TODO (Pulse URL unknown — for first comment, NOT body per skill rule 13)
+- Inline links: 20 ✅ (earlier run) · 21 ✅ (Conway) · 26 ✅ (reported gap) · 19 ❌ DROPPED 23.09 (never published — отбой)
 - Gotcha #8: string-check 22.09 ✅ (20/21/26 = known-good strings, no lnkd.in in body) — browser check pending (user)
 - Reviews: R1 done (user) + Perplexity R1 applied; Gemini skipped (diminishing returns)
