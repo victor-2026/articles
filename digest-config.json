@@ -160,6 +160,12 @@
    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36"
   },
   {
+ "id": "amazon-science",
+ "name": "Amazon Science Blog — evals/verification/benchmarks",
+ "url": "https://www.amazon.science/index.rss",
+ "weight": 0.9
+},
+  {
    "id": "satisfice",
    "name": "Satisfice — James Bach (RST)",
    "url": "https://www.satisfice.com/feed/",
