@@ -22,7 +22,7 @@ Same style, same submit type, same label — identical by every attribute a matc
 
 This is the mirror image of [an earlier agent run](https://www.linkedin.com/pulse/your-agent-found-5-bugs-4-were-imaginary-victor-ematin-zqcte/), where the agent caught a real bug and then hallucinated four more findings from its own injections. Same blind spot, both directions: the agent cannot tell the difference between discovering evidence and manufacturing it. A testing tool with no ambiguity signal is a boundary-crosser you cannot audit — it crosses from "checked" to "claimed" without leaving a mark.
 
-### 🧭 Solution
+### 🧭 Solution (Checklist)
 
 An agent quality boundary has four parts, and most teams only built the first:
 
