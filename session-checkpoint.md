@@ -427,6 +427,19 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## 2026-09-23 — W5 loop saga + forensics + quotes-verity linter + pilot registry
+
+**W5 loop (old window):** acknowledgement-loop (~10 "понял, делаю" без правок) → diagnose recipe given → forensics on 46MB export (2709 msgs, 30M tokens, 26 compactions, big-pickle; "Сессия закрыта"×5, STARWEST×76) → quarantine (/tmp/vadim-card.patch + /tmp/qa-cube-suspect-index.md) → export to Downloads → window deleted, name moved to new window.
+**M1-M6 qa-cube claim:** UNVERIFIED, file quarantined, never reached prod. Pilot list frozen by user (DevAssure-vs-QAEverest open question answered: numbering abolished, registry table handed over).
+**W5 boundary violations blocked:** global memory write ⛔, Articles AGENTS.md ⛔, raw rewrites ⛔ (rule locations shown). Startup order issued to all new windows (AGENTS + discipline + checkpoint tail + micro-task).
+**Govindarajan ×5 quotes filed** (`2000bdc`): transcript/receipt, test/receipt, model-proposes [sic], silent success, order-feature. Source InfoQ harness, verbatims verified by W5.
+**Satisfice feed** 25th digest source (`d8102fd`).
+**Bach cleanup verified:** 3 pages + satisfice catalog rewritten to verbatim (W5), grep-confirmed clean by W4.
+**Linter `--quotes-verity` implemented** by W4 in ai-qa-wiki (`50a7006`, user-ordered): two-tier (no-source hygiene + not-in-raw hard/P2), noise-calibrated 564→11. Deviation: always-on, no flag.
+**Window-discipline:** read it (W2 owns); W4/W5 rows live; raw rule locations shown; link-only-refs amendment verified applied; pilot-handover + company table noted (Igor=Alternate QA, Vadim=personal/Fintech).
+**Vadim DM tech support:** refuted W3 port-refusal from SKILL.md (clone qualifies :379-380, marketplace refresh unneeded :384-386); H4-on-Pi micro-plan delivered; profile/secrets/drift fixes reviewed.
+**Open:** 24 publish slot + browser-check · 29 RMT half from Leonardo → voice merge · Radik overdue · Oct 17 recheck.
+
 ## 2026-09-22 — 24 assembled (body+visuals+feed+comment), 19-URL hunt failed
 
 - Body 690w: accountability angle, 4-part boundary, vendor-neutral (DevAssure→linked 20), sameness-guards paragraph, SR 11-7 + beyond-UI micro-inserts, Solution labeled Checklist
