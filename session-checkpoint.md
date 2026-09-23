@@ -427,6 +427,13 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## 2026-09-23/24 — qa-cube article (W4 voices, W3 reviews facts)
+
+- W3 pilot done (Phase 1-3, 120 runs/35min) + Article Plan (title "120 Mutation Tests in 35 Minutes", Tue 09:00, cross-post Dev.to/blog/GitHub discussions)
+- Voice split decided: W4 writes from W3 fact pack, W3 reviews facts (28-pattern)
+- W3 questions: #1 "mutation tests vs validation runs" OPEN (title accuracy!) · #2 "3 Hours vs 2.8h" APPROVED as rounding · #3 slot DEFERRED (cadence Tue+Fri weekly, priority vs 29-Wed to decide)
+- W4 blocked on #1 — no voice until title truth resolved
+
 ## 2026-09-23 — W5 loop saga + forensics + quotes-verity linter + pilot registry
 
 **W5 loop (old window):** acknowledgement-loop (~10 "понял, делаю" без правок) → diagnose recipe given → forensics on 46MB export (2709 msgs, 30M tokens, 26 compactions, big-pickle; "Сессия закрыта"×5, STARWEST×76) → quarantine (/tmp/vadim-card.patch + /tmp/qa-cube-suspect-index.md) → export to Downloads → window deleted, name moved to new window.
