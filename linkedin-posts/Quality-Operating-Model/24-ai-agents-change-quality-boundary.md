@@ -33,7 +33,7 @@ An agent quality boundary has four parts, and most teams only built the first:
 
 ### 🛠 Implementation
 
-Start with one imported suite and one injected duplicate — a form, a button, or an API endpoint, the way we did. Demand the flag before you demand the coverage. Then close the echo chamber (Article 19 — URL TBD, add on assembly): when the same generator writes the code, the tests and the review, verification must live outside the loop (mutation checks, contract tests, golden datasets). Regulated readers will recognize the shape: model-risk management (SR 11-7-style) demands the same independence for any model whose output moves money or access. And remember [Conway's revenge](https://www.linkedin.com/pulse/conways-law-quality-engineering-problem-too-victor-ematin-0g5xe): agent structure mirrors org structure. If ownership is blurry among humans, it will be blurrier among agents — every unnamed boundary becomes an unaudited one.
+Start with one imported suite and one injected duplicate — a form, a button, or an API endpoint, the way we did. Demand the flag before you demand the coverage. Then close the echo chamber: when the same generator writes the code, the tests and the review, verification must live outside the loop (mutation checks, contract tests, golden datasets). Regulated readers will recognize the shape: model-risk management (SR 11-7-style) demands the same independence for any model whose output moves money or access. And remember [Conway's revenge](https://www.linkedin.com/pulse/conways-law-quality-engineering-problem-too-victor-ematin-0g5xe): agent structure mirrors org structure. If ownership is blurry among humans, it will be blurrier among agents — every unnamed boundary becomes an unaudited one.
 
 Our oracle stayed outside the whole time: 34 deliberately seeded faults, all caught, zero survivors on the reference backend. The decoy case never touched the quadrant math — it tested the boundary, not the score.
 
@@ -77,6 +77,6 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - Visuals SHOT 21.09 ✅ (cover + feed triad + 24-decoy-diff mock, all 1920×1080, HTML sources alongside)
 - Feed post text: DRAFTED → `24-ai-agents-change-quality-boundary-post.md`
 - First comment: DRAFTED → `24-first-comment.md` (20/26/21 + 1 external TestMu Signs Off)
-- Inline links: 20 ✅ (earlier run) · 21 ✅ (Conway) · 26 ✅ (reported gap) · 19 ⏳ TODO (Pulse URL unknown — find before publish)
+- Inline links: 20 ✅ (earlier run) · 21 ✅ (Conway) · 26 ✅ (reported gap) · 19 ⏳ TODO (Pulse URL unknown — for first comment, NOT body per skill rule 13)
 - Gotcha #8: string-check 22.09 ✅ (20/21/26 = known-good strings, no lnkd.in in body) — browser check pending (user)
 - Reviews: R1 done (user) + Perplexity R1 applied; Gemini skipped (diminishing returns)
