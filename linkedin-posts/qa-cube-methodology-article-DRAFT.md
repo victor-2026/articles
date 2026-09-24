@@ -33,7 +33,7 @@ The honest caveat: our probe v1 detects any validation, not field-specific error
 
 ### ✅ Result
 
-120 runs, 35 minutes wall time, 5× speedup over rebuild-each-time. Both seeded mutations behaved as designed across all probes. The retro loop is verified infrastructure now, not a hypothesis: break → FAIL → retro-edit → PASS, with an empty drift diff to prove the engine didn't silently change shape.
+120 runs, 35 minutes wall time, 5× speedup over rebuild-each-time. Both seeded mutations behaved as designed across all probes. Metric legend: Reg = corrected regression rate (validation entirely missing); Reg* = the verdict model's native field, uncalibrated on generic errors — shown for transparency, not the metric. The retro loop is verified infrastructure now, not a hypothesis: break → FAIL → retro-edit → PASS, with an empty drift diff to prove the engine didn't silently change shape.
 
 Total cost: ~9 hours wall time across three phases (4 design + 2 plan + 3 campaign), free tier throughout. The expensive part was never the runs — it was building the variants once and calibrating the probes.
 
