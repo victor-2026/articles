@@ -13,6 +13,8 @@ Verdicts: a lightweight judgment model at ~350ms each, no human in the scoring l
 
 The expensive part was never the runs — it was the rebuilds.
 
+For us this meant: 133 CI minutes saved per campaign and feedback in one coffee break instead of half a day.
+
 What does your mutation campaign spend most time on — running or rebuilding?
 
 Full numbers (GitHub discussion) in the comments👇
