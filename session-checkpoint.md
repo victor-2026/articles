@@ -427,6 +427,13 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## 2026-09-25 — OpenClaw final pack (W2 done, tree clean)
+
+- Final verdict: B2 FAIL (exit 1) on band only (8.6% > 5%; decisions resolved, dismissed-signal fired as designed)
+- Load-bearing ruling: post-hoc notes NOT carried to `observed` (would flip FAIL→PASS = observed-abuse path). Guardrail held — prime future article material ("guardrail worked", not dispute)
+- W4 ammo locked: kill rate 91.4% (their headline), 5 survivors decided, Jev honesty, B5 protocol (batch #1 untouched)
+- Pack in W2 reviews/ (local-only); article slot TBD in Tue/Fri rhythm
+
 ## 2026-09-24/25 — W3 work queue APPROVED (single-thread, user-ordered)
 
 1. jev/openjev comparison (deadline 25.09 free-tier 🔥)
