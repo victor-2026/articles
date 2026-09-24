@@ -29,7 +29,7 @@ Three moves, each boring, compounding together:
 
 Two seeded mutations, five probes each, six runs per probe: username-required removed, password-required bypassed, plus baseline and fix conditions. The retro loop ran the full cycle — break, FAIL, retro-edit, PASS — with drift measured via git diff on the engine's instruction paths. Drift scope came back clean.
 
-The honest caveat: our probe v1 detects any validation, not field-specific errors — the target returns generic messages for all fields. Probe v2 will extract field-level errors. The campaign conclusions stand (breaks were caught at form level), but field attribution needs v2.
+The honest caveat: our probe v1 detected any validation, not field-specific errors — the target returns generic messages for all fields. Probe v2 (field-specific extraction, validated 24.09) closed that gap: break manifests on Username only, drift on Password + Confirm.
 
 ### ✅ Result
 
