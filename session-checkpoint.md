@@ -427,6 +427,15 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## 2026-09-24/25 — W3 work queue APPROVED (single-thread, user-ordered)
+
+1. jev/openjev comparison (deadline 25.09 free-tier 🔥)
+2. OpenClaw resume (M1-M10 committed, baseline green)
+3. Probe v2 → article B final
+4. Klarent depth-check
+5. FlowScout fixes verify
+Rule: top-only; preemption = explicit user order + resume-point logged.
+
 ## 2026-09-24/25 — Jev note live + OpenClaw M1-M10 committed
 
 - Jev note PUBLISHED 24.09 (ugcPost-7508854342704136192) + first comment SENT ✅
