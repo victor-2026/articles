@@ -8,7 +8,7 @@
 
 5× from two boring moves: pre-built variants (built once, ~65s each) + ~300ms swap. Run → swap → run, no rebuilds in the loop.
 
-Verdicts: sub-second each (~350ms), no human in the scoring loop. The expensive part was never the runs — it was the rebuilds.
+Verdicts: sub-second each (~350ms), no human in the scoring loop. Same judgments via model-fallback judging: ~15s at 33% success — ~50× slower when it works at all. The expensive part was never the runs — it was the rebuilds.
 
 What does your mutation campaign spend most time on — running or rebuilding?
 
