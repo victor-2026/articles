@@ -1,5 +1,6 @@
 **Format:** Pulse Article
 **Series:** Quality-Operating-Model
+**Status:** published 2026-09-17
 **Cover:** 27-cover-guided.png — guided QA engineer steering AI agents, why vs how split, mutation matrix gate in background
 **Feed Image:** Guided QA — humans give why, agents give how
 **Hook:** How do you keep QA relevant when an agent writes 80% of the tests?

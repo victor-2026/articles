@@ -1,5 +1,6 @@
 **Format:** LinkedIn Pulse Article (methodology) + cross-post Dev.to/blog (per W3 plan)
 **Series:** Quality Operating Model (number TBD — slot in Tue/Fri rhythm)
+**Status:** draft (Vadim ok, slot pending)
 **Cover:** 30-cover-campaign.png ✅ (1920×1080, timing bars 3h vs 35min + 5×, HTML source alongside)
 **Feed Image:** TODO (cover doubles as feed preview)
 **Hook:** 120 validation runs in 35 minutes — across 2 seeded mutations, 5 probes each, zero product defects in the tool under test.

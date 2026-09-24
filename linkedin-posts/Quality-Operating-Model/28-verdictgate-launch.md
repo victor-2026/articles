@@ -1,5 +1,6 @@
 **Format:** Pulse Article (follow-up on Article 26)
 **Series:** Quality-Operating-Model
+**Status:** published 2026-09-22
 **Cover:** NEW verdict-screenshot (real terminal output: B0 FAIL + Fix-first M1 block, dark #0d1117 + amber, 1920×1080) — DECIDED 19.09, shoot pending (user)
 **Feed Image:** cover doubles as feed preview
 **Hook:** Article 26 told you to break the testing tool. We broke our own first — then codified the method.

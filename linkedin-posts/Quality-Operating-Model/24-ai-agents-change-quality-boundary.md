@@ -1,5 +1,6 @@
 **Format:** Pulse Article
 **Series:** Quality Operating Model
+**Status:** scheduled (Pulse tomorrow 09:00)
 **Cover:** 24-cover-agents-boundary.png ✅ (1920×1080, HTML source alongside)
 **Feed Image:** cover doubles as feed preview (LI axiom: feed = article cover only)
 **Inline 1:** 24-decoy-diff.png — after decoy paragraph (before/after 1→2 forms)

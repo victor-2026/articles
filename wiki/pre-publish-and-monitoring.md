@@ -103,6 +103,8 @@ echo "2026-06-04,Phase 2 OrangeHRM,post,1200,24,3,8,2,n,\"notes\"" >> path/to/pe
 
 **Сверка экспорта с логом (canonical URL):** аналитика LinkedIn отдаёт URL вида `/posts/author-slug_topics-slug-ugcPost-{ID}-{suffix}`. Сматчить строку экспорта с `feed/update` URN в логе — по числовому ID (`ugcPost-7506301989249540096` = тот же пост, что `urn:li:ugcPost:7506301989249540096`). Слаг (топики из хештегов) читается глазами без открытия ссылки. Проверено на W38: 27-й (…096), 26-й (…456), карусель 20-й (…169).
 
+**Status convention (file header, 2026-09-24):** every article body carries `**Status:**` after Series line. Values: `draft` / `scheduled (Pulse DATE)` / `published YYYY-MM-DD` / `stale` / `parked`. No filename prefixes, no moves — published = immutable. Dead drafts → `archive/` only after orphan check (no inbound links).
+
 ### 4.2 Weekly Report Template
 
 Создавать `linkedin-posts/weekly/YYYY-W##.md` каждый понедельник.

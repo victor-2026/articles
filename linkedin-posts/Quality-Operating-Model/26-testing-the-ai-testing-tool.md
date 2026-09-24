@@ -1,5 +1,6 @@
 **Format:** Pulse Article
 **Series:** Quality Operating Model
+**Status:** published 2026-09-14
 **Cover:** pic-26-0.jpeg — робот на минном поле, REPORT 100% CONFIDENCE / RISK 0% (Gemini, текст проверен)
 **Hook:** Your AI-QA platform just shipped you a green report. 0% risk. The page had two identical login forms — and the tool picked one silently. How do you know the next green report is true?
 
