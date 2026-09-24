@@ -16,6 +16,8 @@ If your mutation report is 100% green and nobody can name who is accountable for
 
 We imported 5 Playwright tests into an AI-QA platform and injected a second identical sign-in form — same style, same submit, same label. Three runs came back **5/5 green, 0% business risk, Low severity**. The step "Verify the Sign in button is visible" passed every time. The visual diff grew from 2.20% to 3.19% and was never flagged as ambiguity. The tool silently picked the first matching target and reported success.
 
+[SCREENSHOT: 24-decoy-diff.png — before/after: 1 form 2.20% → 2 forms 3.19% seen, flagged nothing, still green]
+
 ### ❓ Problem
 
 Decompose that green run and you get an uncomfortable split. **Authorization worked**: the agent did only what the tests allowed — no forbidden action, no scope escape. **Auditability failed**: the report is indistinguishable from an honest one. Not forged, just blind — and blindness leaves no trace.
@@ -32,6 +34,8 @@ An agent quality boundary has four parts, and most teams only built the first:
 - **Traceability** — what the agent actually did (step log, target log, decision log).
 - **Policy testing** — can you make it do the forbidden, and does it stop? Run the agent against decoy, mutant and duplicate targets and require an ambiguity flag: a stop, a confidence drop, or a suggestion. If the tool ships a green report instead, the policy fails. This is negative testing applied to the testing tool itself.
 - **Auditability** — a report a third party can verify. "3 relevant mutants caught, 0 survived" is falsifiable. "100% confidence, 0% risk" is marketing copy: it tells you nothing to check.
+
+[SCREENSHOT: 24-agent-policy.png — the agent boundary triad: authorization / traceability / auditability]
 
 ### 🛠 Implementation
 
