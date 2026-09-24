@@ -4,7 +4,7 @@
 
 ---
 
-**Mutation-attestation pilot: 120 runs, zero product defects**
+**Mutation-attestation pilot: 120 validation runs (5 probes × 6 runs × 4 conditions) against 2 seeded mutations, zero qa-cube product defects**
 
 Phase 1–3 done on free tier (OpenRouter + Pi subagents). Verdict first: no product defects found in qa-cube across 120 validation runs (~35 min wall time, 4 conditions × 5 probes × 6 runs, 2 seeded mutations).
 
