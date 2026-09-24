@@ -11,7 +11,7 @@ One operation got ~50× faster (verdict calls: 0.3s vs ~15s fallback at 33% succ
 
 Answer: variants pre-built once (each Vue regen costs ~65s — skipped 120×) + ~300ms swap. Run → swap → run, no rebuilds in the loop.
 
-Verdicts: a lightweight judgment model at ~350ms each, no human in the scoring loop — battle-tested on 2 pilots, 3rd running. Same judgments via general-model fallback: ~15s per call at 33% success (two of three calls die on rate limits) — ~50× slower when it works at all.
+Verdicts came from Jev, a lightweight judgment model (~350ms each, battle-tested on two pilots, third running). No human in the scoring loop. Same judgments via general-model fallback: ~15s per call at 33% success (two of three calls die on rate limits) — ~50× slower when it works at all.
 
 The expensive part was never the runs — it was the rebuilds.
 
