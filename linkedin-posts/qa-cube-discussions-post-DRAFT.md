@@ -1,5 +1,5 @@
 **Format:** GitHub Discussions post (qa-cube repo, Vadim's turf) — NOT LinkedIn
-**Status:** Vadim APPROVED 24.09 ("Thanks for feedback", Discussions enabled ✅). User posts publicly, then mark POSTED here.
+**Status:** POSTED 24.09 ✅ — first discussion in codecube01/qa-cube (Show and tell #2): https://github.com/codecube01/qa-cube/discussions/2. On article-B publish: EDIT body (add link).
 **Source facts:** W3 pilot checkpoint 2026-09-23/24 (Phase 1-3, 120 runs).
 
 ---
