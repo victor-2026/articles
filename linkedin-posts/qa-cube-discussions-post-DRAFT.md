@@ -1,5 +1,5 @@
 **Format:** GitHub Discussions post (qa-cube repo, Vadim's turf) — NOT LinkedIn
-**Status:** DRAFT approved, to post by user. On article-B publish: EDIT post body (add link), not comments.
+**Status:** DRAFT approved, to post by user. Sequence: (1) DM text to Vadim for approval → (2) enable-Discussions ask → (3) post publicly. On article-B publish: EDIT post body (add link), not comments.
 **Source facts:** W3 pilot checkpoint 2026-09-23/24 (Phase 1-3, 120 runs).
 
 ---
