@@ -427,6 +427,12 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## 2026-09-24/25 — Jev note live + OpenClaw M1-M10 committed
+
+- Jev note PUBLISHED 24.09 (ugcPost-7508854342704136192) + first comment SENT ✅
+- OpenClaw: M1-M10 committed (3f9ce14/a614b0dd71e), baseline 3x green, ~2 days left (execution 1d + analysis/report 0.5d + catalog 0.5d)
+- Pending: W3 execution → verdict packs → OpenClaw article slot (≥5d out)
+
 ## 2026-09-24 — A-post sent to Vadim for approval (+ Discussions ask)
 
 - Draft A finalized (`b9366a2`): honest title per W3 (120 validation runs vs 2 mutations), sequence DM-approval → enable → post → edit-in-B-link
