@@ -432,6 +432,7 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - Jev note PUBLISHED 24.09 (ugcPost-7508854342704136192) + first comment SENT ✅
 - OpenClaw: M1-M10 committed (3f9ce14/a614b0dd71e), baseline 3x green, ~2 days left (execution 1d + analysis/report 0.5d + catalog 0.5d)
 - Pending: W3 execution → verdict packs → OpenClaw article slot (≥5d out)
+- OpenClaw PAUSED 24.09 for jev/openjev comparison (Jev free till 25.09 🔥). Resume point: Pilot Execution — 60 runs (M1-M10 committed a614b0dd71e/3f9ce14, baseline 3x green). W3 owns resume.
 
 ## 2026-09-24 — A-post sent to Vadim for approval (+ Discussions ask)
 
