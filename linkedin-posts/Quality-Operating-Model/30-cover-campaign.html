@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { width:1920px; height:1080px; background:#0d1117; color:#e6edf3;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    display:flex; flex-direction:column; justify-content:center; gap:52px;
+    padding:90px 110px; overflow:hidden; }
+  .kicker { color:#f0b429; font-size:30px; font-weight:700; letter-spacing:5px; }
+  h1 { font-size:78px; line-height:1.12; font-weight:800; }
+  h1 .amber { color:#f0b429; }
+  .bars { display:flex; flex-direction:column; gap:28px; }
+  .row { display:flex; align-items:center; gap:28px; }
+  .lbl { width:340px; font-size:30px; color:#8b949e; text-align:right; }
+  .bar { height:76px; border-radius:12px; display:flex; align-items:center;
+    padding:0 30px; font-size:32px; font-weight:800; }
+  .b-long { width:1080px; background:rgba(248,81,73,.15); border:1px solid #f85149; color:#f85149; }
+  .b-short { width:230px; background:rgba(63,185,80,.15); border:1px solid #3fb950; color:#3fb950; }
+  .tag5 { font-size:44px; font-weight:800; color:#f0b429; }
+  .strip { text-align:center; font-size:27px; color:#8b949e; }
+</style></head>
+<body>
+  <div>
+    <div class="kicker">MUTATION CAMPAIGN · 120 RUNS</div>
+    <h1>120 Validation Runs in 35 Minutes.<br><span class="amber">Instead of 3 Hours.</span></h1>
+  </div>
+  <div class="bars">
+    <div class="row"><div class="lbl">rebuilt-each-time</div><div class="bar b-long">~3 hours</div></div>
+    <div class="row"><div class="lbl">pre-built swap</div><div class="bar b-short">35 min</div><div class="tag5">5×</div></div>
+  </div>
+  <div class="strip">pre-built variants · 300ms swap · automated verdicts</div>
+</body></html>

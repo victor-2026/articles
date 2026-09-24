@@ -1,6 +1,6 @@
 **Format:** LinkedIn Pulse Article (methodology) + cross-post Dev.to/blog (per W3 plan)
 **Series:** Quality Operating Model (number TBD — slot in Tue/Fri rhythm)
-**Cover:** TODO (timing bars: 3h rebuild vs 35min swap)
+**Cover:** 30-cover-campaign.png ✅ (1920×1080, timing bars 3h vs 35min + 5×, HTML source alongside)
 **Feed Image:** TODO (cover doubles as feed preview)
 **Hook:** 120 validation runs in 35 minutes — across 2 seeded mutations, 5 probes each, zero product defects in the tool under test.
 **Terminology lock (W3):** validation runs, NOT mutation tests. 4 conditions × 5 probes × 6 runs = 120. Mutations: 2 seeded (username-required removed, password bypass).
@@ -59,7 +59,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - Terminology: validation runs, never "mutation tests" (W3 verdict)
 
 ### Open
-- Vadim naming approval for LI article (discussions-ok ≠ article-ok?) — ask explicitly
+- Vadim naming approval for LI article: GRANTED 24.09 ("Yes why not" + 🤯😀🤝) ✅
 - Code/Infra links: qa-cube repo public (codecube01/qa-cube ✅ linkable); swap_variant.py + Jev client live in PRIVATE pilots dir — NO public link, describe in words only
 - Cover + feed + 3 inline (timing bars, swap architecture, results table): TODO
 - Feed post text + first comment: TODO
