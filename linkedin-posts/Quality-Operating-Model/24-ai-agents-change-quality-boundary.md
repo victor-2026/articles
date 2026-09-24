@@ -1,7 +1,9 @@
 **Format:** Pulse Article
 **Series:** Quality Operating Model
 **Cover:** 24-cover-agents-boundary.png ✅ (1920×1080, HTML source alongside)
-**Feed Image:** 24-agent-policy.png ✅ (triad, 1920×1080, HTML source alongside)
+**Feed Image:** cover doubles as feed preview (LI axiom: feed = article cover only)
+**Inline 1:** 24-decoy-diff.png — after decoy paragraph (before/after 1→2 forms)
+**Inline 2:** 24-agent-policy.png — after Solution checklist (triad visual)
 **Hook:** An agent can cross more boundaries in one session than a human tester in a week — and amplify a mistake at the same speed. Who is accountable for the outcome it produced?
 
 ---
