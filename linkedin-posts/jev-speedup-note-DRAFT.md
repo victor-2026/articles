@@ -7,7 +7,7 @@
 
 120 validation runs in 35 minutes. Rebuilt-each-time, the same campaign would take ~3 hours.
 
-5× from two boring moves: pre-built variants (4 conditions built once) + ~300ms swap. Run → swap → run, no rebuilds in the loop.
+5× from two boring moves: variants pre-built once (each Vue regen costs ~65s — skipped 120×) + ~300ms swap. Run → swap → run, no rebuilds in the loop.
 
 Verdicts: a lightweight judgment model at ~350ms each, no human in the scoring loop — battle-tested on 2 pilots, 3rd running. Same judgments via general-model fallback: ~15s per call at 33% success (two of three calls die on rate limits) — ~50× slower when it works at all.
 
