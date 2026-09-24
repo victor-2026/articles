@@ -2,7 +2,7 @@
 **Status:** DRAFT 24.09 (rev 2: user inline review applied). Product anonymized (no Vadim approval needed).
 **Numbers lock (W3 Day-3 benchmark + qa-cube):** 5× campaign (168/35, honest rounding) = variants + swap. 50× verdicts = Jev 0.30s/100% vs Pi-fallback ~15s/33% — claim ONLY with comparator disclosed. "~3 hours" is conditional (would-take estimate for rebuild-each-time, not a measured run); "2.5 hours saved" pairs with it (rounded pair).
 **Links:** NONE in body (reach) — discussions #2 + articles go in first comment.
-**Second comment STAGED 25.09 (mini-jev merge):** `Follow-up: same 7 findings through local mini-jev (Ollama CPU, $0) — ~0.1s vs Jev ~0.3s, severity 2/7 exact match. Cheap judges converge; the 50× stays a different comparator (Jev vs fallback).` Source: FlowScout merge report 24.09. Post on user go (spacing vs first comment).
+**Second comment SENT ✅ 25.09 (mini-jev merge):** `Follow-up: same 7 findings through local mini-jev (Ollama CPU, $0) — ~0.1s vs Jev ~0.3s, severity 2/7 exact match. Cheap judges converge; the 50× stays a different comparator (Jev vs fallback).`
 
 ---
 
