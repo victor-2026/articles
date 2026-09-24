@@ -15,6 +15,8 @@ The expensive part was never the runs — it was the rebuilds.
 
 What does your mutation campaign spend most time on — running or rebuilding?
 
+Full numbers (GitHub discussion) in the comments👇
+
 Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 #MutationTesting #QAAutomation #Playwright #AIQA #AIEvals
