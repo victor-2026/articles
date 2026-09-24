@@ -433,6 +433,7 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - Load-bearing ruling: post-hoc notes NOT carried to `observed` (would flip FAIL→PASS = observed-abuse path). Guardrail held — prime future article material ("guardrail worked", not dispute)
 - W4 ammo locked: kill rate 91.4% (their headline), 5 survivors decided, Jev honesty, B5 protocol (batch #1 untouched)
 - Pack in W2 reviews/ (local-only); article slot TBD in Tue/Fri rhythm
+- W3 closed 25.09 too (`07d0b75`, tree clean): assessor comments filed, ruling accepted, ammo confirmed. OpenClaw pilot FULLY closed on all windows.
 
 ## 2026-09-24/25 — W3 work queue APPROVED (single-thread, user-ordered)
 
