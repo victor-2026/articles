@@ -427,6 +427,13 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## 2026-09-24 — A-post sent to Vadim for approval (+ Discussions ask)
+
+- Draft A finalized (`b9366a2`): honest title per W3 (120 validation runs vs 2 mutations), sequence DM-approval → enable → post → edit-in-B-link
+- Vadim DM SENT 24.09 (text + enable-Discussions ask in one ping)
+- Verified pre-send: repo has NO Discussions (404) + issues restricted → Vadim action required
+- Pending: Vadim ok → post publicly → article B (methodology, LI series)
+
 ## 2026-09-23/24 — qa-cube article (W4 voices, W3 reviews facts)
 
 - W3 pilot done (Phase 1-3, 120 runs/35min) + Article Plan (title "120 Mutation Tests in 35 Minutes", Tue 09:00, cross-post Dev.to/blog/GitHub discussions)
