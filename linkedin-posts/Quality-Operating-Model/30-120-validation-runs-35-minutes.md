@@ -37,7 +37,7 @@ The honest caveat: our probe v1 detected any validation, not field-specific erro
 
 Total cost: ~9 hours wall time across three phases (4 design + 2 plan + 3 campaign), free tier throughout. The expensive part was never the runs — it was building the variants once and calibrating the probes.
 
-Next: probe v2 with field-specific extraction, a local-LLM verdict alternative (cost/latency), and a full campaign at n=30 per condition with statistical power. The 120-run pilot was the shakedown; the measurement campaign comes next.
+Next: a local-LLM verdict alternative (cost/latency) and a full campaign at n=30 per condition with statistical power. The 120-run pilot was the shakedown; the measurement campaign comes next.
 
 Running mutation campaigns? Let's compare notes.
 
