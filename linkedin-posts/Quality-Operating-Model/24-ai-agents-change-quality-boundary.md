@@ -80,6 +80,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - **Вставка:** не в тело (24-я self-contained), а в first comment при публикации как внешняя авторизация тезиса (cite JDAQA x Testkube). Проверить URL/доступность ручк-ссылки по gotcha #8 перед использованием.
 
 ### Open
+- ⏰ SCHEDULED: Pulse tomorrow 09:00 (feed + cover → share → first comment on publish)
 - Visuals SHOT 21.09 ✅ (cover + feed triad + 24-decoy-diff mock, all 1920×1080, HTML sources alongside)
 - Feed post text: DRAFTED → `24-ai-agents-change-quality-boundary-post.md`
 - First comment: DRAFTED → `24-first-comment.md` (20/26/21 + 1 external TestMu Signs Off)
