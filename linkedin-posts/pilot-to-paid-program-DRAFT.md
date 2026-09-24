@@ -44,6 +44,16 @@
 
 ---
 
+## Attestation model (decided 24.09 — registry, not certificate-alone)
+
+- **Source of truth = registry (append-only):** product + version, scope, verdict per tier, evidence links (CSV + scorer version → byte-identical), date, sign-off. Certificate PDF = rendered VIEW of a registry entry. Badge/figure = pointer to entry.
+- **Obligations per entry:** pinned versions (what was tested), reproducibility window (same CSV + scorer = same verdict), re-attestation trigger (new product version = new entry, old stays), support = methodology questions, not product support.
+- **Two lanes (already emerged in practice):**
+  - *Open-source lane (free, public):* Vadim/qa-cube, Igor/FlowScout. Peer feedback, published with consent. Serves R&D + marketing.
+  - *Commercial lane (paid, private-first):* DevAssure, QAEverest-pattern. Report private by default; public only with consent + fair notice. Fail = consulting lead (fix-first list), pass = trust signal for THEIR enterprise buyers (SOC2 logic).
+- **Answer to "why come to us":** fail privately → free consulting that improves the product (Rupesh: 0/4 → fix shipped; Igor: 3 bugs → 0.4.0). Pass publicly → independent trust signal + badge + article. Both outcomes have value; the asymmetry dissolves.
+- **Vadim case = template showcase** for lane 1 (passed → public attestation + badge).
+
 ## 🛠 Служебные заметки (не публиковать)
 
 <!-- REVIEWERS: IGNORE BELOW THIS LINE -->
