@@ -1,0 +1,6 @@
+.DS_Store
+.obsidian/
+digests/cron.log
+wiki_llm.log
+__pycache__/
+*.pyc
