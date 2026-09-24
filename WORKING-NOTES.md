@@ -60,3 +60,9 @@ Humans read the header, agents grep the marker.
   3. **Sequel backlog** — material big enough for its own article (parked, not inserted).
   4. **Other windows** (framework, sibling articles) — via working-notes parks.
 - Rationale: insertions bloat tempo and force re-verification; the queue compounds reach instead.
+
+## 9. Window reset protocol (new window + failed window disposal, 2026-09-24)
+
+1. **Copy the failed window's name**, clarify export need — export transcript if it holds verbatim material, else delete outright (archived loops re-infect future sessions as "sources").
+2. **Create new window in Plan mode** — grant project access (narrow dirs; read-only mounts where possible).
+3. **Startup order (first message):** read root AGENTS.md + `verdictgate/docs/window-discipline.md` (own row = own zone) + session-checkpoint tail (50 lines). Rename window. Then micro-task #1 (one task → diff → stop).
