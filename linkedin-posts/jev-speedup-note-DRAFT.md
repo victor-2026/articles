@@ -1,6 +1,6 @@
 **Format:** LinkedIn feed post (standalone methodology note, NOT series-numbered)
 **Status:** DRAFT 24.09. Product anonymized (no Vadim approval needed). Numbers: W3 checkpoint (168/35 = 4.8× → "5×" honest rounding; Jev ~350ms avg).
-**Do NOT claim:** 50× (no basis — fabrication). Speedup = variants + swap, NOT Jev alone.
+**Numbers lock (W3 Day-3 benchmark + qa-cube):** 5× campaign (168/35, honest rounding) = variants + swap. 50× verdicts = Jev 0.30s/100% vs Pi-fallback ~15s/33% — claim ONLY with comparator disclosed (as in body line 11).
 
 ---
 
