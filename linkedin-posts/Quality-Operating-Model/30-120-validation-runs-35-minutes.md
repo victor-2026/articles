@@ -23,7 +23,7 @@ Three moves, each boring, compounding together:
 
 - **Pre-built variants** — all four conditions (baseline, break, fix, drift) built once, ~65 seconds each. No rebuilds during the campaign.
 - **Fast swap** — ~300ms switch between variants. The campaign loop becomes run → swap → run.
-- **Automated verdicts** — Playwright executes, a verdict model classifies (regression or not) in ~350ms. No human in the scoring loop.
+- **Automated verdicts** — Playwright executes, a verdict model classifies (regression or not) in ~350ms. No human in the scoring loop. Same judgments via general-model fallback took ~15s at 33% success — battle-tested on two pilots, third running.
 
 ### 🛠 Implementation
 
