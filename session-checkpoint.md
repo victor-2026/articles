@@ -432,6 +432,7 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - qwen2.5:3b 69/90 = 76.7% (workhorse, ~0.1s, $0) · qwen3:4b 81/90 = 90.0% (arbiter, tens of sec)
 - Shared blind spots B0-12 + B0-23 (systematic near-neighbor boundary, not model-specific); qwen3 fixes 5/7 misses, +1 new (B0-20), UNPARSEABLE gone
 - Caveat locked: judge-vs-dataset, NOT vs-gold — frame future articles accordingly
+- qwen3 branch finalized 25.09: tail closed via incremental saves (90/90 unique, 81/90 = 90.0%, med ~24s = ×240 thinking tax). JSON final.
 - Articles routing: pair story parked for OpenClaw/29-sequel (Jev note already has 2 comments, no 4th w/o new trigger)
 
 ## Daytime reminders (user asleep, ping on wake)
