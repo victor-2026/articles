@@ -1,7 +1,8 @@
 **Format:** JOINT Pulse Article (Victor × Leonardo Lanni) — INCOMING DRAFT, NOT voiced, NOT reviewed
 **Series:** Quality Operating Model (candidate 29/30)
 **Source:** W1/W2 window handover, 2026-09-21/22. Verbatim below.
-**Status:** VARIANT C CONFIRMED 24.09 — Leonardo said YES ("absolutely, I'm in"). He writes RMT half, timeline accepted. Policy half SEND file ready: `29-policy-half-SEND.md` (send tomorrow). Review Wed → publish Fri next week.
+**Status:** VARIANT C CONFIRMED 24.09 — Leonardo said YES ("absolutely, I'm in"). He writes RMT half, timeline accepted. Policy half SEND file ready: `29-policy-half-to-leonardo.md` (+.docx, send tomorrow). Review Wed → publish Fri next week.
+**Queue (W1 25.09):** 30 goes next Tue slot (Vadim "next week" promise); 29 follows on Leonardo delivery even if after 30 (numbers need not dictate order — rule 13: readers don't know kanban).
 **Deadlines (shifted 24.09, Thu):** ~~policy half → Leonardo Fri → his half/review by Wed → publish Fri next week.~~ VOID — replan after W2 implementation lands.
 **W4 scope:** policy half + shared table + voice pass on join. RMT half = Leonardo's text (quote, don't rewrite).
 **Collisions:** 28 launches Tue Sep 22 09:00 — independent stream, no body changes from this draft.
