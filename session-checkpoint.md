@@ -427,6 +427,13 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## 2026-09-25 — Local-judge pair APPROVED (W3 merge `207b8a8`)
+
+- qwen2.5:3b 69/90 = 76.7% (workhorse, ~0.1s, $0) · qwen3:4b 81/90 = 90.0% (arbiter, tens of sec)
+- Shared blind spots B0-12 + B0-23 (systematic near-neighbor boundary, not model-specific); qwen3 fixes 5/7 misses, +1 new (B0-20), UNPARSEABLE gone
+- Caveat locked: judge-vs-dataset, NOT vs-gold — frame future articles accordingly
+- Articles routing: pair story parked for OpenClaw/29-sequel (Jev note already has 2 comments, no 4th w/o new trigger)
+
 ## Daytime reminders (user asleep, ping on wake)
 
 - [ ] Slot 1 calibration (Victor + W3, 30–45 min) — UNSCHEDULED, needs user calendar call
@@ -569,4 +576,9 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
   - Glushonkov Vadim qa-cube (MIT plugin, 4-role): honest degradation + evidence→automation = spec-vs-reality thesis; pilot candidate + contact index in Positions
 - Commits: eaddbeb (Filip quote), 0c96dab (Testkube/Codemify/Rinat + Glushonkov), checkpoint 17:10 already had Jason STARWEST.
 - Next: Article 29 variant C draft Friday (Software Map = risk heat map material); STARWEST window Wed/Thu (Jason comment + Filip connect + Maslow's Hammer).
+
+## 2026-09-25 - W5 status: local model install + rerun overrun
+- User-reported: W5 started installing a fresh local model and rerunning everything; promised 1h, elapsed "32" ambiguous (minutes vs hours/model/task unconfirmed).
+- No direct W5-window visibility; no cross-zone edits made.
+- Action: freeze scope; require one-line task + artifacts/diff/logs + ETA/stop-condition; confirm whether 32 means minutes or hours and which model/task is running.
 
