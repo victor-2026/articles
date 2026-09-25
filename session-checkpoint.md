@@ -427,6 +427,12 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## 2026-09-25 — Igor v0.6.1 retest DONE (W3), reply ready to send
+
+- Residual CLOSED: 10 states/15 flows, Admin/PIM/Leave ✓ (change-detected as NEW), blocked 7/7 = max_depth by design (as Igor predicted), zero timeouts/crashes, honesty holds
+- NEW bug for Igor: allowed_domains ["localhost"] vs app on localhost:8080 (netloc-with-port mismatch, actions.py:2049/crawler.py:225) — silent regression since 0.4.0-era; workaround ["localhost:8080"]; gist ready
+- W4 note: draft has version-reference muddle ("0.5.0-era, not 0.6.1" vs "0.4.0 worked") — suggest single line: "new finding from this retest (older than 0.6.1 — 0.4.0 config worked)". Sending = user hands.
+
 ## 2026-09-25 — Commercial centralization proposal + Igor v0.6.1
 
 - PROPOSED (user decision): W1 owns ALL commercial contacts/initiatives (not just Rupesh) — single pricing/terms voice, no parallel negotiations. Rupesh silent 2 weeks → W1 call: nudge or close.
