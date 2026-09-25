@@ -494,6 +494,7 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 4. Klarent depth-check
 5. FlowScout fixes verify
 Rule: top-only; preemption = explicit user order + resume-point logged.
+- Status 25.09: W3 accepted queue (OpenClaw index); 60-run autostart on Jev-track close, no extra approval needed.
 
 ## 2026-09-24/25 — Jev note live + OpenClaw M1-M10 committed
 
