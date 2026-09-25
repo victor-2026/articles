@@ -426,6 +426,7 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 **Closed threads:** Leonardo (chat exchange done).
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
+- Rupesh paper ping DRAFTED 26.09 (W1, peer track AST 2026, commercial pause untouched) — user sends; W4: no action (methodology already published in 26/27).
 
 ## 2026-09-25 — FlowScout commercial frame DECIDED (W1)
 
