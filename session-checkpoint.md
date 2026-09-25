@@ -633,3 +633,13 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Digest checkboxes marked; releases note for W3: flowscout/qa-cube/openclaw release feeds ran in this digest — check tags if new (pilots zone, not touched).
 - Scope freeze honored: no model reinstalls, no full reruns (ingest + index only).
 
+## 2026-09-25 — Session close (W4 Articles)
+
+**Published:** 28 VerdictGate (22.09, day-0 49 imp) · Jev note (24.09, ugcPost-7508854342704136192) + 2 comments (discussions link, mini-jev second wave) · 24 scheduled tomorrow 09:00 (body+visuals+feed+first comment done) · A-post POSTED (qa-cube discussions #2, Vadim approved).
+**In work:** 30/B (Vadim naming ok, cover shot, Reg legend, slot after 29) · 29 joint (Leonardo YES, policy-half SEND + docx Helvetica-fixed, deadlines live) · 24 (publish pending).
+**RMT saga closed:** 5 review rounds → W4 wrote `rmt.py` (balanced-span scanner, smoke green incl. nesting) → W2 adopted verbatim → CLI integrated → 3 "cosmetic" bugs caught by review (B0/B1 regression + 2 output) → fixed `3cbd281` → smoke green → committed. Lesson logged: review code+output, never plans.
+**Registry/quotes:** pilot numbering abolished; pilots/README handed to W3 (Klarent created; OpenClaw row pending); quotes bank 36+ (Kristel, Matt Graham, Sophia, Govindarajan ×5, Igor lab-vs-car ×3, dev.to wrong-test/escalation ×4); canonical-URL matching → wiki.
+**Windows:** discipline file read (W2 owns, 5 rows + cross-links); W4 zone = Articles/** + quotes; W5 loop forensics done, quarantine applied, new W5 on plan+micro-tasks; W3 queue approved (jev→OpenClaw→B→Klarent→FlowScout); Slot 1 calibration started (W4/W5/W1/Copilot recused).
+**Debts cleared:** .gitignore created, ~30M PDFs to Backups, gitignore junk untracked; Carpathia/1000-cuts/zero-point hallucinations surgically removed from memory (user-verified).
+**Open:** 24 publish · B slot · 29 Leonardo half · Radik overdue · Megi/Jason/Aamir quiet · Rupesh replied awaiting dev · Oct 17 recheck.
+
