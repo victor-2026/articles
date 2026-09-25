@@ -427,6 +427,11 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## Article ammo parked (Q3 closeout `d91791b`)
+
+- Three vendors × three paths fail the same 2 cases; all three hallucinate literally the same nonexistent label (`Get_virtual_card`) → contamination flips from validity threat to proof: boundary is task-intrinsic (near-neighbor + label-set gap), not model-specific
+- Use: future piece on independent verification (author≠examiner at vendor scale); slot TBD in Tue/Fri rhythm
+
 ## 2026-09-25 — Local-judge pair APPROVED (W3 merge `207b8a8`)
 
 - qwen2.5:3b 69/90 = 76.7% (workhorse, ~0.1s, $0) · qwen3:4b 81/90 = 90.0% (arbiter, tens of sec)
