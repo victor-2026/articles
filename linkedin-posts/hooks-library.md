@@ -87,6 +87,10 @@ Extracted from published posts for reuse in future content.
 | "Test generation is not test strategy." | Article 27 — Guided QA (Sep 17) | Distinction hook, core thesis |
 | "The agent writes the test. You write the reason it should fail." | Article 27 — Guided QA (Sep 17) | Closing line, repostable refrain |
 
+| "An agent can cross more boundaries in one session than a human tester in a week." | Article 24 — Agents Boundary (Sep 25) | Lead hook, scale contrast |
+| "Authorization held. Auditability didn't." | Article 24 — Agents Boundary (Sep 25) | 4-word contrast, split verdict |
+| "Does your QA org have a policy for what an agent may do in production?" | Article 24 — Agents Boundary (Sep 25) | Question CTA, policy hook |
+
 | "Your vendor's green report is a claim. Here's the calculator that checks it." | Article 28 — VerdictGate launch (Sep 22) | Lead hook, claim-vs-evidence framing |
 | "The agent writes the test. The vendor writes the report. You write the verdict — now with a calculator." | Article 28 — VerdictGate launch (Sep 22) | Closing triad, repostable refrain |
 | "A verdict you cannot game by re-labeling is the whole point." | Article 28 — VerdictGate launch (Sep 22) | Anti-gaming punchline |

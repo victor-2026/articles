@@ -1,6 +1,6 @@
 **Format:** Pulse Article
 **Series:** Quality Operating Model
-**Status:** scheduled (Pulse tomorrow 09:00)
+**Status:** published 2026-09-25
 **Cover:** 24-cover-agents-boundary.png ✅ (1920×1080, HTML source alongside)
 **Feed Image:** cover doubles as feed preview (LI axiom: feed = article cover only)
 **Inline 1:** 24-decoy-diff.png — after decoy paragraph (before/after 1→2 forms)
@@ -81,7 +81,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - **Вставка:** не в тело (24-я self-contained), а в first comment при публикации как внешняя авторизация тезиса (cite JDAQA x Testkube). Проверить URL/доступность ручк-ссылки по gotcha #8 перед использованием.
 
 ### Open
-- ⏰ SCHEDULED: Pulse tomorrow 09:00 (feed + cover → share → first comment on publish)
+- ✅ PUBLISHED 25.09: Pulse `agents-cross-boundaries-machine-speed-accountability-still-ematin-xbqrf` + feed `urn:li:ugcPost:7509014866272333824` + first comment SENT. Day-0 (~3h): 71 imp, 3 eng.
 - Visuals SHOT 21.09 ✅ (cover + feed triad + 24-decoy-diff mock, all 1920×1080, HTML sources alongside)
 - Feed post text: DRAFTED → `24-ai-agents-change-quality-boundary-post.md`
 - First comment: DRAFTED → `24-first-comment.md` (20/26/21 + 1 external TestMu Signs Off)
