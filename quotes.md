@@ -17,6 +17,8 @@
 - «An evaluation asks "how good is this?" A test asks "does this specific thing still work?"». — Anubhav Singhmaar, TestMu AI. Source: testmuai.com/blog/llm-evaluation-vs-agent-testing/ (2026-09-13). Use: Article 26/27 — eval≠gate, per-risk-tier framing.
 - «Can an agent pass an eval and still be broken? Routinely. The most common version is an agent that produces a well-formed, accurate-sounding answer while calling the wrong tool or no tool at all.» — TestMu AI. Source: same. Use: Article 26 — silent false negative case.
 - «A score of 0.87 does not tell a build server anything, because nobody wrote down which side of 0.87 is shippable.» — TestMu AI. Source: same. Use: Article 27 — why "confidence" ≠ "evidence".
+- «If your reward is a test suite, the models I tested will fit the test suite, and the more carefully they read, the better they fit it.» — Ana Luiza Alkmim (wrong-test-bench, Kaggle). Source: https://dev.to/anaalkmim/i-put-one-wrong-test-in-the-file-most-models-sided-with-the-test-410k (2026-09-25, 144 runs). Use: Article 26/27 — reward-hacking; tests as reward corrupt the measured behavior.
+- «A test pass rate is a weak signal about whether a model did the right thing, and a model's behavior means little without its explanation next to it.» — Ana Luiza Alkmim, same. Use: Article 27 — pass rate ≠ correctness; explanation alongside behavior.
 - «The difference between a transcript and a receipt is the transcript says what the agent said, the tool return says what the tool claimed.» — Vinoth Govindarajan (OpenAI, QCon AI). Source: https://www.infoq.com/presentations/ai-agent-harness/ (Transcript section). Use: evals ≠ receipts — transcript фиксирует слова агента, return — клеймы тула.
 - «When you use AI to test an API, how do you know it's testing the right thing? API docs don't always match what the API actually does. Generating tests from those docs can leave you with the same gaps, just automated.» — Filip Hric (Qodo). Source: LinkedIn post 2026-09-22 (lnkd.in/eBrBrp_3, Dave Westerveld API Testing with AI series on Tricentis ShiftSync). Use: Article 29/30 — docs-as-source ≠ ground truth; AI-generated tests inherit doc-reality drift; supports our "verification against behavior, not specs" angle.
 
@@ -246,3 +248,10 @@ Source: Arthur C. Brooks, From Strength to Strength: Finding Success, Happiness,
 Source: Katja (quality_minder), "Building an AI QA Agent That Tests Your Jira Tickets in a Real Browser", Quality Minded community (Montenegro → USA, open source: Agent Factory + BaaS). https://dev.to/quality_minder/building-an-ai-qa-agent-that-tests-your-jira-tickets-in-a-real-browser-3pc7
 
 - «Keep humans on the loop and don't ship on Fridays!» - Katja. Use: flavor closer; human-on-the-loop in practitioner wording (matches our Article 27 thesis language).
+
+## Escalation is not monotone (Tom Jones, Tirtha.ai, 2026-09-25)
+
+Source: https://dev.to/tom_jones_230c4659491adcd/escalating-to-the-better-model-made-34-answers-worse-ko7 (2,400 tasks × 3 reps, cheap vs frontier side by side).
+
+- «Escalation fixed 133 answers and broke 34.» - Tom Jones. Use: escalation economics; bigger model = different failure distribution, not fewer failures.
+- «Verify rather than select, because a cheap answer that passed a check is worth more than an expensive answer nobody checked.» - Tom Jones, same. Use: Article 26/28 — verification over selection; checks beat escalation.
