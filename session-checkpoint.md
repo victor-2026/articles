@@ -427,6 +427,12 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## 2026-09-25 — Igor residual sent (warm thread, no "4th bug")
+
+- DM SENT: deep-SPA-Admin/PIM residual as next-iteration candidate (explicitly NOT part of the 3). Logs offered (gist pattern).
+- Thread state: lab-vs-car post → our reply → his method questions → residual. Prong B hot.
+- Rule reaffirmed: no 4th-bug obligation exists (3→3→3 closed); residuals framed as candidates only.
+
 ## 2026-09-25 — OpenClaw final pack (W2 done, tree clean)
 
 - Final verdict: B2 FAIL (exit 1) on band only (8.6% > 5%; decisions resolved, dismissed-signal fired as designed)
