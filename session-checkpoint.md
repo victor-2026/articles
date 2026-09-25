@@ -467,6 +467,7 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 - [ ] 24 publish watch (scheduled 09:00) — check live + first comment
 - [ ] Radik follow-up (overdue), Leonardo reply watch, Megi/Jason/Aamir quiet
 - [ ] Jev free ends 25.09 — confirm cutoff passed cleanly
+- [ ] Katya Monday call prep: mock interview session + one-pager review (`katya-monday-one-pager-DRAFT.md`) — remind tomorrow
 
 ## Article idea backlog (24.09)
 - **VerdictGate in SDLC (ЖЦПО):** two-level piece — (1) for dummies, with pictures, complexity explained; (2) technical: bottlenecks, risks, preliminary ops (analysis → priorities → risks → ...). Status IDEA, unscheduled.
@@ -608,4 +609,26 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - User-reported: W5 started installing a fresh local model and rerunning everything; promised 1h, elapsed "32" ambiguous (minutes vs hours/model/task unconfirmed).
 - No direct W5-window visibility; no cross-zone edits made.
 - Action: freeze scope; require one-line task + artifacts/diff/logs + ETA/stop-condition; confirm whether 32 means minutes or hours and which model/task is running.
+
+## 2026-09-25 - Article plan: assessor requirements (gold-label lane)
+- Angle: hybrid (personal frame as assessor #2 + theory + synthetic/anonymized examples only). Embargo: no real gold items/labels/kappa numbers or W2/W3 internals before comparison publication.
+- Working title: "Who labels the labelers: assessor requirements with acceptance criteria".
+- Structure: hook (who grades the grader) → 4 requirements (domain reading: code/tests/SUT/issues; schema discipline: taxonomy + boundary rules + pointer format; procedure: blindness + calibration 5 then 25 + kappa bar; disqualifiers: contamination, pre-discussion) → CTA (labeling quality is a QA object).
+- Placement: backlog (not publication-plan yet); kanban/articles.md exists but stale auto-sync 2026-06-22 — do NOT edit (auto-generated). Slot in Tue/Fri rhythm only after embargo lifts.
+
+## Analytics ritual (decided 25.09)
+- Cadence: no ML (none exists; n≈89 too small). Descriptive review from performance-log + weekly reports + hooks.
+- Window-seeking Sat–Sun–Mon (Monday heavy) — AI raises the question across 3 days until a window is found.
+
+## 2026-09-25 - Slot 1 calibration STARTED (user-confirmed)
+- Joint calibration (Victor + W3, 5 items) underway. Outcome pending; all item-level helpers (W4/W5/W1/Copilot) recused until lock.
+
+## 2026-09-25 - Digest triage W5 (12/508, opencode435 handover)
+
+- P1 ingested to ai-qa-wiki: testmuai-playwright-ai-agents-mcp-2026 (not dupe of playwright-test-agents-2026; cross-link pilots/TestMu), bach-responsible-quality-engineering verbatim append, graphify-codebase-kg-agents-2026, arxiv-simulation-cx-agents-140m-2026. Index 491/334.
+- Quotes: Bach x2 → Independence/Attestation; Verge rogue AI x3 (Holz/Li) → AI Safety (W4 Article 27 park).
+- P2: Marex → Positions rejected triage PASS (London/Mid-Senior/visa); Epydemix SKIP (epidemic domain).
+- Skip: blockchain arxiv, test-suite/test-podcasts SEO, Muse/OpenClaw gossip.
+- Digest checkboxes marked; releases note for W3: flowscout/qa-cube/openclaw release feeds ran in this digest — check tags if new (pilots zone, not touched).
+- Scope freeze honored: no model reinstalls, no full reruns (ingest + index only).
 
