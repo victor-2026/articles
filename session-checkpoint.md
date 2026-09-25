@@ -427,6 +427,13 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## 2026-09-25 — Commercial centralization proposal + Igor v0.6.1
+
+- PROPOSED (user decision): W1 owns ALL commercial contacts/initiatives (not just Rupesh) — single pricing/terms voice, no parallel negotiations. Rupesh silent 2 weeks → W1 call: nudge or close.
+- Igor/FlowScout commercial path: verify v0.6.1 FIRST (W3 re-run), then frame paid attestation on track record (3 bugs → fixed → residual → fixed). No ask while delivering free value.
+- Igor v0.6.1 fixes (DM 25.09): (1) chart-canvas auto-ids as locators/state signatures → replays timed out; (2) sidebar menu links treated as submitting Search box → menu filtered itself, Admin/PIM/Leave vanished. Both fixed on main. NOT fixed: nameless custom checkboxes timeout. Re-run requested (max_depth 2/max_states 15 truncation by design).
+- Pending: W3 re-run on main → report → then commercial framing.
+
 ## Article ammo parked (Q3 closeout `d91791b`)
 
 - Three vendors × three paths fail the same 2 cases; all three hallucinate literally the same nonexistent label (`Get_virtual_card`) → contamination flips from validity threat to proof: boundary is task-intrinsic (near-neighbor + label-set gap), not model-specific
