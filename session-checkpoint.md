@@ -427,6 +427,9 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## Article idea backlog (24.09)
+- **VerdictGate in SDLC (ЖЦПО):** two-level piece — (1) for dummies, with pictures, complexity explained; (2) technical: bottlenecks, risks, preliminary ops (analysis → priorities → risks → ...). Status IDEA, unscheduled.
+
 ## 2026-09-25 — Igor residual sent (warm thread, no "4th bug")
 
 - DM SENT: deep-SPA-Admin/PIM residual as next-iteration candidate (explicitly NOT part of the 3). Logs offered (gist pattern).
