@@ -233,3 +233,11 @@ Source: https://www.qodo.ai/blog/why-your-ai-coding-agent-shouldnt-review-its-ow
 Source: Arthur C. Brooks, From Strength to Strength: Finding Success, Happiness, and Deep Purpose in the Second Half of Life (2022). Quote cross-checked across Goodreads + psychiatry review + Thinkr (verbatim match, 2026-09-24). Not read from book copy - treat as secondary-source verified.
 
 - «But if your career requires crystallized intelligence — or if you can repurpose your professional life to rely more on crystallized intelligence — your peak will come later but your decline will happen much, much later, if ever. And if you can go from one type to the other — well, then you have cracked the code.» - Arthur C. Brooks. Use: leadership positioning - repurpose toward judgment/mentoring/attestation (crystallized) instead of hands-speed (fluid); second-curve career framing.
+- «A judge that went blind this morning still looks fine in last month's numbers.» - Igor Akymenko (LinkedIn thread 2026-09-25, reply to Victor). Use: Article 24/26 - kill-shot vs trailing-accuracy dashboards; per-run verification over monthly metrics.
+- «You test the tester before you trust anything it says.» - Igor Akymenko, same thread (adopting Victor's decoy-first method for FlowScout work). Use: Article 26 - vendor-founder verbatim adoption of seeded-decoy doctrine.
+
+## Build-in-public practitioners (Quality Minder, dev.to 2026-09-25)
+
+Source: Katja (quality_minder), "Building an AI QA Agent That Tests Your Jira Tickets in a Real Browser", Quality Minded community (Montenegro → USA, open source: Agent Factory + BaaS). https://dev.to/quality_minder/building-an-ai-qa-agent-that-tests-your-jira-tickets-in-a-real-browser-3pc7
+
+- «Keep humans on the loop and don't ship on Fridays!» - Katja. Use: flavor closer; human-on-the-loop in practitioner wording (matches our Article 27 thesis language).
