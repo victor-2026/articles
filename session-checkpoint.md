@@ -431,6 +431,7 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 - Three vendors × three paths fail the same 2 cases; all three hallucinate literally the same nonexistent label (`Get_virtual_card`) → contamination flips from validity threat to proof: boundary is task-intrinsic (near-neighbor + label-set gap), not model-specific
 - Use: future piece on independent verification (author≠examiner at vendor scale); slot TBD in Tue/Fri rhythm
+- Ladder update (`fb2a69f`): Gemma approved as arbiter (83.3% @ 0.28s) — escalation now L0 (0.1s) → L1 (0.28s) → L2 (24s), union B0-12+B0-20 = 93.3%. Measured ladder economics for the same future piece.
 
 ## 2026-09-25 — Local-judge pair APPROVED (W3 merge `207b8a8`)
 
