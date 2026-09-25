@@ -427,6 +427,13 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## Daytime reminders (user asleep, ping on wake)
+
+- [ ] Slot 1 calibration (Victor + W3, 30–45 min) — UNSCHEDULED, needs user calendar call
+- [ ] 24 publish watch (scheduled 09:00) — check live + first comment
+- [ ] Radik follow-up (overdue), Leonardo reply watch, Megi/Jason/Aamir quiet
+- [ ] Jev free ends 25.09 — confirm cutoff passed cleanly
+
 ## Article idea backlog (24.09)
 - **VerdictGate in SDLC (ЖЦПО):** two-level piece — (1) for dummies, with pictures, complexity explained; (2) technical: bottlenecks, risks, preliminary ops (analysis → priorities → risks → ...). Status IDEA, unscheduled.
 
