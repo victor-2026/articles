@@ -427,6 +427,12 @@ code /Users/victor/Projects/Articles/WORKING-NOTES.md
 
 **Open next:** Tue 28 launch → Sophia comment → Radik call → Leonardo send → Oct 17 recheck.
 
+## 2026-09-25 — FlowScout commercial frame DECIDED (W1)
+
+- AlternateQA = commercial (Academy/audit); FlowScout = free lead magnet. We = external QA on the march 0.4→0.6→1.0
+- Frame: verify-then-frame-to-1.0. Now: free value only, bugs = track-record currency. ONE ask at 1.0 ("independent verdict for your launch", white-label for his clients/audits). If 1.0 ships without us — window closed, goodwill remains
+- W4 constraint: no commercial framing in FlowScout content until the 1.0 ask
+
 ## 2026-09-25 — Igor v0.6.1 retest DONE (W3), reply ready to send
 
 - Residual CLOSED: 10 states/15 flows, Admin/PIM/Leave ✓ (change-detected as NEW), blocked 7/7 = max_depth by design (as Igor predicted), zero timeouts/crashes, honesty holds
