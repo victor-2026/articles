@@ -643,3 +643,14 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 **Debts cleared:** .gitignore created, ~30M PDFs to Backups, gitignore junk untracked; Carpathia/1000-cuts/zero-point hallucinations surgically removed from memory (user-verified).
 **Open:** 24 publish · B slot · 29 Leonardo half · Radik overdue · Megi/Jason/Aamir quiet · Rupesh replied awaiting dev · Oct 17 recheck.
 
+## 2026-09-26 — Pilot candidate + outreach signal (Fastino Labs / GLiNER)
+
+- **W3 → pilot candidate:** GLiNER2.5-Decide (open weights, laptop-friendly, fine-tunable, zero-shot judging) — fits ladder L0/L1 next to mini-jev for comparison.
+- **W1 → outreach candidate:** Fastino Labs (API agent.fastino.ai + open-weight philosophy), same shelf as Tirtha.ai.
+- Source: Julia White (Head of Research, Stanford PhD) LinkedIn post 25.09; quotes filed (Lightweight vs frontier).
+
+## 2026-09-26 — 60 runs unblocked (W2 ruling `3cce810`)
+- Verdicts = local exit codes only; no Jev API in the loop (sequencing variant, no scoring replanning needed).
+- exit −9 binding pre-recorded (re-run + capture → three branches, no silence).
+- W2 waiting raw results in `results/`; 60-run start no longer gated on Jev.
+
