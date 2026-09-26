@@ -255,3 +255,12 @@ Source: https://dev.to/tom_jones_230c4659491adcd/escalating-to-the-better-model-
 
 - «Escalation fixed 133 answers and broke 34.» - Tom Jones. Use: escalation economics; bigger model = different failure distribution, not fewer failures.
 - «Verify rather than select, because a cheap answer that passed a check is worth more than an expensive answer nobody checked.» - Tom Jones, same. Use: Article 26/28 — verification over selection; checks beat escalation.
+
+## CodeScene AI Series Hub (2026-09, research + cases)
+
+Source: https://codescene.com/ai-series-hub/welcome (stats + loveholidays/Alfa Laval cases).
+
+- «At least 60% defect risk when agents operate on unhealthy code.» - CodeScene research. Use: pre-seed relevance gate; unhealthy code × agents multiplier.
+- «35-45% token waste when agents operate on unhealthy code.» - CodeScene research. Use: cost argument for code health before agent scale.
+- «How code health, deterministic quality gates and human-on-the-loop checkpoints turn AI speed into something you can trust, and why QA's job shifts from running tests to being the one who signs off on going to production.» - CodeScene (Ch.3 framework). Use: Article 27 — independent convergence (their words, our thesis).
+- «Putting these hard guardrails in place was the game changer, forcing the agent to build the code at the structural quality that we wanted, and brought the code health back up.» - Stuart Caborn, Distinguished Engineer loveholidays (80% agentic code at elite health). Use: guardrails-as-enforcement, Tornhill tooling-enforces resonance.
