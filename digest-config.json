@@ -188,9 +188,42 @@
    "name": "Satisfice — James Bach (RST)",
    "url": "https://www.satisfice.com/feed/",
    "weight": 0.8
+  },
+  {
+   "id": "agentiqa-blog",
+   "name": "Agentiqa Blog (releases, case studies)",
+   "url": "https://agentiqa.com/en/blog",
+   "weight": 0.9,
+   "boost": 0.5,
+   "type": "manual",
+   "track": "clients"
+  },
+  {
+   "id": "radik-zagirov",
+   "name": "Radik Zagirov (LinkedIn posts)",
+   "url": "https://www.linkedin.com/in/radik-zagirov",
+   "weight": 0.9,
+   "boost": 0.5,
+   "type": "manual",
+   "track": "clients"
+  },
+  {
+   "id": "agentiqa-company",
+   "name": "Agentiqa company page",
+   "url": "https://www.linkedin.com/company/agentiqa",
+   "weight": 0.8,
+   "boost": 0.3,
+   "type": "manual",
+   "track": "clients"
   }
  ],
- "keywords": {
+  "client_watch": {
+    "purpose": "Client/vendor tracking, separate from news intake. Manual sources only; npm check is a Sunday-ritual shell line, not parsed by daily-digest.py.",
+    "ritual": "npm view agentiqa version  # compare with previous; releases since CLI 1.1.32 come in packs",
+    "tracks": ["agentiqa-blog", "radik-zagirov", "agentiqa-company"],
+    "catch": ["CLI releases (enterprise-tempo gate)", "SOC2 status (enterprise doors)", "new logo-clients (Lio pattern)", "convergence posts (quote-bank)"]
+  },
+  "keywords": {
   "core": [
    "ai testing",
    "ai qa",
@@ -355,10 +388,14 @@
    "name": "Addy Osmani",
    "company": "Anthropic"
   },
-  {
-   "name": "Dragan Spiridonov",
-   "company": "Cognitum One"
-  }
+   {
+    "name": "Dragan Spiridonov",
+    "company": "Cognitum One"
+   },
+   {
+    "name": "Radik Zagirov",
+    "company": "Agentiqa"
+   }
  ],
  "brands": [
   "Autonoma",
@@ -404,8 +441,9 @@
   "Mabl",
   "Testsigma",
   "Katalon",
-  "Tricentis",
-  "Agentic QE Fleet",
+   "Tricentis",
+   "Agentiqa",
+   "Agentic QE Fleet",
   "Nagual-QE",
   "RuFlo",
   "Vibium",
