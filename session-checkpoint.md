@@ -654,3 +654,25 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - exit −9 binding pre-recorded (re-run + capture → three branches, no silence).
 - W2 waiting raw results in `results/`; 60-run start no longer gated on Jev.
 
+## 2026-09-26 — HF recon + pilot shortlist + W5 plan check (W4)
+
+- **GLiNER2 card recon:** `fastino-ai/open-jev-gliner2-decide` — Apache 2.0, 340M DeBERTa-v3-large, CPU/GPU via `gliner2`, 60.2% fast-decisions (beats JevK5 57.6%, SemIf Qwen3.5-4B 56.4%), 1,048 dl/mo. Verdict: STRONG candidate, 3rd arm next to Jev/mini-jev; multilingual findings → `GLiNER2.5-multi-Decide` 287M (suite is English).
+- **HF pilot search (3 queries):** shortlist delivered — STRONG: `gliclass-small-v1.0` (0.1B, cheapest first), `coverage-judge-balanced` (Apache 2.0, 400M, supported/refuted/NEI), `neuraltxt-reward-tiny` (22M, needs reference; license unchecked — do not run before check). Niche: IntentGuard (abstain pattern). Skip: synthetic intents, old OA-RMs, unverified GGUF.
+- **W3 handover:** plain-text protocol given (same 7 findings, per-model license/size/CPU/latency/match record, order gliclass → coverage → neuraltxt). No files touched (pilots zone = W3).
+- **W5 plan verified:** 1-file append to ai-qa-wiki/session-checkpoint.md, 0 commits, pilots/wiki/raw untouched — approved with 1 nit (header: drop `06:06 MSK`, file convention is date-only).
+- No quotes added (HF cards = specs, not quotables); no commits.
+
+## 2026-09-26 — W2 evidence brief for W4 (quotable as-is)
+
+- **Engine (rmt 0.1.0, stamped):** 2 ops (EQ_NEGATION + COLLECTION_EMPTY) + chain-unwrap + NO-OP guard + expect.soft; byte-deterministic; single implementation (`verdictgate rmt`).
+- **Batch #1 (58, e2e):** killed 53 / survived 5 → 91.4%, verdict **B2 FAIL** (8.6% > 5% band). All survivors closed: S1 vacuous-excluded (branch off), S2/S3 dismissed (transient, Assessor-comment open), S4/S5 confirmed gaps (P2). Zero open.
+- **Batch #2 (24):** 22 controls + tooltip Caught-by-crash (3× hang, CPU-capture) + wa-controls Killed. Zero inconclusive.
+- **60 app-runs:** 4/10 killed (M2/M4/M5/M9), all 6/6 unanimous, zero flakes.
+- **Article arc:** "vendor green report vs 8.6% survival + 5 named gaps with decisions" — all ours, reproducible (stamps + frozen batches). Full pact texts on request.
+- **Gate unchanged:** Leonardo's half. W2 waits nothing — W4 writes when his text arrives.
+
+## 2026-09-26 - W5 digest 25.09 close + uncommitted quotes
+- Digest 25.09 закрыт в этом окне (полный блок выше): P1 x4 → ai-qa-wiki, Marex → rejected, Epydemix SKIP. Побочно закрыт scan dev.to/t/ai (Agentest + коллизия двух AgentProbe) - записан в ai-qa-wiki/session-checkpoint.md, в Articles не дублировал.
+- **quotes.md НЕ закоммичен** (M в git status): мои правки этого окна - Bach x2 (Independence/Attestation: "AI tool cannot be accountable" + "QE is the opposite of mere trust", satisfice.com/blog/archives/488069) и Verge rogue-AI x3 (AI Safety: Holz airgap trade-off, Li "neutered AI model" + tiered containment). Уже закоммичено и не трогал: c211b01 (wrong-test-bench x2 Alkmim + escalation x2 Tom Jones).
+- Жду команду "коммить" на Articles.
+

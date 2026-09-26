@@ -264,3 +264,17 @@ Source: https://codescene.com/ai-series-hub/welcome (stats + loveholidays/Alfa L
 - «35-45% token waste when agents operate on unhealthy code.» - CodeScene research. Use: cost argument for code health before agent scale.
 - «How code health, deterministic quality gates and human-on-the-loop checkpoints turn AI speed into something you can trust, and why QA's job shifts from running tests to being the one who signs off on going to production.» - CodeScene (Ch.3 framework). Use: Article 27 — independent convergence (their words, our thesis).
 - «Putting these hard guardrails in place was the game changer, forcing the agent to build the code at the structural quality that we wanted, and brought the code health back up.» - Stuart Caborn, Distinguished Engineer loveholidays (80% agentic code at elite health). Use: guardrails-as-enforcement, Tornhill tooling-enforces resonance.
+
+## Human owns, agent executes (Daniel Sayer, Deskpro, 2026-09-25)
+
+Source: https://www.linkedin.com/pulse/meet-terry-tester-get-ai-do-grunt-work-keep-humans-judgement-sayer-gapce/ (Claude Code QA skills + Linear bot Terry Tester; deterministic script-computed gate).
+
+- «Automation that marks its own homework isn't QA.» - Daniel Sayer. Use: Article 26/27/28 — self-grading prohibition; verdict must be script-computed, not agent opinion.
+- «The shift is from doing the testing to owning it.» - Daniel Sayer, same. Use: Article 27 — QA promoted to owner/sign-off; converges with CodeScene sign-off line.
+
+## Lightweight vs frontier (Fastino Labs, 2026-09-25)
+
+Source: Julia White (Head of Research @ Fastino Labs, Stanford PhD), LinkedIn post on Jev + GLiNER (demos/weights via lnkd.in links in post).
+
+- «How competitive smaller, well-applied models are against much larger systems on these exact use cases.» - Julia White. Use: Article 28 / Jev note — small-models-competitive thesis from a labs researcher; supports our mini-jev local results (76.7% @ $0).
+- «Every model is yours to host, train, and run locally on your own hardware.» - Fastino Labs open-weight philosophy, same post. Use: local-first judging argument; open weights vs proprietary Jev framing.
