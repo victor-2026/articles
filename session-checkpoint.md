@@ -720,3 +720,17 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - **Also:** Atmaram Naik Jev-locator post — comment written with W5 (no edit to our Jev note: unverified pending-review extension).
 - **Parked:** article after 29/30 queue; slot TBD.
 
+## 2026-09-27 — Session close (W4 Articles)
+
+- **29 joint:** letter SENT (structure accept + 1+2+2 + band/provisional + anonymize + B1 two-row/prose fix + bylines). Ball with Leonardo. 2 staged blocks in our DRAFT (§6 + Honesty Rule); paste into his doc on yes. W2 returns at merged-draft cross-check.
+- **Digest:** 26.09 cron missed (Mac asleep) → manual run → `2026-09-27.md` 12/188 triaged before 09:00 overwrite. P1 ingested (3 wiki + 5 quotes); P2/Skip routed.
+- **Commit `2f7cd79` (local, no push):** quotes +10 (mine 5 + W5 5: DevRelay, Barot x2, Anton, Arbon), 3 wiki, 29 DRAFT, digest 27, checkpoint. Left untracked: digests 18–25, raw/ (never).
+- **Slot-labeling article:** W2 memo read, facts parked (6 questions, 5 difficulties, numbers; wall-clock unmeasured — never invent).
+- **Atmaram Jev post:** comment with W5, no edit to our note. W5 smoke test passed (zone + threads named on request).
+- **Open:** Leonardo reply · 30/B slot · Szymon connect + paper frames (user) · push 2f7cd79 (user call).
+
+## 2026-09-26 - W5 close-out (my threads only, no touch to above)
+- Мои 5 строк уже внутри `2f7cd79` (подтверждено строкой выше) — с моей стороны коммитить нечего. Push — решение владельца (уже отмечено).
+- Открыто с моей стороны: paper-link от Deep Barot (коммент владельца отправлен 26.09) → апгрейд/даунгрейд 92→41 по факту ответа; rogue-линия Article 27 (Verge ×3, парк W4).
+- Szymon Rybczak (TesterArmy) вижу в Open выше — мой трек его не касается (у меня: карточка пилота + смоук-коррекция в Positions, контактное решение за W1).
+
