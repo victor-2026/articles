@@ -729,6 +729,127 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - **Atmaram Jev post:** comment with W5, no edit to our note. W5 smoke test passed (zone + threads named on request).
 - **Open:** Leonardo reply · 30/B slot · Szymon connect + paper frames (user) · push 2f7cd79 (user call).
 
+## 2026-09-27 — Leonardo YES on all (29 inserts green-lit)
+
+- **His reply (15:23):** agrees all 3 points + B1 correction ("good catch", proposed sentence "works perfectly"); likes batch evidence + 1+2+2 ("makes the concept much more concrete"); bylines **Leonardo Lanni & Victor Ematin** (article flow RMT→VerdictGate, open to counter-proposal).
+- **His question:** who prepares final (formatting cleanup) — he offers to do it from our highlighted version. Recommended answer: he builds, we cross-check merged draft (W2 returns here per plan).
+- **User sent at night:** letter 01:49 + P.S. 01:50 with yellow-highlighted inserts (Google doc `1o-IsWUnphGQSfrThW8u00ASBa31OOZx8` + `Copy of (Leonardo's version) of 29-policy-half-SEND (1).docx` in his catalog).
+- **Next W4:** reply (lock-in + he-builds-we-check) → paste 2 staged blocks on merged draft → W2 cross-check → date/channel.
+
+## 2026-09-27 — Sent copy re-read (via .docx; highlighted GDoc 401-private)
+
+- **Present:** batch block (para 135, anonymized "In our own batch" ✓) + provisional line (para 134 ✓).
+- **GAPS for final:** (1) B1 double-flip NOT applied — T0 + T2 RMT-002 still B0, prose "The B0 survivor does" intact (was proposal, he agreed — must go into final with the new sentence); (2) engine stamp (rmt 0.1.0) ABSENT though letter promised it.
+- **Access note:** highlighted GDoc `1o-IsWUn...` returns 401 — if Leonardo builds final from it, fine; we verify on merged draft.
+
+## 2026-09-27 — W1: dates soft + engine-stamp stop-ship resolution path
+
+- **Dates (W1 `5631349`):** both soft. 29 → Tue 29.09 (flexible, Leonardo-dependent); 30 → Fri 02.10, may slip (Vadim = peer goodwill, no contract). Action: one line to Vadim with concrete date (only fully-controlled track).
+- **Engine stamp blocker:** letter draft's "rmt 0.1.0" does NOT belong to Batch #1 (pre-0.1.0 engine); true 0.1.0 = Batch #2. RESOLUTION = minimum now: stamp Batch #1 honestly as pre-0.1.0, letter goes; Batch #2 as second data point AFTER W1/W2 reconcile numbers (W2 "zero inconclusive" vs W1 "2 inconclusive" still open — not our call).
+- **29 not Tuesday constraint lifted** (supersedes earlier note).
+
+## 2026-09-27 — Stamp stop-ship closed, short lock-in queued (W1+W2)
+
+- **Stop-ship confirmed (W2 `775c0c7`):** Batch #1 = 58 UNSTAMPED rows = pre-stamp engine definitively. No "0.1.0" near it, ever.
+- **Batch #2 wording (W2, W1 conceded his was wrong):** "24 mutants, 22 killed outright, 0 survived; 2 terminated in error — one fail-run Killed, one crash-hang Caught under a pre-registered timeout mapping (mechanism hypothesized, stated). Shown, not hidden." Crash/timeout = killed per standard MT semantics + mapping.
+- **Reverse direction = directional only** (different sets, not controlled A/B; baselines green both).
+- **Flags:** (a) night docx CLEAN per W1 `2d768ed` (0× "0.1.0", 0× "stamp"; 1+2+2 present) — stamp lived only in chat drafts; sent 01:49 letter says "engine stamp" with NO version number — no damage. (b) CJK garbage only in chat draft, not files.
+- **Bonus:** 58 UNSTAMPED → "run on a pre-stamp engine" becomes a teaching example for why stamps matter.
+- **Roles:** W1 correspondence, W2 merged-draft incl. our insert, W3 out.
+
+## 2026-09-27 — "He assembles" contradiction resolved (W2, accepted)
+
+- User caught apparent incoherence (we promise inserts, he assembles from a copy lacking them). W2 unpacked docx (12757 chars): inside already = provisional-5%, batch 91.4% + 1+2+2 prose, band mechanics, "decisions didn't flip", zero stamps, zero names. Missing (B1 flip+sentence, stamp-fix) postdate the send and exist as VERBATIM copy-paste quotes in letters. No contradiction; guard = W2 merged-draft check (quoted ≠ applied — he rephrased once before).
+- **My WITH-OUR-INSERTS.docx DELETED** (was created, asserts passed, but per W2 it would fork versions — letters stay the single source of truth). Sent file untouched. /tmp script removed.
+
+## 2026-09-27 — User overruled: self-insert wins (W4 executed)
+
+- User: the catalog docx is OUR edition of his doc — we insert ourselves, hand over for final formatting. W2's quote-route is weaker (paraphrase risk); guard moves to verifying OUR application pre-send. B1 touches his tables but explicitly agreed + highlighted (revertable).
+- **Rebuilt `WITH-OUR-INSERTS.docx`** (sent file untouched): +1 stamp/Batch#2 para (yellow), T0+T2 B0→B1 (yellow), prose → "The B1 survivor does — B0 and B1 are both zero-tolerance" (yellow). Verified: 230 paras, both rows B1 (T0 normalized to "B1 High" per his tier taxonomy), zero "0.1.0".
+- **Chain now:** W2 verifies FILE → user uploads+shares → short message V2 ("inserts applied in updated copy, finalize formatting"). W1 looped (message changed from paste-quotes to finalize).
+
+## 2026-09-27 — v2 reconciled: W2's draft wins, mine deleted
+
+- W2's `29-policy-half-SEND-v2-our-inserts.docx`: same 4 edits, verified (highlights in place). Points 1–3 verbatim-ratified. Point 4 = W2's article-voice wording (with "engine 0.1.0" legitimately on Batch #2) + `[Victor insert — pending W1 sign-off]` tag.
+- **My WITH-OUR-INSERTS.docx DELETED** (duplicate). Single v2 = W2's file. Sent v1 untouched.
+- **Gate:** point 4 NOT to send without W1 sign-off. Everything else ready.
+
+## 2026-09-27 — Missing highlights restored in v2 (user catch)
+
+- User spotted: B1 flips in W2's file had NO yellow (W2's "highlight на месте" checked the wrong run). Verified programmatically: risk cells + prose = None.
+- **Fixed in place** (v2 is our working file, not sent): 3 runs highlighted (T0 B1 High, T2 B1, prose sentence). Stamp para was already yellow.
+
+## 2026-09-27 — Ghost file owned + point 4 SIGNED (W1 `59c2580`)
+
+- **Ghost file = mine (W4).** Built `WITH-OUR-INSERTS.docx` on user's "we insert ourselves" order, deleted on W2's "letters are source of truth" — both logged above. My wording differed from v2 (dropped "engine 0.1.0", "directional evidence" vs "directionally suggesting") — unratified paraphrase, exactly what the sign-off rule guards against. Lesson accepted: send-candidates hold sign-off marker until signed; no more parallel assemblies from W4.
+- **v2 point 4 SIGNED by W1:** all 4 points verified verbatim (tables B1, prose neighbor intact, stamp para after batch anchor, yellow + sign-off marker). Single send-candidate = W2's v2 file.
+- **Green light:** user uploads v2 + shares → short V2 message → Leonardo finalizes.
+
+## 2026-09-27 — Sign-off marker stripped from v2 (W1 order, done)
+
+- Removed ` [Victor insert — pending W1 sign-off]` from stamp para end (1 run, marker count now 0). Stamp text + yellow intact. File ready to share as-is.
+
+## 2026-09-27 — v2 link + short V2 SENT (user)
+
+- Ball with Leonardo. Next: merged-draft cross-check (W2, incl. our insert) → date/channels.
+
+## 2026-09-27 — Merged draft (2) reviewed (W4 text pass)
+
+- **File:** `Copy of (Leonardo's version) of 29-policy-half-SEND (2).docx` (1.2MB, formatted, photos + bio table). 195 paras, 4 tables (T0 = byline block).
+- **4 points INTACT:** B1×2 flips, B1 sentence, no "B0 survivor", stamp para + Batch#2 (W2 wording), provisional+recheck, 1+2+2, single legitimate "0.1.0" (Batch#2). No paraphrase drift detected.
+- **Leaks:** zero (no projects/names/numbers/URLs). No EPAM/SoftServe. Bylines Leonardo-first ✓.
+- **⚠️ ONE FIX — Victor bio:** "AI Quality Engineering Lead / Head of QA" — "Head of QA" inaccurate (independent, no such current role). Change to "Independent practice" (series convention).
+- **Photos:** unverifiable by me — user to confirm persons.
+- **Next:** W2 gates/numbers check → W1 reply (thanks + bio fix) → date/channels.
+
+## 2026-09-27 — W1 ACCEPTED final (`8667ec8`), bio fix still open
+
+- W1: all 7 points in place, no edits, next = date (target Tue 29.09) + channels. No more technical checks unless he re-edits.
+- **⚠️ NOT covered by accept:** Victor bio "Head of QA" (my review flag) — W1 silent on it. Factual-role defect, gotcha #1 adjacent. Needs explicit W1 call: fix or waive before date/channels.
+
+## 2026-09-27 — W1: parenthetical goes drive-by in date letter (pending user yes)
+
+- Item: «(mechanism hypothesized)» in crash-hang line — not a separate note (W2: non-blocker, mapping basis already in text). Bundled as one-liner in the already-planned date+channels letter: zero extra rounds, free precision.
+- W1 asks user to ratify. **Bio item above still unanswered — separate, do not merge.**
+
+## 2026-09-27 — W1: Dual-Pulse decision recorded (`405eac1`)
+
+- Letter locks: (1) Dual-Pulse yes/no from him (Pulse carries 2000 words + tables, feed can't); (2) exact times 09:00 / 09:30 CEST with cross-links; (3) merged-final deadline Mon evening (night = W2 cross-check, Tue holds); (4) fallback Thursday; (5) drive-by parenthetical. Repost = voluntary boost, not carrier.
+- **Bio implicitly dropped** (not in W1's 5 items) — treating as waived; spoke up now if not.
+- User sends → ball to Leonardo → 30 waits Friday.
+
+## 2026-09-27 — W1: bio FIX ruled (`fa6fc86`), letter gets 4th point
+
+- Verified in-doc (paras 6–11): "Head of QA" on Victor's line = false claim in joint artifact. Replacement = series convention ("AI Quality Engineering Lead · Independent practice").
+- Bylines fully closed with this: order accepted + both role lines true.
+
+## 2026-09-27 — Pre-publish file check stood down (user decision)
+
+- Rationale: W1 accepted the formatted final (7/7 verified in-file); remaining deltas are OUR two one-liners applied by Leonardo himself. Residual risk (typo in 2 lines) < cost of another round. Guard moves post-publish: verify on live link, fix by edit if needed (LinkedIn + Pulse both editable). Repost at +30min needs the link anyway.
+- Monday deadline + file-first condition DROPPED from letter.
+
+## 2026-09-27 — User applied both fixes in GDoc directly (yellow)
+
+- Title → "Independent practice"; crash-hang line got "(mechanism hypothesized)". Message to Leonardo flips from "please apply" to "applied, please keep".
+
+## 2026-09-27 — Date/channels message SENT (user, simplified)
+
+- Asked HIS plans; our offer: Tue 29.09 (fallback Thu), he first, we repost +30min; feed vs Pulse; ping link for repost. Two fixes reported as applied (yellow).
+- **Missed (user catch, post-send):** size forces article → every article needs a feed-post → should have proposed discussing the FEED-POST (authorship/angle). Remedy: raise on his channels answer, not a separate ping. Proposal ready: he drafts feed-post (publisher), we supply the VerdictGate hook line.
+
+## 2026-09-27 — Session close (W4 Articles, night)
+
+- **29 track CLOSED for tonight:** short V2 + v2 link sent. Chain was: W1/W2 reviews → stamp stop-ship (Batch #1 pre-stamp, Batch #2 W2 wording) → self-insert debate (user overruled, W4 built, then reconciled to W2's v2, ghost file owned) → highlights restored → point 4 signed (`90cb49a`) → marker stripped → sent.
+- **Rules earned tonight:** send-candidates hold sign-off marker until signed (W1); no parallel assemblies (W4); quoted ≠ applied (W2 checks merged incl. our insert).
+- **Digest/commit:** 26.09 cron missed → manual 27.09 (12/188) triaged; commit `2f7cd79` + close `22bb98d`, pushed.
+- **Parked:** slot-labeling article (W2 memo) · 30/B (Vadim date line pending) · Szymon + paper frames (user).
+- **Open:** Leonardo merged draft → W2 check → date/channels.
+
+## 2026-09-27 — Weekly analytics logged (21–27.09, raw xlsx)
+
+- **Week:** 1750 imp (+3%) / 1091 reached / 21 eng. Peak 9/22 (460/7, 28 day); dead weekend (77/0, 39/0). Trailing-7d: 27 feed 1067/11 (long tail), Jev 241/3, 24-post 156/3, 28-post 141/2. Followers 1698 (+3%), 565 profile views/90d, 75 search.
+- **CSV:** aggregate row appended to performance-log.csv. **DEBT:** performance-log.md stale since 06-17, no generator script found — MD regen ritual broken, CSV is the real source.
+
 ## 2026-09-26 - W5 close-out (my threads only, no touch to above)
 - Мои 5 строк уже внутри `2f7cd79` (подтверждено строкой выше) — с моей стороны коммитить нечего. Push — решение владельца (уже отмечено).
 - Открыто с моей стороны: paper-link от Deep Barot (коммент владельца отправлен 26.09) → апгрейд/даунгрейд 92→41 по факту ответа; rogue-линия Article 27 (Verge ×3, парк W4).
