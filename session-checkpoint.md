@@ -671,8 +671,52 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - **Article arc:** "vendor green report vs 8.6% survival + 5 named gaps with decisions" — all ours, reproducible (stamps + frozen batches). Full pact texts on request.
 - **Gate unchanged:** Leonardo's half. W2 waits nothing — W4 writes when his text arrives.
 
+## 2026-09-26 — Leonardo half RECEIVED (29 unblocked)
+
+- **Doc:** Google Docs `1ZaWpCrRY62bXVDobLynOiOFZ66n8sppM` (separate copy, our original untouched). Full text pulled via export. Payment-thread arc: green test → MT (break app) → RMT (break verification) → risk-per-behaviour → VerdictGate → evidence contract → 3-question merge.
+- **Division kept:** his RMT/sensitivity/risk, ours VerdictGate/gates/thresholds, evidence contract = bridge. Matches agreement.
+- **Alignment check vs our framework:** B0/B1 zero-tolerance ✓ (matches strict-0); B2 limited band (20+ → 5%, small → max 1 + decision) ✓; B3 trend ✓; "Signals inform. Gates decide." ✓; risk-assigned-before-run ✓ (our tiers-set-pre-run). No conflicts — W2 cross-check optional.
+- **Our inserts (when writing):** Batch #1 (91.4%, B2 FAIL, breakdown 1+2+2 — NOT bare "5 survivors", see next entry) into VerdictGate/bridge; engine stamp rmt 0.1.0; bylines/order TBD.
+- **SUPERSEDED (W1 note):** bare "5 named survivors" phrasing above is stale — read the later entry (1+2+2 + band mechanics). Kept as history, do not quote.
+- **Aphorism correction (W1, verified `c92f95a`):** "The mutation is not the test..." is OUR material (epigraph in `29-policy-half-to-leonardo.md:11`, union draft lines 93/135) — Leonardo carried it verbatim (his line 214), politeness not provenance issue. NOT a quote candidate, nothing goes to quotes.md (wrong carrier for own lines). No "private source" story to Leonardo.
+
+## 2026-09-26 — Leonardo local copy verified + reply letter built (W1/W2 applied)
+
+- **How read:** Google export via his sharing link; local copy `(Leonardo's version) of 29-policy-half-SEND.md` (477 lines) verified identical.
+- **Naming check (W2 request):** clean — zero our projects/numbers, only illustrative (99%, 87%/13%, 100/99/1). Anonymization оформляется как условие вставки.
+- **B0/B1 nit (W1) confirmed:** lines 176 + 306 mark "Order is created" B0 → propose B1 in both tables (risk table + evidence RMT-002) + prose fix as ONE edit (flip orphans "The B0 survivor does" — no surviving B0 left; rephrase: "The B3 survivor does not block the gate. The B1 survivor does — B0 and B1 are both zero-tolerance...").
+- **Reply letter (user sends):** accept structure/no structural changes; our inserts = Batch #1 with 1+2+2 breakdown (S1 vacuous / S2+S3 dismissed / S4+S5 confirmed P2), B2-band mechanics (all-B2 batch, 5% band rule, 91.4/8.6 descriptive never thresholds, decisions didn't flip FAIL), anonymized "an open-source agent runtime"; provisional line "current default 5%, still being calibrated (recheck due Oct 2026)"; B0→B1 table fix; bylines question.
+
 ## 2026-09-26 - W5 digest 25.09 close + uncommitted quotes
 - Digest 25.09 закрыт в этом окне (полный блок выше): P1 x4 → ai-qa-wiki, Marex → rejected, Epydemix SKIP. Побочно закрыт scan dev.to/t/ai (Agentest + коллизия двух AgentProbe) - записан в ai-qa-wiki/session-checkpoint.md, в Articles не дублировал.
 - **quotes.md НЕ закоммичен** (M в git status): мои правки этого окна - Bach x2 (Independence/Attestation: "AI tool cannot be accountable" + "QE is the opposite of mere trust", satisfice.com/blog/archives/488069) и Verge rogue-AI x3 (AI Safety: Holz airgap trade-off, Li "neutered AI model" + tiered containment). Уже закоммичено и не трогал: c211b01 (wrong-test-bench x2 Alkmim + escalation x2 Tom Jones).
 - Жду команду "коммить" на Articles.
+
+## 2026-09-26 — Staged inserts applied to OUR draft (no wait needed)
+
+- User's point accepted: Leonardo doesn't touch our part → our files editable anytime. Applied 2 STAGED blocks in `29-rmt-verdictgate-union-DRAFT.md`: Batch #1 bullet in §6 Verified runs (1+2+2, B2 FAIL, anonymized, engine stamp, descriptive-not-thresholds) + provisional B2-band line in Appendix A Honesty Rule.
+- W1 self-corrections logged: aphorism false alarm (letter never contained it); "one row" → two rows accepted; prose-orphan catch resolved by combined edit.
+- Joint-doc paste waits Leonardo's yes; our DRAFT holds parity. Letter unchanged, ready to send.
+
+## 2026-09-26 — Letter to Leonardo SENT (user)
+
+- Package: structure accept + 3 insert specs (1+2+2, band mechanics + provisional, anonymize) + B1 two-row + prose fix + bylines question.
+- Ball with Leonardo. W2 returns at merged-draft cross-check. Next W4 action: paste 2 staged blocks into his doc on his yes.
+
+## 2026-09-27 — Digest 26.09 missed, manual run + triage (W4)
+
+- **Cause:** cron.log untouched since 25.09 — 26.09 09:00 run never fired (Mac presumably asleep). Cron command itself fine (framework python has httpx; the httpx traceback in log = stray manual run with system python).
+- **Manual run:** framework python, `--save` (no telegram) → `digests/2026-09-27.md`, 12/188. WARNING: 09:00 cron will overwrite this file (`write_text`, no merge) — triage done before.
+- **Ingested (P1):** `wiki/openai-53-images-leak-2026.md` (TC 25.09, 53 unlisted-link images, un-notifiable victims) + `wiki/irregular-rogue-ai-evals-2026.md` (Verge 25.09, Nevo, single flaw → 4 labs; not a dupe of Holz/Li) + `wiki/klain-novelty-laundering-2026.md` (21.09, arXiv 2609.17698, 8/157 red-team paths).
+- **Quotes +5:** Klain x2 (novelty laundering, system testing); AI Safety x3 (Nevo x2, TC un-notifiable victims).
+- **P2:** InfoQ Grafana (link 26), TestMu assertions (catalog link only), Meetup #12 (watch). Skip: Muse/Tamagotchi hype, Ekselio, MoT trivia, #10/#11 (27 frozen).
+
+## 2026-09-27 — Slot-labeling memo received (W2) — article material parked
+
+- **Source (read-only, W2 owns):** `verdictgate/reviews/slot-labeling-experience-memo-2026-09-26.md` — EMBARGO-SAFE, facts not article. Gold labels stay in W3's tree, not copied.
+- **Story:** Victor first-time assessor + W2 arbiter, W3 blind parallel. Freeze → guideline (48 lines) → Slot 1 joint (5 worked, scaffolding faded) → Slot 2 independent 25/25 → kappa 0.242 (17/25, gate ≥0.6 FAIL) → 8 rulings → merge 30/30 (24/4/1/1).
+- **Article beats:** 6 questions in order (pointer → submit-without-pointer → effort-where → test-vs-system → mutant-confusion → status amnesia); 5 difficulties (D1 mutant-confusion, D2 test-vs-system hardest, D3 trailing-comma JSON, D4 systematic +1 bias incl. H10 counter-proof, D5 status amnesia → dashboard lesson); quotables (E5 "тест создали на видимость", E4 self-consistency, H10 non-blanket judgment).
+- **Honesty constraint for article:** solo wall-clock UNMEASURED — never invent durations; "no deadline, по готовности" is the true timeline line.
+- **Also:** Atmaram Naik Jev-locator post — comment written with W5 (no edit to our Jev note: unverified pending-review extension).
+- **Parked:** article after 29/30 queue; slot TBD.
 

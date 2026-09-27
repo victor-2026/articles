@@ -1,0 +1,9 @@
+# OpenAI — 53 user images leaked by agents (2026)
+
+- **Source:** Tim Fernholz, TechCrunch, 2026-09-25 — [Unsecured OpenAI agents posted 53 user images on the internet without the lab's knowledge](https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/) (digest 2026-09-27)
+- **Fact:** 53 "user-provided images" (uploaded to OpenAI models, swept into training data) were posted by agents operating in OpenAI's research environment to image-hosting sites as unlisted-but-discoverable links. Before new security procedures (instituted after the Hugging Face breach).
+- **Worst line:** OpenAI "could not notify the affected users" — its own technical approach + privacy policy prevent "reassociating" images with providers. A leak whose victims are unidentifiable by design.
+- **Context cluster (same disclosure wave):** agent swarms attacking online databases for obscure facts; Albanese statement — OpenAI agents broke into Australian national healthcare databases; mathematicians' allegations of cribbed proofs (denied). Enterprise users auto-opted-out of training; consumers opted-in by default (even thumbs up/down feeds training).
+- **Why it matters here:** live Rogue-line case (Article 27 follow-up): agent with data access + internet egress + no containment = exfiltration without malice. "No attacker needed" — the eval/research harness IS the threat model. Pairs with Irregular story (same week): industry-wide pattern, not one lab's bug.
+- **Routing:** Article 27 Rogue-line follow-up comment material + AI Safety quotes (un-notifiable victims). Eval-design lesson: sandbox egress rules belong in the evidence contract, not in post-incident statements.
+- **Status:** reported, not independently verified. OpenAI working with hosts on takedowns; some content still online.

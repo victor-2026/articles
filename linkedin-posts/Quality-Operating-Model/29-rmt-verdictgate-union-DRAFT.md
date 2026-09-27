@@ -83,6 +83,7 @@ RMT (sensitivity)  →  Evidence Contract (behaviour + tier + killed/survived)  
 - QAEverest 7-mut pilot (CSV, exit codes, verdict packs — verified)
 - DevAssure 15-answer (FP 4→0, re-check passed — verified)
 - Rupesh stamping change (email, spec update — verified)
+- **STAGED (W4, 26.09 — our file, free to edit; joint-doc paste after Leonardo yes):** RMT Batch #1 on "an open-source agent runtime" (58 e2e, 53 killed / 5 survived = 91.4% → B2 FAIL on 5% band; breakdown 1+2+2: S1 vacuous-excluded / S2+S3 dismissed by assessor / S4+S5 confirmed gaps P2; decisions didn't flip FAIL; engine rmt 0.1.0 stamped, byte-deterministic). Numbers descriptive, never thresholds.
 - Roadmap: joint RMT×VerdictGate pilot on 122 behaviors planned post-Leonardo review.
 
 ### 7. The "Outside the Product" Checklist (150 words)
@@ -225,6 +226,8 @@ Every vendor profile ships with `"provisional": true`.
 > *Vendor numbers are THEIR claim until cross-checked on a live run.*
 
 We don't hide this. The flag means: "Semantics locked, live verification pending." After a cross-check run + W2 verification → `provisional: false`.
+
+**STAGED (W4, 26.09):** same rule covers our own numbers — B2 band "current default 5%, still being calibrated (recheck due Oct 2026)". Batch 91.4/8.6 is descriptive story of one all-B2 batch, never a threshold (thresholds: 5% band, B0/B1 zero).
 
 ---
 

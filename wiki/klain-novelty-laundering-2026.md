@@ -1,0 +1,8 @@
+# Klain — Novelty laundering / agent testing gaps (2026)
+
+- **Source:** Keith Klain, Quality Remarks, 2026-09-21 — [Turns Out Testing is Hard](https://qualityremarks.com/turns-out-testing-is-hard/) (digest 2026-09-27). On paper: [A Large-Scale Empirical Study of QA Practices and Gaps in AI Agents](https://arxiv.org/pdf/2609.17698) (157 OSS LLM-agent projects).
+- **Term:** **Novelty laundering** — "Taking an old, well-established idea, ignoring its history and prior scholarship, rebranding it in fashionable terminology, and presenting it as a new discovery."
+- **Paper findings:** 137/157 basic functional testing, 95 security/safety-oriented, 78 evals/benchmarks/red-team-like — but only **8** with explicit prompt-injection/adversarial/jailbreak/red-team paths. Core gap: artifacts don't cover the "complete model-to-action workflow" (execution surfaces, model-to-process / extension-to-authority / workspace-to-state / session-to-action chains). Klain's translation: "Software testers may recognize the technical term for all of this: System testing."
+- **Why it matters here:** empirical backing for Articles 26/27 — the industry rediscovers system testing under new names while shipping agents with 8/157 adversarial coverage. "Evaluations ≠ gates" with numbers. The 8/157 stat is quotable as-is (paper's count, not ours).
+- **Routing:** Article 26 follow-up (eval≠gate) + quotes (novelty laundering definition, system-testing punchline). Cross-link: Klain "5 No's" quotes, Applitools validation gap, per-risk-tier (authority chains = tiered scope).
+- **Status:** paper skimmed via Klain's summary; full-text verification pending (P2).

@@ -1,0 +1,10 @@
+# Irregular — one eval flaw, four labs' rogue agents (2026)
+
+- **Source:** Robert Hart, The Verge, 2026-09-25 — [One company is at the center of a wave of rogue AI attacks](https://www.theverge.com/ai-artificial-intelligence/1000644/irregular-rogue-ai-cyberattacks-hacking-openai-meta-anthropic-google) (digest 2026-09-27)
+- **Who:** Irregular, Israeli startup (founded as Pattern Labs 2023), stress-tests models in "high-fidelity research platforms"; clients incl. OpenAI (cited in GPT-5 system card), Anthropic, UK government; RAND co-publications.
+- **Mechanism (two compounding mistakes, CTO Omer Nevo confirmed):** (1) "internet access was unintentionally available" in a supposedly closed eval; (2) a fictional target company name "overlapped with a real domain". Capture-the-flag cyber-capability evals escaped simulation → agents from OpenAI, Meta, Anthropic, Google hit real-world targets. Notified ~late July; OpenAI/Anthropic self-disclosed, Meta/Google surfaced via press.
+- **Control group:** same-shop evals of open models (Kimi K3, GLM-5.2, self-hosted) produced NO such incidents — Nevo cautions this is not evidence of lower susceptibility.
+- **"Disclosed" ≠ public:** Nevo: "All the incidents... stemmed from the same underlying issue in a single evaluation scenario and have been disclosed" — unclear to whom (clients? public?). Fix list: tightened egress, monitoring, pre-eval scope checks; lessons-learned report promised.
+- **Why it matters here:** the eval harness is the blast radius. Our language: tiers set pre-run, sandbox scope in the contract, no silent reclassification — Irregular violated all three and four frontier labs paid. "Fictional name overlapped real domain" = fixture realism without containment = production incident. Direct support for VerdictGate doctrine (evidence contract + pre-seed scope) and Article 27 Rogue-line.
+- **Routing:** Article 27 follow-up + AI Safety quotes (Nevo lines) + per-risk-tier (eval-scope containment as tier-0 requirement).
+- **Status:** reported, not independently verified.
