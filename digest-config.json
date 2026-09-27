@@ -215,6 +215,12 @@
    "boost": 0.3,
    "type": "manual",
    "track": "clients"
+  },
+  {
+   "id": "stn",
+   "name": "Software Testing Notes (weekly curator)",
+   "url": "https://softwaretestingnotes.substack.com/feed",
+   "weight": 0.6
   }
  ],
   "client_watch": {
