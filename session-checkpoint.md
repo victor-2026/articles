@@ -856,6 +856,37 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - **Analytics:** week logged + pushed (`b866551` with checkpoint).
 - **Open:** Leonardo reply (channels + feed-post) → publish → repost +30min. 30 waits Friday. Slot-labeling article parked.
 
+## 2026-09-28 — 31 draft filled (W2 meat, W4 verified)
+
+- 7 sections: why-human → setup-30/three-worlds → 6 questions → D1–D5 → kappa-as-result → RLHF parallel → public/internal split. New vs memo: "judge called everything a defect (0/30)" opener (W2-sourced), R1/R2 precedents, three-worlds framing.
+- **W4 check:** no per-item labels (aggregates only) ✓; timings unmeasured ✓; no private/commercial ✓; numbers match memo (17/25, 0.242, 8 rulings, 24/4/1/1) ✓.
+- **W4 owns next:** language (RU/EN) + finale + voicing — after 29/30 queue.
+
+## 2026-09-28 — Rinat usable for articles? YES as bridge (W4 verdict)
+
+- His line ("requirements+tests make implementations replaceable") + our complement ("replaceable implementations demand irreplaceable verification") = bridge quote. Slot: 30/31, NOT 29 (frozen). Needs post URL (have paste only). No transcript exists; slides PDF 18MB available if wiki note needed.
+- **W2 fact recorded (article-usable):** RMT seeded both OpenClaw batches (#1: 58 assertion mutants → B2 FAIL; #2: 24 chains+soft → closed) + engine `verdictgate rmt` stamped 0.1.0. Consistent with stop-ship (0.1.0 stamp lives on engine/Batch #2, Batch #1 honestly pre-stamp).
+
+## 2026-09-28 — Rinat transcript exists (W1 correction, accepted)
+
+- W4 wrongly reported "no transcript" (searched Articles only). Truth: `raw/kandddinsky-2025-rinat-abdullin-when-ddd-met-ai-transcript.md` + wiki page exist (W1's tree) + YouTube full video (KanDDDinsky, 579 views, 10.09.2026) + slides PDF.
+- **Comment merged (W1, send as-is):** "Love this framing — and the sharp edge: replaceable implementations demand irreplaceable verification. A suite that stays green on a broken implementation doesn't make it replaceable, it makes the breakage invisible. The replaceability test: remove something on purpose and see if the suite fails for the right reason." (W4 antithesis + W5 specifics.)
+- **Comment SENT (user, 28.09).**
+
+## 2026-09-28 — Qodo report handover banked (W4: 3 lines)
+
+- PDF parsed by worker (24pp, methodology captured in ai-qa-wiki page, raw/ gitignored, no commits). Banked: 89%/3.7% gap, 26% bottleneck + 34.7-vs-9.3 scale, trust-tax/enforcement-gap — all with vendor-report + sample caveats. Use: 30/31.
+- Flags passed through: Qodo AI Code Review Benchmark → W3; outreach vocab → W1 (not mine).
+
+## 2026-09-28 — W5 Gulin x3 PENDING (no URLs → not banked)
+
+- Three lines (minimal-input = RMT protocol; conditions-not-wording = E3 arbitration; "Fixed tells reviewer little" = lineage-not-belief) + standing-source proposal (ex-Apple AI QA Architect, eval hygiene).
+- **Held:** quotes rule needs URL + verbatim status per line. W5: кинь ссылки + paste/verbatim пометки — тогда в банк.
+
+## 2026-09-28 — Gulin x6 BANKED (standing source accepted)
+
+- All 3 posts arrived as owner-paste verbatim (1st connection, ~25–27.09; no post URLs → ⚠️ paste-verified like Barot case). New section "Anton Gulin (ex-Apple, AI QA Architect)": scoring-sheet x2, path-separator x3, cleanup x1. Use-routing: 31 (judge/arbitration), 29 (RMT protocol).
+
 ## 2026-09-27 — Pulse mechanics SENT (user)
 
 - Leonardo asked "article?"; answered per W1 Dual-Pulse: Pulse carrier, he publishes Tue 29.09 09:00 CEST + feed-post (he drafts, we hook), we repost 09:30; dual-Pulse optional (our cross-post next day) or single on his.
@@ -875,6 +906,16 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 
 - Positive, deferred. No reply needed — wait for his detailed pass. Next: publish confirm → Tue 29.09 09:00 / repost 09:30.
 
+## 2026-09-28 — Leonardo GREEN-LIT all (publish Tue 29.09 11:00 CEST)
+
+- His plan: 11:00 he publishes article + simplified teaser feed-post tagging Victor; link immediately; Victor reposts ~11:30 VerdictGate angle. Single article on his profile (discussion in one place) — accepted over dual.
+- User SENT accept-all reply. **Locked: Tue 29.09 11:00 / 11:30.** Next: link → repost → log (hooks + perf CSV).
+
+## 2026-09-28 — W5 evidence cluster: AI-gatekeeping (NOT banked)
+
+- Tina Fliger + Stefan Modeste: instant auto-rejects of qualified, same vacancies reposted, ATS wall. 2nd/3rd datapoints next to Sophia case (agentic recruitment / no-abstention angle).
+- Unverified anecdotes → NOT in quotes.md. Parked as evidence cluster for future article use.
+
 ## 2026-09-26 - W5 close-out (my threads only, no touch to above)
 - Мои 5 строк уже внутри `2f7cd79` (подтверждено строкой выше) — с моей стороны коммитить нечего. Push — решение владельца (уже отмечено).
 - Открыто с моей стороны: paper-link от Deep Barot (коммент владельца отправлен 26.09) → апгрейд/даунгрейд 92→41 по факту ответа; rogue-линия Article 27 (Verge ×3, парк W4).
@@ -889,4 +930,12 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - P1 ingested: Verge UNCTAD-bruteforce (raw+wiki, escalation ladder bypass→deception→XSS-hijack→16k; not a dupe of irregular-wave) + Price-of-Thought (raw+wiki abstract-only, nonmonotonicity + instability + per-task validation). Quotes +4 (AI Safety ×2 parked W4, Market Signals ×2). Index 497/339.
 - P2/Skip: brachytherapy SKIP (medical domain), Agentick SKIP ingest (generic agent benchmark, oracle-policies as pointer only), OpenClaw release → W3 one-liner (fork frozen, W3 decides).
 - ai-qa-wiki index + digest checkboxes done. STN confirmed live in today's source list.
+
+## 2026-09-28 - committed a8c280d (pushed): digest triage + 4 quotes
+- quotes.md (UNCTAD ×2, Price ×2 — mine; other windows' lines swept per shared-file norm), session-checkpoint.md, digests/2026-09-28.md. Nothing open on my side; W3 one-liner (OpenClaw release) and W4 rogue-park recorded in-chat.
+
+## 2026-09-28 — Rupesh DECLINED (commercial pause mutual, W4 note)
+
+- His mail: timing not right, pass for now, door open later; pause stands both sides. Warm close SENT (framework stands as our asset). Track parked, not dead (W1 owns).
+- Article impact: none blocking (QAEverest angles stay usable as published facts).
 
