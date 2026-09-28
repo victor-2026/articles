@@ -850,8 +850,43 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - **Week:** 1750 imp (+3%) / 1091 reached / 21 eng. Peak 9/22 (460/7, 28 day); dead weekend (77/0, 39/0). Trailing-7d: 27 feed 1067/11 (long tail), Jev 241/3, 24-post 156/3, 28-post 141/2. Followers 1698 (+3%), 565 profile views/90d, 75 search.
 - **CSV:** aggregate row appended to performance-log.csv. **DEBT:** performance-log.md stale since 06-17, no generator script found — MD regen ritual broken, CSV is the real source.
 
+## 2026-09-27 — Session close (W4 Articles, evening)
+
+- **29 track:** date/channels message SENT (his plans asked, our offer Tue 29.09/Thu fallback, +30min repost, feed vs Pulse). Fixes applied in GDoc by user (yellow). Feed-post authorship catch logged → raise on his channels answer (he drafts, we hook).
+- **Analytics:** week logged + pushed (`b866551` with checkpoint).
+- **Open:** Leonardo reply (channels + feed-post) → publish → repost +30min. 30 waits Friday. Slot-labeling article parked.
+
+## 2026-09-27 — Pulse mechanics SENT (user)
+
+- Leonardo asked "article?"; answered per W1 Dual-Pulse: Pulse carrier, he publishes Tue 29.09 09:00 CEST + feed-post (he drafts, we hook), we repost 09:30; dual-Pulse optional (our cross-post next day) or single on his.
+- Ball with Leonardo (confirm + publish).
+
+## 2026-09-27 — Feed-post drafted (W4, for Leonardo's approval)
+
+- File: `29-rmt-verdictgate-union-post.md` (hook 99%/payment → MT/RMT one-liners → risk-per-behaviour → batch 1+2+2 → co-author credit → CTA question). 4 emoji. Author line: his first + Victor co-author line (his post, his account).
+- Open venues: qa-roots cross-post + podcast spin-off (ask him); conference melts (his EuroSTAR-27/Tokyo track, our talk track) — Pulse-first kills exclusivity, decided for speed.
+
+## 2026-09-27 — Feed-post SENT for approval (user)
+
+- Cover: "my variant for the feed-post as part of the Pulse article — for alignment, take/edit freely" (W1 cleared: typo fixed, no series numbering, soft-closes channels by action).
+- Ball with Leonardo (feed-post + publish confirm).
+
+## 2026-09-28 — Leonardo: "looks good, closer look later" (on the move)
+
+- Positive, deferred. No reply needed — wait for his detailed pass. Next: publish confirm → Tue 29.09 09:00 / repost 09:30.
+
 ## 2026-09-26 - W5 close-out (my threads only, no touch to above)
 - Мои 5 строк уже внутри `2f7cd79` (подтверждено строкой выше) — с моей стороны коммитить нечего. Push — решение владельца (уже отмечено).
 - Открыто с моей стороны: paper-link от Deep Barot (коммент владельца отправлен 26.09) → апгрейд/даунгрейд 92→41 по факту ответа; rogue-линия Article 27 (Verge ×3, парк W4).
 - Szymon Rybczak (TesterArmy) вижу в Open выше — мой трек его не касается (у меня: карточка пилота + смоук-коррекция в Positions, контактное решение за W1).
+
+## 2026-09-27 - W5 close-out (digest 27 ran, STN added, quotes done)
+- Digest 27.09 ran 09:00 (12/188), triaged by other window — nothing open on my side.
+- digest-config.json += Software Testing Notes (Substack RSS, verified 20 items/weekly, weight 0.6) — committed `7c89758`, pushed. First STN items expected Wed 30.09 digest; if absent, check config/log.
+- quotes.md: all my lines committed (2f7cd79 + 537ee7a Atmaram thesis). Open: Deep Barot paper-link, rogue-line W4, Jason Arbon lab context.
+
+## 2026-09-28 - W5 digest triage (5/510, STN live in sources)
+- P1 ingested: Verge UNCTAD-bruteforce (raw+wiki, escalation ladder bypass→deception→XSS-hijack→16k; not a dupe of irregular-wave) + Price-of-Thought (raw+wiki abstract-only, nonmonotonicity + instability + per-task validation). Quotes +4 (AI Safety ×2 parked W4, Market Signals ×2). Index 497/339.
+- P2/Skip: brachytherapy SKIP (medical domain), Agentick SKIP ingest (generic agent benchmark, oracle-policies as pointer only), OpenClaw release → W3 one-liner (fork frozen, W3 decides).
+- ai-qa-wiki index + digest checkboxes done. STN confirmed live in today's source list.
 
