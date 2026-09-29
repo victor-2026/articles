@@ -876,6 +876,13 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Both live (H1 line 11, CTA line 67). Micro-delta: CTA reads "before trusting it to certify a fix" vs W1's "before using it to certify an AI-assisted fix" — substance identical, flagging for objection.
 - **30 status: FULLY ARMED for Friday.** Remaining: 3 inline diagrams + user R1 read.
 
+## 2026-09-29 — Session close (W4, big day)
+
+- **29 PUBLISHED** (Leonardo, early): all 4 points live-verified; repost + comment + credit-ask sent; week logged.
+- **30 REFRAMED + LOCKED:** probe-lie spine (W1 6 edits), fact-check PASS, wave closed, H1v2 + CTA ratified, Gemini/Perplexity passes applied (tar→blemish, glosses, 4.8× shield, 33% scope), 3 visuals with FN/TP system, skill hashtag rule recorded.
+- **Committed + pushed `f241818`** (11 files).
+- **Open:** Fri 30 publish (visuals done, R1 read pending) · RMT note Mon 05.10 · 31 voicing after queue.
+
 ## 2026-09-29 — Asad Khan thread banked (W5, W4 verified)
 
 - Card `Asad_Khan/` (thread intel, not outreach). Quotes +4 landed (85–87: Asad homework, Bolton can/could/will + concession, Navyatha intent-gap; all ⚠️ paste-only).
