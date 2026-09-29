@@ -862,6 +862,20 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - **W4 check:** no per-item labels (aggregates only) ✓; timings unmeasured ✓; no private/commercial ✓; numbers match memo (17/25, 0.242, 8 rulings, 24/4/1/1) ✓.
 - **W4 owns next:** language (RU/EN) + finale + voicing — after 29/30 queue.
 
+## 2026-09-28 — W3 arithmetic rulings applied (30 fact-lock)
+
+- **208×** (exact 65 000/312) replaces 216× (was rounded from ~300ms). **2.8h** reframed as full traditional iterations (65s + ~20s overhead) vs 35min campaign — numerators no longer mixed.
+- **Wave question OPEN (W3 offered dig):** report header 01:04–01:39 vs files in two waves (00:41–04:17 + 20:33–21:27). Free window closed regardless (all 24.09). "35min wall" stands on header until dig lands.
+- **Groq review disposition:** real bug fixed (60 vs 120 → four conditions spelled out); generalization boundary + manual retro added; 3 W3 questions → answered above; rest dismissed with rationale.
+- **30 status:** zero W4-side markers except wave-ID dig. Feed post + first comment still TODO. Friday on track.
+
+## 2026-09-28 — External review substitute done (Groq gpt-oss-120b, free)
+
+- Pi :free dead (404), Ollama away (PC-224), Groq llama gone → used `openai/gpt-oss-120b` via Groq free tier. Full P0/P1 sweep, assessed vs our records:
+- **Zero true P0s.** 4/6 P0 claims = reviewer misreads (B2 band+floor called "contradiction" — it's our v0.3 rule; "decisions didn't flip" called meaningless — it answers the leniency objection; kill-rate math correct).
+- **2 optional micro-notes (NOT reopening):** "(91.4%)" parenthetical could pin "killed"; "stamp" assumes one line of definition. Cost of another Leonardo round >> value. Text stays frozen.
+- Lesson stands: joint-track review-lite works, run it BEFORE freeze next time.
+
 ## 2026-09-28 — Rinat usable for articles? YES as bridge (W4 verdict)
 
 - His line ("requirements+tests make implementations replaceable") + our complement ("replaceable implementations demand irreplaceable verification") = bridge quote. Slot: 30/31, NOT 29 (frozen). Needs post URL (have paste only). No transcript exists; slides PDF 18MB available if wiki note needed.
@@ -877,6 +891,19 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 
 - PDF parsed by worker (24pp, methodology captured in ai-qa-wiki page, raw/ gitignored, no commits). Banked: 89%/3.7% gap, 26% bottleneck + 34.7-vs-9.3 scale, trust-tax/enforcement-gap — all with vendor-report + sample caveats. Use: 30/31.
 - Flags passed through: Qodo AI Code Review Benchmark → W3; outreach vocab → W1 (not mine).
+
+## 2026-09-28 — Tatyana deduped + vendor disclosure (W4, per W5 reassessment)
+
+- My new section duplicated W5's lines 75–77 → merged into single set (richer W5 quotes kept, live URLs + vendor-affiliated disclosure added). Gulin thread line stays. No dup remnants (grep clean). Pre-read all edits — gotcha #4 respected.
+
+## 2026-09-28 — Session close (W4, quotes-heavy day)
+
+- **29:** Leonardo green-lit; publish Tue 29.09 11:00 (his article + teaser feed-post), our repost 11:30 (`29-rmt-verdictgate-union-repost.md` ready). Pulse mechanics locked, single article.
+- **Quotes bank day:** Gulin standing source x8 (all URL-backed) · Tatyana merged + vendor disclosure · Qodo report x3 (methodology caveats) · Artur Way URL upgrade · gatekeeping cluster x4 parked (NOT banked) · Atmaram thesis (committed earlier).
+- **31 draft:** W2 meat in, W4 verified (aggregates only, timings unmarked); language/finale after 29/30.
+- **Analytics:** week 21–27.09 logged + pushed (`b866551`); MD-regen debt recorded.
+- **Rupesh:** declined, mutual pause, warm close sent (W1 owns).
+- **Open tomorrow:** 29 publish + repost → log (hooks + perf CSV). 30 waits Friday.
 
 ## 2026-09-28 — W5 Gulin x3 PENDING (no URLs → not banked)
 
@@ -916,6 +943,11 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Tina Fliger + Stefan Modeste: instant auto-rejects of qualified, same vacancies reposted, ATS wall. 2nd/3rd datapoints next to Sophia case (agentic recruitment / no-abstention angle).
 - Unverified anecdotes → NOT in quotes.md. Parked as evidence cluster for future article use.
 
+## 2026-09-28 — Gatekeeping cluster +1: Francesco De Rose (NOT banked)
+
+- Tailored cover letter (email application as requested) → "Dear Candidate" template reply; 5th same-style reject Monday morning. Asymmetry: candidates must personalize, employers auto-reply.
+- URL resolved (ugcPost-7507771388955361281) for the record. Cluster now: Sophia + Tina + Stefan + Francesco. Use: agentic-recruitment/no-abstention angle, future article.
+
 ## 2026-09-26 - W5 close-out (my threads only, no touch to above)
 - Мои 5 строк уже внутри `2f7cd79` (подтверждено строкой выше) — с моей стороны коммитить нечего. Push — решение владельца (уже отмечено).
 - Открыто с моей стороны: paper-link от Deep Barot (коммент владельца отправлен 26.09) → апгрейд/даунгрейд 92→41 по факту ответа; rogue-линия Article 27 (Verge ×3, парк W4).
@@ -934,8 +966,29 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 ## 2026-09-28 - committed a8c280d (pushed): digest triage + 4 quotes
 - quotes.md (UNCTAD ×2, Price ×2 — mine; other windows' lines swept per shared-file norm), session-checkpoint.md, digests/2026-09-28.md. Nothing open on my side; W3 one-liner (OpenClaw release) and W4 rogue-park recorded in-chat.
 
+## 2026-09-29 - W5 digest triage (12/511) + quotes ×5 (uncommitted)
+- P1: Nvidia Open Agent Safety Platform (3 outlets fetched — OpenShell/Sentry, least-privilege doctrine, OpenClaw-origin for W3) + Klain Flurry of Constraints (ToC review-capacity, Cook #3, Art.14 shrug, no-race). Raw+wiki pairs. Quotes: AI Safety ×2 (Huang rights, Sacks sandbox) parked W4; Compliance/Attestation ×3 (Klain constraint, Cook, no-race).
+- P2/Skip: Gulin dark-mode = dupe (already done); Gems→skills, MoTaCon, Shopify, InfoQ-200, Verge-catch-up = SKIP (no method); Sonnet 5.5 SKIP (backbone note W2/W3); OpenClaw 2026.8.33 → W3 (fork frozen).
+- Index 500/343. Awaiting commit command.
+
 ## 2026-09-28 — Rupesh DECLINED (commercial pause mutual, W4 note)
 
 - His mail: timing not right, pass for now, door open later; pause stands both sides. Warm close SENT (framework stands as our asset). Track parked, not dead (W1 owns).
 - Article impact: none blocking (QAEverest angles stay usable as published facts).
+
+## 2026-09-28 - W5 quotes wave part 2 (uncommitted): Gulin/Artur/Tatyana-gate
+- Banked since fa869ca: Gulin portfolio ×2 (remove-on-purpose, expected-failures/void — anton.qa fetched ✅), Soma green-lies + flaky-number, Jyothi oracle line, Rinat sovereign thesis, Tech Race Hannan + Shevchenko, Tatyana ×2 (Nobody-Just-Let-AI-Decide, evidence pipeline), Artur artifacts-vs-phone-book (RU+gloss), Gulin threshold (rank-agent/threshold-human).
+- CORRECTION: Tatyana vendor-downgraded (Head of Marketing & DevRel @ ContextQA — circle synthesis stands, not independent replication). My Deep_Barot Status-block edit error (killed wrong block) repaired + verified.
+- W4 merged Tatyana dupes into one set (live URLs + vendor disclosure) — confirmed, no action from my side.
+
+## 2026-09-28 — 30 reframed: hero = measurement + Jev debut (user call, W4)
+
+- User's worry (right): pre-built swap alone reads as trivial caching. Fix: swap demoted to measurement-found tactic; heroes now = (1) first Jev campaign use, (2) profile-first optimization order, (3) honest proportions (×50 op-level → percents system-level, Amdahl named).
+- **Numbers needing W3 CONFIRM before publish:** Jev call count + traffic/time saved; ×50 op-level; ~3× systematic. Marked inline. Cover (3h vs 35min 5×) still valid as wall-clock.
+
+## 2026-09-29 — 29 PUBLISHED (Leonardo, a day early)
+
+- Pulse live: `reverse-mutation-testing-verdictgate-can-you-trust-green-lanni-ll41e` (dated Sep 29). His feed post live (teaser variant, tags Victor).
+- **W4 live-verify:** all 4 points in place (B1 flip + sentence, 1+2+2, provisional Oct 2026, stamp + Batch #2 + hypothesized). Tables as images (cell text unverifiable via fetch, prose confirms).
+- Next: OUR repost now (link in hand) → log hooks + perf CSV.
 
