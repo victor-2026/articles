@@ -862,6 +862,15 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - **W4 check:** no per-item labels (aggregates only) ✓; timings unmeasured ✓; no private/commercial ✓; numbers match memo (17/25, 0.242, 8 rulings, 24/4/1/1) ✓.
 - **W4 owns next:** language (RU/EN) + finale + voicing — after 29/30 queue.
 
+## 2026-09-29 — 30 FACT-LOCKED, Friday ready (W4 close)
+
+- W1 fact-check PASS (`58d2133`): 6 reframe edits verified, all numbers reconciled, zero OpenClaw contamination (no 58/53/5, 91.4, 1+2+2).
+- Wave-ID closed (W3 dig + W1 recount `7a45195`: cumulative 010919→013947 = 120 rows, header matches to minute). Stale editor lines updated (FRI 02.10 LOCKED).
+- Feed post drafted (`30-...-post.md`) + first comment (discussions #2 + qa-cube + verdictgate). Inline diagrams: markers placed, drawing pre-Friday.
+- Skill tech-writer loaded late; 30 already compliant (series practice diverges on ###/em-dash — converter handles).
+- **29 day:** published early, repost + comment + credit-ask sent, week logged.
+- **Open:** 30 visuals + R1 read → Fri publish. RMT note Mon 05.10. 31 after queue.
+
 ## 2026-09-28 — W3 arithmetic rulings applied (30 fact-lock)
 
 - **208×** (exact 65 000/312) replaces 216× (was rounded from ~300ms). **2.8h** reframed as full traditional iterations (65s + ~20s overhead) vs 35min campaign — numerators no longer mixed.
@@ -991,4 +1000,30 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Pulse live: `reverse-mutation-testing-verdictgate-can-you-trust-green-lanni-ll41e` (dated Sep 29). His feed post live (teaser variant, tags Victor).
 - **W4 live-verify:** all 4 points in place (B1 flip + sentence, 1+2+2, provisional Oct 2026, stamp + Batch #2 + hypothesized). Tables as images (cell text unverifiable via fetch, prose confirms).
 - Next: OUR repost now (link in hand) → log hooks + perf CSV.
+
+## 2026-09-29 — 29 launch day closed (W4)
+
+- Repost live (ugcPost-7510633125073412096) + likes on his post/article + first comment (repo+26+Pettersson) SENT. Week 23–29 logged (1134/647/12; repost day-0 8/1).
+- Co-author credit ask SENT to Leonardo (W1 text: pin first comment with profile link). Awaiting.
+- Next: his comment → monitor dynamics → hooks bank on stabilization.
+
+## 2026-09-29 — RMT follow-up note: GREEN-LIT (W3 inventory)
+
+- Engine stats (~172 raw runs, all in `results/`), live case #2 (qa-cube H4), 3 fresh items beyond article-29: appmut 4/10 (behavioral 40% vs assertion 91%), Caught-by-crash class, S1-vacuous method case.
+- Angle: (1) anchor + one of (2)/(3) as meat. Timing: 3–5 days post-launch, link back. Skeleton on user word.
+
+## 2026-09-29 — W2 reframes note angle (accepted, stronger)
+
+- Counted (`f945e1f`): 82 seeded (58+24) + 4 closeout + 9 confirmation ≈ 98 RMT records + smokes — one SUT. Downstream beyond OpenClaw: zero (honest; W3's "case #2" = manual seeds, different scope — no conflict).
+- **New angle: "what changed after freeze" (news, not retrospective):** batch #2 (B5-chains v1 never saw) + engine evolution (NO-OP guard, soft, chains, stamp) + S4-confirmation + stamp saga. All recorded, quotable, zero new runs.
+
+## 2026-09-29 — Follow-up note FULLY SPECIFIED (W1 `b4bc3c9`)
+
+- News angle (W2 beats W1's how-to, conceded). Anchor appmut 4/10 (behavioral 40% vs assertion 91%). Meat: Caught-by-crash OR S1-vacuous.
+- **GUARD (W1):** qa-cube H4 = MT-direction CONTRAST ("two ways to seed"), never "second RMT case". Overstatement blocked.
+- **Schedule:** Mon 05.10 earliest (48h after Friday 30). Skeleton on user word.
+
+## 2026-09-29 - W5: quotes swept by others, profile-plan filed (no work in Articles)
+- My Tatyana ×2 / Artur / Gulin-threshold lines already committed by another window (quotes.md clean). Nothing open on my side.
+- Profile Optimization Plan lives in Positions pipeline.md (Bardashevich method); execution pending (Victor scan first).
 
