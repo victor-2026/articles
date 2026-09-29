@@ -871,6 +871,16 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - **29 day:** published early, repost + comment + credit-ask sent, week logged.
 - **Open:** 30 visuals + R1 read → Fri publish. RMT note Mon 05.10. 31 after queue.
 
+## 2026-09-29 — W1 ratified H1v2 + calibration CTA (`ff5efd7`, already in file)
+
+- Both live (H1 line 11, CTA line 67). Micro-delta: CTA reads "before trusting it to certify a fix" vs W1's "before using it to certify an AI-assisted fix" — substance identical, flagging for objection.
+- **30 status: FULLY ARMED for Friday.** Remaining: 3 inline diagrams + user R1 read.
+
+## 2026-09-29 — Asad Khan thread banked (W5, W4 verified)
+
+- Card `Asad_Khan/` (thread intel, not outreach). Quotes +4 landed (85–87: Asad homework, Bolton can/could/will + concession, Navyatha intent-gap; all ⚠️ paste-only).
+- **Entry rule (W5):** only via Bolton concession, never via Klain challenge or Asad post. Status: watch only.
+
 ## 2026-09-28 — W3 arithmetic rulings applied (30 fact-lock)
 
 - **208×** (exact 65 000/312) replaces 216× (was rounded from ~300ms). **2.8h** reframed as full traditional iterations (65s + ~20s overhead) vs 35min campaign — numerators no longer mixed.
@@ -1026,4 +1036,7 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 ## 2026-09-29 - W5: quotes swept by others, profile-plan filed (no work in Articles)
 - My Tatyana ×2 / Artur / Gulin-threshold lines already committed by another window (quotes.md clean). Nothing open on my side.
 - Profile Optimization Plan lives in Positions pipeline.md (Bardashevich method); execution pending (Victor scan first).
+
+## 2026-09-29 - committed 2cf7e00 (pushed): Kanaris x3 + Igor inventory
+- Paste-only with thread URL (lnkd.in/p/e9PBarjA). W4's 30-120 file + performance-log left untouched.
 
