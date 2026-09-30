@@ -151,6 +151,13 @@
    "type": "manual"
   },
   {
+   "id": "fastino-blog",
+   "name": "Fastino Blog (GLiNER/pilot watch)",
+   "url": "https://www.fastino.ai/blog",
+   "weight": 0.9,
+   "type": "manual"
+  },
+  {
    "id": "qodo",
    "name": "Qodo Blog — governance/verification (ex-Codium, PR-Agent)",
    "url": "https://www.qodo.ai/feed/",
@@ -220,6 +227,12 @@
    "id": "stn",
    "name": "Software Testing Notes (weekly curator)",
    "url": "https://softwaretestingnotes.substack.com/feed",
+   "weight": 0.6
+  },
+  {
+   "id": "aiid",
+   "name": "AI Incident Database (blog + roundups)",
+   "url": "https://incidentdatabase.ai/rss.xml",
    "weight": 0.6
   }
  ],
