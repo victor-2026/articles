@@ -876,12 +876,12 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Both live (H1 line 11, CTA line 67). Micro-delta: CTA reads "before trusting it to certify a fix" vs W1's "before using it to certify an AI-assisted fix" — substance identical, flagging for objection.
 - **30 status: FULLY ARMED for Friday.** Remaining: 3 inline diagrams + user R1 read.
 
-## 2026-09-29 — Session close (W4, big day)
+## 2026-09-30 — 30 SCHEDULED Fri 02.10 09:00 + 31 draft v1 (W4, big session)
 
-- **29 PUBLISHED** (Leonardo, early): all 4 points live-verified; repost + comment + credit-ask sent; week logged.
-- **30 REFRAMED + LOCKED:** probe-lie spine (W1 6 edits), fact-check PASS, wave closed, H1v2 + CTA ratified, Gemini/Perplexity passes applied (tar→blemish, glosses, 4.8× shield, 33% scope), 3 visuals with FN/TP system, skill hashtag rule recorded.
-- **Committed + pushed `f241818`** (11 files).
-- **Open:** Fri 30 publish (visuals done, R1 read pending) · RMT note Mon 05.10 · 31 voicing after queue.
+- **30 locked:** tech-writer review (paras split, Moves 0-1-2 regroup, 208x orphan fixed, table→image-only), 4 inline visuals (Gemini: probe fact-checked; clocks/swap/results cut from combo, edges trimmed, old blue clocks superseded in git f241818), cover ✅, first comment (links 200-verified), in-LI paste review (markers as captions, W1-leak removed, stray asterisk fixed). W1 preflight PASS 7238e51, W3 preflight PASS (2 notes parked, no fix). P1.3 dashes left to user eye at Friday publish.
+- **31 started:** slot FRI 09.10 LOCKED, draft v1 written (~950 words, H2 headline, first-person voice per user, W2 constraints honored). Next: user R0 → W2 public/internal pass (binding) → cover/inlines → feed/first-comment.
+- **Committed + pushed `1c329d9`** (10 files).
+- **Queue:** Fri 02.10 = 30 · Mon 05.10 earliest = RMT note (skeleton on user word) · Fri 09.10 = 31.
 
 ## 2026-09-29 — Asad Khan thread banked (W5, W4 verified)
 
