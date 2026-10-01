@@ -1,6 +1,6 @@
 # First-time assessor: what labeling 30 items for an AI judge taught me (DRAFT)
 
-**Status:** draft from W2 session record (2026-09-26/27), NOT finalized. Language/form: W4 decides (RU/EN).
+**Status:** slot FRI 09.10 LOCKED. Language: EN (series norm, W4 decision 30.09). Headlines + outline in progress (W4).
 **Forbidden in this draft:** W3's per-item labels (need W3 consent for publication), unverified timings (solo wall-clock unmeasured — marked as such everywhere), private correspondence, commercial/vendor strategy.
 **Sources:** frozen gold-30 file (W3 tree), guideline v1, W2 session checkpoints (public), labeling memo `verdictgate/reviews/slot-labeling-experience-memo-2026-09-26.md` (local-only).
 

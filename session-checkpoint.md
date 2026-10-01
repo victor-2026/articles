@@ -1050,3 +1050,6 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 ## 2026-09-29 - committed 0d268f9 (pushed): checkpoint (Klain group, W4 merges)
 - Quotes (Vicky hybrid, Klain AIUC-1, Maaret, Konstantin, Gulin myths, Kanaris/Igor) swept by W4/other windows into shared commits. Klain AI Testing & Assurance group joined by owner — manual-watch source (no RSS, digest can't take it).
 
+## 2026-09-30 - committed 468cd9c (pushed): digest sources + quotes wave
+- digest-config 33→35 (fastino-blog manual 0.9, aiid RSS-verified 0.6). Quotes: Anand/Soma/Jyothi/Rinat/Hannan/Gulin-myths/Maaret/Konstantin/Egor/Igor-D/Gorman/Kanaris-Igor (paste-only marked, fetched marked).
+

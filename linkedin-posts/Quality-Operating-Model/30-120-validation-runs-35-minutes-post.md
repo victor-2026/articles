@@ -4,7 +4,7 @@ The scariest false PASS in the campaign came from our own measuring instrument. 
 
 Probe v2 made the verdict field-specific: the username break on **Username** only, the password break on **Password** and **Confirm Password**.
 
-We also ran an automated Jev verdict hook: 358 ms on average. Useful — but not the speed story. A ~45× faster verdict step touched only a single-digit share of total time. Rebuilds were the real bottleneck.
+We also ran an automated Jev verdict hook: 358ms on average. Useful — but not the speed story. A ~45× faster verdict step touched only a single-digit share of total time. Rebuilds were the real bottleneck.
 
 Full method + numbers in the article below👇
 
