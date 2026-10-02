@@ -1,6 +1,6 @@
 **Format:** LinkedIn Pulse Article (methodology) + cross-post Dev.to/blog (per W3 plan)
 **Series:** Quality Operating Model (number TBD — slot in Tue/Fri rhythm)
-**Status:** SCHEDULED Fri 02.10 09:00 GMT+3 (Pulse + feed post loaded in LI; Vadim ok; 29 published Mon 29.09)
+**Status:** PUBLISHED Fri 02.10 (Pulse live ~09:00, feed post live, first comment posted; links verified 200)
 **Cover:** 30-cover-campaign.png ✅ (1920×1080, timing bars 3h vs 35min + 5×, HTML source alongside)
 **Feed Image:** cover doubles as feed preview
 **Hook:** Our first probe would have certified a fix that fixed nothing — 120 validation runs in 35 minutes, and the scariest false PASS we found was our own.

@@ -94,3 +94,7 @@ Extracted from published posts for reuse in future content.
 | "Your vendor's green report is a claim. Here's the calculator that checks it." | Article 28 — VerdictGate launch (Sep 22) | Lead hook, claim-vs-evidence framing |
 | "The agent writes the test. The vendor writes the report. You write the verdict — now with a calculator." | Article 28 — VerdictGate launch (Sep 22) | Closing triad, repostable refrain |
 | "A verdict you cannot game by re-labeling is the whole point." | Article 28 — VerdictGate launch (Sep 22) | Anti-gaming punchline |
+
+| "120 validation runs in 35 minutes — and our first probe was wrong." | Article 30 — 120 runs (Oct 02) | H1/hook, speed-vs-lie contrast |
+| "Our first probe would have certified a fix that fixed nothing." | Article 30 — 120 runs (Oct 02) | Feed hook variant, false-PASS spine |
+| "Assume your first probe lies." | Article 30 — 120 runs (Oct 02) | Closer, repostable refrain |
