@@ -133,6 +133,16 @@
 - «Building verifiability into their own AI-database bot, so users can actually check answers instead of just trusting them.» — Tyler Hannan (ClickHouse), via Raman Kudaktsin's Tech Race Summit notes (SOFTSWISS, Warsaw). Source: LinkedIn post 2026-09-28 (paste only, no post URL — ⚠️; reporter Raman Kudaktsin, 2nd). Use: Article 27/28 — vendor building check-don't-trust into the product ("provable answers"); attestation as a feature, not a process.
 - «There's no such thing as an "unlikely" attack anymore — if a bot can test it, it will.» — Valeriy Shevchenko, via same notes (paste-only ⚠️). Use: Article 27 rogue/security line — agentic attack surface (hack-bots: minutes vs weeks; hacking-specific models on HF unregulated; defense immature). Pairs with the UNCTAD escalation ladder.
 
+## Paul Kanaris / quality as leadership problem (article series, 2026-09..10)
+
+Source: "Why Quality Becomes a Leadership Problem Long Before the Defect" https://www.linkedin.com/pulse/why-quality-becomes-leadership-problem-long-before-defect-kanaris-hzttc/ (01.10.2026, full text fetched by W5 ✅). Kanaris (QACE) writes a series every ~2 days since 11.09 (10 articles) — systematic, not one-off. Track owner: W1 (seed-test org-gate sketch staged, not yet sent).
+
+- «The location where that outcome became visible tells us where we discovered it. It does not necessarily tell us where the quality problem began.» — Paul Kanaris. Use: RMT note / Article 31 — detection ≠ origin; external voice for our drift/survivor reasoning (where the suite sees it vs where the break lives).
+- «Why was the enterprise capable of producing this outcome?» — same. Use: Article 31 — capability question over blame question; leadership-frame version of "why did the suite let it through".
+- «A successful probe tells us the tool detected the problem we created. It doesn't establish that it will recognize problems we haven't imagined.» — Paul Kanaris, comment 30.09 (pushback on the seeded-mutation premise; full text via W5 handover, not independently fetched). Source: https://www.linkedin.com/feed/update/urn:li:ugcPost:7504628732557459456/ (comment thread). Use: RMT note / Article 31 — knowns-vs-unknowns boundary in the skeptic's own words; the honest limit of seeded checks.
+- «That's useful evidence about the testing tool, not evidence of product quality.» — same. Use: RMT note — tool evidence ≠ product evidence; scope discipline for mutation claims.
+- «A testing system can provide evidence about observed risks. It cannot establish the absence of risks it doesn't know to observe.» — same. Use: Article 31 — observed vs unobserved risks; anti-blanket-zero doctrine (note: our "0% business risk" was the vendor's claim under test, not our thesis — cite with that framing).
+
 ## Independence / Attestation
 
 - «The author can't be the examiner.» — Daniel Mauno Pettersson (QA tech), via Joe Colantonio (TestGuild). Source: https://www.linkedin.com/posts/joecolantonio_aitesting-softwaretesting-qualityengineering-activity-7505959121922224129-HE0z (2026-09-17, TestGuild Webinar replay). Use: Article 28 (inserted, Solution/independent oracle) — core attestation principle, independence of verification. Also: Tornhill double-entry, mutation testing thesis.
@@ -326,6 +336,16 @@ Source: https://www.qodo.ai/blog/why-your-ai-coding-agent-shouldnt-review-its-ow
 - «To increase autonomy, you have to increase verification.» - Dedy Kredo (Qodo CPO). Use: Article 26/27 - autonomy/verification ratio; the law our per-risk-tier gates operationalize.
 - «We're saying the code is disposable. The actual important part of the development process is the set of prompts that define the functionality.» - Clinton Herget (Field CTO, Snyk), quoted by Qodo. Use: Article 27 - spec as durable artifact; prompt/spec is the code of AI-era.
 - «Do we believe the user can handle graded risk? ... A UI that shows you one filtered issue and a green checkmark is telling you, 'Trust me, it's fine.' A UI that shows you severity, type, and remediation is telling you, 'Here is the map. You decide where to go.'» - Qodo blog. Use: Article 26 - grader UX encodes a worldview; silent filtering vs surfaced risk gradient = our verdict/evidence difference.
+
+## Virtuoso / Touchstone + coverage (Andrew Doughty, Rishabh Kumar, 2026-09)
+
+Source: Virtuoso QA blog — Touchstone manifesto https://www.virtuosoqa.com/post/introducing-touchstone (30.09.2026) + GSI post https://www.virtuosoqa.com/post/ai-and-the-future-of-services (28.09.2026) + coverage post https://www.virtuosoqa.com/post/code-coverage-testing (08.09.2026). Virtuoso = codeless test automation vendor; W5 verdict: coverage post is an ally (type #5 prescribes "Pair Coverage With Mutation Testing", coins "assertion density"); residual gap everywhere: nobody mentions checking the checker.
+
+- «A test can pass and still tell you very little. A thousand tests can pass and still miss the thing that matters.» — Andrew Doughty, Touchstone manifesto. Use: Article 31/RMT note — vendor-voice confirmation of our false-PASS spine; quotable ally line.
+- «What do we need to prove before we trust this software?» — same. Use: Article 31 — proof-before-trust framing in vendor's own words; calibration-gate epigraph.
+- «AI makes production abundant. Trust becomes scarce.» — Andrew Doughty, GSI post. Use: Article 31 — scarcity-of-trust thesis; market-level why for independent verification.
+- «Selling confidence that a release is safe rather than 50 testers.» — same. Use: Article 31 — buyer language for attestation (confidence-as-product, headcount irrelevance).
+- «Coverage without assertion: a test that calls a function and checks nothing produces coverage and proves nothing.» — Rishabh Kumar, coverage post. Use: Article 31/RMT note — assertion-density ally quote; coverage≠proof in vendor's own doctrine (hook: "92% coverage. Green build. Shipped Thursday. Broke Friday").
 
 ## Second curve / crystallized intelligence (Arthur Brooks, From Strength to Strength 2022)
 

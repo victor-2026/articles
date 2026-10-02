@@ -1053,3 +1053,22 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 ## 2026-09-30 - committed 468cd9c (pushed): digest sources + quotes wave
 - digest-config 33→35 (fastino-blog manual 0.9, aiid RSS-verified 0.6). Quotes: Anand/Soma/Jyothi/Rinat/Hannan/Gulin-myths/Maaret/Konstantin/Egor/Igor-D/Gorman/Kanaris-Igor (paste-only marked, fetched marked).
 
+## 2026-09-30 — W5 Virtuoso quotes banked + W1 rule ack (W4)
+- quotes.md: new section Virtuoso/Touchstone + coverage (Doughty ×4, Rishabh ×1, all with URLs + Use for 31/RMT note). W5 handover items 1-2 (coverage-post verdict, W1 card) live in other windows, not my tree.
+- W1 rule "claim без пути-и-строки = черновик" acknowledged; route to W2 is not my tree, no action.
+- W1 Sting flag (77% vs surviving variant): `\bSting\b` absent from whole Articles corpus — nothing cited, nothing to fix. Rule for 31/RMT-note drafting: no Sting numbers until verified against raw.
+
+## 2026-09-30 — W4 read W1 rotation broadcast (4e20373): no objections, link check done
+- Articles external links (verdictgate repo root, qa-cube, LI-26, quotes URLs) do not point into W2's cut scope (W2 cuts own file first). No dependencies found.
+- 48h clock noted (silence = consent). If rotation scope expands to shared paths, re-flag here.
+
+## 2026-09-30 — Kanaris pushback banked (W5 handover, W4)
+- Paul Kanaris replied in substance (knowns-vs-unknowns: probes test known fault classes; recognition > detection miss; caution on blanket-zero risk). Reply draft = W1 track, untouched.
+- 3 quotes banked (probe-limit, tool≠product evidence, observed-vs-unobserved risks) with W5-handover provenance. Note: "0% risk" was vendor's claim under test, not our thesis — framing recorded at quote level.
+- New angle noted: knowns-vs-unknowns as RMT-note meat or standalone (QI as home of unknowns — complementary, per W5 bridge).
+
+## 2026-09-30 — RMT note spec inputs locked (W1 1fc7c59, W4 records)
+- Mapping Limit absent from live public (W1 guest-fetch verified) — honest boundary lives in draft only. Mandated as RMT-note section (unpublished honesty doesn't count).
+- Lifecycle gap = commercial-class (outsiders ask "where in OUR lifecycle"). Mandated as RMT-note section (fastest vehicle); standalone angle if it outgrows.
+- Both sections join the existing RMT-note spec (news angle "what changed after freeze", appmut 4/10 anchor, Caught-by-crash/S1-vacuous meat, qa-cube H4 MT-contrast guard). Skeleton still on user word; earliest Mon 05.10.
+
