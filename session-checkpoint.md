@@ -1072,3 +1072,8 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Lifecycle gap = commercial-class (outsiders ask "where in OUR lifecycle"). Mandated as RMT-note section (fastest vehicle); standalone angle if it outgrows.
 - Both sections join the existing RMT-note spec (news angle "what changed after freeze", appmut 4/10 anchor, Caught-by-crash/S1-vacuous meat, qa-cube H4 MT-contrast guard). Skeleton still on user word; earliest Mon 05.10.
 
+## 2026-10-02 — 30 PUBLISHED day-0 (W4)
+- Pulse + feed + first comment live ~09:00 (links verified 200). Day-0 11:25: 42 imp (36% in / 64% out), 33 reached, 1 article view, 1 repost. Faster start than 29-repost day-0 (8/1).
+- Workflow closed: status PUBLISHED, 3 hooks banked, CSV row with metrics. Committed `edc45ab` (pushed).
+- Debt noted: 29 hooks never banked (proposed for next commit).
+
