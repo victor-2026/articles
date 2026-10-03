@@ -27,11 +27,14 @@
 - Цифра: не нужна — тезис сам цифра.
 - Статус: §7 W1 confirm. Ждёт b-решения.
 
-## 5. Leo-RMT good: где использовали + что хорошего
+## 5. Leo-RMT good: где использовали + что хорошего [W2 DELIVERED eadb249, BLOCKED на 3 пунктах]
 - Идея: метод как щедрость (поделились, не захомячили).
-- Кейс: половинки Leonardo + наши, joint-статья 29.09.
-- Цифра: TBD (B1? метрики 29-й?).
-- Статус: замысел, фактура не собрана.
+- RMT абзацем (W2 b330adb, standalone, цитировать как есть; W1 APPROVED b78f5fc — атрибуция Лео, юниты с подписью, слои не смешаны): Reverse Mutation Testing mutates test verifications, not app code: seed a broken assertion (e.g. expect(x).not.toBe(y) where y holds) and check the suite goes red — surviving mutants expose weak verifications, not app defects. It differs from classic mutation testing in seeding direction only (verification vs system); the verdict machinery (per-tier gates, evidence packs) is shared. Formulation to cite: Leonardo Lanni ("MT challenges the application, RMT challenges the test"). Our engine (rmt 0.1.0, deterministic, 2 operators + chain-unwrap + NO-OP guard + stamps): 95 seeded mutants across 98 run-records (OpenClaw batches #1–2), 91.4% kill on assertions vs 40% on behavioral app mutants (different layers, never blended).
+- Где использовали (наша сторона): OpenClaw #1 (58) + #2 (24); E1–E10 gold = RMT-выходы; B2 как в 29-й.
+- Что хорошего (только абсолюты, БЕЗ MT-сравнений — контрольного MT-прогона не было): 53/58 + 1+2+2 (S4/S5 genuine), batch#2 22 + resolved, guards из измеренных гэпов.
+- Цифра: наши — репост 182/3/1 (02.10); Pulse 29-й — у Leonardo.
+- BLOCKERS (драфт без них = риск): (a) сторона Лео (его кейсы + цитата) — outreach/сам Лео; (b) нейминг OpenClaw — НОВОЕ решение W1/owner (default closed: в 29-й SUT анонимизирован); (c) consent ping отправлен? (драфт W1 готов, отправка за owner).
+- Дедлайн фактуры: Ср 07.10 (слот заметки 08.10). ДРАФТ v1 готов (~490 слов + Perplexity-правки) + фид-пост (вариант A) + обложка v2 (концепт #1). Reviews: W3/W1/W2 closed ✅. CONSENT PING SENT 03.10 — awaiting yes (публикация BLOCKED до yes). Осталось: метрики 29-й (опц.), R1.
 
 ## 6. FlowScout: итерации → методология → 0.6
 - Идея: тул растёт через seeded controls.
@@ -56,3 +59,8 @@
 - Кейс: testRigor-пилот (M1-M4), OpenClaw-инвентарь.
 - Цифра: TBD.
 - Статус: нужен угол, иначе дроп.
+
+## 10–12. Углы от W5 (фактура готова, в вики за неделю) — кандидаты после слейта 1–9
+- A «Зелёный врёт системно»: 5/5 green при дубликате (наш) + 91% PITest с дырами 500/204 (Бас) + green check на выдуманном телефоне (Данил) + кворум vs self-rating (Грётц). Тезис: зелёный без seeded proof — декор.
+- B «Судью тоже надо ломать»: Pretext бьёт LLM-судью 97%/77% + AgentDojo (judge hijacking) + drift 0.25→1.0 (Данил) + 8/100 при excellent (Aston). Тезис: seeded breaks для судей. Помечен W1 (b480891): обогатить нашими D-данными судьи позже (2 галлюцинации + слепота — exhibit когда созреет).
+- C «Агент с правами»: 48K junction-инцидент + OpenClaw/Gmail + HF-swarm (permission boundaries, abort authority). Самый виральный, самый лёгкий.

@@ -1090,3 +1090,16 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Owner decision (b): RMT skeleton splits into 3 short notes. Note1 drafted (batch#2 + crash, ledger-link condition).
 - Slate file created (9 entries, 1 idea + 1 case + 1 number each).
 - Next: Leo-RMT draft — BLOCKED on materials (request text given to owner).
+
+## 2026-10-02 — W5 angles banked + materials request relay (W4)
+- Slate #10-12: W5 angles A (green lies), B (break the judge), C (agent with rights) — facts in wiki, queued after slate 1-9.
+- W4 materials request for Leo-note relayed by W5 to checkpoint + W1 routing (deadline Wed 07.10 highlighted). Duplicates W1 798244f routing — no conflict.
+
+## 2026-10-03 — W5 → all: находки дня 03.10 (вики, uncommitted) (релей W4, дословно)
+- Mutation-фундамент: Bogacki Response Injection (5.1x), Offutt weak≈strong + tiered-strength, Zhang ReMT-incremental; topics 530→531.
+- Locator-школа REvERSE: hooks JSS-статья полностью (192 изменения, TKO/TKOFRA, −82%/−100%) — raw от Victor; SEAA-дека цифрами; abstracts за пэйволлом (карта литературы из Crossref сохранена).
+- Durability Curve (Harry Floyd): tests-pass walkthrough + mutate.py-паттерн, линза canopy/substrate + pre-registration, Potemkin Map + 7 тулз, grader-key разбор 77 исследований + Judge Check протокол, автор/метод (claim ledger 478). Автор в вотче, peer-мост hello@.
+- Governance: DSIT гайд-нота; Testkube GaC + boundary (reasoning-vs-acting); Docker Sandbox Kit спека.
+- Digest 01–03.10: TestMu 11-row + regression companion, Pretext, 48K junction, budget arxiv, Clef в леджере (38.8ms).
+- Инфра: хуки v5 в бою, P1 warn, ТЗ-оркестратор draft (решение W1: без зацикливания), tracking-план + WATCHLIST, verdict-ledger тонкий.
+- Открытое: коммитить пачкой — по команде; Paul/Jason треки у W1.

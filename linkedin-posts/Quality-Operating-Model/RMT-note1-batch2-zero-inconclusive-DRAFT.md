@@ -12,9 +12,9 @@
 
 Twenty-four mutants walked into the suite. Twenty-two died on sight. Two went to resolution — a tooltip crash and a controls kill. Zero walked out unanswered. That sentence is the whole note; the rest is how we earned it.
 
-Two weeks ago we published a joint piece on reverse mutation with Leonardo Lanni, then a 120-run campaign that caught our own probe lying. Both established the machinery. This is the first field report from it: batch #2, hunting exactly what batch #1 left open.
+Last week set the stage: a joint piece with Leonardo Lanni on September 29th on reverse mutation meets verdict policy, then last week's 120-run campaign proving our own probe lied before it measured. Both established the machinery. This is the first field report from it: batch #2, hunting exactly what batch #1 left open.
 
-The target was narrow on purpose: `expect.element()` chains — twenty-nine of them across unit specs — that our first scanner saw as matcher="element" and walked straight past. Eleven files scouted, nine yielding, twenty-four seeded breaks. Twenty-seven run-records came back: twenty-two killed outright, plus error-rerun rows on three stubborn mutants.
+The target was narrow on purpose: `expect.element()` chains across unit specs that our first scanner saw as matcher="element" and walked straight past. Eleven files scouted, nine yielding, twenty-four seeded breaks. Twenty-seven run-records came back: twenty-two killed outright, plus error-rerun rows on three stubborn mutants.
 
 Then the closeout, which reads like a control experiment passing. Twenty-two killed means the suite works — these are the controls, and controls firing is the sound of a healthy rig. The two inconclusives each got a name and a ruling instead of a shrug: one died through a crash, one through the kill mapping. The ledger now says zero inconclusive remain, and zero is a complete sentence.
 
@@ -48,4 +48,5 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - Cover: proposal in metadata — user picks style, Gemini generates
 - Feed post text: TODO (after text lock — hook = H1 variant)
 - First comment: TODO — repo links (verify 200 at publish) + LEDGER LINK (skeleton blob URL on github.com/victor-2026/articles — W1 condition, mandatory)
-- Reviews: short-note fast track — W1 fact-check of THIS draft → R1 (user) → Mon 05.10
+- Reviews: W1 fact-check f33106c PASS (2 flags fixed: 29-count removed, date anchors precise) ✅ → W2 4e37764 4×PASS + Q answered (120-run = 30-campaign track, phrasing "last week's" applied) ✅ → W3 explicit CONFIRM (zero deviations) ✅ → R1 (user) → Mon 05.10
+- FORMAT CHANGE (owner, 02.10): Pulse cancelled → carousel (scenario + feed post files alongside); this draft = fact base, not publishable text
