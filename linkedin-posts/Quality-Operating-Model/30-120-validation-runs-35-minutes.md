@@ -73,7 +73,7 @@ Terms, once, for readers outside automation: **mutation** = an intentionally pla
 
 [SCREENSHOT: results table — 4 conditions × 5 probes with legend (mutation_score = caught/seeded; native_rate = native hits, transparency only) + Username-only / Password+Confirm outcomes, 30-results.jpeg ✅]
 
-None of this happens without the vendor who said yes: Vadim gave access, opened Discussions on the repo, consented to the name and the numbers. Against vendors who hide behind "proprietary", measurement needs cooperation — this one had it.
+None of this happens without the vendor who said yes: Vadim Glushonkov of qa-cube gave access, opened Discussions on the repo, consented to the name and the numbers. Against vendors who hide behind "proprietary", measurement needs cooperation — this one had it.
 
 Total cost: one setup evening for the variant scheme, then ~35 minutes per campaign — repeat cost near-zero (the night run 01:04–01:39 beat the free-tier expiry the next day — deadlines clarify the mind). The expensive part was never the runs — it was building the variants once and calibrating the probes.
 
@@ -101,7 +101,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - Terminology: validation runs, never "mutation tests" (W3 verdict)
 
 ### Open
-- Vadim naming approval for LI article: GRANTED 24.09 ("Yes why not" + 🤯😀🤝) ✅
+- Vadim naming approval for LI article: GRANTED 24.09 ("Yes why not" + 🤯😀🤝) ✅; full-name intro applied LIVE by owner 03.10 ("Vadim Glushonkov of qa-cube" — file mirrors live). Discussions proof: https://github.com/codecube01/qa-cube/discussions/2 (200-verified 03.10, linkable in group-post first comment alongside article + repo)
 - Verdict model identity: RESOLVED 28.09 (Jev verdict hook, GLiNER2 family cloud). Jev call count: range ~130–150 (W3, honest range). Wave-ID: CLOSED 29.09 (W3 dig + W1 recount 7a45195: 12 cumulative snapshots 010919→013947 = 10→120 rows, header 01:04–01:39 matches to the minute; setup + evening rerun correctly excluded).
 - Code/Infra links: qa-cube repo public (codecube01/qa-cube ✅ linkable); swap_variant.py + Jev client live in PRIVATE pilots dir — NO public link, describe in words only
 - Cover + feed + 4 inline (probe v1-vs-v2, timing bars, swap architecture, results table): ALL ✅ 30.09 (probe fact-checked; clocks/swap/results cut from Gemini combo, fact-checked, white edges trimmed; old blue clocks superseded, preserved in git f241818)

@@ -1108,3 +1108,8 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Queue: Mon 05.10 Note1 carousel · Fri 09.10 31 · Mon 12.10 Leo (was 08.10 — 48h rule; moves earlier only on Leo yes) · Wed 14.10 Kaggle · Fri 16.10 Note2 · Mon 19.10 Note3.
 - Committed + pushed 5921aee (20 files). digest-config.json (Bas Dijkstra source) left for digest owner — their change, their commit.
 - Note1 carousel: 7 slides + PDF, user eye on s1-s7 applied (periods, italic code, sentence breaks), A/B still open? No — feed post fixed ("This hunt", no Batch #2).
+
+## 2026-10-03 — W5 vendor-name analysis relayed (W4): 3 engines + A/B + W1 flag
+- Engines behind 27-post tail (800→1935, 92% out): (1) vendor-name cluster ignition (QAEverest/Indoor network), (2) length + dwell time, (3) polarity hook + question → comments → reach.
+- A/B proposal (W5): next posts as pair — one with vendor name + numbers, one without (control); compare out-of-network % at 48h. Queued as experiment (candidates TBD once queue advances past 12.10).
+- FLAG → W1 (not W4's call): named QAEverest posts with "missed 4/4" vs live Rupesh track (parked 28.09, not dead). This post balanced (positive ending 3/3); each next named teardown = W1 question, not algorithm.
