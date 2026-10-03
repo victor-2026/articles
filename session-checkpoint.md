@@ -1113,3 +1113,8 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Engines behind 27-post tail (800→1935, 92% out): (1) vendor-name cluster ignition (QAEverest/Indoor network), (2) length + dwell time, (3) polarity hook + question → comments → reach.
 - A/B proposal (W5): next posts as pair — one with vendor name + numbers, one without (control); compare out-of-network % at 48h. Queued as experiment (candidates TBD once queue advances past 12.10).
 - FLAG → W1 (not W4's call): named QAEverest posts with "missed 4/4" vs live Rupesh track (parked 28.09, not dead). This post balanced (positive ending 3/3); each next named teardown = W1 question, not algorithm.
+
+## 2026-10-04 — Commit + queue + vendor-name experiment (W4)
+- Committed + pushed aa717d2 (4 files). digest-config.json left for digest owner (their Bas Dijkstra change).
+- 30 group post: file ready (Wed 07.10, Klain group, W1-cleared, Vadim full-name live).
+- 27-post tail logged (800→1935, 92% out); owner hypothesis (vendor-name pickup + Rupesh daily) + W5 3-engines + A/B proposal + W1-sensitivity flag relayed to bus.
