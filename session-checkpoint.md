@@ -1103,3 +1103,8 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Digest 01–03.10: TestMu 11-row + regression companion, Pretext, 48K junction, budget arxiv, Clef в леджере (38.8ms).
 - Инфра: хуки v5 в бою, P1 warn, ТЗ-оркестратор draft (решение W1: без зацикливания), tracking-план + WATCHLIST, verdict-ledger тонкий.
 - Открытое: коммитить пачкой — по команде; Paul/Jason треки у W1.
+
+## 2026-10-03 — Queue locked + big commit (W4)
+- Queue: Mon 05.10 Note1 carousel · Fri 09.10 31 · Mon 12.10 Leo (was 08.10 — 48h rule; moves earlier only on Leo yes) · Wed 14.10 Kaggle · Fri 16.10 Note2 · Mon 19.10 Note3.
+- Committed + pushed 5921aee (20 files). digest-config.json (Bas Dijkstra source) left for digest owner — their change, their commit.
+- Note1 carousel: 7 slides + PDF, user eye on s1-s7 applied (periods, italic code, sentence breaks), A/B still open? No — feed post fixed ("This hunt", no Batch #2).
