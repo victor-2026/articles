@@ -1077,3 +1077,11 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Workflow closed: status PUBLISHED, 3 hooks banked, CSV row with metrics. Committed `edc45ab` (pushed).
 - Debt noted: 29 hooks never banked (proposed for next commit).
 
+## 2026-10-02 — W4 → W-digest: новый источник в digest-config.json (дословно от owner, не исполнено — ждёт владельца)
+
+Добавь источник в digest-config.json: https://www.ontestautomation.com/feed.xml (Bas Dijkstra, On Test Automation — RSS из футера сайта). Причина: серия про Claude/PITest + mutation testing (91% killed, dead-weight analysis), анонсирована часть 2 про mutation-in-the-loop. Наш профиль релевантности: HIGH.
+
+## 2026-10-02 — Analytics-mapping convention (owner rule, all windows)
+- LinkedIn analytics pastes map to log rows by the UNIQUE numeric suffix: `urn:li:activity:<19 digits>` or `ugcPost:<19 digits>`. Suffix match = identity; no match = new row (ask owner for post identity, never guess between candidates).
+- performance-log.csv URL column must keep the full URL containing the suffix (posts/…-ugcPost-<id>-… form preferred — it carries the key).
+
