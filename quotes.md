@@ -417,3 +417,10 @@ Source: LinkedIn post (verified live ✅) + Archestra writeup (fetched full ✅)
 - «Task complexity doesn't live in the prompt text. It lives in repo state, cache dynamics, and how the task drifts 5 turns in.» - Arseny Kravchenko (LinkedIn post). Source: https://www.linkedin.com/posts/arsenyinfo_routing-coding-agents-is-harder-than-it-looks-activity-7512824926328922112-9cW2 (verified live ✅). Use: verdict-economics — cost lives outside the prompt; routing-by-text blind spot.
 - «Per task, a quarter of the work is cheap. Per dollar on an interactive agent, a quarter of the sessions is a rounding error.» - Arseny Kravchenko, same writeup. Source: https://archestra.ai/blog/routing-coding-agents-on-the-cheap (fetched full ✅). Use: ledger rows — session-count vs dollar-weighted scoring; denominator honesty.
 - «A gate like cargo test isn't an oracle when deleting the test also makes it pass.» - Arseny Kravchenko, same. Source: same (verified ✅). Use: mismatch-detector family; agreement-with-itself is not an outcome.
+
+## Bas Dijkstra (On Test Automation — "Evidence builds trust" newsletter, 2026-10-05)
+
+Source: newsletter email (owner-paste, full text on file).
+
+- «Evidence builds trust, but it shouldn't make you blind to problems.» - Bas Dijkstra. Use: evidence doctrine with anti-blindness caveat; our evidence-layer thesis in one line.
+- «Demonstrate that the test can detect meaningful changes in application behaviour (for example using mutation testing).» - Bas Dijkstra, same (on proving auto-tests earn their keep). Use: mutation testing as evidence-of-value, named by an external trainer; matrix-adjacent.
