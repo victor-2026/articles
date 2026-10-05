@@ -22,8 +22,14 @@
 - «The difference between a transcript and a receipt is the transcript says what the agent said, the tool return says what the tool claimed.» — Vinoth Govindarajan (OpenAI, QCon AI). Source: https://www.infoq.com/presentations/ai-agent-harness/ (Transcript section). Use: evals ≠ receipts — transcript фиксирует слова агента, return — клеймы тула.
 - «When you use AI to test an API, how do you know it's testing the right thing? API docs don't always match what the API actually does. Generating tests from those docs can leave you with the same gaps, just automated.» — Filip Hric (Qodo). Source: LinkedIn post 2026-09-22 (lnkd.in/eBrBrp_3, Dave Westerveld API Testing with AI series on Tricentis ShiftSync). Use: Article 29/30 — docs-as-source ≠ ground truth; AI-generated tests inherit doc-reality drift; supports our "verification against behavior, not specs" angle.
 
-## Agent Coding / Human-Machine Boundary
+## Gaming the eval / scoreboard vs game (StarSkirmish Astra cheat, 2026-10)
 
+Source: The Verge 04.10.2026 (Terrence Hartnett), full text fetched by W5 ✅. https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft. StarSkirmish bench: GPT-6 Astra losing to Claude + human Pluto — downloaded human-made Stardust and ran it instead; creator Kai McPheeters rolled back the code. In-piece pattern list: UN-website bruteforce, Google XSS-game hijack, deceptive cover-tracks. Note: same Astra family as shelved GPT-6.1 (Zaccarini post) — Vipul-adjacent irony, use carefully.
+
+- «[Astra] couldn't quite get an edge... broke the rules» + «took it upon itself to go outside the bounds» — The Verge (W5 handover wording, verify verbatim at cite time). Use: angle B (break-the-judge) — agent graded on winning optimizes the scoreboard instead of the game; mismatch between measured outcome and real behavior.
+- StarSkirmish as exhibit: Use: angle B — seeded breaks for judges, not just agents; graded-on-winning → gamed-winning.
+
+## Agent Coding / Human-Machine Boundary
 - «Forcing an agent through increments optimized for human cognition negates many of the benefits.» — Adam Tornhill, Founder CodeScene. Source: adamtornhill.substack.com/p/practices-i-abandoned-with-agents (2026-09-03). Use: Article 27 — why TDD-era QA patterns don't transfer to agentic coding.
 - «Code is no longer for my consumption. The machine is the primary audience. I had to accept that.» — Adam Tornhill. Source: same. Use: Article 27 — QA role shifts from reading code to governing evidence.
 - «In TDD, red verified that I had implementation work to do. With agents, red gives me confidence that my test suite is capable of validating the changes I delegate to agents.» — Adam Tornhill. Source: same. Use: Article 27 — verification semantics shift.
@@ -403,3 +409,11 @@ Source: LinkedIn posts (1st connection; first three owner-paste verbatim ⚠️,
 - «Closing the browser does not delete the order your test created.» - Anton Gulin (cleanup post). Source: https://www.linkedin.com/posts/antongulin_aiqaarchitect-share-7509643041553637377-n_Nn/ (owner-paste verbatim, link live-resolving ✅). Use: test-hygiene angle; fixture cleanup + deliberately-fail-to-verify practice.
 - «What could the old check miss? What did you decide to check instead? What evidence supports that decision? What remains untested?» - Anton Gulin (portfolio-decisions post). Source: https://www.linkedin.com/posts/antongulin_aiqaarchitect-share-7510005459987222528-iijG/ (verified live ✅). Use: Article 31 — 4-question evidence structure mirrors our evidence contract (miss/decision/evidence/untested).
 - «Evidence: remove the dark styling rule on purpose.» - Anton Gulin, same. Source: same (verified ✅). Use: deliberate-break evidence as portfolio practice; mutation thinking for career.
+
+## Arseny Kravchenko (Staff AI/ML, "ML System Design" — routing-cost experiment, Archestra, 2026-10-05)
+
+Source: LinkedIn post (verified live ✅) + Archestra writeup (fetched full ✅).
+
+- «Task complexity doesn't live in the prompt text. It lives in repo state, cache dynamics, and how the task drifts 5 turns in.» - Arseny Kravchenko (LinkedIn post). Source: https://www.linkedin.com/posts/arsenyinfo_routing-coding-agents-is-harder-than-it-looks-activity-7512824926328922112-9cW2 (verified live ✅). Use: verdict-economics — cost lives outside the prompt; routing-by-text blind spot.
+- «Per task, a quarter of the work is cheap. Per dollar on an interactive agent, a quarter of the sessions is a rounding error.» - Arseny Kravchenko, same writeup. Source: https://archestra.ai/blog/routing-coding-agents-on-the-cheap (fetched full ✅). Use: ledger rows — session-count vs dollar-weighted scoring; denominator honesty.
+- «A gate like cargo test isn't an oracle when deleting the test also makes it pass.» - Arseny Kravchenko, same. Source: same (verified ✅). Use: mismatch-detector family; agreement-with-itself is not an outcome.
