@@ -424,3 +424,9 @@ Source: newsletter email (owner-paste, full text on file).
 
 - «Evidence builds trust, but it shouldn't make you blind to problems.» - Bas Dijkstra. Use: evidence doctrine with anti-blindness caveat; our evidence-layer thesis in one line.
 - «Demonstrate that the test can detect meaningful changes in application behaviour (for example using mutation testing).» - Bas Dijkstra, same (on proving auto-tests earn their keep). Use: mutation testing as evidence-of-value, named by an external trainer; matrix-adjacent.
+
+## Ekaterina Semenova (UrsaMinor pilot — judge doctrine, CONSENT PENDING — DO NOT USE)
+
+Source: W4 relay 05.10 (paraphrase only; verbatim + publication consent pending charter signature).
+
+- «качество судьи = качество expectation» (PARAPHRASE, not verbatim ⚠️) - Ekaterina Semenova, via W4. Use: BLOCKED until publication consent (charter unsigned) — Article 31 judge-calibration candidate only after release. Do not cite, quote, or publish this line anywhere until consent recorded here.
