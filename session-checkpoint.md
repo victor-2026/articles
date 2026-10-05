@@ -1128,3 +1128,8 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 ## 2026-10-05 — Discipline change ACK (verdictgate 23526e6 #owner-approved, W4)
 - quotes.md writes + digest management → W5. W4 scope now: linkedin-posts/** + wiki/** bodies only; quotes/digest = read-only consume.
 - Standing practice change: quote candidates → relay to W5 (no direct bank); digest items → W5 lane (Bas Dijkstra change already theirs). performance-log.csv stays W4 (publication workflow, not digest).
+
+## 2026-10-05 — Commit + reviews closed (W4)
+- Committed + pushed 4ba55ee (11 files): Notes 2-3 drafts (W1 approved, W2/W3 closed) + Kaggle v1.1 (W3 sign-off numbers in) + Leo draft (re-agreement a6bd422, cover v2, post A, first-comment owns-links) + 29 hooks + weekly rows + w40 chart.
+- digest-config.json left untouched (digest owner lane, now formally W5).
+- Open queue: Wed 07.10 group post (file ready) · Fri 09.10 31 (R0+W2 pass pending) · Leo (consent silence) · Kaggle visuals · Notes 2-3 visuals/R1.
