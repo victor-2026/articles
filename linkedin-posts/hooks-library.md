@@ -98,3 +98,12 @@ Extracted from published posts for reuse in future content.
 | "120 validation runs in 35 minutes — and our first probe was wrong." | Article 30 — 120 runs (Oct 02) | H1/hook, speed-vs-lie contrast |
 | "Our first probe would have certified a fix that fixed nothing." | Article 30 — 120 runs (Oct 02) | Feed hook variant, false-PASS spine |
 | "Assume your first probe lies." | Article 30 — 120 runs (Oct 02) | Closer, repostable refrain |
+
+| "24 mutants walked in. Zero walked out unanswered." | RMT Note 1 carousel (Oct 05) | Cover hook, in/out contrast |
+| "Zero inconclusive remain. Zero is a complete sentence." | RMT Note 1 carousel (Oct 05) | Closeout punchline |
+| "Every batch ends at zero — or it doesn't end." | RMT Note 1 carousel (Oct 05) | Discipline refrain, repostable |
+
+| "99% killed. 1 survived. The payment went through unverified." | Article 29 — RMT x VerdictGate (Sep 29) | Feed hook, kill-gap + stakes |
+| "A green test proves the shape of the output, not that it's correct." | Article 29 — RMT x VerdictGate (Sep 29) | Lead line, shape-vs-correctness |
+| "Signals inform. Gates decide." | Article 29 — RMT x VerdictGate (Sep 29) | 4-word doctrine, joint with Leonardo |
+| "Risk lives on the behaviour, not the operator." | Article 29 repost (Sep 29) | Repost hook, risk placement |

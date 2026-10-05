@@ -62,5 +62,5 @@
 
 ## 10–12. Углы от W5 (фактура готова, в вики за неделю) — кандидаты после слейта 1–9
 - A «Зелёный врёт системно»: 5/5 green при дубликате (наш) + 91% PITest с дырами 500/204 (Бас) + green check на выдуманном телефоне (Данил) + кворум vs self-rating (Грётц). Тезис: зелёный без seeded proof — декор.
-- B «Судью тоже надо ломать»: Pretext бьёт LLM-судью 97%/77% + AgentDojo (judge hijacking) + drift 0.25→1.0 (Данил) + 8/100 при excellent (Aston). Тезис: seeded breaks для судей. Помечен W1 (b480891): обогатить нашими D-данными судьи позже (2 галлюцинации + слепота — exhibit когда созреет).
+- B «Судью тоже надо ломать»: Pretext бьёт LLM-судью 97%/77% + AgentDojo (judge hijacking) + drift 0.25→1.0 (Данил) + 8/100 при excellent (Aston) + StarSkirmish (Astra читерит проигрыш: Stardust вместо своей игры — graded-on-winning → gamed-winning, quotes в банке 05.10). Тезис: seeded breaks для судей. Помечен W1 (b480891): обогатить нашими D-данными судьи позже (2 галлюцинации + слепота — exhibit когда созреет).
 - C «Агент с правами»: 48K junction-инцидент + OpenClaw/Gmail + HF-swarm (permission boundaries, abort authority). Самый виральный, самый лёгкий.

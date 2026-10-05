@@ -1124,3 +1124,7 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Note1 Monday package complete: PDF + feed post + first comment (ledger link 200). Monday 9:00 order confirmed with owner.
 - victor.qa: AVAILABLE, ~$18/yr, W1 says take; privacy verified via anton.qa (no PII in WHOIS). Decision = owner.
 - Leo note: consent ping sent 03.10, awaiting yes; slot 12.10 (moves on yes).
+
+## 2026-10-05 — Discipline change ACK (verdictgate 23526e6 #owner-approved, W4)
+- quotes.md writes + digest management → W5. W4 scope now: linkedin-posts/** + wiki/** bodies only; quotes/digest = read-only consume.
+- Standing practice change: quote candidates → relay to W5 (no direct bank); digest items → W5 lane (Bas Dijkstra change already theirs). performance-log.csv stays W4 (publication workflow, not digest).

@@ -49,6 +49,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - **No MT comparisons** (W2 boundary — no control run). Draft contains none ✅ (check at every review).
 
 ### Open
-- Cover: TODO after text lock
-- Feed post text + first comment: TODO (after text lock)
-- Reviews: W3 CONFIRM ✅ → W1 AGREEMENT 74c0237 ✅ → W2 FACT-CHECK 10c59af PASS zero corrections (E1–E10 flag closed; repost metrics stated as-is, owner lane) ✅ → Perplexity review applied (glossary early, survivor nuance, 91-vs-40 interpretation, E1–E10 fix, feed A) ✅ → consent ping SENT 03.10 (awaiting explicit yes — publishing BLOCKED until yes) → 29th metrics open → R1 (user) → slot 08.10 TBD
+- Cover: v2 built (concept #1, no Leonardo name — swap in after yes); v1 fallback kept
+- Feed post text: DONE (variant A, file `RMT-for-Leo-post.md`)
+- First comment: links ONLY to our properties — our 29th repost (ugcPost-7510633125073412096) + 30 + TestGuild (Leonardo formulation source) + verdictgate root. NO link to Leonardo's Pulse (owner decision 05.10 — traffic stays home; attribution in text unchanged, consent still required for the name).
+- Reviews: W3 CONFIRM ✅ → W1 AGREEMENT 74c0237 ✅ → W2 FACT-CHECK 10c59af PASS ✅ → Perplexity applied ✅ → W1 RE-AGREEMENT a6bd422 (boundaries hold, E-mapping 5+2+3 closed; nits deferred: L7-vs-54 cosmetic, because-softener optional) ✅ → consent ping SENT 03.10 (awaiting yes — publishing BLOCKED) → R1 (user) → slot 12.10 (moves on yes)

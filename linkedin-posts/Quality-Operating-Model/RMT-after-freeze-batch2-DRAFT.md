@@ -1,6 +1,6 @@
 **Format:** LinkedIn Pulse Article (follow-up)
 **Series:** Quality Operating Model (earliest Mon 05.10 — 48h after Friday 30)
-**Status:** draft v1 (W4, 02.10 — from fully-reviewed skeleton; needs W1 fact-check of full draft → R1)
+**Status:** WAREHOUSE (owner 05.10 — split (b) killed the full piece; Notes 1–3 carry the content; this file = fact depot only, do not publish as-is)
 **Cover:** TODO (proposal: "frozen engine vs living results" — padlock + growth curve, dark + amber series style)
 **Feed Image:** cover doubles as feed preview
 **Hook:** We froze the engine. It kept teaching: 95 seeded mutants across 98 run-records, a crash that proved the mapping, and one honest limit we never published.
