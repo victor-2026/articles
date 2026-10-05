@@ -1118,3 +1118,9 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Committed + pushed aa717d2 (4 files). digest-config.json left for digest owner (their Bas Dijkstra change).
 - 30 group post: file ready (Wed 07.10, Klain group, W1-cleared, Vadim full-name live).
 - 27-post tail logged (800→1935, 92% out); owner hypothesis (vendor-name pickup + Rupesh daily) + W5 3-engines + A/B proposal + W1-sensitivity flag relayed to bus.
+
+## 2026-10-04 — Sunday close (W4)
+- Weekly 28.09–04.10 logged (677 imp / 13 eng, followers 1739 +38); 30-row → 192/5, 29-repost → 196/3, 27-tail 1935, 24-URL fix. Twin-post anomaly recorded.
+- Note1 Monday package complete: PDF + feed post + first comment (ledger link 200). Monday 9:00 order confirmed with owner.
+- victor.qa: AVAILABLE, ~$18/yr, W1 says take; privacy verified via anton.qa (no PII in WHOIS). Decision = owner.
+- Leo note: consent ping sent 03.10, awaiting yes; slot 12.10 (moves on yes).
