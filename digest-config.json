@@ -223,19 +223,31 @@
    "type": "manual",
    "track": "clients"
   },
-  {
-   "id": "stn",
-   "name": "Software Testing Notes (weekly curator)",
-   "url": "https://softwaretestingnotes.substack.com/feed",
-   "weight": 0.6
-  },
+   {
+    "id": "stn",
+    "name": "Software Testing Notes (weekly curator)",
+    "url": "https://softwaretestingnotes.substack.com/feed",
+    "weight": 0.6
+   },
+   {
+    "id": "stw",
+    "name": "Software Testing Weekly (Dawid Dylowicz)",
+    "url": "https://softwaretestingweekly.com/issues/rss/",
+    "weight": 0.9
+   },
   {
    "id": "aiid",
    "name": "AI Incident Database (blog + roundups)",
    "url": "https://incidentdatabase.ai/rss.xml",
    "weight": 0.6
-  }
- ],
+   },
+   {
+   "id": "basdijkstra",
+   "name": "Bas Dijkstra / On Test Automation",
+   "url": "https://www.ontestautomation.com/feed.xml",
+   "weight": 0.8
+   }
+  ],
   "client_watch": {
     "purpose": "Client/vendor tracking, separate from news intake. Manual sources only; npm check is a Sunday-ritual shell line, not parsed by daily-digest.py.",
     "ritual": "npm view agentiqa version  # compare with previous; releases since CLI 1.1.32 come in packs",

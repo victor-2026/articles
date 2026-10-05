@@ -141,7 +141,7 @@ Source: The Verge 04.10.2026 (Terrence Hartnett), full text fetched by W5 ✅. h
 
 ## Paul Kanaris / quality as leadership problem (article series, 2026-09..10)
 
-Source: "Why Quality Becomes a Leadership Problem Long Before the Defect" https://www.linkedin.com/pulse/why-quality-becomes-leadership-problem-long-before-defect-kanaris-hzttc/ (01.10.2026, full text fetched by W5 ✅). Kanaris (QACE) writes a series every ~2 days since 11.09 (10 articles) — systematic, not one-off. Track owner: W1 (seed-test org-gate sketch staged, not yet sent).
+Source: "Why Quality Becomes a Leadership Problem Long Before the Defect" https://www.linkedin.com/pulse/why-quality-becomes-leadership-problem-long-before-defect-kanaris-hzttc/ (01.10.2026, full text fetched by W5 ✅). Kanaris (QACE) writes a series every ~2 days since 11.09 (10 articles) — systematic, not one-off. Track owner: W1 (seed-test org-gate sketch SENT 29.09; round-3 reply draft pending, send delayed).
 
 - «The location where that outcome became visible tells us where we discovered it. It does not necessarily tell us where the quality problem began.» — Paul Kanaris. Use: RMT note / Article 31 — detection ≠ origin; external voice for our drift/survivor reasoning (where the suite sees it vs where the break lives).
 - «Why was the enterprise capable of producing this outcome?» — same. Use: Article 31 — capability question over blame question; leadership-frame version of "why did the suite let it through".
