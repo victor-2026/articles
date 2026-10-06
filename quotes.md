@@ -458,6 +458,17 @@ Source: https://www.linkedin.com/posts/jayaigner_a-cto-told-me-something-i-cant-
 - «Agents optimize for the pass, not the product, so a green suite only tells you the harness was satisfied.» - Aston Cook (comment). Use: pass-vs-product split; criterion-rot family.
 - «Frontier models are notorious for trying to please and bend reality to the expected outcome.» - Don Norbeck (comment). Use: sycophancy-as-failure-mode; judge-pleasing warning.
 
+## Addy Osmani agent self-checks (Anthropic, "Writing High-Quality Tests for AI Agents", 06.10)
+
+Source: https://lnkd.in/p/ej2wPrxn (verified live ✅ 06.10 — post 1402 reacts/118 comments + thread verbatim).
+
+- «Example tests say what should happen; properties say what must not.» - Addy Osmani. Use: example-vs-property split; prohibitions as the strong form.
+- «The agent may learn to retry, not fix the problem.» - Addy Osmani, same (on slow/unreliable loops). Use: retry-vs-fix gaming; loop-speed perverse incentive.
+- «Keep a few acceptance checks that the implementation agent can't rewrite... run [the test] against the broken version first, so we know it catches the actual failure before trusting the green result.» - Jonah Gray (comment, verified ✅). Use: immutable checks + mutant-first; our pre-reg doctrine in the wild.
+- «A separate agent... mimics a real end user, without knowledge of the actual implementation.» - Shaikh Quader (comment, verified ✅). Use: independence via separate model + spec-only access; examiner-can't-be-author.
+- «The cheapest check I added needed no model at all... A model as judge was only worth it where a rule could not decide.» - Arian Z. (comment, verified ✅). Use: rules-before-judges cost hierarchy; deterministic-first doctrine.
+- «Tests tell me the task was done right, but not whether the agent stayed inside the task... the diff size being a signal too, next to the tests.» - Marcin I. (comment, verified ✅). Use: scope-check/blast-radius signal beside pass-fail; green-with-stray-diff suspicion.
+
 ## Ken Huang escalation architecture (Agentic AI Substack, 06.10)
 
 Source: Substack email "What Is Agentic AI Escalation Architecture?" 06.10 (owner-paste full text on file); publication verified: https://kenhuangus.substack.com/ (Agentic AI, Ken Huang, 128K+ subs, agentic AI + security).
