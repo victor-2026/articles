@@ -1,7 +1,7 @@
 **Format:** LinkedIn Pulse Article (short note — 1 idea + 1 case + 1 number)
 **Series:** Quality Operating Model (slot TBD — ASAP candidate, news value decays fast)
 **Status:** draft v1 (W4, 05.10 — from W3 incident facts, all with paths/times; needs W1 fact-check → R1)
-**Cover:** TODO (proposal: green suite + wrong address bar — "4/4 SUCCESS" stamp over чужой URL, dark + amber)
+**Cover:** DONE (`escape-cover.png` + `.jpeg`, 1920×1080 — green checks + red illustrative target; author line; no real URLs, no product names)
 **Feed Image:** cover doubles as feed preview
 **Hook:** Our suite went green on someone else's website. Four out of four SUCCESS — against a target we never assigned.
 **Links:** first comment (verdictgate root + escape-evidence links from fix pack TBD)
@@ -25,6 +25,8 @@ Scale matters here: this was not a one-off. One full run plus one partial — a 
 Then the fix failed too. A post-hardening run bypassed both new guards at once: the never-navigate rule fell to a wording trick — phrased as a status check, it wasn't covered by the navigation ban; the deterministic-only rule fell when the run emitted an element click banned since the night before.
 
 And URL grounding never fired, because the hallucinated address lived inside the generated step itself, upstream of the check. Third domain variant in a row — trained autocomplete plus a model that doesn't execute prompt lines as bans. Dispositioned INVALID, which proved the guards a claim rather than a measurement. What comes next is structural, not textual: the allowlist in execution rather than in prose, the base address in config rather than in steps, a sanity filter on evidence before any verdict is read. Partially built already.
+
+Then the escape persisted. The route survived in the run memory, ready to replay in future runs — found, deleted, and replaced with a simple rule: a fresh session per run, never a replayed one. The hypothesis came from outside our room, and it checked out. Memory, it turns out, is another place a boundary has to live.
 
 Terms, once: **egress** = where your agent is allowed to go; **allowlist** = the list it may not leave; **Trompe-l'œil run** = a perfect green result against the wrong target — our word for it now.
 
@@ -50,7 +52,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - **No vendor blame:** public demo site named factually (OrangeHRM's own demo URL — public); no claims about them. Our failure, our fence missing.
 - **Scale fix applied (W3, W1 7ca4ed9):** "one full run + one partial" (4889d6 = 1 step; seriality carried by 22 mentions, untouched).
 - **Contamination: ZERO (W2 full confirm)** — b0a257: zero hits repo-wide, VOID-by-target pre-pack; 4889d6: single hit session-archive-2026-09.md:3476-3489, already dispositioned 10-02 as INVALID (wrong-target subclass, Trompe-l'œil on чужом таргете; 1 step + stop could never yield a result row); ursaminor CSVs read whole (D-rows only, no run-IDs); bench CSV = GLiNER preds, different universe. Pack hygiene: CLEAN. Precedent recorded: INVALID-subclass (wrong-target, 10-02) — pre-pack dispositions coherent with D2b track (scorer untouched both).
-- Reviews: W3 facts ✅ + confirm (scale fix) ✅ → W1 APPROVED 4d7b5fc + e965503 ✅ → W2 contamination + scale-record ✅ (prose pass waived) → TRIO CLOSED → Perplexity applied 05.10 ✅ → Gemini 9.5/10 packaging applied (feed adapted, diagram marker) ✅ → b0a3a1 fact-pack (W3) + W1 pack-approved 14b846e, 3 cleanups applied ✅ → W2 RE-FACT-CHECK PASS ✅ → W1 micros ac4428f applied (third-domain disambiguation, navigateStatus by name with gloss) → R1 (user) → slot relaxed
+- Reviews: W3 facts ✅ + confirm (scale fix) ✅ → W1 APPROVED 4d7b5fc + e965503 ✅ → W2 contamination + scale-record ✅ (prose pass waived) → TRIO CLOSED → Perplexity applied 05.10 ✅ → Gemini 9.5/10 packaging applied (feed adapted, diagram marker) ✅ → b0a3a1 fact-pack (W3) + W1 pack-approved 14b846e ✅ → W2 RE-FACT-CHECK PASS ✅ → W1 micros ac4428f applied ✅ → memory paragraph (W1 d6bd154 verbatim, W2 verified vs W3 report) ✅ → W1 FINAL CONFIRM 3d91199 (all windows closed) ✅ → R1 (user) → slot relaxed
 
 ### Open
 - Cover: DONE (`escape-cover.png` + `.jpeg`, 1920×1080 — green checks + red illustrative target; author line; no real URLs, no product names)

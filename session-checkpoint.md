@@ -1142,3 +1142,8 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 ## 2026-10-05 — Commit escape visuals + 31 tightening (W4)
 - Committed + pushed 9f712a0 (8 files): escape draft (b0a3a1, trio closed, Perplexity/Gemini passes, anatomy+cover) + escape feed post + 31 R0-tightening (~950w, memoir cut) + slate + checkpoints.
 - Escape visuals: anatomy centered + axis-aligned, cover clean; glyph rule (> not →) held.
+
+## 2026-10-06 — Escape closed + B-note reworked (W4)
+- Escape draft: b0a3a1 paragraph + W1 micros + memory paragraph (W1 verbatim) + Perplexity/Gemini passes + visuals (anatomy+cover); all windows closed (W3/W1-final/W2 re-fact-check); R1 + slot pending (relaxed, agreement-gated).
+- B-note: Perplexity package applied (H1 thesis, protocol early, metaphor trim, convicted→confirmed, split-insurance, concrete CTA); W1 package-approved 80785fd; re-confirm pending.
+- Slate: angle C = our escape (best exhibit); B enriched (StarSkirmish); Kaggle v1.1 signed.
