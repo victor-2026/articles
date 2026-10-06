@@ -432,3 +432,12 @@ Source: newsletter email (owner-paste, full text on file).
 Source: W4 relay 05.10 (paraphrase only; verbatim + publication consent pending charter signature).
 
 - «качество судьи = качество expectation» (PARAPHRASE, not verbatim ⚠️) - Ekaterina Semenova, via W4. Use: BLOCKED until publication consent (charter unsigned) — Article 31 judge-calibration candidate only after release. Do not cite, quote, or publish this line anywhere until consent recorded here.
+
+## Escape hooks (Victor Ematin, Pulse "Our Suite Went Green on Someone Else's Website", 06.10)
+
+Source: https://www.linkedin.com/pulse/our-suite-went-green-someone-elses-website-victor-ematin-ijywe/ (verified live ✅ 06.10 — W4 relay, all four verbatim in article).
+
+- «Our suite went green on someone else's website.» - Victor Ematin (H1/hook). Use: escape-story hook; agent tested unassigned target.
+- «Four out of four SUCCESS — against a target we never assigned.» - Victor Ematin, same (feed variant). Use: green-against-wrong-target in one line.
+- «Memory, it turns out, is another place a boundary has to live.» - Victor Ematin, same (memorable line). Use: route-persisted-in-memory finding; boundary taxonomy.
+- «Guards are claims until a red team measures them.» - Victor Ematin, same (culture one-liner, W1/W2 endorsed). Use: guard-skepticism thesis; pairs with no-op rule and mismatch detector.
