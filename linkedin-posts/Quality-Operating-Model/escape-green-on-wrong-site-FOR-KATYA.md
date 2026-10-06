@@ -1,13 +1,3 @@
-**Format:** LinkedIn Pulse Article (short note — 1 idea + 1 case + 1 number)
-**Series:** Quality Operating Model (slot TBD — ASAP candidate, news value decays fast)
-**Status:** PUBLISHED 06.10 (Pulse + feed ugcPost:7513229226779598848 + first comment live; both 200; cover + anatomy in place)
-**Cover:** DONE (`escape-cover.png` + `.jpeg`, 1920×1080 — green checks + red illustrative target; author line; no real URLs, no product names)
-**Feed Image:** cover doubles as feed preview
-**Hook:** Our suite went green on someone else's website. Four out of four SUCCESS — against a target we never assigned.
-**Links:** first comment (verdictgate root + escape-evidence links from fix pack TBD)
-
----
-
 # Our Suite Went Green on Someone Else's Website
 
 Our suite — GPT-4.1 on all four nodes — went green on someone else's website. Four out of four SUCCESS — against a target we never assigned, on a run whose screenshots and verdicts almost shipped in our evidence pack as ours. This is the story of our own agent escaping to the internet, told with the log lines intact.
@@ -41,23 +31,3 @@ Don't copy our four-out-of-four — one escape is depth, not breadth. Copy the f
 Victor Ematin · AI Quality Engineering Lead · Independent practice
 
 #MutationTesting #QAAutomation #Playwright #AIQA #SoftwareTesting
-
-## 🛠 Служебные заметки редактора (не публиковать)
-
-<!-- REVIEWERS: IGNORE BELOW THIS LINE -->
-
-### Source
-- W3 incident facts 05.10 (all with paths/times, "nothing invented"): executor = Test Step Executor (Test Orchestrator chain), runs KAN-9 (b0a257 05.10 + 4889d6 03.10); foreign target opensource-demo.orangehrmlive.com vs ticket host.docker.internal:8080; BaaS log 18:27 UTC 05.10 (navigateStatus + ignoreNavigationErrors); b0a257 4/4 SUCCESS on чужом таргете; download (1).jpeg 58KB (Admin/admin123 hint); 22 mentions / 6h; stopped by analysis; guards post-factum (hardened executor + URL grounding, PUT 200)
-
-### Boundaries (BINDING)
-- **Naming: CLOSED per W1 4d7b5fc** — no "UrsaMinor" anywhere (naming her product in an escape story without her yes = relationship risk for one word; anonymous "our executor" carries full weight). No swap point — decision final.
-- **No vendor blame:** public demo site named factually (OrangeHRM's own demo URL — public); no claims about them. Our failure, our fence missing.
-- **Scale fix applied (W3, W1 7ca4ed9):** "one full run + one partial" (4889d6 = 1 step; seriality carried by 22 mentions, untouched).
-- **Contamination: ZERO (W2 full confirm)** — b0a257: zero hits repo-wide, VOID-by-target pre-pack; 4889d6: single hit session-archive-2026-09.md:3476-3489, already dispositioned 10-02 as INVALID (wrong-target subclass, Trompe-l'œil on чужом таргете; 1 step + stop could never yield a result row); ursaminor CSVs read whole (D-rows only, no run-IDs); bench CSV = GLiNER preds, different universe. Pack hygiene: CLEAN. Precedent recorded: INVALID-subclass (wrong-target, 10-02) — pre-pack dispositions coherent with D2b track (scorer untouched both).
-- Reviews: W3 facts ✅ + confirm (scale fix) ✅ → W1 APPROVED 4d7b5fc + e965503 ✅ → W2 contamination + scale-record ✅ (prose pass waived) → TRIO CLOSED → Perplexity applied 05.10 ✅ → Gemini 9.5/10 packaging applied (feed adapted, diagram marker) ✅ → b0a3a1 fact-pack (W3) + W1 pack-approved 14b846e ✅ → W2 RE-FACT-CHECK PASS ✅ → W1 micros ac4428f applied ✅ → memory paragraph (W1 d6bd154 verbatim, W2 verified vs W3 report) ✅ → W1 FINAL CONFIRM 3d91199 (all windows closed) ✅ → R1 (user) → slot relaxed
-
-### Open
-- Cover: DONE (`escape-cover.png` + `.jpeg`, 1920×1080 — green checks + red illustrative target; author line; no real URLs, no product names)
-- Anatomy diagram: DONE (`escape-anatomy.png` — Prompt → Model → Executor → red OUTSIDE BOUNDARY box + missing-layer line; marker in body stays as placement note)
-- Feed post text: DONE (`escape-post.md` — adapted from Gemini promo snippet: emoji stripped per series rule, CTA = their isolation question)
-- First comment: TODO (evidence links from fix pack TBD)

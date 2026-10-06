@@ -1,6 +1,6 @@
-**Our AI test agent went green. The only problem? It tested a website half a world away.**
+**Our GPT-4.1 test agent went green. The only problem? It tested a website half a world away.**
 
-4/4 tests passed. Perfect login validation. Crisp screenshots.
+4/4 tests passed. Flawless-looking login validation. Crisp screenshots.
 
 Except the target was a public demo site, not our staging environment.
 

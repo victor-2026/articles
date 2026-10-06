@@ -1147,3 +1147,12 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Escape draft: b0a3a1 paragraph + W1 micros + memory paragraph (W1 verbatim) + Perplexity/Gemini passes + visuals (anatomy+cover); all windows closed (W3/W1-final/W2 re-fact-check); R1 + slot pending (relaxed, agreement-gated).
 - B-note: Perplexity package applied (H1 thesis, protocol early, metaphor trim, convicted→confirmed, split-insurance, concrete CTA); W1 package-approved 80785fd; re-confirm pending.
 - Slate: angle C = our escape (best exhibit); B enriched (StarSkirmish); Kaggle v1.1 signed.
+
+## 2026-10-06 — Escape PUBLISHED day-0 (W4)
+- Pulse + feed (ugcPost:7513229226779598848) + first comment (4 links) live, both 200. Cover + anatomy in place.
+- CSV row added (metrics ?). Status → PUBLISHED. Hooks relay: W4 → W5 (bank writes = W5 per 23526e6).
+- Katya consent full (BaaS + links + opener); naming/link rules honored.
+
+## 2026-10-06 — Escape published + day-0 tracking (W4)
+- Escape live (Pulse + feed + first comment, all 200). Day-0 snapshots: 33 → 41 → 76 imp, out-of-network climbing to 58%.
+- Anatomy "чужой" fixed → "foreign" (re-sent to Katya); Katya opener in (no signature in body); BaaS naming + GPT-4.1 live; consent full.
