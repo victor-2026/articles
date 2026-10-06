@@ -1,16 +1,16 @@
 **Format:** LinkedIn Pulse Article (methodology)
 **Series:** Quality Operating Model (slot FRI 09.10 LOCKED)
 **Status:** draft v1 (W4, 30.09 — from W2 session record; needs W2 public/internal pass before publish)
-**Cover:** TODO (proposal: split visual "68% vs 0.242" — same labels, two readings, dark + amber series style)
+**Cover:** DONE (`31-cover.png` + `.jpeg`, 1920×1080 — 68% green vs 0.242 red split, same-25-labels footer)
 **Feed Image:** cover doubles as feed preview
-**Hook:** 68% agreement with the expert — sounds respectable, until kappa 0.242. Same 25 labels, same afternoon, failing grade.
+**Hook:** 68% agreement with the expert — sounds respectable, until kappa 0.242. Same 25 labels, same sitting, failing grade.
 **Constraints (W2, binding):** aggregates only (no W3 per-item labels without consent), no timings (unmeasured — omit), no private correspondence, no commercial/vendor strategy.
 
 ---
 
 # How to Calibrate an AI Judge With 30 Human Labels and One Failing Grade
 
-Seventeen out of twenty-five. 68% agreement with the expert — sounds respectable, until the statistician in the room says kappa 0.242. Same labels, same afternoon, failing grade — and that failing grade was the whole point.
+Seventeen out of twenty-five. 68% agreement with the expert — sounds respectable, until the statistician in the room says kappa 0.242. Same labels, same sitting, failing grade — and that failing grade was the whole point.
 
 I labeled 30 items to answer one question: can a free local AI judge replace a paid cloud one? Our local judge had called *everything* a defect (0/30 exact) with a straight face — and without a human ground truth, that looks like diligence. A good judge is indistinguishable from a confident liar. So before trusting any judge, I built the ruler: 30 expert labels, one failing grade, eight arbitrated disagreements. What the ruler taught me fits in six rakes — step on them in advance, not in production.
 
@@ -83,4 +83,5 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 - Cover: proposal in metadata (68% vs 0.242 split) — user picks style, Gemini generates
 - Inline visuals: TBD (candidate: strata diagram E/H/U; kappa-explained strip; protocol flowchart) — propose after text lock
 - Feed post text + first comment: TODO (draft next, after text lock)
-- Reviews: W2 public/internal pass → W1 fact-check → W3 (out of scope? no product facts — decide) → R1 (user) → publish Fri 09.10
+- Reviews: R0 owner-tightening ✅ → W2 public/internal PASS ✅ → W1 NUMBERS-TRUTH PASS b895309 (verbatim vs source, arithmetic converges; kappa as reported, same-sitting per W2) ✅ → R1 (user) → publish Fri 09.10
+- Package ready: cover (`31-cover.png`/`.jpeg`) · feed post (`31-calibrate-ai-judge-post.md`) · first comment (`31-first-comment.md`)

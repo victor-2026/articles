@@ -1,6 +1,6 @@
 **Format:** LinkedIn Pulse Article (short note — 1 idea + 1 case + 1 number)
 **Series:** Quality Operating Model (slot Mon 05.10 — earliest, 48h after Friday 30)
-**Status:** PUBLISHED Mon 05.10 (~09:00, carousel PDF + feed post + first comment live; ugcPost:7512589821614288896, 200-verified)
+**Status:** PUBLISHED Mon 05.10 (#32) (~09:00, carousel PDF + feed post + first comment live; ugcPost:7512589821614288896, 200-verified)
 **Cover:** TODO (proposal: red crash screen vs green suite — "zero inconclusive", dark + amber)
 **Feed Image:** cover doubles as feed preview
 **Hook:** Twenty-four mutants walked into the suite. Twenty-two died on sight. Two went to resolution. Zero walked out unanswered.

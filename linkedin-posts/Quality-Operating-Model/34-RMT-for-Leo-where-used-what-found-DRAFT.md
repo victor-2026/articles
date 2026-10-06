@@ -1,6 +1,6 @@
 **Format:** LinkedIn Pulse Article (short note — 1 idea + 1 case + 1 number)
 **Series:** Quality Operating Model (slot 08.10 TBD — after consent ping + W1 agreement)
-**Status:** draft v1 (W4, 03.10 — owner order: draft now, W1 agreement next; consent ping still must go BEFORE publish)
+**Status:** draft v1 (#34) (W4, 03.10 — owner order: draft now, W1 agreement next; consent ping still must go BEFORE publish)
 **Cover:** DONE 03.10 v2 — `RMT-Leo-cover-v2.png` + `.jpeg` (1920×1080, concept #1: broken assert in red on IDE + green BUILD PASSED badge; v1 typographic kept as fallback; NO Leonardo name — consent pending)
 **Feed Image:** cover doubles as feed preview
 **Hook:** We break tests on purpose. Fifty-three of fifty-eight broken assertions died — and the five survivors taught us more than the fifty-three kills.

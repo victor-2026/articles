@@ -1,5 +1,6 @@
 **Format:** Pulse Article
 **Series:** Quality Operating Model
+**Status:** HELD (#23 reserved — draft, covers TODO; publish someday, owner decides)
 **Cover:** 23-cover-quality-system.png (TODO)
 **Feed Image:** 23-gate-to-system.png (TODO)
 **Hook:** Every company that scaled QA hired more testers into the same structure. That is not scaling - that is inflating.

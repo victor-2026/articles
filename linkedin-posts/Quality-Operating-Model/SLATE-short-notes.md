@@ -2,11 +2,25 @@
 
  pivot от heavy-статей (решение owner, 02.10). Порядок — предложение W4, слоты уточняются.
 
+## РЕЕСТР НОМЕРОВ (нормализация 06.10, owner-approved)
+- Опубликованное не переименовывается никогда (ссылки, репосты, леджеры).
+- Номера логические, НЕ хронологические (прецедент: 24-й вышел после 26/28-го; 31-й после 32–33).
+- 21, 22, 24, 26, 27, 28, 29, 30 — опубликованы, заморожены.
+- 23, 25 — HELD (слоты зарезервированы, черновики).
+- 31 — assessor/kappa, слот Пт 09.10 (locked).
+- 32 — RMT Note 1 batch#2 (опубл. 05.10, карусель).
+- 33 — Побег (опубл. 06.10, Pulse).
+- 34 — Leo-RMT (слот 12.10, ждёт consent yes).
+- 35 — Kaggle L2 (слот 14.10 TBD).
+- 36 — RMT Note 2 Mapping Limit (слот 16.10 TBD).
+- 37 — RMT Note 3 lifecycle gate (слот 19.10 TBD).
+- 38 — judge-pair exonerate/convict (слот TBD после 19.10).
+
 ## 1. Kaggle L2: честное бесплатное железо [DRAFT v1 готов]
 - Идея: бесплатное железо + честный отрицательный результат.
 - Кейс: L2-тюн complete, bench locked → FAIL ±3, трек parked explicitly.
 - Цифра: $0 / 6.9470 / ±3.
-- Файл: `Kaggle-L2-zero-dollar-honest-fail-DRAFT.md` (~550 слов). W3 цифры + W2 смыслы вшиты. Slot TBD. Next: W3 signe-off цифр → W1 → R1.
+- Файл: `35-Kaggle-L2-zero-dollar-honest-fail-DRAFT.md` (#35, ~550 слов). W3 цифры + W2 смыслы вшиты. Slot TBD. Next: W3 signe-off цифр → W1 → R1.
 - Закрыто: terms-фрейминг (приватность на shared-инфре одной строкой).
 
 ## 2. RMT Note 1: Batch #2 + crash (кандидат на Пн 05.10)
@@ -62,5 +76,5 @@
 
 ## 10–12. Углы от W5 (фактура готова, в вики за неделю) — кандидаты после слейта 1–9
 - A «Зелёный врёт системно»: 5/5 green при дубликате (наш) + 91% PITest с дырами 500/204 (Бас) + green check на выдуманном телефоне (Данил) + кворум vs self-rating (Грётц). Тезис: зелёный без seeded proof — декор.
-- B «Судью тоже надо ломать»: Pretext бьёт LLM-судью 97%/77% + AgentDojo (judge hijacking) + drift 0.25→1.0 (Данил) + 8/100 при excellent (Aston) + StarSkirmish (Astra читерит проигрыш: Stardust вместо своей игры — graded-on-winning → gamed-winning, quotes в банке 05.10). Тезис: seeded breaks для судей. Помечен W1 (b480891): обогатить нашими D-данными судьи позже (2 галлюцинации + слепота — exhibit когда созреет). ДРАФТ v1 готов (`judge-pair-control-two-verdicts-DRAFT.md`, W1 approved f57e806, слот TBD после 19.10).
+- B «Судью тоже надо ломать»: Pretext бьёт LLM-судью 97%/77% + AgentDojo (judge hijacking) + drift 0.25→1.0 (Данил) + 8/100 при excellent (Aston) + StarSkirmish (Astra читерит проигрыш: Stardust вместо своей игры — graded-on-winning → gamed-winning, quotes в банке 05.10). Тезис: seeded breaks для судей. Помечен W1 (b480891): обогатить нашими D-данными судьи позже (2 галлюцинации + слепота — exhibit когда созреет). ДРАФТ v1 готов (`38-judge-pair-control-two-verdicts-DRAFT.md` (#38), W1 approved f57e806, слот TBD после 19.10).
 - C «Агент с правами»: 48K junction-инцидент + OpenClaw/Gmail + HF-swarm (permission boundaries, abort authority) + НАШ ПОБЕГ (лучший документированный экспонат серии: лог + промпт + скрин + дыра + фикс — evidence-ссылки из фикс-пакета TBD). Самый виральный, самый лёгкий. (W1 ee3a324)

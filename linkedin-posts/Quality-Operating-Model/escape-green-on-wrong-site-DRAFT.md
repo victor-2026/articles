@@ -1,6 +1,6 @@
 **Format:** LinkedIn Pulse Article (short note — 1 idea + 1 case + 1 number)
 **Series:** Quality Operating Model (slot TBD — ASAP candidate, news value decays fast)
-**Status:** PUBLISHED 06.10 (Pulse + feed ugcPost:7513229226779598848 + first comment live; both 200; cover + anatomy in place)
+**Status:** PUBLISHED 06.10 (#33) (Pulse + feed ugcPost:7513229226779598848 + first comment live; both 200; cover + anatomy in place)
 **Cover:** DONE (`escape-cover.png` + `.jpeg`, 1920×1080 — green checks + red illustrative target; author line; no real URLs, no product names)
 **Feed Image:** cover doubles as feed preview
 **Hook:** Our suite went green on someone else's website. Four out of four SUCCESS — against a target we never assigned.

@@ -1,6 +1,6 @@
 **Format:** LinkedIn Pulse Article (short note — 1 idea + 1 case + 1 number)
 **Series:** Quality Operating Model (slot Mon 19.10 TBD)
-**Status:** draft v1 (W4, 05.10 — from skeleton §7 CERTIFIED, W1 thesis e3f4943; needs W1 fact-check of THIS draft → R1)
+**Status:** draft v1 (#37) (W4, 05.10 — from skeleton §7 CERTIFIED, W1 thesis e3f4943; needs W1 fact-check of THIS draft → R1)
 **Cover:** TODO (proposal: "the gate, not the lane" — doorway/arch visual, dark + amber)
 **Feed Image:** cover doubles as feed preview
 **Hook:** Seeded evidence doesn't live in the testing lane. It lives at a gate every outsider lifecycle already has.

@@ -1156,3 +1156,12 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 ## 2026-10-06 — Escape published + day-0 tracking (W4)
 - Escape live (Pulse + feed + first comment, all 200). Day-0 snapshots: 33 → 41 → 76 imp, out-of-network climbing to 58%.
 - Anatomy "чужой" fixed → "foreign" (re-sent to Katya); Katya opener in (no signature in body); BaaS naming + GPT-4.1 live; consent full.
+
+## 2026-10-06 — W2→W5 ledger relay noted (W4, no action)
+- Kolibri/Aleph Alpha ledger row = W5 lane (digest-watch). W4 action: none (no quote banking per 23526e6).
+- Abstention-training (Merlin-Arthur, "I don't know") flagged as echo-material for judge theme: candidate for 31-followup or angle B (judge that abstains). NOT into locked 31 (reviews closed).
+
+## 2026-10-06 — Number normalization (owner-approved, W4 executed)
+- Published frozen: 21, 22, 24, 26–30 (+32 Note1 05.10, #33 escape 06.10 — numbers in metadata only, files untouched).
+- Renamed (unpublished only, git mv): 34 Leo (+post+4 covers), 35 Kaggle, 36 Note2, 37 Note3, 38 judge-pair. Refs hand-indexed (only slate had 2 — fixed).
+- 23/25 HELD, 31 locked 09.10. Registry on top of SLATE. Rule: numbers logical, NOT chronological.

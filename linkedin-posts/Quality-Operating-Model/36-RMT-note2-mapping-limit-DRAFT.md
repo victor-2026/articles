@@ -1,6 +1,6 @@
 **Format:** LinkedIn Pulse Article (short note — 1 idea + 1 case + 1 number)
 **Series:** Quality Operating Model (slot Fri 16.10 TBD)
-**Status:** draft v1 (W4, 05.10 — from skeleton §6 CERTIFIED, W1 §§6-7 confirm 0bc2aee; needs W1 fact-check of THIS draft → R1)
+**Status:** draft v1 (#36) (W4, 05.10 — from skeleton §6 CERTIFIED, W1 §§6-7 confirm 0bc2aee; needs W1 fact-check of THIS draft → R1)
 **Cover:** TODO (proposal: "numbers, not shapes" — digits vs gate silhouette, dark + amber)
 **Feed Image:** cover doubles as feed preview
 **Hook:** Our profiles encode numbers, not gate shapes. That sentence lived in a draft — until today.

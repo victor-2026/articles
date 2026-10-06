@@ -1,5 +1,6 @@
 **Format:** Pulse Article
 **Series:** Quality Operating Model
+**Status:** HELD (#25 reserved — draft, covers TODO; publish someday, owner decides)
 **Cover:** [COVER: 25-cover-delegation.png — partner vs product risk, logo stays on the box]
 **Feed Image:** [SCREENSHOT: 25-partner-gate — extension contracts + compatibility rules + certification gates]
 **Hook:** Your partner shipped the extension. Your logo is still on the box.

@@ -1,6 +1,6 @@
 **Format:** LinkedIn Pulse Article (short note — 1 idea + 1 case + 1 number)
 **Series:** Quality Operating Model (slot TBD — slate #1)
-**Status:** draft v1.1 (W4, 05.10 — W3 sign-off applied: bench 8.08/8.69 + AUROC, sensitivity 11.72/0.5000 robust, LoRA 7.93M/1.6%, pins in notes; assembled from W3 run facts + W2 plain-words/parked/terms 5599720)
+**Status:** draft v1.1 (#35) (W4, 05.10 — W3 sign-off applied: bench 8.08/8.69 + AUROC, sensitivity 11.72/0.5000 robust, LoRA 7.93M/1.6%, pins in notes; assembled from W3 run facts + W2 plain-words/parked/terms 5599720)
 **Cover:** TODO (proposal: "$0" receipt vs GPU chip — free hardware, honest result, dark + amber)
 **Feed Image:** cover doubles as feed preview
 **Hook:** Zero dollars, eleven minutes, best loss 6.9470 — and we parked the track. Free hardware, honest failure.

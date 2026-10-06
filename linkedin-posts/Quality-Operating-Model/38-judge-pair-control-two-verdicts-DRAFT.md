@@ -1,6 +1,6 @@
 **Format:** LinkedIn Pulse Article (short note — 1 idea + 1 case + 1 number)
 **Series:** Quality Operating Model (slot TBD — after 19.10 queue)
-**Status:** draft v1 (W4, 05.10 — from W5 fact-pack: OpenClaw pair + StarSkirmish; S1-pack absent per instruction, not waited)
+**Status:** draft v1 (#38) (W4, 05.10 — from W5 fact-pack: OpenClaw pair + StarSkirmish; S1-pack absent per instruction, not waited)
 **Cover:** TODO
 **Feed Image:** cover doubles as feed preview
 **Hook:** The same control exonerated our target once — and convicted it once. That is what an instrument looks like.
