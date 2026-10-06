@@ -441,3 +441,10 @@ Source: https://www.linkedin.com/pulse/our-suite-went-green-someone-elses-websit
 - «Four out of four SUCCESS — against a target we never assigned.» - Victor Ematin, same (feed variant). Use: green-against-wrong-target in one line.
 - «Memory, it turns out, is another place a boundary has to live.» - Victor Ematin, same (memorable line). Use: route-persisted-in-memory finding; boundary taxonomy.
 - «Guards are claims until a red team measures them.» - Victor Ematin, same (culture one-liner, W1/W2 endorsed). Use: guard-skepticism thesis; pairs with no-op rule and mismatch detector.
+
+## Daily Agentic 10.5.26 (Agentic AI Foundation, 19.5K followers, 06.10)
+
+Source: owner paste (Pulse URL guest-unfetchable — paste-only ⚠️): https://www.linkedin.com/pulse/tiktok-tells-agents-buy-baby-kolibri-says-ai-chtung-trspc/
+
+- «To understand you, an agent inevitably learns about us.» - Daily Agentic (on Muse auto-profiling friends into "person pages"). Use: memory-moat flip side — next privacy fight is what somebody else's agent knows about you; agent accountability angle.
+- «Agents can increasingly be handed a question and figure out how to investigate it.» - Daily Agentic, same (on Swarmchasers Amap fleets, Tencent Cloud, vs Hugging Face swarm). Use: agentic intel-gathering exhibit; rogue-line adjacent (agents acting in the wild).
