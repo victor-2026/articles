@@ -235,6 +235,12 @@
     "url": "https://softwaretestingweekly.com/issues/rss/",
     "weight": 0.9
    },
+   {
+    "id": "kenhuang-agentic",
+    "name": "Agentic AI (Ken Huang, Substack)",
+    "url": "https://kenhuangus.substack.com/feed",
+    "weight": 0.8
+   },
   {
    "id": "aiid",
    "name": "AI Incident Database (blog + roundups)",
