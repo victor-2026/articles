@@ -1165,3 +1165,7 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Published frozen: 21, 22, 24, 26–30 (+32 Note1 05.10, #33 escape 06.10 — numbers in metadata only, files untouched).
 - Renamed (unpublished only, git mv): 34 Leo (+post+4 covers), 35 Kaggle, 36 Note2, 37 Note3, 38 judge-pair. Refs hand-indexed (only slate had 2 — fixed).
 - 23/25 HELD, 31 locked 09.10. Registry on top of SLATE. Rule: numbers logical, NOT chronological.
+
+## 2026-10-06 — 31 feed v2 + weekly close (W4)
+- 31 feed: JEV named in hook (W2-confirmed), goal-first, 25 kept / 30 dropped; "paid" removed (billing-blind); version never present. Committed.
+- Weekly rows + escape day-0 (333/70%) + 24-URL fix + twin-glitch note in log.
