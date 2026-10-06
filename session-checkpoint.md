@@ -1133,3 +1133,8 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - Committed + pushed 4ba55ee (11 files): Notes 2-3 drafts (W1 approved, W2/W3 closed) + Kaggle v1.1 (W3 sign-off numbers in) + Leo draft (re-agreement a6bd422, cover v2, post A, first-comment owns-links) + 29 hooks + weekly rows + w40 chart.
 - digest-config.json left untouched (digest owner lane, now formally W5).
 - Open queue: Wed 07.10 group post (file ready) · Fri 09.10 31 (R0+W2 pass pending) · Leo (consent silence) · Kaggle visuals · Notes 2-3 visuals/R1.
+
+## 2026-10-05 — W2 transcript triage relay (W4)
+- W4 doctrine (NOT quote, Katya agreed "имеет смысл"): "качество судьи = качество expectation" + generated-тест с точными ожиданиями → in articles as OUR conclusion; her lines never cited without consent. Candidate: Article 31 (judge calibration).
+- W4 → W5: bank the doctrine line per 23526e6 (quotes writes = W5; W4 does not touch quotes.md).
+- D2b/letter = W1 lane; W3 queue = W3 lane. No W4 action there.
