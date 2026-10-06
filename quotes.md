@@ -460,7 +460,7 @@ Source: https://www.linkedin.com/posts/jayaigner_a-cto-told-me-something-i-cant-
 
 ## Ken Huang escalation architecture (Agentic AI Substack, 06.10)
 
-Source: Substack email (owner-paste, URL pending ⚠️ — sender kenhuangus@substack.com).
+Source: Substack email "What Is Agentic AI Escalation Architecture?" 06.10 (owner-paste full text on file); publication verified: https://kenhuangus.substack.com/ (Agentic AI, Ken Huang, 128K+ subs, agentic AI + security).
 
 - «What event should trigger the next level of authority?» - Ken Huang. Use: gate-reading question in one line; verdict-layer thesis (who decides the next lane).
 - «Capability compounds. Control drifts.» - Ken Huang, same. Use: drift thesis in four words; pairs with "expensive incident began with one unjustified escalation".
