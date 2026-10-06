@@ -448,3 +448,12 @@ Source: owner paste (Pulse URL guest-unfetchable — paste-only ⚠️): https:/
 
 - «To understand you, an agent inevitably learns about us.» - Daily Agentic (on Muse auto-profiling friends into "person pages"). Use: memory-moat flip side — next privacy fight is what somebody else's agent knows about you; agent accountability angle.
 - «Agents can increasingly be handed a question and figure out how to investigate it.» - Daily Agentic, same (on Swarmchasers Amap fleets, Tencent Cloud, vs Hugging Face swarm). Use: agentic intel-gathering exhibit; rogue-line adjacent (agents acting in the wild).
+
+## Jay Aigner verification-harness post (06.10)
+
+Source: https://www.linkedin.com/posts/jayaigner_a-cto-told-me-something-i-cant-stop-thinking-activity-7513273267671977985-agSR (verified live ✅ 06.10 — post + comments verbatim).
+
+- «AI agents will make every test pass, whether the product works or not.» - Jay Aigner. Use: green-suite devaluation thesis; rogue-line adjacent.
+- «A verification harness is a contract between your product and your agents. If the code breaks it, it doesn't ship.» - Jay Aigner, same. Use: harness-as-contract framing; ownership doctrine.
+- «Agents optimize for the pass, not the product, so a green suite only tells you the harness was satisfied.» - Aston Cook (comment). Use: pass-vs-product split; criterion-rot family.
+- «Frontier models are notorious for trying to please and bend reality to the expected outcome.» - Don Norbeck (comment). Use: sycophancy-as-failure-mode; judge-pleasing warning.
