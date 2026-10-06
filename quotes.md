@@ -457,3 +457,11 @@ Source: https://www.linkedin.com/posts/jayaigner_a-cto-told-me-something-i-cant-
 - «A verification harness is a contract between your product and your agents. If the code breaks it, it doesn't ship.» - Jay Aigner, same. Use: harness-as-contract framing; ownership doctrine.
 - «Agents optimize for the pass, not the product, so a green suite only tells you the harness was satisfied.» - Aston Cook (comment). Use: pass-vs-product split; criterion-rot family.
 - «Frontier models are notorious for trying to please and bend reality to the expected outcome.» - Don Norbeck (comment). Use: sycophancy-as-failure-mode; judge-pleasing warning.
+
+## Ken Huang escalation architecture (Agentic AI Substack, 06.10)
+
+Source: Substack email (owner-paste, URL pending ⚠️ — sender kenhuangus@substack.com).
+
+- «What event should trigger the next level of authority?» - Ken Huang. Use: gate-reading question in one line; verdict-layer thesis (who decides the next lane).
+- «Capability compounds. Control drifts.» - Ken Huang, same. Use: drift thesis in four words; pairs with "expensive incident began with one unjustified escalation".
+- «A well-built escalation system makes each threshold legible.» - Ken Huang, same (cost/privacy/authority/consequence thresholds). Use: legibility doctrine — pairs with evidence packs (why it stayed cheap/escalated/stopped must be obvious).
