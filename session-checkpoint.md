@@ -1138,3 +1138,7 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 - W4 doctrine (NOT quote, Katya agreed "имеет смысл"): "качество судьи = качество expectation" + generated-тест с точными ожиданиями → in articles as OUR conclusion; her lines never cited without consent. Candidate: Article 31 (judge calibration).
 - W4 → W5: bank the doctrine line per 23526e6 (quotes writes = W5; W4 does not touch quotes.md).
 - D2b/letter = W1 lane; W3 queue = W3 lane. No W4 action there.
+
+## 2026-10-05 — Commit escape visuals + 31 tightening (W4)
+- Committed + pushed 9f712a0 (8 files): escape draft (b0a3a1, trio closed, Perplexity/Gemini passes, anatomy+cover) + escape feed post + 31 R0-tightening (~950w, memoir cut) + slate + checkpoints.
+- Escape visuals: anatomy centered + axis-aligned, cover clean; glyph rule (> not →) held.
