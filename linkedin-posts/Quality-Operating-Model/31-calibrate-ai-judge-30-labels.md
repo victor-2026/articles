@@ -12,7 +12,7 @@
 
 Seventeen out of twenty-five. 68% agreement with the expert — sounds respectable, until the statistician in the room says kappa 0.242. Same labels, same sitting, failing grade — and that failing grade was the whole point.
 
-I labeled 30 items to answer one question: can a free local AI judge replace a paid cloud one? Our local judge had called *everything* a defect (0/30 exact) with a straight face — and without a human ground truth, that looks like diligence. A good judge is indistinguishable from a confident liar. So before trusting any judge, I built the ruler: 30 expert labels, one failing grade, eight arbitrated disagreements. What the ruler taught me fits in six rakes — step on them in advance, not in production.
+I labeled 30 items to answer one question: can a free local AI judge replace a cloud one? Our local judge had called *everything* a defect (0/30 exact) with a straight face — and without a human ground truth, that looks like diligence. A good judge is indistinguishable from a confident liar. So before trusting any judge, I built the ruler: 30 expert labels, one failing grade, eight arbitrated disagreements. What the ruler taught me fits in six rakes — step on them in advance, not in production.
 
 ### ❓ Problem
 
@@ -82,6 +82,6 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 ### Open
 - Cover: proposal in metadata (68% vs 0.242 split) — user picks style, Gemini generates
 - Inline visuals: TBD (candidate: strata diagram E/H/U; kappa-explained strip; protocol flowchart) — propose after text lock
-- Feed post text + first comment: TODO (draft next, after text lock)
+- Feed post text: DONE v2 (`31-calibrate-ai-judge-post.md` — JEV named in hook per owner 06.10, goal-first intrigue; 25 kept, 30 dropped per owner; JEV-side W2-CONFIRMED (runner phaseb-gold30-cloud-runner-2026-09-26.py: cloud arm Jev x1 on gold-30, JEVClient, 30/30 cloud 0 errors; client endpoint api.typesafe.ai/v1/systemone, model jev-latest, key-name only); "paid" REMOVED (billing-blind, W2-uncovered); version NEVER present (Jev-1.13 red line, no source)) · First comment: DONE (`31-first-comment.md`)
 - Reviews: R0 owner-tightening ✅ → W2 public/internal PASS ✅ → W1 NUMBERS-TRUTH PASS b895309 (verbatim vs source, arithmetic converges; kappa as reported, same-sitting per W2) ✅ → R1 (user) → publish Fri 09.10
 - Package ready: cover (`31-cover.png`/`.jpeg`) · feed post (`31-calibrate-ai-judge-post.md`) · first comment (`31-first-comment.md`)
