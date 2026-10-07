@@ -184,6 +184,12 @@ Source: https://lnkd.in/p/gw345n53 (verified live ✅ 07.10 — 4-question set v
 
 - «When AI tells you its own work is good, who checks that judgment?» - TestGuild. Use: self-grading question; examiner-can't-be-author, event framing.
 - «When a test heals itself, what changed?» - TestGuild, same. Use: healing-transparency demand; healer evidence requirement.
+
+## Mahesh Yadav boundary-breaks (SUSA founder, comment on Davis AI-safety post 07.10)
+
+Source: https://lnkd.in/p/gVaGCBYF (owner-paste verbatim; post-level verify pending ⚠️).
+
+- «We replace static test cases with property-based checks and adversarial evals that force boundary breaks under constraint, catching emergent drift before it reaches production.» - Mahesh Yadav. Use: PBT + adversarial + drift triad; SUSA method in one line (watch-only contact, no thread).
 - «A test proves the code, a receipt proves the reality.» — Vinoth Govindarajan (OpenAI, QCon AI). Source: https://www.infoq.com/presentations/ai-agent-harness/ (Transcript section). Use: attestation/Mutation Matrix — receipt как доказательство реальности.
 - «A model proposes, the harness commits, and the receipts proves it.» [sic — так в транскрипте дважды] — Vinoth Govindarajan, same source. Use: ключевой контракт harness (Attestation).
 
