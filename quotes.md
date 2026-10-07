@@ -498,6 +498,13 @@ Source: https://lnkd.in/p/eqv9jDh6 (verified live ✅ 07.10).
 
 - «The useful distinction is where the change lives: in the browser, or on the server?» - Anton Gulin. Use: parallel-test isolation rule; Sam-vs-Lee display-name race as exhibit.
 
+## Breaklight positioning (site + Insights, verified live 07.10)
+
+Source: https://breaklight.ai/ (verified live ✅ 07.10).
+
+- «A dashboard that scores prompts is not a red-team tool. Measurement is not assurance.» - Breaklight Insights. Use: measurement-vs-assurance split; dashboard ≠ red-team.
+- «Name what you are testing first: Model, prompt layer, retrieval, end-to-end, agent trajectory, production. Six different objects.» - Breaklight Insights, same. Use: test-object taxonomy; scope-before-method.
+
 ## Rogerio Chaves Decisions-vs-Jev (LangWatch benchmark, verified live 07.10)
 
 Source: https://lnkd.in/p/ebQR5WkA (verified live ✅ 07.10 — post verbatim; full benchmark: langwatch.ai/benchmarks/jev-alternatives).

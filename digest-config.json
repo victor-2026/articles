@@ -241,6 +241,20 @@
     "url": "https://kenhuangus.substack.com/feed",
     "weight": 0.8
    },
+   {
+    "id": "breaklight",
+    "name": "Breaklight AI (assurance consultancy)",
+    "url": "https://breaklight.ai/",
+    "weight": 0.8,
+    "type": "manual"
+   },
+   {
+    "id": "duncan-smith",
+    "name": "Duncan Smith (Breaklight/Saucinco, LinkedIn)",
+    "url": "https://www.linkedin.com/in/duncansmith23/",
+    "weight": 0.8,
+    "type": "manual"
+   },
   {
    "id": "aiid",
    "name": "AI Incident Database (blog + roundups)",
