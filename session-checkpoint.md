@@ -1187,3 +1187,6 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 ## 2026-10-07 — Group post submitted + commit (W4)
 - 30 group post SUBMITTED 07.10 eve (moderation confirmed, first comment held). Text finalized (ours, not Perplexity variant); method/runs split; inline-link option if resubmit needed.
 - Committed + pushing: group-post file + checkpoint only. quotes.md (+104 W5 banking) + digest-config.json (digest owner) left for their commits.
+
+## 2026-10-07 — W5 Jason fodder held (W4, no draft)
+- P3 open door (run-it-yourself angle), Myths 5-15 quotable (Appendix F out of paywall), review-effort metric (p180, Megi dimension external support). Wiki + x3 banked by W5. Ammo for post-19.10 queue.
