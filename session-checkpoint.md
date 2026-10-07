@@ -1169,3 +1169,7 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 ## 2026-10-06 — 31 feed v2 + weekly close (W4)
 - 31 feed: JEV named in hook (W2-confirmed), goal-first, 25 kept / 30 dropped; "paid" removed (billing-blind); version never present. Committed.
 - Weekly rows + escape day-0 (333/70%) + 24-URL fix + twin-glitch note in log.
+
+## 2026-10-06 — W5 Duncan fact-pack received (W4, ammo held)
+- 5 lines + 2 visuals banked by W5 (quotes.md Duncan section, discipline respected); source PDF ai-qa-wiki/raw/1791317324457.pdf; FIG.02/FIG.04 as art refs.
+- Bodies = W4 when slotted. Candidates: 31-followup, angle B (judge theme), escape follow-up. No draft started (queue full through 19.10).
