@@ -469,6 +469,16 @@ Source: https://lnkd.in/p/ej2wPrxn (verified live ✅ 06.10 — post 1402 reacts
 - «The cheapest check I added needed no model at all... A model as judge was only worth it where a rule could not decide.» - Arian Z. (comment, verified ✅). Use: rules-before-judges cost hierarchy; deterministic-first doctrine.
 - «Tests tell me the task was done right, but not whether the agent stayed inside the task... the diff size being a signal too, next to the tests.» - Marcin I. (comment, verified ✅). Use: scope-check/blast-radius signal beside pass-fail; green-with-stray-diff suspicion.
 
+## Duncan Smith Saucinco POV (Oct 2026, "AI Won't Replace QA" — owner-downloaded PDF 7pp)
+
+Source: 1791317324457.pdf (full text read ✅ 07.10); post: Duncan Smith (Founder/COO Breaklight AI, Head of Ops Saucinco).
+
+- «A model that writes both the feature and the test can check itself against its own misunderstanding.» - Duncan Smith (+ FIG.02 "Green builds. Wrong product."). Use: examiner-can't-be-author, self-checking thesis; vendor-independent formulation.
+- «Accountability doesn't transfer to a tool.» - Duncan Smith, same (+ "Keep a human accountable for the verdict. Always."). Use: accountability doctrine; "the AI said it was fine is not an answer".
+- «Spot the test that passes for the wrong reason.» - Duncan Smith, same. Use: mismatch-detector family, reviewer duty.
+- «Measure before you change anything... instead of relying on vendor claims.» - Duncan Smith, same. Use: baselines-first; escaped defects / time-to-confidence over vendor promises.
+- «Correct is a range rather than a value.» - Duncan Smith, same (FIG.03 traditional vs AI software). Use: nondeterminism one-liner; oracle-as-range.
+
 ## Danyil Zuiev LangSmith tracing post (06.10)
 
 Source: https://www.linkedin.com/posts/daniil-zuiev_traced-and-evaluated-an-llm-support-bot-with-activity-7511785476509458433-dPhk (post verified live ✅ 06.10; 3h reply = owner-paste verbatim ⚠️).
