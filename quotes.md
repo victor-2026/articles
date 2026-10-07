@@ -498,6 +498,13 @@ Source: https://lnkd.in/p/eqv9jDh6 (verified live ✅ 07.10).
 
 - «The useful distinction is where the change lives: in the browser, or on the server?» - Anton Gulin. Use: parallel-test isolation rule; Sam-vs-Lee display-name race as exhibit.
 
+## Anton Gulin first-agent-task (double-post 1h, owner-paste — fetch failed twice)
+
+Source: owner paste 07.10 (double-posted identically, verbatim on file); article: anton.qa/blog/posts/first-agent-task (both unfetchable — transport errors; NOT verified ⚠️).
+
+- «For a first task, a clear failure is a useful result.» - Anton Gulin. Use: first-task doctrine; clear failure beats vague green (onboarding agents to testing).
+- «Tell it to stop before changing the helper.» - Anton Gulin, same (inspect + report exact result, no fix). Use: finding-before-fix rule; report-gaps-first family (no repair inside the probe).
+
 ## Tatyana Arbouzova self-healing intent (13h, verified live 07.10)
 
 Source: https://lnkd.in/p/giuVVans (verified live ✅ 07.10 — post + Gulin comment verbatim).
