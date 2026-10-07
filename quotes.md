@@ -482,6 +482,14 @@ Source: https://lnkd.in/p/eqv9jDh6 (verified live ✅ 07.10).
 
 - «The useful distinction is where the change lives: in the browser, or on the server?» - Anton Gulin. Use: parallel-test isolation rule; Sam-vs-Lee display-name race as exhibit.
 
+## Tatyana Arbouzova self-healing intent (13h, verified live 07.10)
+
+Source: https://lnkd.in/p/giuVVans (verified live ✅ 07.10 — post + Gulin comment verbatim).
+
+- «A good AI agent shouldn't be trying to make the test pass. It should be trying to preserve the intent of the test.» - Tatyana Arbouzova. Use: anti-green-chasing doctrine; healer purpose statement.
+- «The goal of self-healing isn't fewer red tests. It's less maintenance without losing test intent.» - Tatyana Arbouzova, same (95% locator vs 75% label vs dead-button-is-bug ladder). Use: confidence-tiered healing; human-final-say rule.
+- «A button that stops opening the form belongs in the bug tracker.» - Anton Gulin (comment). Use: heal-vs-file triage rule; label-murky-middle + confidence + human look.
+
 ## Duncan Smith Saucinco POV (Oct 2026, "AI Won't Replace QA" — owner-downloaded PDF 7pp)
 
 Source: 1791317324457.pdf (full text read ✅ 07.10); post: Duncan Smith (Founder/COO Breaklight AI, Head of Ops Saucinco).
