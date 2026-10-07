@@ -560,6 +560,8 @@ Source: `ai-qa-wiki/raw/1791317324457.pdf` (7pp, full text read ✅ 07.10; owner
 - «Spot the test that passes for the wrong reason.» - Duncan Smith, same. Use: mismatch-detector family, reviewer duty.
 - «Measure before you change anything... instead of relying on vendor claims.» - Duncan Smith, same. Use: baselines-first; escaped defects / time-to-confidence over vendor promises.
 - «Correct is a range rather than a value.» - Duncan Smith, same (FIG.03 traditional vs AI software). Use: nondeterminism one-liner; oracle-as-range.
+- «What's left is the part that always mattered most: understanding risk, challenging assumptions, and standing behind the decision to move into production.» - Duncan Smith, same (bottom line). Use: core-remnant thesis; risk/challenge/stand-behind trio.
+- «The ones that wait will find the change happened anyway. Unfortunately, just without them.» - Duncan Smith, same (closer). Use: urgency closer; FIG.02/04 visuals (Green-builds-Wrong-product diagram, execution→judgment slider) as article art refs.
 
 ## Danyil Zuiev LangSmith tracing post (06.10)
 
