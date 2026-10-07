@@ -177,6 +177,13 @@ Source: "Why Quality Becomes a Leadership Problem Long Before the Defect" https:
 - «Every agent demo you've ever watched was read-only. Write access is where the genre changes from demo to incident.» — Radik Zagirov (release-gates post, 13m). Source: https://lnkd.in/p/gEdwnraN (verified live ✅ 07.10). Use: read-vs-write divide; demo-to-incident genre shift.
 - «If two of your most expensive engineers are the release gate, you don't have a test suite. You have a ritual.» — Radik Zagirov, same. Source: same (verified ✅). Use: gate-as-ritual line; manual-staging-smoke tax.
 - «They verify business outcomes and real action invariants: the refund actually landed, the record actually changed, the workflow state actually advanced.» — Radik Zagirov, same (Agentiqa release-gates doctrine). Source: same (verified ✅). Use: effect-invariants vs selector-stability; black-box verification thesis.
+
+## TestGuild Who-Grades-the-AI (webinar Oct 15, verified live 07.10)
+
+Source: https://lnkd.in/p/gw345n53 (verified live ✅ 07.10 — 4-question set verbatim; event: Anish Sharma, OttoTester live, 7 questions, healing record, auditor scores).
+
+- «When AI tells you its own work is good, who checks that judgment?» - TestGuild. Use: self-grading question; examiner-can't-be-author, event framing.
+- «When a test heals itself, what changed?» - TestGuild, same. Use: healing-transparency demand; healer evidence requirement.
 - «A test proves the code, a receipt proves the reality.» — Vinoth Govindarajan (OpenAI, QCon AI). Source: https://www.infoq.com/presentations/ai-agent-harness/ (Transcript section). Use: attestation/Mutation Matrix — receipt как доказательство реальности.
 - «A model proposes, the harness commits, and the receipts proves it.» [sic — так в транскрипте дважды] — Vinoth Govindarajan, same source. Use: ключевой контракт harness (Attestation).
 
