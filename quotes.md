@@ -187,7 +187,7 @@ Source: https://lnkd.in/p/gw345n53 (verified live ✅ 07.10 — 4-question set v
 
 ## Mahesh Yadav boundary-breaks (SUSA founder, comment on Davis AI-safety post 07.10)
 
-Source: https://lnkd.in/p/gVaGCBYF (owner-paste verbatim; post-level verify pending ⚠️).
+Source: post verified live ✅ 07.10 (Stephen Davis, 13 reacts; comment text = owner-paste verbatim ⚠️ — behind login): https://www.linkedin.com/feed/update/urn:li:ugcPost:7513530035019083777/
 
 - «We replace static test cases with property-based checks and adversarial evals that force boundary breaks under constraint, catching emergent drift before it reaches production.» - Mahesh Yadav. Use: PBT + adversarial + drift triad; SUSA method in one line (watch-only contact, no thread).
 - «A test proves the code, a receipt proves the reality.» — Vinoth Govindarajan (OpenAI, QCon AI). Source: https://www.infoq.com/presentations/ai-agent-harness/ (Transcript section). Use: attestation/Mutation Matrix — receipt как доказательство реальности.
