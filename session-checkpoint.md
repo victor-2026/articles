@@ -1173,3 +1173,17 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 ## 2026-10-06 — W5 Duncan fact-pack received (W4, ammo held)
 - 5 lines + 2 visuals banked by W5 (quotes.md Duncan section, discipline respected); source PDF ai-qa-wiki/raw/1791317324457.pdf; FIG.02/FIG.04 as art refs.
 - Bodies = W4 when slotted. Candidates: 31-followup, angle B (judge theme), escape follow-up. No draft started (queue full through 19.10).
+
+## 2026-10-07 — W5 fodder 07.10 held (W4, no draft)
+- A (26/29): MAESTRO gap-4 (metrics hide gaps, denominators) + Spitzer unauditable-coverage. B (velocity): Spotify verify-constraint + Anthropic 25x CI/exponential. C (gate vocab): Breaklight WARN-rule, ghosts-vs-decay. Wiki pages + quotes in W5 bank. Ammo for post-19.10 queue.
+
+## 2026-10-07 — W5 fodder evening wave held (W4, no draft)
+- Avito quartet (timesavings-zero, review-debt, cycle -15%, 5-session cap; x4 quotes Avito platform).
+- Brij closer (oversight = principle not control + approve-button; x3).
+- Peterson (output = claim not fact + never-failing smell; x3).
+- Klain cross-confirm (Bach metamorphic video top both; 2 papers unread; x1).
+- All wiki + banked by W5. Ammo for post-19.10 queue.
+
+## 2026-10-07 — Group post submitted + commit (W4)
+- 30 group post SUBMITTED 07.10 eve (moderation confirmed, first comment held). Text finalized (ours, not Perplexity variant); method/runs split; inline-link option if resubmit needed.
+- Committed + pushing: group-post file + checkpoint only. quotes.md (+104 W5 banking) + digest-config.json (digest owner) left for their commits.
