@@ -255,6 +255,13 @@
     "weight": 0.8,
     "type": "manual"
    },
+   {
+    "id": "nikolai-grabner",
+    "name": "Nikolai Grabner (Breaklight, LinkedIn)",
+    "url": "https://www.linkedin.com/in/nikolai-grabner-5a91a12/",
+    "weight": 0.8,
+    "type": "manual"
+   },
   {
    "id": "aiid",
    "name": "AI Incident Database (blog + roundups)",
