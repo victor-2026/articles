@@ -476,6 +476,12 @@ Source: https://www.awesome-testing.com/2026/10/agentic-e2e-testing-actions-asse
 - «An assertion should be tried against an incorrect result as well as a correct one.» - Slawomir Radzyminski. Use: mutation doctrine from independent practitioner; try-against-wrong-result rule.
 - «I would not turn the final result into a claim that AI assertions are 100% reliable.» - Slawomir Radzyminski, same (after 38/38 post-fix). Use: anti-overclaim honesty; small-experiment humility.
 
+## Anton Gulin separate-accounts (12h, browser-vs-server)
+
+Source: https://lnkd.in/p/eqv9jDh6 (verified live ✅ 07.10).
+
+- «The useful distinction is where the change lives: in the browser, or on the server?» - Anton Gulin. Use: parallel-test isolation rule; Sam-vs-Lee display-name race as exhibit.
+
 ## Duncan Smith Saucinco POV (Oct 2026, "AI Won't Replace QA" — owner-downloaded PDF 7pp)
 
 Source: 1791317324457.pdf (full text read ✅ 07.10); post: Duncan Smith (Founder/COO Breaklight AI, Head of Ops Saucinco).
