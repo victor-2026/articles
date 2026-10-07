@@ -506,15 +506,16 @@ Source: https://lnkd.in/p/g6FmFsZm (verified live ✅ 07.10 — full text matche
 - «Without feedback, we can become very experienced at making decisions while repeatedly learning very little from them.» - Paul Kanaris. Use: experience-without-learning; feedback-loop thesis (org twin of survived-mutants-never-reviewed).
 - «Reality still gets a vote.» - Paul Kanaris, same (Decision → Outcome → Evidence → Learning). Use: reality-as-final-arbiter one-liner; held as round-3 follow-up ammo (do NOT engage — budget discipline).
 
-## Ted .. deterministic scaffolding (QA Lead @ Gig Radar, post URL PENDING)
+## Ted .. deterministic scaffolding (QA Lead @ Gig Radar, verified live 07.10)
 
-Source: owner paste 07.10 (verbatim on file; post link pending ⚠️); paper: https://arxiv.org/abs/2601.18827 (Kohl et al., Jan 2026, IEEE BigData 2025, OSS awslabs/generative-ai-toolkit — verified ✅).
+Source: https://www.linkedin.com/posts/ted-qa_automated-structural-testing-of-llm-based-share-7483403409518194688-Cdfr/ (verified live ✅ 07.10 — post + Art Voloshyn comment verbatim); paper: https://arxiv.org/abs/2601.18827 (Kohl et al., Jan 2026, IEEE BigData 2025, OSS awslabs/generative-ai-toolkit — verified ✅).
 
-- «If you can't mock the LLM call and assert on the trace, you're not testing the agent, you're vibe-checking it.» - Ted .. Use: mock-plus-trace rule; structural-testing doctrine in one line. Upgrade to verified on post URL.
+- «If you can't mock the LLM call and assert on the trace, you're not testing the agent, you're vibe-checking it.» - Ted .. Use: mock-plus-trace rule; structural-testing doctrine in one line.
+- «Mocking an LLM call freezes one sampled output, not the underlying distribution... The real test isn't whether your mock passes, it's whether your system handles variance at inference.» - Art Voloshyn (comment, verified ✅). Use: mock-vs-distribution gap; variance-handling as the real test (counter-voice to hold beside Ted).
 
-## Duncan Smith Saucinco POV (Oct 2026, "AI Won't Replace QA" — owner-downloaded PDF 7pp)
+## Duncan Smith Saucinco POV (Oct 2026, "AI Won't Replace QA" — raw on file 07.10)
 
-Source: 1791317324457.pdf (full text read ✅ 07.10); post: Duncan Smith (Founder/COO Breaklight AI, Head of Ops Saucinco).
+Source: `ai-qa-wiki/raw/1791317324457.pdf` (7pp, full text read ✅ 07.10; owner-placed in raw).
 
 - «A model that writes both the feature and the test can check itself against its own misunderstanding.» - Duncan Smith (+ FIG.02 "Green builds. Wrong product."). Use: examiner-can't-be-author, self-checking thesis; vendor-independent formulation.
 - «Accountability doesn't transfer to a tool.» - Duncan Smith, same (+ "Keep a human accountable for the verdict. Always."). Use: accountability doctrine; "the AI said it was fine is not an answer".
