@@ -498,6 +498,13 @@ Source: https://lnkd.in/p/eqv9jDh6 (verified live ✅ 07.10).
 
 - «The useful distinction is where the change lives: in the browser, or on the server?» - Anton Gulin. Use: parallel-test isolation rule; Sam-vs-Lee display-name race as exhibit.
 
+## Rogerio Chaves Decisions-vs-Jev (LangWatch benchmark, verified live 07.10)
+
+Source: https://lnkd.in/p/ebQR5WkA (verified live ✅ 07.10 — post verbatim; full benchmark: langwatch.ai/benchmarks/jev-alternatives).
+
+- «Jev-class models including Decisions API still mostly fails on checks where the answer has to be derived... they don't think before it answers.» - Rogerio Chaves (sic — grammar as posted). Use: derived-answer blindness; no-think-before-answer limit.
+- «For the same amount of money you can run more than twice as many evals with Jev... best for its price range.» - Rogerio Chaves, same (Decisions +11pts accuracy, ~2x speed). Use: judge cost-effectiveness; accuracy-vs-evals tradeoff.
+
 ## Imran Ali morning-screen (ClinVerify, HealthTech regulated — verified live 07.10)
 
 Source: https://www.linkedin.com/posts/imran-ali-aitestgroup_the-agent-runs-the-tests-on-the-app-heres-share-7513508835651805184-YZG_/ (verified live ✅ 07.10 — 4 questions verbatim; replies = owner-paste ⚠️).
