@@ -499,12 +499,18 @@ Source: https://www.linkedin.com/pulse/qa-mindset-isha-sharma-15h1c/ (verified l
 - «Treat the pipeline as a safety net, not the final judge.» - Isha Sharma, same. Use: pipeline-position doctrine; net-not-judge.
 - «QA is not a button. It is judgment.» - Isha Sharma, same. Use: judgment thesis one-liner.
 
-## Paul Kanaris decision-without-feedback (post 21h, owner-paste — URL PENDING)
+## Paul Kanaris decision-without-feedback (post 21h, verified live 07.10)
 
-Source: owner paste 07.10 (verbatim on file; post URL pending ⚠️).
+Source: https://lnkd.in/p/g6FmFsZm (verified live ✅ 07.10 — full text matches owner paste verbatim).
 
 - «Without feedback, we can become very experienced at making decisions while repeatedly learning very little from them.» - Paul Kanaris. Use: experience-without-learning; feedback-loop thesis (org twin of survived-mutants-never-reviewed).
 - «Reality still gets a vote.» - Paul Kanaris, same (Decision → Outcome → Evidence → Learning). Use: reality-as-final-arbiter one-liner; held as round-3 follow-up ammo (do NOT engage — budget discipline).
+
+## Ted .. deterministic scaffolding (QA Lead @ Gig Radar, post URL PENDING)
+
+Source: owner paste 07.10 (verbatim on file; post link pending ⚠️); paper: https://arxiv.org/abs/2601.18827 (Kohl et al., Jan 2026, IEEE BigData 2025, OSS awslabs/generative-ai-toolkit — verified ✅).
+
+- «If you can't mock the LLM call and assert on the trace, you're not testing the agent, you're vibe-checking it.» - Ted .. Use: mock-plus-trace rule; structural-testing doctrine in one line. Upgrade to verified on post URL.
 
 ## Duncan Smith Saucinco POV (Oct 2026, "AI Won't Replace QA" — owner-downloaded PDF 7pp)
 
