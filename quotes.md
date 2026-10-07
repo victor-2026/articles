@@ -490,6 +490,22 @@ Source: https://lnkd.in/p/giuVVans (verified live ✅ 07.10 — post + Gulin com
 - «The goal of self-healing isn't fewer red tests. It's less maintenance without losing test intent.» - Tatyana Arbouzova, same (95% locator vs 75% label vs dead-button-is-bug ladder). Use: confidence-tiered healing; human-final-say rule.
 - «A button that stops opening the form belongs in the bug tracker.» - Anton Gulin (comment). Use: heal-vs-file triage rule; label-murky-middle + confidence + human look.
 
+## Isha Sharma QA mindset (Pulse 05.10, numbers verified live 07.10)
+
+Source: https://www.linkedin.com/pulse/qa-mindset-isha-sharma-15h1c/ (verified live ✅ 07.10 — Veracode 45%, CodeRabbit 10.83 vs 6.45, logic +75%).
+
+- «When AI writes both the code and the tests from the same spec, they share the same blind spots.» - Isha Sharma. Use: same-spec blindness; examiner-can't-be-author, practitioner formulation.
+- «A tester who only watches the green tick is not doing quality assurance. They are reading a report.» - Isha Sharma, same. Use: green-tick ≠ QA; verdict-reading vs verdict-making.
+- «Treat the pipeline as a safety net, not the final judge.» - Isha Sharma, same. Use: pipeline-position doctrine; net-not-judge.
+- «QA is not a button. It is judgment.» - Isha Sharma, same. Use: judgment thesis one-liner.
+
+## Paul Kanaris decision-without-feedback (post 21h, owner-paste — URL PENDING)
+
+Source: owner paste 07.10 (verbatim on file; post URL pending ⚠️).
+
+- «Without feedback, we can become very experienced at making decisions while repeatedly learning very little from them.» - Paul Kanaris. Use: experience-without-learning; feedback-loop thesis (org twin of survived-mutants-never-reviewed).
+- «Reality still gets a vote.» - Paul Kanaris, same (Decision → Outcome → Evidence → Learning). Use: reality-as-final-arbiter one-liner; held as round-3 follow-up ammo (do NOT engage — budget discipline).
+
 ## Duncan Smith Saucinco POV (Oct 2026, "AI Won't Replace QA" — owner-downloaded PDF 7pp)
 
 Source: 1791317324457.pdf (full text read ✅ 07.10); post: Duncan Smith (Founder/COO Breaklight AI, Head of Ops Saucinco).
