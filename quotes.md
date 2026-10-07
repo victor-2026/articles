@@ -553,7 +553,7 @@ Source: https://www.linkedin.com/posts/ted-qa_automated-structural-testing-of-ll
 
 ## Duncan Smith Saucinco POV (Oct 2026, "AI Won't Replace QA" — raw on file 07.10)
 
-Source: `ai-qa-wiki/raw/1791317324457.pdf` (7pp, full text read ✅ 07.10; owner-placed in raw).
+Source: `ai-qa-wiki/raw/1791317324457.pdf` (7pp, full text read ✅ 07.10; owner-placed in raw). Author: https://www.linkedin.com/in/duncansmith23/ (Founder/COO Breaklight AI + Head of Ops Saucinco, Melbourne; Breaklight = independent AI testing consultancy: retrieval/grounding/hallucination/adversarial/eval-ops, "evidence, not opinions").
 
 - «A model that writes both the feature and the test can check itself against its own misunderstanding.» - Duncan Smith (+ FIG.02 "Green builds. Wrong product."). Use: examiner-can't-be-author, self-checking thesis; vendor-independent formulation.
 - «Accountability doesn't transfer to a tool.» - Duncan Smith, same (+ "Keep a human accountable for the verdict. Always."). Use: accountability doctrine; "the AI said it was fine is not an answer".
