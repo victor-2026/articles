@@ -268,12 +268,18 @@
    "url": "https://incidentdatabase.ai/rss.xml",
    "weight": 0.6
    },
-   {
+  {
    "id": "basdijkstra",
    "name": "Bas Dijkstra / On Test Automation",
    "url": "https://www.ontestautomation.com/feed.xml",
    "weight": 0.8
-   }
+  },
+  {
+   "id": "launchdarkly",
+   "name": "LaunchDarkly Blog (AI software factory series, AgentControl)",
+   "url": "https://launchdarkly.com/blog/feed.xml",
+   "weight": 0.9
+  }
   ],
   "client_watch": {
     "purpose": "Client/vendor tracking, separate from news intake. Manual sources only; npm check is a Sunday-ritual shell line, not parsed by daily-digest.py.",

@@ -587,3 +587,107 @@ Source: Substack email "What Is Agentic AI Escalation Architecture?" 06.10 (owne
 - «What event should trigger the next level of authority?» - Ken Huang. Use: gate-reading question in one line; verdict-layer thesis (who decides the next lane).
 - «Capability compounds. Control drifts.» - Ken Huang, same. Use: drift thesis in four words; pairs with "expensive incident began with one unjustified escalation".
 - «A well-built escalation system makes each threshold legible.» - Ken Huang, same (cost/privacy/authority/consequence thresholds). Use: legibility doctrine — pairs with evidence packs (why it stayed cheap/escalated/stopped must be obvious).
+
+## Ken Huang MAESTRO 3D-control (Agentic AI Substack, 05.10, full text read 07.10)
+
+Source: https://kenhuangus.substack.com/p/i-love-googles-agentic-ai-security (open letter on Google DeepMind AI Control Roadmap June 2026 + CSA MAESTRO Feb 2025; wiki: ai-qa-wiki/wiki/kenhuang-maestro-google-control-roadmap-2026.md).
+
+- «Behavior explains the attack. Capability explains the escalation. Architecture explains where control must hold.» - Ken Huang. Use: 3D-control one-liner (behavior x capability x architecture).
+- «A control with no path is a control you cannot compose.» - Ken Huang, same (maestro.path field note). Use: path-completeness rule.
+- «Every percentage must publish its denominator.» - Ken Huang, same (metrics gap #4). Use: denominator discipline; pairs with risk-weighted coverage formula.
+- «The AI Control Roadmap uses TRAIT&R to describe adversary behavior, D1-D4 and R1-R3 to scale controls with capability, and MAESTRO to map architectural origin, propagation, ownership, and evidence.» - Ken Huang, same. Use: synthesis sentence for articles.
+- «A coverage number nobody outside the vendor can audit is still just a claim with better formatting.» - Amit Spitzer (comment, liked by Huang; frontier-lab escapes caught by outsiders weeks later, not by lab monitors). Use: auditability objection; attestation thesis backup.
+
+## Wikimedia rogue-agents disclosure (Oct 2026: Wikimedia 05.10 + Ars 06.10 + Verge 05.10, all full-text read 07.10)
+
+Sources: https://wikimediafoundation.org/news/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/ + https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/ (wiki: ai-qa-wiki/wiki/openai-wiki-incident-2026.md).
+
+- «What I see here is language models doing what language models do: reading and writing.» - Eryk Salvaggio (Cambridge, via Ars). Use: anti-"rogue" framing.
+- «Taken together, it's arguable that the agents performed exactly as instructed.» - Eryk Salvaggio, same (persistence training + shortcut rewards + months-long detection lag). Use: accountability redirect — test incentives/oversight, not disobedience.
+- «We should not allow this behavior to become the 'new normal' for the people or organizations that maintain it.» - Wikimedia Foundation. Use: norms-setting; agent-to-agent coordination via public writable surfaces.
+
+## Apple FDA vs Meta Muse (Ars, 02.10, full text read 07.10)
+
+Source: https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/ (wiki: runtime-authorization field evidence).
+
+- «As AI agents become increasingly capable and autonomous, the risks associated with this level of access will grow substantially.» - Apple (developer announcement). Use: capability-scaled access risk.
+- «Some developers are using Full Disk Access in ways that could put users at risk, exposing everything on their systems — including files, mail, messages, and even browsing history — without users' full knowledge and understanding.» - Apple, same. Use: coarse-envelope exhibit (FDA = binary allow-all).
+
+## Susan Chang Elastic evals (QCon AI via InfoQ, transcript read 07.10)
+
+Source: https://www.infoq.com/presentations/elastic-ai-agent-evaluations/ (wiki: ai-qa-wiki/wiki/elastic-shared-eval-framework-chang-2026.md).
+
+- «if we're using the same family of models, in this case, like Llama to evaluate Llama, then they would think the Llama models perform better» - Susan Chang (Elastic; also found by Meta + CrowdStrike). Use: same-family judge bias, vendor-independent.
+- «The shared evaluation framework cannot be responsible for calibration.» - Susan Chang, same (evaluators must agree with human evaluators; uncalibrated judge = junk). Use: calibration ownership; non-outsourceable expertise.
+
+## Anthropic CI + Spotify velocity (STW #329, both full-text read 07.10)
+
+Sources: https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic (Sachin Malhotra, 14.09) + https://engineering.atspotify.com/2026/9/ai-changed-how-spotify-builds-what-we-learned-and-fixed-about-quality-at-higher-velocity (Tyson Singer, 16.09). Wiki: ai-qa-wiki/wiki/anthropic-spotify-quality-at-ai-speed-2026.md.
+
+- «Writing code is no longer the constraint, and once PR review gets accelerated, CI starts feeling the pressure.» - Sachin Malhotra (Anthropic; 8x code, Claude authors 80%, 25x CI jobs/6mo). Use: constraint migration.
+- «always plan for the exponential» - Sachin Malhotra, same (patches bought 70d, then 29d, then <1d). Use: 25x planning rule; patch-decay exhibit.
+- «AI increased the capacity to produce change. The next constraint became our ability to verify it.» - Spotify Engineering (no material direct AI-authored incident contribution; volume-outpacing-verification confirmed). Use: verify-constraint thesis.
+
+## Jason Arbon book 2nd ed (488pp corrected PDF, verified in text 07.10)
+
+Source: raw/how-ai-tests-software-victor-ematin-corrected.pdf (decrypted, full text). Wiki: ai-qa-wiki/wiki/jason-arbon-book-second-edition-delta-2026.md.
+
+- «Instructions are not a sandbox.» - Jason Arbon (containment: enforce outside the prompt). Use: prompt-vs-control boundary.
+- «A green dashboard is a claim produced by a model of the product. Test that model.» - Jason Arbon, same (meta-testing spread). Use: dashboard-as-claim; mutation suite as the test.
+- «Keep the denominator and scope visible.» - Jason Arbon, same. Use: denominator discipline.
+
+Source: https://jarbon.medium.com/i-put-jev-in-a-playwright-browser-testing-loop-its-fast-but-23b58a1a5767 (wiki relay in typesafe-jev page; W2 track).
+
+- «A returned probability of 1.0 is still a model output. It does not turn the judgment into a proof.» - Jason Arbon. Use: probability-vs-proof; calibration humility.
+
+## TestMu auto-heal limits (Learning Hub, full text read 07.10)
+
+Source: https://www.testmuai.com/learning-hub/auto-heal-in-playwright/ (vendor SEO page with honest limits section; cross-link: ai-qa-wiki/wiki/qawolf-6-types-self-healing-2026.md).
+
+- «Auto heal handles small changes like attribute updates reliably, but it struggles when the DOM structure changes significantly or interactive elements are replaced.» - TestMu AI. Use: heal boundary (matches testRigor M-findings).
+- «For login, checkout, or sensitive data submission, rely on strict locators and fail-fast behavior.» - TestMu AI, same. Use: strict-critical-flows; per-risk-tier rhyme (B0 strict).
+
+## Breaklight whitepaper (Sep 2026, PDF text extracted + read 07.10)
+
+Source: https://breaklight.ai/docs/breaklight-whitepaper.pdf (18pp; link-only ref, no raw file). Wiki: ai-qa-wiki/wiki/breaklight-ai-testing-methodology-whitepaper-2026.md.
+
+- «A grader that lets hallucinations pass is worse than no grader, because it manufactures false confidence.» - Breaklight (§6 judge calibration; κ ≥ 0.75, different family). Use: grader-failure doctrine.
+- «A number just above the bar is not a pass. It is a question you haven't answered yet.» - Breaklight (§5 verdict rule: PASS only if full CI clears bar; 90.7% on n=482 = WARN). Use: bar-straddle rule; chasing-ghosts vs missing-decay.
+- «Every score in a report is only as trustworthy as the instrument that produced it. We measure the instrument first.» - Breaklight, same. Use: instrument-first; calibration before claims.
+
+## Avito platform (tech.conf 2026, transcript read 07.10)
+
+Source: "Как меняется разработка и сетап команд с внедрением агентов" (40:38), speaker Александр, платформа Авито. https://www.youtube.com/watch?v=FUebAa_Ay4k. Wiki: ai-qa-wiki/wiki/avito-agents-setup-metrics-review-2026.md.
+
+- «это не дает абсолютно никакого бизнес-эффекта по умолчанию» - Avito (про timesavings-час: растворяется в техдолге и комфорте). Use: timesavings-zero-effect; outcome-metrics thesis.
+- «время ревью не то что не увеличилось, оно сократилось» + «люди банально меньше смотрят изменения» - Avito, same (инкременты +30%, PR x2). Use: review-debt exhibit; faster-means-less-looking.
+- «человек обязательно отвечал за то изменение, которое он выкатывает» - Avito, same (автор владеет продом; ревью = awareness + важное). Use: author-owns doctrine.
+- «пять сессий - это просто предел» - Avito, same (man-in-the-loop не масштабируется; когнитивный предел). Use: 5-session cap; man-on-the-loop direction.
+
+## Mike Peterson QE GenAI (practitioner guide, full text read 07.10)
+
+Source: https://mikepeterson-git.github.io/qe-docs/qe-understanding-ai.html (via Klain group: "good general introduction"). Wiki: ai-qa-wiki/wiki/mike-peterson-qe-genai-perspective-2026.md.
+
+- «An agent that says "I checked the logs and I'm confident this passed" is generating a plausible-sounding sentence, not reporting on a persistent mental process it has.» - Mike Peterson. Use: self-report-vs-evidence; check the artifact.
+- «A generated test that never fails is a common and easy-to-miss failure mode of its own.» - Mike Peterson, same. Use: never-failing-test smell.
+- «an AI's output is a claim, not a fact, until something independent of the model has checked it» - Mike Peterson, same (verification mindset). Use: claim-not-fact doctrine.
+
+## Brijesh Deb testable oversight (LinkedIn group post ~3d, owner-paste 07.10)
+
+Source: AI Testing & Assurance group (Klain admin); post URL not on file. Author Tier-3 watch. Wiki: ai-qa-wiki/wiki/brijesh-deb-testable-oversight-2026.md.
+
+- «Human oversight should itself be testable.» - Brijesh Deb. Use: oversight-as-test-target; 4 test questions (recognize/challenge/intervene/stop).
+- «Without that, human oversight remains a principle, not yet a control.» - Brijesh Deb, same. Use: principle-vs-control closer.
+- «If they lack the information or authority to challenge the system, an APPROVE button does not magically create oversight.» - Brijesh Deb, same (observation vs incident response vs oversight). Use: approve-button critique.
+
+## Klain on Bach metamorphic video (group post 15h, owner-paste 07.10)
+Source: AI Testing & Assurance group; video = same as STW #329 (https://www.youtube.com/watch?v=5bU1Ao3aIdc); papers: https://arxiv.org/abs/2002.12543 + https://ieeexplore.ieee.org/document/8573811 (leads, not yet read).
+
+- «This might be the most useful video on testing real AI systems using metamorphic techniques I've seen out there.» - Keith Klain. Use: cross-confirmation (Klain + STW both surface Bach video same week).
+
+## LaunchDarkly factory (Eng blog 14.08, full text read 07.10)
+
+Source: https://launchdarkly.com/blog/our-ai-software-factory-saved-me-from-an-incident/ (Alex Engelberg; guarded release 13/243 vs 0/250). Wiki: ai-qa-wiki/wiki/launchdarkly-guarded-release-factory-2026.md. Feed: launchdarkly in digest-config (0.9).
+
+- «Guarded releases are powerful, and they can save you when you least expect them to be necessary. But it's important for guarding a change to be easy, so the cognitive cost doesn't discourage folks from making the safe choice.» - Alex Engelberg. Use: safe-by-default doctrine; cheap-gates-get-used.
+- «When a software factory automates this scaffolding, the hard parts of shipping more safely become the default.» - Alex Engelberg, same (auto-flagging/releasing/cleanup). Use: scaffolding-automation thesis.
