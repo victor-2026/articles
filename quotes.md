@@ -498,6 +498,14 @@ Source: https://lnkd.in/p/eqv9jDh6 (verified live ✅ 07.10).
 
 - «The useful distinction is where the change lives: in the browser, or on the server?» - Anton Gulin. Use: parallel-test isolation rule; Sam-vs-Lee display-name race as exhibit.
 
+## Imran Ali morning-screen (ClinVerify, HealthTech regulated — verified live 07.10)
+
+Source: https://www.linkedin.com/posts/imran-ali-aitestgroup_the-agent-runs-the-tests-on-the-app-heres-share-7513508835651805184-YZG_/ (verified live ✅ 07.10 — 4 questions verbatim; replies = owner-paste ⚠️).
+
+- «A red result is only real once a person has looked.» - Imran Ali. Use: human-reading doctrine; red-is-claim-until-read.
+- «Coverage, not pass rate.» - Imran Ali, same (DCB0129 80% / FDA 84% / GDPR 83% beside hazard log + safety case). Use: framework-linked coverage; sign-off context.
+- «It handles the running, the evidence and the traceability, but it doesn't handle the judgement... a failed run is only real once someone has read the agent's reasoning and agreed.» - Imran Ali (reply to Sajid Manzoor). Use: engine-runs/people-decide split; generated-cases-are-drafts.
+
 ## Anton Gulin first-agent-task (verified live 07.10)
 
 Source: https://www.linkedin.com/posts/antongulin_lets-give-an-ai-agent-its-first-testing-ugcPost-7513568913612341248-fRSq/ (verified live ✅ 07.10 — post verbatim; article: anton.qa/blog/posts/first-agent-task).
