@@ -469,6 +469,15 @@ Source: https://lnkd.in/p/ej2wPrxn (verified live ✅ 06.10 — post 1402 reacts
 - «The cheapest check I added needed no model at all... A model as judge was only worth it where a rule could not decide.» - Arian Z. (comment, verified ✅). Use: rules-before-judges cost hierarchy; deterministic-first doctrine.
 - «Tests tell me the task was done right, but not whether the agent stayed inside the task... the diff size being a signal too, next to the tests.» - Marcin I. (comment, verified ✅). Use: scope-check/blast-radius signal beside pass-fail; green-with-stray-diff suspicion.
 
+## Danyil Zuiev LangSmith tracing post (06.10)
+
+Source: https://www.linkedin.com/posts/daniil-zuiev_traced-and-evaluated-an-llm-support-bot-with-activity-7511785476509458433-dPhk (post verified live ✅ 06.10; 3h reply = owner-paste verbatim ⚠️).
+
+- «I reviewed the judge's failing verdicts against the traces, not the passing ones.» - Danyil Zuiev. Use: gaps-first discipline in one line.
+- «A one-case difference is a lead to investigate, not statistical proof.» - Danyil Zuiev, same. Use: small-N honesty; micro-batch humility.
+- «The run-to-run noise is about as big as the effect I was trying to read, and I can't yet say how much of it comes from the judge.» - Danyil Zuiev (reply: LangSmith 9→10 vs Langfuse 8→11 on identical tokens). Use: harness-variance vs effect-size; judge-noise exhibit.
+- «Next iteration I'll plant one retrieval miss and one hallucination per run.» - Danyil Zuiev, same reply. Use: seeded-breaks adoption on record (our method, his words).
+
 ## Ken Huang escalation architecture (Agentic AI Substack, 06.10)
 
 Source: Substack email "What Is Agentic AI Escalation Architecture?" 06.10 (owner-paste full text on file); publication verified: https://kenhuangus.substack.com/ (Agentic AI, Ken Huang, 128K+ subs, agentic AI + security).
