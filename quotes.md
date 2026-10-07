@@ -469,6 +469,13 @@ Source: https://lnkd.in/p/ej2wPrxn (verified live ✅ 06.10 — post 1402 reacts
 - «The cheapest check I added needed no model at all... A model as judge was only worth it where a rule could not decide.» - Arian Z. (comment, verified ✅). Use: rules-before-judges cost hierarchy; deterministic-first doctrine.
 - «Tests tell me the task was done right, but not whether the agent stayed inside the task... the diff size being a signal too, next to the tests.» - Marcin I. (comment, verified ✅). Use: scope-check/blast-radius signal beside pass-fail; green-with-stray-diff suspicion.
 
+## Slawomir Radzyminski e2e framework eval (awesome-testing.com, 02.10.2026)
+
+Source: https://www.awesome-testing.com/2026/10/agentic-e2e-testing-actions-assertions-and-cost (fetched full ✅ 07.10 — 302-test migration, 95 AI assertions, 19-error mutation probe).
+
+- «An assertion should be tried against an incorrect result as well as a correct one.» - Slawomir Radzyminski. Use: mutation doctrine from independent practitioner; try-against-wrong-result rule.
+- «I would not turn the final result into a claim that AI assertions are 100% reliable.» - Slawomir Radzyminski, same (after 38/38 post-fix). Use: anti-overclaim honesty; small-experiment humility.
+
 ## Duncan Smith Saucinco POV (Oct 2026, "AI Won't Replace QA" — owner-downloaded PDF 7pp)
 
 Source: 1791317324457.pdf (full text read ✅ 07.10); post: Duncan Smith (Founder/COO Breaklight AI, Head of Ops Saucinco).
