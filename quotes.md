@@ -629,12 +629,65 @@ Sources: https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-sca
 - «AI increased the capacity to produce change. The next constraint became our ability to verify it.» - Spotify Engineering (no material direct AI-authored incident contribution; volume-outpacing-verification confirmed). Use: verify-constraint thesis.
 
 ## Jason Arbon book 2nd ed (488pp corrected PDF, verified in text 07.10)
-
 Source: raw/how-ai-tests-software-victor-ematin-corrected.pdf (decrypted, full text). Wiki: ai-qa-wiki/wiki/jason-arbon-book-second-edition-delta-2026.md.
 
 - «Instructions are not a sandbox.» - Jason Arbon (containment: enforce outside the prompt). Use: prompt-vs-control boundary.
 - «A green dashboard is a claim produced by a model of the product. Test that model.» - Jason Arbon, same (meta-testing spread). Use: dashboard-as-claim; mutation suite as the test.
 - «Keep the denominator and scope visible.» - Jason Arbon, same. Use: denominator discipline.
+
+## Shak Schiff BadTesting inbound (1st, self-came 07.10, owner-paste profile+posts)
+Source: LinkedIn paste (profile + 6 posts, 6d-1mo). Founder BadTesting (Austin, 14y, revenue-risk QA, FDA therapeutics case); fresh Engenious University AI-testing grad (Promptfoo/red-team/judge); 4.7K followers; mutuals Max, Jean-Yves +7. Tier 3 observe (promo-heavy, unproven peer); commercial-adjacent → any outreach = W1.
+
+- «Nobody tested past turn three. Apparently, turn four was out of scope.» - Shak Schiff (10-turn refund promise; MSFT/Salesforce 39% multi-turn drop cite). Use: turn-four scope joke; multi-turn gap.
+- «Validation was always the cheaper option.» - Shak Schiff, same (Bard $100B, glue pizza, BBC summaries, Air Canada tribunal). Use: validation-cheaper closer.
+- «You're learning to work with probabilistic outputs, set thresholds, define acceptable ranges, and figure out where the results stop being acceptable.» - Shak Schiff, same. Use: practitioner thresholds doctrine.
+
+## Danyil Zuiev LangSmith vs Langfuse (post 14h + repo README, both read 08.10)
+Sources: owner-paste post + https://github.com/Daniilzuyev/llm-evaluation-portfolio/blob/main/20-langfuse/README.md (same bot, 12 cases, version-pinned). Wiki: ai-qa-wiki/wiki/danyil-langsmith-langfuse-comparison-2026.md.
+
+- «One single test run proves nothing - you are measuring statistical noise, not a fix.» - Danyil Zuiev (post). Use: single-run noise thesis.
+- «When building with LLMs, your biggest bottleneck is often tool compatibility and API drift, not the model itself.» - Danyil Zuiev, same. Use: bottleneck redirect (SDK/API, not model).
+- «Counts are reported as "N of 12", not averages. With 12 cases one item is 8.3 percentage points.» - Danyil Zuiev (README). Use: small-N reporting rule.
+- «The data does not support an overall "better tool" verdict.» - Danyil Zuiev, same. Use: non-verdict honesty.
+
+## Hari S Mahesh reply (peer thread, owner-paste 08.10, 310 imp on Victor's comment)Source: LinkedIn reply, verbatim paste. Context: outcome-first packs thread; W1 track, card in Positions.
+
+- «a measured outcome still needs a behavior check, not just a result check» - Hari S Mahesh (via Milan Thomas framework). Use: behavior-gate doctrine.
+- «A fluent result via the wrong tool path passes the output gate and fails the decision gate.» - Hari S Mahesh, same. Use: wrong-path-fluent; output-vs-decision split. Pairs with QBurst L2 (wiki/qburst-quality-engineering-framework-validating-agent-behavior-2026.md).
+
+## Hari S Mahesh full thread (owner-paste full 08.10: post + Amit + Victor 319 imp + Hari reply + Victor follow-up SENT 2d)
+
+Post: outcome packs (QBurst). Hari reply VERBATIM: "Absolutely. A successful output alone is not enough if the agent reached it through the wrong tool, context, or decision path. ... Agentic Outcome Packs need both outcome validation and behavioral assurance, covering tool selection, reasoning paths, guardrails, approvals, and traceability. That is what turns a measured result into a trustworthy and repeatable outcome." Victor follow-up SENT (approver scoping: human-in-loop per outcome vs tiered by risk). Awaiting Hari reply.
+
+- «Agentic Outcome Packs need both outcome validation and behavioral assurance» - Hari S Mahesh. Use: dual-gate acceptance (his words).
+- «That is what turns a measured result into a trustworthy and repeatable outcome.» - Hari S Mahesh, same. Use: trust-repeatability closer.
+
+## Claude AI Community group (RTFD feed dump 08.10, 28 posts scanned)
+
+Source: owner-saved group page (Claude AI Community, 69K). Verdict: builder-heavy, thin for QA (jobs/courses/how-tos/leaks). Leads only, no wiki.
+
+- «Use the least expensive model that can reliably finish the task.» - Gopesh Jangid (Sonnet 5.5 vs Opus 5.5 routing post). Use: cost-of-verdict routing rule (W2 ledger angle).
+
+## AI Data & Tech Leaders group (webarchive dump 08.10, 45 posts scanned)
+Source: owner-saved group page. Verdict: noisy but not pit (jobs 6/45, courses 10/45, promo 0). One substance hit banked, rest automation-pitches/math-fluff/SEO.
+
+- «A vector database can be perfectly authenticated and still leak the wrong document to the wrong user.» - Ahmed Medo (RAG access-control post). Use: auth-vs-leak split; API-key/RBAC/TLS don't cover doc-level leaks. Pairs with Breaklight adversarial + runtime-auth.
+
+## Haim Michael / Skipper Soft — test agrees with bug (post 17h, guest-verified 08.10)
+Source: https://lnkd.in/p/eJa78ceE (Skipper Soft, 1.2K followers; Igor Goldshmidt article ref; Jakub S. comment from owner-paste). Leads (titles only, not read): "Almost Right Isn't a New Kind of Bug" (6d), "Your Agent Gave the Right Answer. That Proves Nothing" (1w).
+
+- «A test can cover the boundary, exercise the bug, and still pass.» - Haim Michael (> vs >=, generated test expects zero at $100). Use: boundary-covered-yet-passing; who-checked-expected.
+- «who checked the expected result?» - Haim Michael, same. Use: expected-value provenance question.
+- «a lot of green AI tests mostly only means there is a lot of tests. It doesn't say anything about coverage and/or test quality.» - Jakub S. (comment, owner-paste). Use: green-count-vs-quality.
+
+## Igor Goldshmidt trajectory/response + migration (profile dump 08.10, posts read full)
+
+Source: owner-saved Goldshmidt.webarchive (https://www.linkedin.com/in/igorgolds/). Wiki: ai-qa-wiki/wiki/igor-goldshmidt-trajectory-response-2026.md. Tier proposal: Tier 1 (doctrine load-bearing; outreach = W1).
+
+- «The test was green because the test was looking at the text. That is not an agent failure. It is an oracle failure.» - Igor Goldshmidt (refund eval: 0.91 green, eligibility check never called, 42d vs 30d cutoff). Use: oracle-failure doctrine; trajectory-wrong/response-right quadrant.
+- «Green in CI, incident in production.» - Igor Goldshmidt, same. Use: dangerous-quadrant one-liner.
+- «A replacement model does not need to produce the same words. It needs to preserve the engineering outcome.» - Igor Goldshmidt (Sept-1 migration post; acceptance portfolio: frozen tasks, seeded failures, hard gates, canaries, rollback). Use: outcome-preservation rule.
+- «Only the last one tells you what to fix.» - Igor Goldshmidt (threshold composite; 4 questions: wrong/surfaced/found/which-check). Use: which-check-should-have-stopped-it.
 
 Source: https://jarbon.medium.com/i-put-jev-in-a-playwright-browser-testing-loop-its-fast-but-23b58a1a5767 (wiki relay in typesafe-jev page; W2 track).
 
