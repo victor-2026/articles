@@ -751,18 +751,88 @@ Sources: https://arxiv.org/abs/2603.22106 + http://margaretstorey.com/blog/2026/
 - «I won't be surprised if more testers will be needed for testing of all those nondeterministic systems in future, not less.» - Alexander Galavach (comment). Use: tester-demand forecast.
 
 ## Sidharth S. 8-areas taxonomy (owner-paste full 09.10)
-
 Source: https://www.linkedin.com/feed/update/urn:li:activity:7513803239889428480/ (AI-Driven Reliability Architect; Gulin commented). No wiki (career taxonomy, reference).
 
 - «Building evaluation frameworks to determine whether an AI-generated response is actually good enough — not simply whether the test passed.» - Sidharth S. (area #3 AI Test Evaluation). Use: good-enough-vs-passed.
 - «Software + Testing + AI + Systems + Risk» - Sidharth S., same (future QAE/SDET formula). Use: five-stack formula.
 
 ## John Smart microservice timing (owner-paste full 09.10 + Gulin comment)
-
 Source: https://www.linkedin.com/posts/john-ferguson-smart_microservices-apitesting-testautomation-ugcPost-7513941090123628544-1kRs/ (shift-left restated: conversation before tooling). No wiki (classic thesis).
 
 - «The important part isn't the tool. It's the conversation.» - John Ferguson Smart. Use: conversation-over-tool.
 - «Don't start with "Which tool should we use?"» - John Ferguson Smart, same. Use: timing-before-tooling.
+
+## Feed3 dump 09.10 (owner webarchive, 32 posts scanned → 2 verified live 09.10)
+
+Source: LinkedIn home feed selection. Takes below; rest promo/noise. URGENT inside: Quality Minded #3 Fri Oct 9 5:00-6:30 PM CEST (Ursa-Minor-Beta demo: self-learning QA agent + Agent Factory; Chizhkoff Distributed-Monolith + Rho Metric; RSVP lnkd.in/eUKD9gmi).
+
+- «Software development may be getting cheaper with AI. Verification is not.» - Zunaid Kazi (harness grown-up work: arch/tests/gates/evals/guardrails, almost none generation). Use: verification-price rule.
+- «When evaluator and worker models share similar training distributions and transformer mechanics, they share identical blind spots.» - Gaurav Bansal (BugRaptors; Recursive Trust Loop; directional NLI checks). Use: shared-blind-spots (same-family bias, vendor-stated).
+- «You didn't remove the constraint. You relocated it.» - Carlos R. (80% operational failures; Amdahl; review queues as ceiling). Use: constraint-relocation (Amdahl for agents).
+- «We might simply become much faster at producing crap!» - Rudolf Groetz (HUSTEF recap; Callum Akehurst-Ryan talk pointer). Use: faster-crap (Tier-1).
+- «AI is not a magic quality machine. It amplifies what we already have, including our weaknesses.» - Rudolf Groetz, same. Use: amplifier thesis.
+- «When the same AI context that creates the change is also asked to validate the change, it can carry assumptions from generation into testing.» - Badri varadarajan (DevAssure O2: independent regression gate; Build/Break/Merge). Use: assumption-carryover (W2 DevAssure track FYI).
+
+## Groetz HUSTEF verified (guest 09.10, 30.8K followers, 12 reacts)
+
+Source: https://www.linkedin.com/feed/update/urn:li:activity:7513967136260947969/ (Callum talk pointer; Alexander Kell + Callum comments). Lead (not fetched, slug guessed 404): "In an agentic world, what does PASS actually mean" (1w).
+
+- «First understand. Then improve. Then automate.» - Rudolf Groetz. Use: understand-first sequence.
+- «Are we preparing people to work better with AI, or just teaching them to produce more stuff faster?» - Rudolf Groetz, same (closing). Use: prepare-vs-produce question.
+
+## Zunaid verification-price verified (guest 09.10, 8.1K followers, 481 posts)
+
+Source: https://www.linkedin.com/feed/update/urn:li:activity:7513422162544721920/ (harness fixed-cost; Nuno + Aliaksei comments).
+
+- «the prompt is the cheapest part of the system» - Zunaid Kazi (harness: arch/tests/gates/evals/guardrails; how-do-we-know-right). Use: prompt-cheapest.
+- «we've made agreement cheaper... not verification. Who checks what they both missed?» - Nuno Sampaio (comment: AI-misunderstood-requirement + same-misunderstanding tests). Use: agreement-vs-verification.
+- «your harness list is mostly fixed cost... how many times they pay for that harness: once per org, or quietly again on every project» - Aliaksei Shautsou (comment: generation per-feature vs harness fixed). Use: harness fixed-cost economics.
+
+## Feed2 dump 09.10 (owner webarchive, 39 posts scanned → 4 verified live 09.10)
+
+Source: LinkedIn home feed selection. Takes below; rest promo/noise. No wiki (scan-level; quotes from verifiable-complete fragments).
+
+- «If the outcome had been different, would we tell the same story about the decision?» - Paul Kanaris (hindsight/decision-environment; knowable-then vs visible-after). Use: decision-environment discipline. W1 Kanaris track FYI.
+- «Shipping an AI system is no longer the hard part. Keeping it from quietly getting worse is.» - Max Kitaygora (AI Leaders Forum Sunnyvale: NVIDIA/LinkedIn/Meta/Google; harness-is-the-product). Use: quiet-decay thesis; harness-as-product.
+- «Same model, different harness, different system.» - Max Kitaygora, same. Use: harness-determinism one-liner.
+- «it describes intent, not evidence» - CREATEQ (auditors vs "developers always review"; 16 checkpoints Met/Partial/Open). Use: intent-vs-evidence audit.
+- «A failure to evaluate is not an evaluation of danger.» - Alexandra Krížová (ALLOW +1 / DENY -1 / HOLD 0; Auto Mode freeze case). Use: epistemic-void rule.
+- «trust is the discipline of preventing inference from becoming evidence» - Alexandra Krížová, same (Alexicon_AI founding constraint). Use: inference-vs-evidence discipline.
+- «Green meant nothing shipped. Red meant it shipped.» - Budi Sugianto (TestivAI incident: green x4 shipped nothing, red x5 shipped all; npm async staging). Use: artifact-not-exit-code.
+- «I've been telling people to check the artifact, not the exit code.» - Budi Sugianto, same. Use: artifact-check rule.
+
+## Budi incident verified (guest 09.10, 1.4K followers, testiv.ai)
+
+Source: https://www.linkedin.com/feed/update/urn:li:activity:7512684972386836480/ (npm async-staging collision both directions; @testivai/mcp 0.6.0 out).
+
+- «Four times, because a passing run gave me no reason to look.» - Budi Sugianto. Use: green-blindness mechanism.
+
+## Max Sunnyvale verified (guest 09.10, 3.4K followers, 97 posts)
+
+Source: https://www.linkedin.com/feed/update/urn:li:activity:7514027314788089856/ (AI Leaders Forum: NVIDIA/LinkedIn/Meta/Google; GSM Outdoors practice).
+
+- «Using models from different providers can also reduce shared blind spots.» - Max Kitaygora (separation of duties: dev agent vs observability agent with revocation, no prod-write). Use: multi-provider separation (family-diversity doctrine, vendor-independent).
+- «Shipping proves it works today. An eval loop tells you when it stops.» - Max Kitaygora, same (closer; GSM code-review passes + support-chatbot traces feed evals). Use: eval-loop-as-monitor.
+- «Production traces are valuable only when they feed back into evaluations and drive improvements.» - Max Kitaygora, same. Use: traces-must-feed-evals (anti-dashboard).
+
+## Alexandra verified (guest 09.10, 4.4K followers, 146 posts, 20 articles)
+
+Source: https://www.linkedin.com/feed/update/urn:li:activity:7513936314807869441/ (Auto Mode fatigue; Alexicon_AI; related pieces Proof-Without-Diary, Record-That-Cannot-Say).
+
+- «the next generation of AI safety needs an auditable constitutional layer» - Alexandra Krížová. Use: constitutional-layer demand.
+
+## Paul hindsight verified (guest 09.10, QACE 1.8K followers)
+
+Source: https://www.linkedin.com/feed/update/urn:li:activity:7513982161427910656/ + QACE article "Learning From Decisions Without Using Hindsight As Judgment". More QACE pieces as leads: False Certainty cost (8h), Why Good Leaders (3d), Following Quality Cost (5d). W1 track.
+
+- «Don't rewrite yesterday with today's knowledge. Use today's knowledge to improve tomorrow's judgment.» - Paul Kanaris. Use: send-forward rule.
+- «What was reasonably knowable when we decided? What became visible only after reality answered?» - Paul Kanaris, same. Use: knowable-vs-visible split.
+
+## CREATEQ verified (guest 09.10, 21.7K followers)
+
+Source: https://www.linkedin.com/posts/aigovernance-euaiact-auditreadiness-share-7513890535217184769-LMjq/ (free checklist PDF: createq.com/asset-checklist; ISO 42001/SOC2/EU AI Act).
+
+- «can every AI-assisted change be traced to a responsible human, with proof that oversight was applied?» - CREATEQ. Use: traceability-with-proof question.
 
 ## Estefania Miceli Ameca post + Anthropic expertise study (post 2h + primary read 08.10)
 Sources: owner-paste post + https://www.anthropic.com/research/claude-code-expertise (Hitzig et al., Jun 16, full text). Author: Head of QE (AI products 0→1); Tier-3 watch candidate (quality signal, no track). Wiki: ai-qa-wiki/wiki/anthropic-claude-code-expertise-2026.md.
