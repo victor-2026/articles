@@ -1190,3 +1190,10 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 
 ## 2026-10-07 — W5 Jason fodder held (W4, no draft)
 - P3 open door (run-it-yourself angle), Myths 5-15 quotable (Appendix F out of paywall), review-effort metric (p180, Megi dimension external support). Wiki + x3 banked by W5. Ammo for post-19.10 queue.
+
+## 2026-10-07 — W5 aiinqa #30 fodder held (W4, no draft)
+- Simmons prove-tests-can-fail (mutation reborn 14-vs-25); Ujjwal honesty outcomes; Winteringham adaptive rubrics; Cerebras risk-gate (5-fail self-heal, Go/No-Go); Gaurav Singh QA layoffs report; steipete 400k LOC deletion; Addy 4 investments + Gergely 10x wave. Butch x2 banked by W5. Ammo for post-19.10 queue.
+
+## 2026-10-08 — Meetup deck built (W4)
+- 10 slides + PDF (meetup-escape-deck.pdf, 1MB): title → incident → verbatim program (host redacted) → 11s timeline → anatomy → fix-fails → memory → D3 mirror → numbers → takeaways. s05 reuses escape-anatomy; s08 embeds live D3 shot.
+- Decisions: projector shows redacted host (verbatim in W3 pack, not on screen); no 18:27 claim (verbatim sessions are 02.10).
