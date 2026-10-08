@@ -1197,3 +1197,21 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 ## 2026-10-08 — Meetup deck built (W4)
 - 10 slides + PDF (meetup-escape-deck.pdf, 1MB): title → incident → verbatim program (host redacted) → 11s timeline → anatomy → fix-fails → memory → D3 mirror → numbers → takeaways. s05 reuses escape-anatomy; s08 embeds live D3 shot.
 - Decisions: projector shows redacted host (verbatim in W3 pack, not on screen); no 18:27 claim (verbatim sessions are 02.10).
+
+## 2026-10-08 — W5 fodder held (W4, no draft)
+- ThinkingBox triad (claim/evidence/repetition) + failure signatures (tool usage 79.9%), x4 banked. Coding Jag #316 leads (ReviewBench, ConfigPoisoning CVE, Kane PRISM, Bach paperwork, Devin/Kane, WebMCP, Postman Passport). Ammo for post-19.10 queue.
+
+## 2026-10-08 — Escape human-beat record (owner paste, W4 filed)
+- Manual confusion: owner+Katya entered BaaS by hand/eyes into the WRONG branch (not W3's correct entry) — saw чужой logins, didn't get it immediately; owner↔W3 talked past each other (his "Invalid" vs our "Required" on screen).
+- Telegram urgent-call text to Katya (demo-run invalid, navigateStatus bypass, restart with hard guard + DOM-verify) — acted.
+- Katya: not our stand, public demo, admin123 on its face; "твой агент ушел со стенда в интернет-демо".
+- D3 mechanics (manual 4-frame flow, no agent, no retries in harness): Login.vue:160 rules username [required]→[] (password control intact); empty Username + submit → no client error, server Invalid (302); agent must detect MISSING Required. Our runs didn't (silent SUCCESS / hallucinated Required) → SURVIVED.
+- Talk use: confusion beat enriches slide 2 (humans confused before logs explained); D3 mechanics backs slide 8.
+
+## 2026-10-08 — Escape timing pinned + GPT-4.1 cleared (owner, W4 filed)
+- Detection: 21:30–21:40 MSK 05.10 (owner, exact). Coheres with 18:27 UTC log (= 21:27 MSK).
+- GPT-4.1 line in published article STANDS (owner: studio gpt-4.1, not 4o — asked and answered; W1 12:20 question resolved, no contradiction, no article change).
+
+## 2026-10-08 — Meetup deck v2 + transcript + digest (W4)
+- Deck 11 slides + PDF: s01 Katya removed, s02 human-beat, s03 redacted host, s09 comparison (ours vs theirs), s01 self-intro block. Transcript MD alongside. Digest 38 entries in ~/Downloads.
+- JSON parsed programmatically (5304 msgs, 50 navigateStatus, 35 domain hits); system prompt taught navigateStatus verbatim.
