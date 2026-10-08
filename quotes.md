@@ -656,11 +656,56 @@ Sources: owner-paste post + https://github.com/Daniilzuyev/llm-evaluation-portfo
 - «A fluent result via the wrong tool path passes the output gate and fails the decision gate.» - Hari S Mahesh, same. Use: wrong-path-fluent; output-vs-decision split. Pairs with QBurst L2 (wiki/qburst-quality-engineering-framework-validating-agent-behavior-2026.md).
 
 ## Hari S Mahesh full thread (owner-paste full 08.10: post + Amit + Victor 319 imp + Hari reply + Victor follow-up SENT 2d)
-
 Post: outcome packs (QBurst). Hari reply VERBATIM: "Absolutely. A successful output alone is not enough if the agent reached it through the wrong tool, context, or decision path. ... Agentic Outcome Packs need both outcome validation and behavioral assurance, covering tool selection, reasoning paths, guardrails, approvals, and traceability. That is what turns a measured result into a trustworthy and repeatable outcome." Victor follow-up SENT (approver scoping: human-in-loop per outcome vs tiered by risk). Awaiting Hari reply.
 
 - «Agentic Outcome Packs need both outcome validation and behavioral assurance» - Hari S Mahesh. Use: dual-gate acceptance (his words).
 - «That is what turns a measured result into a trustworthy and repeatable outcome.» - Hari S Mahesh, same. Use: trust-repeatability closer.
+
+## Digest 08.10 triage (12/737, fetched 7, taken 4)
+
+Sources: digest 08.10 (launchdarkly feed live from my 07.10 add). Wiki takes: Bas guardrails+mutation (new page), LaunchDarkly 3-reasons (append). Skips: TestMu x2 (SEO), TC Muse iPad (product news), anton getter (practice), Bas unit-tests op-ed (thin).
+
+## Bas Dijkstra Claude pair (Feb-Mar 2026, full texts read 08.10)
+
+Sources: https://www.ontestautomation.com/refactoring-the-rest-assured-net-code-with-claude-code/ + https://www.ontestautomation.com/writing-tests-with-claude-code-part-1-initial-results/. Wiki: ai-qa-wiki/wiki/bas-claude-code-guardrails-mutation-2026.md.
+
+- «I am the one responsible for the code and the changes made to it, not Claude.» - Bas Dijkstra (guardrails: no test-touching, review-everything, small steps). Use: accountability doctrine.
+- «If they can't [fail], the fact that we have generated 23 passing tests in two minutes flat is nothing more than an example of productivity theater.» - Bas Dijkstra (PITest 50/55 killed, 95% line dismissed). Use: productivity-theater; killable-or-nothing.
+- «it is my moral obligation to closely watch the output of an LLM» - Bas Dijkstra, same (survivors: 500/204/boundaries; 4/23 dead weight). Use: moral-obligation-to-watch.
+
+## LaunchDarkly 3 reasons (Kelvin Yap, Oct 1, full text read 08.10)
+
+Source: https://launchdarkly.com/blog/3-reasons-teams-cant-trust-their-ai-agents-with-more/. Wiki append: launchdarkly-guarded-release-factory page.
+
+- «none of them say whether the agent actually got it right» - LaunchDarkly (dashboards: cost/latency/tokens; refund right-policy-wrong-amount). Use: dashboard-blindness.
+- «the signal arrives in real time, the change arrives whenever the process gets to it, and whatever happens in between happens in front of users» - LaunchDarkly, same (pre-decided fallback: revert/simpler/handoff in seconds). Use: signoff-lag gap.
+- «Progress starts when a team can show how the last change affected agent quality - and take it back quickly when the answer is bad.» - LaunchDarkly, same. Use: show-and-take-back rule.
+
+## Gulin first-agent-task (anton.qa, 07.10, full text read 08.10)
+
+Source: https://www.anton.qa/blog/posts/first-agent-task (bounded exercise, stop-before-fix; honest: no live Claude session run). No wiki (exercise-level).
+
+- «A failing test can be the result you asked for.» - Anton Gulin. Use: failure-as-result discipline.
+
+## Applitools visual agents GHA (Chandan Jagdeesh, Oct 6, full text read 08.10)
+
+Source: vendor how-to (3-key separation, deterministic findings, no-save-without-human). No wiki (vendor how-to); cross-ref applitools-probabilistic-validation-gap page.
+
+- «Capture never sees the write key.» - Applitools (execute/read/write key separation). Use: key-separation rule.
+- «The agent's job is to explain them, not decide whether they exist.» - Applitools, same (deterministic Visual AI finds; agent explains; MCP can't skip findings). Use: explain-not-decide.
+
+## MoT QE chaos glossary (Barry Ehigiator, Oct 7)
+
+Source: https://www.ministryoftesting.com/software-testing-glossary/quality-engineering-chaos (definition only). No wiki.
+
+- «renaming roles and introducing new practices without redesigning the surrounding system of workflows, incentives, decision rights, and ownership» - MoT glossary (QE chaos). Use: rename-without-redesign definition.
+
+## aiinqa #30 (Butch Mayhew, Oct 5, full issue read 08.10)
+
+Source: https://aiinqa.com/ai-in-qa-issue-30/. Butch lines verbatim; link-farm items as leads (not read): Simmons mutation-reborn, Canales $22 Jev-debunk (→ W2 relay), Winteringham rubric-flips, Ujjwal honesty-outcomes, Cerebras 5-failure self-heal, Sedum cost claim, Emanuela gates scaffold, steipete 400k deletion, Addy 4 investments, Gergely 10x wave.
+
+- «a test that passes or fails the same way every time is something you can build on» - Butch Mayhew (deterministic tests; verification stage). Use: determinism-as-foundation.
+- «The catch is that an agent can write tests that check the wrong thing.» - Butch Mayhew, same (QA opening: help devs decide what deserves a test). Use: wrong-thing risk; QA opening.
 
 ## Claude AI Community group (RTFD feed dump 08.10, 28 posts scanned)
 
@@ -680,14 +725,135 @@ Source: https://lnkd.in/p/eJa78ceE (Skipper Soft, 1.2K followers; Igor Goldshmid
 - «who checked the expected result?» - Haim Michael, same. Use: expected-value provenance question.
 - «a lot of green AI tests mostly only means there is a lot of tests. It doesn't say anything about coverage and/or test quality.» - Jakub S. (comment, owner-paste). Use: green-count-vs-quality.
 
-## Igor Goldshmidt trajectory/response + migration (profile dump 08.10, posts read full)
-
-Source: owner-saved Goldshmidt.webarchive (https://www.linkedin.com/in/igorgolds/). Wiki: ai-qa-wiki/wiki/igor-goldshmidt-trajectory-response-2026.md. Tier proposal: Tier 1 (doctrine load-bearing; outreach = W1).
+## Igor Goldshmidt trajectory/response + migration (profile dump 08.10, posts read full)Source: owner-saved Goldshmidt.webarchive (https://www.linkedin.com/in/igorgolds/). Wiki: ai-qa-wiki/wiki/igor-goldshmidt-trajectory-response-2026.md. Tier proposal: Tier 1 (doctrine load-bearing; outreach = W1).
 
 - «The test was green because the test was looking at the text. That is not an agent failure. It is an oracle failure.» - Igor Goldshmidt (refund eval: 0.91 green, eligibility check never called, 42d vs 30d cutoff). Use: oracle-failure doctrine; trajectory-wrong/response-right quadrant.
 - «Green in CI, incident in production.» - Igor Goldshmidt, same. Use: dangerous-quadrant one-liner.
 - «A replacement model does not need to produce the same words. It needs to preserve the engineering outcome.» - Igor Goldshmidt (Sept-1 migration post; acceptance portfolio: frozen tasks, seeded failures, hard gates, canaries, rollback). Use: outcome-preservation rule.
 - «Only the last one tells you what to fix.» - Igor Goldshmidt (threshold composite; 4 questions: wrong/surfaced/found/which-check). Use: which-check-should-have-stopped-it.
+
+## Storey triple debt (paper arXiv:2603.22106 + blog 09.02, both read 08.10)
+Sources: https://arxiv.org/abs/2603.22106 + http://margaretstorey.com/blog/2026/02/09/cognitive-debt/ (via Crispin post). Wiki: ai-qa-wiki/wiki/storey-triple-debt-model-2026.md.
+
+- «Technical debt lives in the code; cognitive debt lives in developers' minds» - Margaret-Anne Storey (blog pull-line). Use: debt-location split.
+- «They had accumulated cognitive debt faster than technical debt, and it paralyzed them.» - Margaret-Anne Storey, same (student team weeks 7-8). Use: cognitive-faster exhibit.
+- «velocity without understanding is not sustainable» - Margaret-Anne Storey, same. Use: velocity-vs-understanding rule.
+
+## Wei-Wei W. Momentic factory post (owner-paste 08.10, Mo exhibit lane)Source: LinkedIn post (Gergely OpenAI factory 7 steps; Perf Factory; QA bottleneck; OpenAI harness eng Feb). Leads (not read): https://newsletter.pragmaticengineer.com/p/openai-software-factory + https://openai.com/index/harness-engineering/. No wiki (post-level; Mo pilot pending W3).
+
+- «But a lot of the bugs users notice don't show up as a number. A feature can stop working while requests still succeed and the dashboards look normal. To catch those, someone has to use actually the product.» - Wei-Wei W. Use: number-blind bugs; use-the-product step.
+- «Post-deploy agents can only work from telemetry, so a factory also needs a step before release that uses the product.» - Wei-Wei W., same. Use: pre-release product-use gap (Mo thesis).
+
+## Tariq King hype matrix + human eval (Pulse Mar 2025 + EuroSTAR Apr 2025, full text read 08.10)Sources: https://www.linkedin.com/pulse/red-pill-escaping-agentic-ai-hype-matrix-tariq-king-tpgre (112 reacts) + EuroSTAR human-eval summary. Wiki: ai-qa-wiki/wiki/tariq-king-hype-matrix-human-eval-2026.md. PNSQC keynote context.
+
+- «Trust and verification remain open problems: How do we know what an agent really did? How do we audit or debug its reasoning path?» - Tariq King (5 hype failures). Use: verification-open canon.
+- «augmented intelligence, not artificial independence» - Tariq King, same (Co-Pilot + Agent + Human triad). Use: triad doctrine.
+- «I won't be surprised if more testers will be needed for testing of all those nondeterministic systems in future, not less.» - Alexander Galavach (comment). Use: tester-demand forecast.
+
+## Sidharth S. 8-areas taxonomy (owner-paste full 09.10)
+
+Source: https://www.linkedin.com/feed/update/urn:li:activity:7513803239889428480/ (AI-Driven Reliability Architect; Gulin commented). No wiki (career taxonomy, reference).
+
+- «Building evaluation frameworks to determine whether an AI-generated response is actually good enough — not simply whether the test passed.» - Sidharth S. (area #3 AI Test Evaluation). Use: good-enough-vs-passed.
+- «Software + Testing + AI + Systems + Risk» - Sidharth S., same (future QAE/SDET formula). Use: five-stack formula.
+
+## John Smart microservice timing (owner-paste full 09.10 + Gulin comment)
+
+Source: https://www.linkedin.com/posts/john-ferguson-smart_microservices-apitesting-testautomation-ugcPost-7513941090123628544-1kRs/ (shift-left restated: conversation before tooling). No wiki (classic thesis).
+
+- «The important part isn't the tool. It's the conversation.» - John Ferguson Smart. Use: conversation-over-tool.
+- «Don't start with "Which tool should we use?"» - John Ferguson Smart, same. Use: timing-before-tooling.
+
+## Estefania Miceli Ameca post + Anthropic expertise study (post 2h + primary read 08.10)
+Sources: owner-paste post + https://www.anthropic.com/research/claude-code-expertise (Hitzig et al., Jun 16, full text). Author: Head of QE (AI products 0→1); Tier-3 watch candidate (quality signal, no track). Wiki: ai-qa-wiki/wiki/anthropic-claude-code-expertise-2026.md.
+
+- «The record exists. The user thinks it disappeared.» - Estefania Miceli (due-date-outside-filter example). Use: workflow-spanning product knowledge.
+- «What important risk are we missing? What assumption have we accepted without checking? What evidence would make us reconsider this result?» - Estefania Miceli, same (3 questions). Use: QE-lead question trio.
+- «people decide what to build, and the agent decides how to build it» - Anthropic (70/20 split, 400K sessions). Use: planning-execution division.
+- «Coding agents are not substituting for domain expertise» - Anthropic, same (verified success 15%→33%, abandonment 19%→5%). Use: expertise-returns doctrine.
+
+## Feed dump 09.10 (owner webarchive, 19 posts scanned → 3 verified live 09.10)
+
+Source: LinkedIn home feed selection. Takes below; rest promo/noise. Fastino items HELD (sensitive W1 track, no quotes).
+
+- «Four Demos, One Rule: Build Deterministic Checks Into Your AI Tests» - Gregory Goldshteyn (Engenious QA roundtable). Use: deterministic-first rule.
+- «Your agent didn't change. The model under it did.» - QAEverest (provider ships new version / prompt edit / new doc — silent drift). Use: silent-model-change thesis (W1 Rupesh track FYI).
+- «Agents are only as good as the setup you give them.» - Debbie O'Brien (Playwright project with no rules). Use: setup-determines-agent.
+
+## QAEverest drift post (guest-verified 09.10, 3.6K followers, 11h)
+
+Source: https://www.linkedin.com/posts/aiagents-llmtesting-modeldrift-share-7513915799808667648-a9Fx/ (pin-known-good baseline; hard floors 90% guardrails / 95% privacy; linked blog on single-run insufficiency). W1 Rupesh track; no drafts from here.
+
+- «A two-point dip in latency is noise. A two-point dip in privacy is a customer's phone number.» - QAEverest. Use: position-vs-delta (floors, not falls).
+- «a release can be blocked by where a score sits, not only by how far it fell» - QAEverest, same. Use: floor-gate rule.
+
+## Goldshmidt refund post upgrade (guest-verified 09.10, 8K followers)
+
+Source: https://www.linkedin.com/posts/igorgolds_qualityengineering-agenticqa-aiagents-ugcPost-7508786323193761792-_EEp/ (ADK specimen article: https://www.linkedin.com/pulse/your-agent-gave-right-answer-proves-nothing-skipper-soft-2dr6f).
+
+- «Open your own eval config and read two numbers: the trajectory threshold and the runs per case. What did you find?» - Igor Goldshmidt (closing challenge). Use: two-numbers self-audit.
+
+## Debbie setup post upgrade (guest-verified 09.10, 28.7K followers, 25 react)
+
+Source: https://www.linkedin.com/posts/debbie-obrien_orchestrating-agentic-test-automation-with-activity-7513926018768773120-dDJg/ (Ivan Davidov Agentic Playwright workshop Oct 21 Packt; Gulin + Sergei Zhuk comments).
+
+- «It's not a bad model. It's a default.» - Debbie O'Brien (waitForTimeout/text-locator/duplicate-helper defaults; giant-prompt costs + forgotten; skills-on-demand orchestration). Use: default-not-model.
+- «trust comes from rules that are enforced, not suggested» - Debbie O'Brien, same. Use: enforced-vs-suggested.
+- «The default I see most is the assertion sitting inside the page object method. That helper then only covers the happy path.» - Anton Gulin (comment). Use: happy-path-only default.
+
+## Quality Minded meetup (owner files 08.10, transcript+decks read full)
+
+Sources: meetup Sep 11 (Katja/Zoya; https://www.meetup.com/quality-minded). Wiki: ai-qa-wiki/wiki/quality-minded-first-meetup-2026.md.
+
+- «whatever heuristics we build this quarter will be partly wrong next quarter» - Katja (moving-target defect profile). Use: quarterly-heuristics decay.
+- «the only durable advantage is a community that keeps comparing notes in realtime» - Katja, same. Use: community-as-infrastructure.
+- «simply putting on paper the invariants of the feature solves most of the problems» - Marius Argatu (invariants-before-spec). Use: invariants-first rule.
+
+## Radik Zagirov self-serve postmortem (guest-verified live 08.10, 4.1K followers)
+Source: LinkedIn post (2h). Author: Founder/Builder Agentiqa (pilot-contact, hold history — no outreach drafts, W1/pilot track). No wiki (post-level).
+
+- «Developers will not write tests for your AI agents. Not because they're lazy. Because nothing in their week rewards it.» - Radik Zagirov. Use: incentive thesis (self-serve failure).
+- «If your product needs a new habit from a busy engineer, you don't have a product yet.» - Radik Zagirov, same (pivot to done-for-you gates around write-surfaces). Use: homework-vs-product.
+- «Green means it ships. Red means you find out before your customer does.» - Radik Zagirov, same. Use: gate semantics one-liner.
+
+## Vipul Verma Rook three-verdicts post (owner-paste 08.10, 56 react)
+
+Source: LinkedIn post (Rook Agent Assurance: Pass/Fail/Unable-to-Verify; Mahesh Yadav telemetry comment). W1 peer lane (call thread); no drafts from here.
+
+- «An agent's account of what it did is the weakest evidence about what it did.» - Vipul Verma (TestMu/Rook). Use: self-report-vs-evidence (vendor-stated!).
+- «A check it couldn't verify is never counted as a pass.» - Vipul Verma, same. Use: Unable-to-Verify doctrine, vendor's own words.
+- «Not what your agent says. What it did.» - Vipul Verma, same. Use: effect-over-claim closer.
+- «treating agent logs as untrusted until cross-referenced with infrastructure telemetry» - Mahesh Yadav (SUSA founder, comment). Use: logs-untrusted rule; sidecar-proxy pattern.
+
+## Asad Khan builder-checker post (guest-verified 08.10, 40.5K followers, 41 react)
+
+Source: https://www.linkedin.com/posts/asad0801_a-new-study-found-that-stopping-ai-coding-activity-7513907615341543424-sXNP (study itself via twitter link — NOT verified, numbers cited as post claims). Vendor pitch tail (Kane CLI/TestMu) separated from doctrine.
+
+- «don't let the builder be the only checker» - Asad Khan (study claim: no-own-tests +bit more successful, 6% faster, 9% cheaper — study unverified). Use: builder-checker split.
+- «the agent can't pass by agreeing with itself» - Mark Smith (comment: acceptance checks from client brief before code). Use: pre-written checks; anti-self-agreement.
+
+## Philip Lew in-vs-outside loop (owner-paste 08.10)
+Source: LinkedIn post (XBOSoft CEO, 44% job-anxiety survey, automation-history parallel). 2nd, Jason-book reader, PNSQC context. No track, no outreach.
+
+- «knowing which finding matters, which evidence to trust, and when something just doesn't feel right. That's still a person's job.» - Philip Lew. Use: human-judgment remnant.
+- «are you In The Loop or outside the loop?» - Philip Lew, same. Use: loop-position question.
+
+## ThinkingBox Microsoft (blog + paper arXiv:2608.19741, full text read 08.10)
+
+Sources: https://huggingface.co/blog/microsoft/thinkingbox + https://arxiv.org/abs/2608.19741 (via TestMu Coding Jag #316). Wiki: ai-qa-wiki/wiki/thinkingbox-microsoft-stateful-bench-2026.md.
+
+- «A trajectory is a claim. Database state is the evidence. Repetition is the trust test.» - Microsoft ThinkingBox. Use: claim-evidence-repetition triad.
+- «The cheapest way to get a right answer is not the cheapest way to get a dependable one.» - Microsoft ThinkingBox, same ($0.127/success vs $6.80-$7.80/dependable). Use: dependable-cost rule (W2 ledger).
+- «One good run tells you a model can do the work. It does not tell you whether it will do it again.» - Microsoft ThinkingBox, same. Use: repeat-metric doctrine.
+- «check the terminal state before you commit, not the model's summary of it» - Microsoft ThinkingBox, same (production rule). Use: terminal-state rule.
+
+## AQEF Seeded Controls v0.31.1 (Igor Akymenko, credit to Victor, Oct 6 release)
+
+Sources: https://github.com/igorakymenko-create/AQEF (CC BY draft; contributors file + Vol VI/VII/VIII fetched raw 08.10). Wiki: ai-qa-wiki/wiki/aqef-seeded-controls-spec-2026.md. W1 track.
+
+- «A Seeded Control is a Scenario carrying a deliberately planted, known defect whose correct detection is known in advance. Its purpose is not to test the system. Its purpose is to prove that an Oracle can still detect that class of defect in the current run.» - AQEF Vol VIII. Use: oracle-instrument doctrine (Victor-credited).
+- «A single fixed decoy invites tuning around it, especially by whoever adjusts a Judge's criteria while able to see it.» - AQEF Vol VIII (rotation + authorship independence). Use: rotation rule; anti-tuning.
+- «an unanswered review is never silently treated as a pass» - AQEF Vol VI (awaiting_review: verdict+confidence absent, timeout required, default blocking). Use: no-silent-pass posture.
 
 Source: https://jarbon.medium.com/i-put-jev-in-a-playwright-browser-testing-loop-its-fast-but-23b58a1a5767 (wiki relay in typesafe-jev page; W2 track).
 
