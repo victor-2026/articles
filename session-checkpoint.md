@@ -1215,3 +1215,9 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 ## 2026-10-08 — Meetup deck v2 + transcript + digest (W4)
 - Deck 11 slides + PDF: s01 Katya removed, s02 human-beat, s03 redacted host, s09 comparison (ours vs theirs), s01 self-intro block. Transcript MD alongside. Digest 38 entries in ~/Downloads.
 - JSON parsed programmatically (5304 msgs, 50 navigateStatus, 35 domain hits); system prompt taught navigateStatus verbatim.
+
+## 2026-10-08 — W5 fodder held (W4, no draft)
+- ThinkingBox triad, Tariq triad + Galavach forecast, Storey triple-debt, Quality Minded moving-target, NIST Goodhart-in-paper. Ammo for post-19.10 queue.
+
+## 2026-10-08 — W5 digest fodder held (W4, links recorded)
+- Bas guardrails+mutation (PITest 50/55, dead weight 17%); LD 3-reasons; Avito video; ThinkingBox (507x20); Storey triple-debt; NIST Athlon (Goodhart); Tariq hype matrix; Anthropic expertise (70/20); Naples defects; aiinqa #30; Jason book (raw in repo); AQEF spec (our credit). Ammo for post-19.10 queue.
