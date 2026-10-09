@@ -756,11 +756,19 @@ Source: https://www.linkedin.com/feed/update/urn:li:activity:7513803239889428480
 - «Building evaluation frameworks to determine whether an AI-generated response is actually good enough — not simply whether the test passed.» - Sidharth S. (area #3 AI Test Evaluation). Use: good-enough-vs-passed.
 - «Software + Testing + AI + Systems + Risk» - Sidharth S., same (future QAE/SDET formula). Use: five-stack formula.
 
-## John Smart microservice timing (owner-paste full 09.10 + Gulin comment)
-Source: https://www.linkedin.com/posts/john-ferguson-smart_microservices-apitesting-testautomation-ugcPost-7513941090123628544-1kRs/ (shift-left restated: conversation before tooling). No wiki (classic thesis).
+## John Smart microservice timing (owner-paste full 09.10 + Gulin comment)Source: https://www.linkedin.com/posts/john-ferguson-smart_microservices-apitesting-testautomation-ugcPost-7513941090123628544-1kRs/ (shift-left restated: conversation before tooling). No wiki (classic thesis).
 
 - «The important part isn't the tool. It's the conversation.» - John Ferguson Smart. Use: conversation-over-tool.
 - «Don't start with "Which tool should we use?"» - John Ferguson Smart, same. Use: timing-before-tooling.
+
+## Feed4 dump 09.10 (owner webarchive → 3 verified live 09.10)
+
+Source: LinkedIn home feed selection. Takes below; rest promo/noise (Vento, Audi, Optiver, ABN, Chapter11, Kimi, Obie, Natalie, Steve Blank, Ole, Emmanuel, Rinat-known, Pcloudy-vendor, BugRaptors-known, Jason-Ch19-known, Endtest-note, Lipika-dupe, Nikhil-like, Ekaterina-Anastasia, Ivano, Rinat, Kailash, Elias-Composer-skip, Amr, Marwin, Vattenfall, Hatchet, Vattenfall).
+
+- «A good result can teach an organization the wrong lesson.» - Paul Kanaris (Decision Quality: how well did we reason? vs Outcome Quality: what did reality produce?; knowable-then). Use: decision-vs-outcome split. W1 Kanaris track FYI.
+- «Most voice agents get tested one way: someone talks to the voice agent for five minutes and says "It looks good." That's not testing but a vibe check.» - George Ukkuru (5 tools: latency/mispronunciation/dropped-calls/fall-apart). Use: vibe-check definition.
+- «Without context, the LLM frequently created near-duplicate steps, resulting in undefined steps, multiple step-definition matches, duplicated code, and unnecessary token usage.» - Manish Rai (2-layer Step-Phrase RAG, ChromaDB + MiniLM, reuse-before-generate). Use: dedup-before-generate.
+- «the interesting shift is from scripted coverage to letting a fast decision model explore the space around the rules» - David Wilson (comment on Jason Jev post). Use: exploration-over-scripts.
 
 ## Feed3 dump 09.10 (owner webarchive, 32 posts scanned → 2 verified live 09.10)
 
@@ -800,6 +808,15 @@ Source: LinkedIn home feed selection. Takes below; rest promo/noise. No wiki (sc
 - «trust is the discipline of preventing inference from becoming evidence» - Alexandra Krížová, same (Alexicon_AI founding constraint). Use: inference-vs-evidence discipline.
 - «Green meant nothing shipped. Red meant it shipped.» - Budi Sugianto (TestivAI incident: green x4 shipped nothing, red x5 shipped all; npm async staging). Use: artifact-not-exit-code.
 - «I've been telling people to check the artifact, not the exit code.» - Budi Sugianto, same. Use: artifact-check rule.
+
+## Verified upgrades 09.10 (owner links, all guest-verified)
+
+- Paul hindsight post: https://www.linkedin.com/feed/update/urn:li:activity:7513982161427910656/ (QACE article "Learning From Decisions..." + 3 more: False Certainty 17h, Why Good Leaders 3d, Following Quality Cost 5d — leads).
+- «Send it forward. Change the assumptions. Change the evidence available. Change the model. Change the next decision.» - Paul Kanaris. Use: send-forward doctrine.
+- George voice post: https://www.linkedin.com/feed/update/urn:li:activity:7508397187634970624/ (Netra comment: personas frustrated/confused/friendly/neutral + stress transcription/accents/noise — vendor lead, no quote).
+- Manish RAG post: https://www.linkedin.com/feed/update/urn:li:activity:7513099505383301120/ (Failure Pattern Store: normalized error + step + fix; takeaway below; Jigar Patel structural-retrieval question).
+- «RAG isn't only for document search or chatbots.» - Manish Rai. Use: RAG-for-codebase rule.
+- «embedding-based retrieval is great at textually similar steps, but could it miss structurally related ones?» - Jigar Patel (comment: pair with code-dependency retrieval). Use: semantic-vs-structural gap.
 
 ## Budi incident verified (guest 09.10, 1.4K followers, testiv.ai)
 
