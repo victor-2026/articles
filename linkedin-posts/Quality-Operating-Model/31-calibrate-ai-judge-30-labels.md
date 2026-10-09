@@ -10,13 +10,13 @@
 
 # How to Calibrate an AI Judge With 30 Human Labels and One Failing Grade
 
-Seventeen out of twenty-five. 68% agreement with the expert — sounds respectable, until the statistician in the room says kappa 0.242. Same labels, same sitting, failing grade — and that failing grade was the whole point.
+Seventeen out of twenty-five - 68% agreement with the expert — sounds respectable, until the statistician in the room says kappa is 0.242. Same labels, same sitting, failing grade — and that failing grade was the whole point.
 
-I labeled 30 items to answer one question: can a free local AI judge replace a cloud one? Our local judge had called *everything* a defect (0/30 exact) with a straight face — and without a human ground truth, that looks like diligence. A good judge is indistinguishable from a confident liar. So before trusting any judge, I built the ruler: 30 expert labels, one failing grade, eight arbitrated disagreements. What the ruler taught me fits in six rakes — step on them in advance, not in production.
+I asked whether a free local judge could replace a cloud one. It called all 30 findings defects, with total conviction. Zero exact matches. Without human labels, that looks like diligence. A good judge is indistinguishable from a confident liar. So I built the ruler first: 25 blind labels, 68% agreement, kappa 0.242. Failing grade — and that failure was the whole point. What the ruler taught me fits in six rakes — step on them in advance, not in production.
 
 ### ❓ Problem
 
-A judge outputs verdicts in words. Words are cheap, confidence is free, and nothing in the output tells you whether the judgment tracked reality. Our local judge proved it: every item a defect, zero exact matches, total conviction. Without gold labels, you cannot tell diligence from theater.
+A judge outputs verdicts in words. Words are cheap, confidence is free, and nothing in the output tells you whether the judgment tracked reality. Our local judge proved it: every item is (?) a defect, zero exact matches, total conviction. Without gold labels, you cannot tell diligence from theater.
 
 Before this track, we never needed labeling at all. Mutation testing carries its own oracle — we break the system ourselves, and killed-or-survived is observed through exit codes, not judged. Gold becomes mandatory if and only if an AI judgment stands between evidence and conclusion with no executable check in between. The rule for the future writes itself: no judgment, no labeling tax.
 
@@ -82,6 +82,7 @@ Victor Ematin · AI Quality Engineering Lead · Independent practice
 ### Open
 - Cover: proposal in metadata (68% vs 0.242 split) — user picks style, Gemini generates
 - Inline visuals: TBD (candidate: strata diagram E/H/U; kappa-explained strip; protocol flowchart) — propose after text lock
-- Feed post text: DONE v2 (`31-calibrate-ai-judge-post.md` — JEV named in hook per owner 06.10, goal-first intrigue; 25 kept, 30 dropped per owner; JEV-side W2-CONFIRMED (runner phaseb-gold30-cloud-runner-2026-09-26.py: cloud arm Jev x1 on gold-30, JEVClient, 30/30 cloud 0 errors; client endpoint api.typesafe.ai/v1/systemone, model jev-latest, key-name only); "paid" REMOVED (billing-blind, W2-uncovered); version NEVER present (Jev-1.13 red line, no source)) · First comment: DONE (`31-first-comment.md`)
+- Provenance CORRECTED (W2 gold-30 record, owner "все не так" 08.10 — my open-weight-cloud correction was WRONG, not applied): local judge = mini-jev (qwen2.5:3b, Phase A, company/pilots/Jev/); 0/30-exact all-defect caller = mini-jev; cloud incumbent = Jev TypeSafe (Phase B x1 on gold-30, endpoint/model verified); gpt-oss-120b/Groq = DIFFERENT eval (attempt-3 D2-C), must NOT leak into this article. Labelers W3+Victor (Victor first-timer), arbiter W2. Calibration five: H3, H7, E2, U10, E5 (no IDs in body). Sources: labeling-guideline-v1.md + plan-local-judge-2026-09-25.md + phaseb-report-2026-09-26.md.
+- Feed post v2 stands (JEV hook, goal-first, 25 kept / 30 dropped; "paid" removed billing-blind; version never present) — JEV-side now double-confirmed (owner goal + W2 Phase B).
 - Reviews: R0 owner-tightening ✅ → W2 public/internal PASS ✅ → W1 NUMBERS-TRUTH PASS b895309 (verbatim vs source, arithmetic converges; kappa as reported, same-sitting per W2) ✅ → R1 (user) → publish Fri 09.10
 - Package ready: cover (`31-cover.png`/`.jpeg`) · feed post (`31-calibrate-ai-judge-post.md`) · first comment (`31-first-comment.md`)

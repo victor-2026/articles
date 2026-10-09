@@ -1,4 +1,4 @@
-**I labeled 25 items blind to see if a free local judge can replace JEV.**
+**I labeled 25 items blind to see if a free local judge can replace JEV**
 
 Same sitting, failing grade: 68% agreement, kappa 0.242. Six rakes I stepped on so you don't have to — full protocol below👇
 

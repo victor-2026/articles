@@ -1245,3 +1245,10 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 ## 2026-10-09 — Meetup #3 repost sent (owner, W4 filed)
 - Quote-repost text: "Sharing — see you today. After our half-night post-mortem on its runaway predecessor, I most want to see the self-learning turn live."
 - Bridges escape story → tonight's self-learning talk in one line. Ally support logged.
+
+## 2026-10-08 — W5 Agentics/MoT relay held (W4)
+- Agentics #10/#11 (YouTube) → proposed for 27's rogue-block; MoT x3 (thin, W4 discretion). PROBLEM: 27 PUBLISHED 17.09 — cannot extend silently; follow-up note or leave. No action taken, awaiting owner call.
+
+## 2026-10-09 — 31 lead rewrite + commit (W4)
+- Lead v2 applied (liar-first, owner-approved): 0/30 with conviction → ruler → kappa; goal + rakes bridge kept.
+- Committing: 31 article + 31 post + performance-log + checkpoint. NOT touched: raw/ deletions (AggregateAnalytics 03-08 export, чужое удаление — не моё, не коммичу).
