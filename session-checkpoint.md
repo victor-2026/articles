@@ -1221,3 +1221,27 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 
 ## 2026-10-08 — W5 digest fodder held (W4, links recorded)
 - Bas guardrails+mutation (PITest 50/55, dead weight 17%); LD 3-reasons; Avito video; ThinkingBox (507x20); Storey triple-debt; NIST Athlon (Goodhart); Tariq hype matrix; Anthropic expertise (70/20); Naples defects; aiinqa #30; Jason book (raw in repo); AQEF spec (our credit). Ammo for post-19.10 queue.
+
+## 2026-10-08 — W5 fodder add-on held (W4, links recorded)
+- Danyil LangSmith/Langfuse (N-of-12); Brij oversight (6 questions, activity 7512515906829271040); Goldshmidt refund canonical; Debbie setup canonical; QAEverest drift canonical (floors 90/95); Sidharth 8-areas; John Smart timing. Ammo for post-19.10 queue.
+
+## 2026-10-08 — W5 fodder feed3 held (W4, banked by W5)
+- Zunaid verification-price + harness grown-up work; Gaurav shared-blind-spots; Carlos constraint-relocation (Amdahl); Groetz faster-crap + amplifier; Badri assumption-carryover. Ammo for post-19.10 queue.
+
+## 2026-10-08 — W5 fodder feed4 held (W4)
+- George voice vibe-check; Manish dedup-RAG (ChromaDB+MiniLM); Lucia SEP-2076 (draft, skills as first-class MCP primitive: https://github.com/modelcontextprotocol/specification/pull/2076) + impl track SEP-2640 (Final 13.09, skills/list+get; SDK unmerged, hosts lag) + her repo https://github.com/lucia-w/agent-skills (20 skills, verification gates + anti-rationalization tables — our language). Ammo for post-19.10 queue.
+
+## 2026-10-09 — Katya loop closed (owner report, W4 filed)
+- Katya RECORDED (video, content TBD — ask what/where it lives).
+- Our post first comment carries her article + repo links (confirmed live); she reposted.
+- Co-ownership loop complete: consent → links → repost → video.
+
+## 2026-10-09 — Katya meetup #3 repost (owner action, W4 filed)
+- Katya announced Quality Minded #3 (today 17:00-18:30 CEST: self-learning agent + Agent Factory news + Chizhkoff Rho Metric). Owner to quote-repost with own line. Ally support logged.
+
+## 2026-10-09 — Escape talk = in a week (owner; W4 filed)
+- No tonight-rush. Deck (12 slides) + transcript ready early → full review cycle available: R1 owner, Katya review (her meetup, her words quoted), optional dry run. Slot TBD next week.
+
+## 2026-10-09 — Meetup #3 repost sent (owner, W4 filed)
+- Quote-repost text: "Sharing — see you today. After our half-night post-mortem on its runaway predecessor, I most want to see the self-learning turn live."
+- Bridges escape story → tonight's self-learning talk in one line. Ally support logged.
