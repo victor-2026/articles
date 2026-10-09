@@ -913,6 +913,14 @@ Source: LinkedIn post (Rook Agent Assurance: Pass/Fail/Unable-to-Verify; Mahesh 
 - «Not what your agent says. What it did.» - Vipul Verma, same. Use: effect-over-claim closer.
 - «treating agent logs as untrusted until cross-referenced with infrastructure telemetry» - Mahesh Yadav (SUSA founder, comment). Use: logs-untrusted rule; sidecar-proxy pattern.
 
+## Vipul Verma observability-vs-testing post (owner-paste 09.10, 21m fresh)
+
+Source: https://www.linkedin.com/posts/vipulkv_agenticai-agentassurance-share-7514351561553166336-gVxe/ (paste + URL, guest-unverified ⚠️) + https://www.testmuai.com/blog/pre-production-vs-post-production-agent-testing/ (first comment). Market data inside: Dynatrace/Arize $915M closed Oct 1, Cisco Galileo→Splunk Agent Observability, New Relic AI Evaluation Oct 6. W1 peer lane (call thread); no drafts from here.
+
+- «Observability: how is the shipped version behaving? Testing: should this version ship at all?» - Vipul Verma (TestMu/Rook). Use: behaving-vs-should-ship split (vendor-stated gate need).
+- «A production score arrives after the customer has had the experience. It can't stop the release that produced it.» - Vipul Verma, same. Use: score-arrives-too-late (pre-prod necessity in one line).
+- «Pre-production stops the known failures. Post-production finds the unknown ones, and each one goes into the spec so the next release has to pass it.» - Vipul Verma, same. Use: known/unknown loop (post-prod findings feed pre-prod spec).
+
 ## Asad Khan builder-checker post (guest-verified 08.10, 40.5K followers, 41 react)
 
 Source: https://www.linkedin.com/posts/asad0801_a-new-study-found-that-stopping-ai-coding-activity-7513907615341543424-sXNP (study itself via twitter link — NOT verified, numbers cited as post claims). Vendor pitch tail (Kane CLI/TestMu) separated from doctrine.
