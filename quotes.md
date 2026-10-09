@@ -942,6 +942,16 @@ Sources: https://github.com/igorakymenko-create/AQEF (CC BY draft; contributors 
 - «A single fixed decoy invites tuning around it, especially by whoever adjusts a Judge's criteria while able to see it.» - AQEF Vol VIII (rotation + authorship independence). Use: rotation rule; anti-tuning.
 - «an unanswered review is never silently treated as a pass» - AQEF Vol VI (awaiting_review: verdict+confidence absent, timeout required, default blocking). Use: no-silent-pass posture.
 
+## AQEF v0.32 thread (Igor Akymenko, 09.10 — Victor's rotation reply shipped into spec)
+
+Source: LinkedIn AQEF post thread (owner paste 09.10; spec: https://github.com/igorakymenko-create/AQEF/releases). W1 track.
+
+- «"Honest denominators" is a better name than anything in the spec. ... a score over a dozen or so claims, and a pass rate over twenty scenarios, both have to say what they were divided by.» - Igor Akymenko (adopting Victor's naming for rule 4 + gate-level version). Use: denominator-naming win; vendor-adopted language.
+- «Decoys are generated, so the tuner never sees them. One that gets seen is retired.» - Igor Akymenko (v0.32, from Victor's "fresh eyes" reply). Use: generated-not-curated decoys; seen-retired rule.
+- «The difficulty prior moves from the single decoy to the defect class. With per-case rotation, a per-decoy prior would never build up.» - Igor Akymenko, same. Use: class-level priors under rotation.
+- «If a judge misses a decoy, it stops being called for that class for the rest of the run. No tokens spent on results we already know we can't use.» - Igor Akymenko, same. Use: miss-disqualifies-judge (run economics).
+- «When you seed a duplicate into the data, how do you know it actually reached the judge? If the system under test never surfaces it, a "miss" is the system's doing, not the judge's.» - Igor Akymenko, same (OPEN question to Victor + numbers request). Use: reach-the-judge problem; surfaced-vs-missed attribution.
+
 Source: https://jarbon.medium.com/i-put-jev-in-a-playwright-browser-testing-loop-its-fast-but-23b58a1a5767 (wiki relay in typesafe-jev page; W2 track).
 
 - «A returned probability of 1.0 is still a model output. It does not turn the judgment into a proof.» - Jason Arbon. Use: probability-vs-proof; calibration humility.
