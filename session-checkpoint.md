@@ -1252,3 +1252,6 @@ Rule: top-only; preemption = explicit user order + resume-point logged.
 ## 2026-10-09 — 31 lead rewrite + commit (W4)
 - Lead v2 applied (liar-first, owner-approved): 0/30 with conviction → ruler → kappa; goal + rakes bridge kept.
 - Committing: 31 article + 31 post + performance-log + checkpoint. NOT touched: raw/ deletions (AggregateAnalytics 03-08 export, чужое удаление — не моё, не коммичу).
+
+## 2026-10-09 — W5 fodder held, digest-sourced (W4, escape area, discretionary)
+- Anthropic-evals + Grok + PixelLeak + Canada. Candidates: escape follow-up, angle B. No draft (queue full).
