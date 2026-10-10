@@ -1185,3 +1185,13 @@ Source: owner paste + URLs 09.10 (guest-unverified ⚠️): delegation https://w
 - «Valid JSON doesn't guarantee a correct decision.» - Stafford, same. Use: schema-vs-correctness.
 - «a commander reviews proposed actions, and deterministic application code executes the approved plan.» - Stafford (Mars Mission Control, Mars URL above). Use: deterministic-executes-approved (W2 lane).
 - «42% of companies expect agents to act autonomously by 2030, yet only 5% have the full set of critical controls in place today.» - BCG Applied AI Index 2026 via Stafford (1,300 leaders; agentic value 17→22→39%; BCG URL above). Use: autonomy-controls gap (42-vs-5 datum).
+
+## Floyd seven-checks kit (Durability Curve field kit 09.10, email + PDF read full)
+
+Source: H. Floyd email 09.10 + raw/Before-You-Trust-Your-AI-Agent.pdf (9pp, full text read ✅). Wiki: ai-qa-wiki/wiki/durability-curve-seven-checks-kit-2026.md.
+
+- «An agent cannot be the thing that confirms its own work.» - H. Floyd (kit closer). Use: self-confirmation ban (one-line doctrine).
+- «A check the agent can pass without doing the work proves nothing.» - Floyd, same (empty-third-column rule; 748 dead containers). Use: fakeable-check void.
+- «A control it can reach is worth nothing on the day a README tells it to switch the control off.» - Floyd, same (hook-narrowing, Bash(*) self-allowlist, hooksPath /dev/null). Use: reachable-control void.
+- «The agent must never write both the code and its test.» - Floyd, same (Stop-hook gate; invalid-JSON-disables-hooks gotcha; 8-block auto-release). Use: examiner-author split as shell.
+- «With the model held fixed, LangChain's coding agent climbed from 52.8% to 66.5% on Terminal Bench 2.0 by changing its prompt, tools, middleware, reasoning allocation and verification behaviour.» - Floyd, same. Use: harness-over-model quantified.
